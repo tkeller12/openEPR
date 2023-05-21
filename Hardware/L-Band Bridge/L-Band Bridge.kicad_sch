@@ -1,0 +1,22 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ba7ea571-4dee-4705-9fa7-fb1d096b178c)
+
+  (paper "A4")
+
+  (title_block
+    (title "L-Band Brige")
+    (date "2023-05-21")
+    (rev "1.0")
+    (company "OpenEPR")
+    (comment 1 "Timothy Keller")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
