@@ -1022,6 +1022,11 @@
   )
 
 
+  (text "ADRF5019BCPZN-R7\nSPDT Switch for RX Bypass LNA" (at 174.625 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 95154c62-5280-4b16-85a6-44f511e0fa3f)
+  )
+
   (symbol (lib_id "Device:R_Small_US") (at 239.395 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a85d16d-445f-4aef-9c88-336af2db37a0)
@@ -1333,6 +1338,32 @@
       (project "S-Band Transceiver"
         (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
           (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 284.48 36.83 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6680f26b-d02f-4567-a931-17dc20f55325)
+    (property "Reference" "C9" (at 284.48 41.91 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100pF" (at 284.48 40.005 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 284.48 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 284.48 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b3d1c5c0-f941-4c96-b489-03e90aeffa3a))
+    (pin "2" (uuid fae2f894-f6dc-4727-aab4-d2cddb91d0ae))
+    (instances
+      (project "S-Band Transceiver"
+        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+          (reference "C9") (unit 1)
         )
       )
     )
