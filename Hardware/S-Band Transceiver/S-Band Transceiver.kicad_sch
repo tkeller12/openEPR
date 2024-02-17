@@ -1022,6 +1022,14 @@
   )
 
 
+  (text_box "Low Cost Solution:\nDesign must cost < $50\nNo IQ Mixer, phase shifter PE44820\nDirectional coupler: D17W+\nLog Det: MAX4003EUA+\nSplitter: GP2Y1+\n\n"
+    (at 20.32 95.885 0) (size 62.865 45.085)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 9fd8f3ea-ba02-4b1e-b1f2-87d7fc09a979)
+  )
+
   (text "ADRF5019BCPZN-R7\nSPDT Switch for RX Bypass LNA" (at 174.625 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 95154c62-5280-4b16-85a6-44f511e0fa3f)
@@ -1604,10 +1612,10 @@
   (symbol (lib_id "_tim-RF:GP2Y1+") (at 52.07 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f316ecd-9964-46c2-bf3d-eeddaeba32a0)
-    (property "Reference" "U6" (at 51.435 42.545 0)
+    (property "Reference" "U6" (at 52.07 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "GP2Y1+" (at 51.435 45.085 0)
+    (property "Value" "GP2Y1+" (at 52.07 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 55.245 43.815 0)
