@@ -1,1834 +1,4624 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 811f57cf-e3df-4fba-aff9-353adc85299e)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connector:Conn_Coaxial" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0.254 3.048 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_Coaxial" (at 2.921 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" " ~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_Coaxial_0_1"
-        (arc (start -1.778 -0.508) (mid 0.2311 -1.8066) (end 1.778 0)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy -0.508 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -2.54)
-            (xy 0 -1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 0) (radius 0.508)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (arc (start 1.778 0) (mid 0.2099 1.8101) (end -1.778 0.508)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Conn_Coaxial_1_1"
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "In" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -5.08 90) (length 2.54)
-          (name "Ext" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:L_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at 0.762 1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "L_Small" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Inductor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "L_Small_0_1"
-        (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "L_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.508)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.508)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R_Small_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small_US" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "r resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small US symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_US_1_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 1.016 -0.381)
-            (xy 0 -0.762)
-            (xy -1.016 -1.143)
-            (xy 0 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.524)
-            (xy 1.016 1.143)
-            (xy 0 0.762)
-            (xy -1.016 0.381)
-            (xy 0 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at 0 2.54 270) (length 1.016)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 1.016)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "RF_Amplifier:GALI-39" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -1.27 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "GALI-39" (at 2.54 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (at 1.27 10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "RF amplifier" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "DC-7000MHz +19.7dB Low Noise Amplifier, SOT-89" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?89*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GALI-39_0_1"
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy -5.08 5.08)
-            (xy -5.08 -5.08)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "GALI-39_1_1"
-        (pin input line (at -7.62 0 0) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -7.62 90) (length 3.81)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "RF_Switch:ADG901BCPZ" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -10.16 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "ADG901BCPZ" (at 1.27 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm" (at 0 -11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG901_902.pdf" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "RF SPST switch CMOS LVTTL" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "SPST DC-4.5GHz absorbative switch, 40dB isolation at 1GHz, LFCSP-8" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "LFCSP*1EP*3x3mm*P0.5mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "ADG901BCPZ_0_0"
-        (rectangle (start -10.16 10.16) (end 10.16 -10.16)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -4.826 -5.08)
-            (xy -3.81 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 3.048)
-            (xy -3.302 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 3.048)
-            (xy -1.27 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -5.08)
-            (xy -2.032 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -3.302)
-            (xy 0 -4.064)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -2.032)
-            (xy 0 -2.794)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.762)
-            (xy 0 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.508)
-            (xy 0 -0.254)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.778)
-            (xy 0 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.048)
-            (xy -0.762 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.048)
-            (xy 0 2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.048)
-            (xy 0 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.048)
-            (xy 0.762 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 4.318)
-            (xy 0 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 3.048)
-            (xy 2.032 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 3.048)
-            (xy 3.302 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -4.572)
-            (xy 0 -5.08)
-            (xy -0.508 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 -4.064)
-            (xy -3.81 -6.096)
-            (xy -2.032 -5.08)
-            (xy -3.81 -4.064)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 3.048) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (text "50" (at -3.81 -0.127 900)
-          (effects (font (size 0.635 0.635)))
-        )
-        (text "50" (at 3.81 -0.127 900)
-          (effects (font (size 0.635 0.635)))
-        )
-      )
-      (symbol "ADG901BCPZ_0_1"
-        (rectangle (start -4.318 1.016) (end -3.302 -1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center -3.81 2.286) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center -3.81 3.81) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center -3.81 5.08) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center -1.27 5.08) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy -1.524 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 2.032)
-            (xy -3.81 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 3.556)
-            (xy -3.429 2.159)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 5.08)
-            (xy -3.81 4.064)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 5.08)
-            (xy 1.016 5.842)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 5.08)
-            (xy 5.08 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 2.032)
-            (xy 3.81 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 3.556)
-            (xy 4.191 2.159)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 5.08)
-            (xy 3.81 4.064)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 -1.27)
-            (xy -3.81 -2.286)
-            (xy -4.318 -2.286)
-            (xy -3.81 -3.048)
-            (xy -3.302 -2.286)
-            (xy -3.81 -2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -1.27)
-            (xy 3.81 -2.286)
-            (xy 3.302 -2.286)
-            (xy 3.81 -3.048)
-            (xy 4.318 -2.286)
-            (xy 3.81 -2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.27 5.08) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.302 1.016) (end 4.318 -1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 3.81 2.286) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 3.81 3.81) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 3.81 5.08) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "ADG901BCPZ_1_1"
-        (pin power_in line (at 0 12.7 270) (length 2.54)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -12.7 -5.08 0) (length 2.54)
-          (name "CTRL" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -12.7 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -12.7 5.08 0) (length 2.54)
-          (name "RF1" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.7 5.08 180) (length 2.54)
-          (name "RF2" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "_tim-RF:GP2Y1+" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -12.7 -11.43 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "GP2Y1+" (at -10.16 8.255 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 3.175 12.065 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.minicircuits.com/pdfs/GP2Y1+.pdf" (at 0 -20.32 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Power Splitter, Mini-Circuits" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power Splitter/Combiner 2 Way-0° 50Ω 1550 to 4400 MHz" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GP2Y1+_0_1"
-        (rectangle (start -13.97 10.16) (end 13.97 -10.16)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start -1.27 -3.175) (end 2.54 -4.445)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 4.445) (end 2.54 3.175)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy -3.175 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.715 -3.81)
-            (xy 2.54 -3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.715 3.81)
-            (xy 2.54 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -3.81)
-            (xy -2.54 -3.81)
-            (xy -2.54 0)
-            (xy -2.54 3.81)
-            (xy -1.27 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.445 3.81)
-            (xy 4.445 2.54)
-            (xy 5.08 1.905)
-            (xy 3.81 1.27)
-            (xy 5.08 0.635)
-            (xy 3.81 0)
-            (xy 5.08 -0.635)
-            (xy 3.81 -1.27)
-            (xy 5.08 -1.905)
-            (xy 4.445 -2.54)
-            (xy 4.445 -3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GP2Y1+_1_1"
-        (pin input line (at 0 -12.7 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -16.51 0 0) (length 2.54)
-          (name "SUM_PORT" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 16.51 3.81 180) (length 2.54)
-          (name "PORT_1" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -12.7 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 16.51 -3.81 180) (length 2.54)
-          (name "PORT_2" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "_tim-RF:HMC8193" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 7.62 11.43 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "HMC8193" (at 8.89 8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 -19.05 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc8193.pdf" (at 0 -16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "IQ Mixer" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Surface Mount MMIC IQ Mixer" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "HMC8193_0_0"
-        (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "HMC8193_0_1"
-        (polyline
-          (pts
-            (xy -2.54 -2.54)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 0) (radius 5.08)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "HMC8193_1_1"
-        (pin input line (at -5.08 -10.16 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -10.16 90) (length 5.08)
-          (name "Q" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 0 0) (length 5.08)
-          (name "LO" (effects (font (size 1.27 1.27))))
-          (number "15" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "17" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "18" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "19" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "20" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "21" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "22" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "23" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "24" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "25" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 10.16 0 180) (length 5.08)
-          (name "RF" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -10.16 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 10.16 270) (length 5.08)
-          (name "I" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "_tim-RF:YAT-10A+" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -1.27 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "YAT-10A+" (at -5.08 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 11.43 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.minicircuits.com/pdfs/YAT-10A+.pdf" (at 11.43 -17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Description" "Attenuators 10 dB SMT Fixed Attenuator, DC - 18000 MHz, 50 Ohm" (at 11.43 -20.32 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Height" "0.85" (at 11.43 -22.86 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Part Number" "139-YAT-10A+" (at 11.43 -7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/YAT-10A%2b?qs=vmHwEFxEFR8JaoBDdvg0Yg%3D%3D" (at 11.43 -10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Name" "Mini-Circuits" (at 11.43 -12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer_Part_Number" "YAT-10A+" (at 11.43 -15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "rf, attenuator" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Attenuators 10 dB SMT Fixed Attenuator, DC - 18000 MHz, 50?" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "YAT-10A+_0_0"
-        (text "-10dB" (at 0 2.54 0)
-          (effects (font (size 1.27 1.27)))
-        )
-        (pin passive line (at 0 -10.16 90) (length 3.81)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -11.43 0 0) (length 3.81)
-          (name "IN" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -10.16 90) (length 3.81) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -10.16 90) (length 3.81) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 11.43 0 180) (length 3.81)
-          (name "OUT" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -10.16 90) (length 3.81) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -10.16 90) (length 3.81) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "YAT-10A+_0_1"
-        (rectangle (start -7.62 6.35) (end 7.62 -6.35)
-          (stroke (width 0.1524) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy -1.397 0)
-            (xy -1.143 0.762)
-            (xy -0.762 -0.635)
-            (xy -0.254 0.762)
-            (xy 0.254 -0.635)
-            (xy 0.762 0.762)
-            (xy 1.143 -0.635)
-            (xy 1.397 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-
-  (text_box "Low Cost Solution:\nDesign must cost < $50\nNo IQ Mixer, phase shifter PE44820\nDirectional coupler: D17W+\nLog Det: MAX4003EUA+\nSplitter: GP2Y1+\n\n"
-    (at 20.32 95.885 0) (size 62.865 45.085)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 9fd8f3ea-ba02-4b1e-b1f2-87d7fc09a979)
-  )
-
-  (text "ADRF5019BCPZN-R7\nSPDT Switch for RX Bypass LNA" (at 174.625 69.85 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 95154c62-5280-4b16-85a6-44f511e0fa3f)
-  )
-
-  (symbol (lib_id "Device:R_Small_US") (at 239.395 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1a85d16d-445f-4aef-9c88-336af2db37a0)
-    (property "Reference" "R4" (at 241.3 24.765 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100*" (at 241.3 27.305 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 239.395 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 239.395 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 31644312-9dff-4d15-a96e-4490e1dfc94c))
-    (pin "2" (uuid 12dcbf5b-c8cf-4e4f-af5c-05bb60722885))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "R4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:L_Small") (at 239.395 32.385 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 200ba3e6-c7e9-4eab-975f-7fe4b0cfe669)
-    (property "Reference" "L4" (at 240.665 30.48 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "120nH" (at 240.665 33.02 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 239.395 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 239.395 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a01899e4-6826-42d2-bb1e-78990e54cfd9))
-    (pin "2" (uuid 8fa36a54-5815-46e6-affa-a889780c2ec4))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "L4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "RF_Amplifier:GALI-39") (at 104.775 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 31891ed2-d38b-4cac-ba32-902470314ca7)
-    (property "Reference" "U5" (at 104.775 27.305 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "GALI-39" (at 104.775 29.845 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (at 106.045 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf" (at 104.775 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5a1d119e-fcc0-4d9f-b3e4-f4718f108015))
-    (pin "2" (uuid 18c0c228-337f-462c-b4f9-9d9c8a48e732))
-    (pin "3" (uuid 8245d9f0-5a53-4139-8561-543fc48af504))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "U5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_tim-RF:HMC8193") (at 135.89 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 32d7dfcb-55c2-4e66-b2d6-5b105cdfc514)
-    (property "Reference" "U2" (at 141.605 80.645 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "HMC8193" (at 142.24 62.865 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 135.89 90.805 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc8193.pdf" (at 135.89 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 37089775-9837-49f0-b500-ece3d66bfb1c))
-    (pin "10" (uuid cf7948e8-a3e7-4e82-9a43-2e87a8f11e4b))
-    (pin "11" (uuid 6f606596-8be3-4653-a7b6-a87d7e68b3ab))
-    (pin "12" (uuid 7ca6d4e3-10cf-43e0-a087-57f3afced2a3))
-    (pin "13" (uuid fe5ea157-ebea-47a4-adce-c32f61ee51d3))
-    (pin "14" (uuid 9bd1cd79-da3c-4ae2-84c6-7faf291c704a))
-    (pin "15" (uuid 1c4acd9b-5c25-4653-8d83-7c653be27a37))
-    (pin "16" (uuid f6a84048-a5ae-4953-8ca0-0ff7e126b98e))
-    (pin "17" (uuid d33dd0a8-60ec-4b0b-91aa-1ebbb29fdf82))
-    (pin "18" (uuid 78463ee6-34cd-4fa6-aaa2-55ed9ca77de0))
-    (pin "19" (uuid 95bf97c1-c4c7-4ae9-a564-d8a428d57a29))
-    (pin "2" (uuid 9f1dbdcc-9025-4db1-b47a-9170cfee08ed))
-    (pin "20" (uuid 59657568-d368-4f7d-9ad3-1c22bcdda697))
-    (pin "21" (uuid 37025564-08e9-45af-9495-7bbdffd6e1bf))
-    (pin "22" (uuid 50f33cb1-e55b-4301-9d3b-234cb11395ec))
-    (pin "23" (uuid bfd489bd-bfe0-4646-bdd7-1f509539366e))
-    (pin "24" (uuid 00256d89-f811-4518-9c7a-3b7ae2773444))
-    (pin "25" (uuid 871ba182-3ad8-425f-93a2-53ce679386a1))
-    (pin "3" (uuid d5f47b32-ea40-443a-9f5c-09c064a965d1))
-    (pin "4" (uuid 2848ab52-ecde-4b9a-b743-9d368ac06c5c))
-    (pin "5" (uuid 4b31a9de-f2ba-43c7-8f5a-5c6ca70e5efd))
-    (pin "6" (uuid 57be166f-4940-45b6-9d3a-6ae7b3e39dea))
-    (pin "7" (uuid 3de66ff3-e12a-4643-af21-a36541310aeb))
-    (pin "8" (uuid ae3ecb4d-733b-4936-858c-db7791eed73f))
-    (pin "9" (uuid c358a2ad-730a-42b0-b464-6e9ff02ac915))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "U2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "RF_Amplifier:GALI-39") (at 228.6 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 392fc2ba-b346-4164-9c20-d91da2704f32)
-    (property "Reference" "U9" (at 228.6 27.305 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "GALI-39" (at 228.6 29.845 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (at 229.87 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf" (at 228.6 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c41b072c-98d8-484e-8335-a18f823ee778))
-    (pin "2" (uuid fa5326f3-a85e-4587-91cf-a79b17702b65))
-    (pin "3" (uuid c967205a-cae1-4f00-a23f-e8a4ef49c7c2))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "U9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 92.075 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 484367f5-ffb3-4b4b-ba2d-155f4172b791)
-    (property "Reference" "C4" (at 92.075 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100pF" (at 92.075 40.005 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 92.075 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 92.075 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 554a6419-ad24-430c-b560-6ab50ec8b552))
-    (pin "2" (uuid 9bafdcb7-0bd2-490a-a961-3495757d6ef5))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "C4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 121.285 71.755 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4af5d7ac-6ab7-4334-befc-5f67db2cdc62)
-    (property "Reference" "C1" (at 121.285 76.835 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100pF" (at 121.285 74.93 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 121.285 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 121.285 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3ad4fdae-5b61-4bbb-8e70-a85c61f49b19))
-    (pin "2" (uuid 6e8d3c02-605a-46f3-89c2-269f6636b98b))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "RF_Switch:ADG901BCPZ") (at 266.7 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5a98864b-f5ca-4b63-88f4-65c6e08073ad)
-    (property "Reference" "U3" (at 275.59 27.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "ADG901BCPZ" (at 276.225 30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm" (at 266.7 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG901_902.pdf" (at 266.7 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0c051749-56c7-451e-aa27-8e8b7f6cc45f))
-    (pin "2" (uuid 710f75ec-588d-4137-b16a-a315d1cb4008))
-    (pin "3" (uuid 07649f94-0fbe-4e35-a901-8cf86bde23cb))
-    (pin "4" (uuid efcef890-7d85-459b-8a6b-837c779e981b))
-    (pin "5" (uuid 1208f719-d534-46c5-a10f-c308b0bd3f6c))
-    (pin "6" (uuid 95149bb1-4f4b-47a1-9f78-49e1f9c4c781))
-    (pin "7" (uuid 9c2291b5-a2bf-4a77-b076-e1aa31d78015))
-    (pin "8" (uuid e81ac0b6-7709-4407-89c4-496e7ba9c24d))
-    (pin "9" (uuid 20b1715f-69e0-4959-8731-36a450ed1537))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "U3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "RF_Amplifier:GALI-39") (at 104.775 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5e7d344d-ce33-4ced-bc8a-30fbcf47836b)
-    (property "Reference" "U4" (at 104.775 62.23 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "GALI-39" (at 104.775 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (at 106.045 61.595 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf" (at 104.775 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6b94dedb-3ca9-490c-9058-ba4838c2dbd2))
-    (pin "2" (uuid a2b5c80d-ce67-4d50-9f3b-4733da7bb7de))
-    (pin "3" (uuid 44170080-7f44-4347-85e6-86d509a64e61))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "U4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_tim-RF:HMC8193") (at 135.89 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5ed3e4c2-e786-4092-a015-b7ed89f01ac2)
-    (property "Reference" "U1" (at 142.24 45.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "HMC8193" (at 141.605 27.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 135.89 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc8193.pdf" (at 135.89 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a0ed7e99-898c-459b-8744-f92003d0f568))
-    (pin "10" (uuid f29c6ca5-7f8f-4f65-b8b8-d7a543ffe0da))
-    (pin "11" (uuid 6c04d24f-44b1-44f9-bdcb-0810bbfadeef))
-    (pin "12" (uuid 8f72a332-7795-4da3-baf0-9ece6c4808fc))
-    (pin "13" (uuid 35abb444-2cb3-4d14-a9db-f6c4c06b2f96))
-    (pin "14" (uuid 59c39993-5541-4a14-b974-21c7d33b22a0))
-    (pin "15" (uuid 4c190026-760b-4d8b-841e-d95918693471))
-    (pin "16" (uuid 93a728a7-0d5c-44ba-965f-ed925d3ae825))
-    (pin "17" (uuid 36d4a38b-8d55-44cd-930b-89cc09d95aa7))
-    (pin "18" (uuid 6b6d3b22-861b-444c-a262-06d398c3d394))
-    (pin "19" (uuid 72fd45e1-deeb-4c6c-83ce-1c3da4567bf2))
-    (pin "2" (uuid 822c6314-5e14-4c3f-a25e-42b8d2aacafd))
-    (pin "20" (uuid 45bbce24-45ad-4fda-85eb-b8f89950a398))
-    (pin "21" (uuid 5622cfb1-f028-494a-949f-190f06198796))
-    (pin "22" (uuid 561d6acb-0af1-45fa-875e-fbbd5c9d5cd9))
-    (pin "23" (uuid bcadb44d-376e-495f-89db-50909a51a59e))
-    (pin "24" (uuid 64ad170c-4409-466d-8c88-756d9db67346))
-    (pin "25" (uuid f3779eaa-5560-4bb6-8be9-753f3a4a1b38))
-    (pin "3" (uuid 0d5a3827-9a06-43c3-bbc4-242973884755))
-    (pin "4" (uuid d74f7911-31b4-42d7-9124-3c840bb27789))
-    (pin "5" (uuid 137079f8-d4d8-4c42-887e-3e525e6a82e4))
-    (pin "6" (uuid 74ad0162-a7ad-4083-86c8-b8e03ff6aa4f))
-    (pin "7" (uuid 54e0749d-7055-4ef3-9721-5d48bb625ec2))
-    (pin "8" (uuid c275c67a-0882-4c5b-a6a5-9f8f90078dce))
-    (pin "9" (uuid 1aa49fe7-c637-4383-8d61-8c63aaf78721))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "U1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 284.48 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6680f26b-d02f-4567-a931-17dc20f55325)
-    (property "Reference" "C9" (at 284.48 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100pF" (at 284.48 40.005 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 284.48 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 284.48 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b3d1c5c0-f941-4c96-b489-03e90aeffa3a))
-    (pin "2" (uuid fae2f894-f6dc-4727-aab4-d2cddb91d0ae))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "C9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:L_Small") (at 174.625 32.385 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 668b1884-6dc1-4918-961f-6d2604cd11be)
-    (property "Reference" "L3" (at 175.895 30.48 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "120nH" (at 175.895 33.02 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 174.625 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 174.625 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 053a2de4-5b7e-4577-9922-20ce2f110c3e))
-    (pin "2" (uuid f3c70259-09d4-41ad-b48e-8cbeb27d7950))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "L3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:L_Small") (at 115.57 32.385 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 67939549-525a-43f9-bfe1-4726af132e5c)
-    (property "Reference" "L2" (at 116.84 30.48 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "120nH" (at 116.84 33.02 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 115.57 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 115.57 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4b9ad88e-cf14-45f1-b878-678d9bbc5dc9))
-    (pin "2" (uuid 8cc6be13-8365-4b87-9b59-dec47b204a18))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "L2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 121.285 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6b6b5875-90b4-4297-aba5-317bc0e7e04a)
-    (property "Reference" "C3" (at 121.285 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100pF" (at 121.285 40.005 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 121.285 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 121.285 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ce17f0f7-f00e-49ff-bad7-ed6d141d45ba))
-    (pin "2" (uuid f450db0d-9b33-4718-a517-a3340c4a4f71))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "C3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_tim-RF:YAT-10A+") (at 199.39 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7c05cfd6-83ff-45a8-9e14-82f5fde1c0b7)
-    (property "Reference" "U8" (at 199.39 26.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "YAT-10A+" (at 199.39 29.21 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 210.82 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.minicircuits.com/pdfs/YAT-10A+.pdf" (at 210.82 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Attenuators 10 dB SMT Fixed Attenuator, DC - 18000 MHz, 50 Ohm" (at 210.82 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "0.85" (at 210.82 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "139-YAT-10A+" (at 210.82 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/YAT-10A%2b?qs=vmHwEFxEFR8JaoBDdvg0Yg%3D%3D" (at 210.82 46.99 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Mini-Circuits" (at 210.82 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "YAT-10A+" (at 210.82 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 88a540b2-d14a-4321-b66f-5adb5bc78e4e))
-    (pin "2" (uuid e270e70b-7b52-4715-bfe2-929d6533a172))
-    (pin "3" (uuid fbe7b5f6-3595-4d7d-8963-992de7af589c))
-    (pin "4" (uuid 2ce8b45e-7145-426a-827e-b14fec607ef9))
-    (pin "5" (uuid 9e386503-b222-4f62-b391-c04cf11bf0b5))
-    (pin "6" (uuid 23b219dc-6d33-468b-8793-7e21d3e58b4e))
-    (pin "7" (uuid a5162101-51d9-4533-b680-3978a232f28c))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "U8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_Coaxial") (at 23.495 55.88 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 888c8f32-cbc2-4656-86e0-1e8385e20bfc)
-    (property "Reference" "J1" (at 19.685 55.5382 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SMA" (at 19.685 58.0782 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 23.495 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" " ~" (at 23.495 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3595a23d-73f8-497b-b0cd-929ead26a77d))
-    (pin "2" (uuid 06bf5b49-6620-407a-ae5d-e818ca635bee))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "RF_Amplifier:GALI-39") (at 163.83 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8fec72de-167e-4d6b-9e30-ca649c4b1b39)
-    (property "Reference" "U7" (at 163.83 27.305 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "GALI-39" (at 163.83 29.845 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (at 165.1 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf" (at 163.83 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eb7f393c-2e2b-4ef4-86ca-105921b20a2a))
-    (pin "2" (uuid da983eae-70b5-4fba-a7a0-507853ca6bdd))
-    (pin "3" (uuid a4734a48-3580-4557-a16f-1d22abd33422))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "U7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small_US") (at 115.57 60.325 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 98242b0f-4d65-44ff-b750-88e4794fda7b)
-    (property "Reference" "R1" (at 117.475 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100*" (at 117.475 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 115.57 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 115.57 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 098bcd42-5fef-43bc-9e01-9598a7678852))
-    (pin "2" (uuid 40910d37-3541-4051-a41b-40c6521416fd))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 92.075 71.755 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9e211578-c814-47b0-b65f-ac8e79506293)
-    (property "Reference" "C2" (at 92.075 76.835 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100pF" (at 92.075 74.93 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 92.075 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 92.075 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3c2d304b-4067-47fe-a25f-d5db9b9bb135))
-    (pin "2" (uuid ff44b583-8dbe-4527-a9a6-a8fa67904561))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "C2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_tim-RF:GP2Y1+") (at 52.07 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9f316ecd-9964-46c2-bf3d-eeddaeba32a0)
-    (property "Reference" "U6" (at 52.07 40.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "GP2Y1+" (at 52.07 43.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 55.245 43.815 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.minicircuits.com/pdfs/GP2Y1+.pdf" (at 52.07 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 823d533f-bbd7-48af-99ee-987d566cbc3d))
-    (pin "10" (uuid 57d29d2e-15eb-4a48-8aa1-ea25afeab9d1))
-    (pin "11" (uuid 796f32d9-d45c-40fc-994b-ce8c1108c4df))
-    (pin "12" (uuid 1f698ecb-bd82-4550-85be-5a284cf0950a))
-    (pin "13" (uuid 7e2c62e1-5887-466e-a7fb-61fdf73c080d))
-    (pin "2" (uuid a148cac5-00aa-4cda-9864-5b97bfc2d6be))
-    (pin "3" (uuid f8cd48db-af2a-4509-b8f7-54fe203d7b86))
-    (pin "4" (uuid b3c4a6ff-6fec-4f6a-b2b1-b1a88226404f))
-    (pin "5" (uuid 021c16f5-703a-4395-b52d-9625509041aa))
-    (pin "6" (uuid a6d0903a-1c43-478f-9e9e-6ed08d2c64e9))
-    (pin "7" (uuid 32e70a54-eb31-4012-823f-74a0619e7a00))
-    (pin "8" (uuid 7c04bd9a-a247-4ca1-8f28-d721e45ab10b))
-    (pin "9" (uuid 8fd9c06f-5f42-4506-ae72-2e64dc6e9ed0))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "U6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 245.11 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9f9118de-8abb-4d82-a2b4-6ef1f7f5432f)
-    (property "Reference" "C8" (at 245.11 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100pF" (at 245.11 40.005 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 245.11 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 245.11 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 734917fe-dbe0-40be-b20f-5fb3102d147e))
-    (pin "2" (uuid 6bada2e5-4c18-4861-8fb6-a6265fb1275e))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small_US") (at 174.625 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid aaecff37-7c5c-4ab3-973e-316d6af2ca43)
-    (property "Reference" "R3" (at 176.53 24.765 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100*" (at 176.53 27.305 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 174.625 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 174.625 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a6866026-b936-4170-9e72-2e2c201e90d8))
-    (pin "2" (uuid 5ecd97e2-c631-45e3-9849-471faeb52a77))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "R3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 151.13 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b20be279-9e0c-49a7-8dab-1f381c93a77b)
-    (property "Reference" "C5" (at 151.13 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100pF" (at 151.13 40.005 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 151.13 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 151.13 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 844ac5f1-5601-4025-9577-cfcdbdc29de4))
-    (pin "2" (uuid c226ab0a-6e38-477e-b0cd-2bf6429b4791))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "C5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 180.34 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b38e59e2-eecf-44e4-95f4-e718e4c00525)
-    (property "Reference" "C6" (at 180.34 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100pF" (at 180.34 40.005 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 180.34 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 180.34 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 597802eb-6c81-452c-8858-1a5da8483850))
-    (pin "2" (uuid c39c51f1-3450-42ec-a3fd-0c6d1a818621))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small_US") (at 115.57 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b6b647d3-0c0c-4ded-8dda-a352df055187)
-    (property "Reference" "R2" (at 117.475 24.765 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100*" (at 117.475 27.305 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 115.57 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 115.57 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e3ef4fb7-af1b-45c6-9895-f20b1acd7f51))
-    (pin "2" (uuid 9bca844f-d7f2-4678-a793-5f9bd3418e54))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 215.9 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid de4a629a-cc8b-47ce-973d-cc67570f056a)
-    (property "Reference" "C7" (at 215.9 41.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100pF" (at 215.9 40.005 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 215.9 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 215.9 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f3f300e0-5379-40f2-b1e0-102346665de7))
-    (pin "2" (uuid 5a32756a-3367-443c-867b-3ee4f0241f5a))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "C7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:L_Small") (at 115.57 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e6123b67-1339-48d8-9b02-830d09c0229c)
-    (property "Reference" "L1" (at 116.84 65.405 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "120nH" (at 116.84 67.945 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 115.57 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 115.57 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ef9651c7-4046-4a78-8953-e69194fe9517))
-    (pin "2" (uuid d6cf7eff-b064-4600-8926-3bbe4baf167f))
-    (instances
-      (project "S-Band Transceiver"
-        (path "/811f57cf-e3df-4fba-aff9-353adc85299e"
-          (reference "L1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "811f57cf-e3df-4fba-aff9-353adc85299e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0.762 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Small_0_1"
+				(arc
+					(start 0 -2.032)
+					(mid 0.5058 -1.524)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 0.508)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 1.524)
+					(end 0 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RF_Amplifier:GALI-39"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GALI-39"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 1.27 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC-7000MHz +19.7dB Low Noise Amplifier, SOT-89"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RF amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GALI-39_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "GALI-39_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RF_Switch:ADG901BCPZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ADG901BCPZ"
+				(at 1.27 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG901_902.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SPST DC-4.5GHz absorbative switch, 40dB isolation at 1GHz, LFCSP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RF SPST switch CMOS LVTTL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LFCSP*1EP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADG901BCPZ_0_0"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 -5.08) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.048) (xy -3.302 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 3.048) (xy -1.27 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -5.08) (xy -2.032 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 0 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy -0.762 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.318) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.048) (xy 2.032 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.048) (xy 3.302 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.572) (xy 0 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -4.064) (xy -3.81 -6.096) (xy -2.032 -5.08) (xy -3.81 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.048)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "50"
+					(at -3.81 -0.127 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "50"
+					(at 3.81 -0.127 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(symbol "ADG901BCPZ_0_1"
+				(rectangle
+					(start -4.318 1.016)
+					(end -3.302 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 3.81)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -1.524 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.032) (xy -3.81 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.556) (xy -3.429 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -3.81 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 5.08) (xy 1.016 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.032) (xy 3.81 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.556) (xy 4.191 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 3.81 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -3.81 -2.286) (xy -4.318 -2.286) (xy -3.81 -3.048) (xy -3.302 -2.286) (xy -3.81 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 -2.286) (xy 3.302 -2.286) (xy 3.81 -3.048) (xy 4.318 -2.286) (xy 3.81 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.302 1.016)
+					(end 4.318 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 3.81)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "ADG901BCPZ_1_1"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "RF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "RF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "_tim-RF:GP2Y1+"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GP2Y1+"
+				(at -10.16 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.175 12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/GP2Y1+.pdf"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Splitter/Combiner 2 Way-0° 50Ω 1550 to 4400 MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Power Splitter, Mini-Circuits"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GP2Y1+_0_1"
+				(rectangle
+					(start -13.97 10.16)
+					(end 13.97 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.175)
+					(end 2.54 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 4.445)
+					(end 2.54 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -2.54 -3.81) (xy -2.54 0) (xy -2.54 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 3.81) (xy 4.445 2.54) (xy 5.08 1.905) (xy 3.81 1.27) (xy 5.08 0.635) (xy 3.81 0) (xy 5.08 -0.635)
+						(xy 3.81 -1.27) (xy 5.08 -1.905) (xy 4.445 -2.54) (xy 4.445 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GP2Y1+_1_1"
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 0 0)
+					(length 2.54)
+					(name "SUM_PORT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 3.81 180)
+					(length 2.54)
+					(name "PORT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -3.81 180)
+					(length 2.54)
+					(name "PORT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "_tim-RF:HMC8193"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HMC8193"
+				(at 8.89 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc8193.pdf"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Surface Mount MMIC IQ Mixer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IQ Mixer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HMC8193_0_0"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HMC8193_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HMC8193_1_1"
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "RF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "I"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(text_box "Low Cost Solution:\nDesign must cost < $200\nNo IQ Mixer, phase shifter PE44820\nDirectional coupler: D17W+\nLog Det: ADL5906\nSplitter: GP2Y1+\nAtten: DAT-31A+\nIQ Mixer: ADL5380\nAMP: SKY65017-70LF\nSynth: ADF4351\n\n\n\n\n\n"
+		(exclude_from_sim no)
+		(at 217.17 135.89 0)
+		(size 62.865 45.085)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9fd8f3ea-ba02-4b1e-b1f2-87d7fc09a979")
+	)
+	(text "ADRF5019BCPZN-R7\nSPDT Switch for RX Bypass LNA"
+		(exclude_from_sim no)
+		(at 287.02 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95154c62-5280-4b16-85a6-44f511e0fa3f")
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 351.79 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a85d16d-445f-4aef-9c88-336af2db37a0")
+		(property "Reference" "R4"
+			(at 353.695 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100*"
+			(at 353.695 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31644312-9dff-4d15-a96e-4490e1dfc94c")
+		)
+		(pin "2"
+			(uuid "12dcbf5b-c8cf-4e4f-af5c-05bb60722885")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 351.79 37.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "200ba3e6-c7e9-4eab-975f-7fe4b0cfe669")
+		(property "Reference" "L4"
+			(at 353.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120nH"
+			(at 353.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a01899e4-6826-42d2-bb1e-78990e54cfd9")
+		)
+		(pin "2"
+			(uuid "8fa36a54-5815-46e6-affa-a889780c2ec4")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Amplifier:GALI-39")
+		(at 217.17 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31891ed2-d38b-4cac-ba32-902470314ca7")
+		(property "Reference" "U5"
+			(at 217.17 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GALI-39"
+			(at 217.17 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf"
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a1d119e-fcc0-4d9f-b3e4-f4718f108015")
+		)
+		(pin "2"
+			(uuid "18c0c228-337f-462c-b4f9-9d9c8a48e732")
+		)
+		(pin "3"
+			(uuid "8245d9f0-5a53-4139-8561-543fc48af504")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tim-RF:HMC8193")
+		(at 248.285 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32d7dfcb-55c2-4e66-b2d6-5b105cdfc514")
+		(property "Reference" "U2"
+			(at 254 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HMC8193"
+			(at 254.635 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.285 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc8193.pdf"
+			(at 248.285 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.285 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37089775-9837-49f0-b500-ece3d66bfb1c")
+		)
+		(pin "10"
+			(uuid "cf7948e8-a3e7-4e82-9a43-2e87a8f11e4b")
+		)
+		(pin "11"
+			(uuid "6f606596-8be3-4653-a7b6-a87d7e68b3ab")
+		)
+		(pin "12"
+			(uuid "7ca6d4e3-10cf-43e0-a087-57f3afced2a3")
+		)
+		(pin "13"
+			(uuid "fe5ea157-ebea-47a4-adce-c32f61ee51d3")
+		)
+		(pin "14"
+			(uuid "9bd1cd79-da3c-4ae2-84c6-7faf291c704a")
+		)
+		(pin "15"
+			(uuid "1c4acd9b-5c25-4653-8d83-7c653be27a37")
+		)
+		(pin "16"
+			(uuid "f6a84048-a5ae-4953-8ca0-0ff7e126b98e")
+		)
+		(pin "17"
+			(uuid "d33dd0a8-60ec-4b0b-91aa-1ebbb29fdf82")
+		)
+		(pin "18"
+			(uuid "78463ee6-34cd-4fa6-aaa2-55ed9ca77de0")
+		)
+		(pin "19"
+			(uuid "95bf97c1-c4c7-4ae9-a564-d8a428d57a29")
+		)
+		(pin "2"
+			(uuid "9f1dbdcc-9025-4db1-b47a-9170cfee08ed")
+		)
+		(pin "20"
+			(uuid "59657568-d368-4f7d-9ad3-1c22bcdda697")
+		)
+		(pin "21"
+			(uuid "37025564-08e9-45af-9495-7bbdffd6e1bf")
+		)
+		(pin "22"
+			(uuid "50f33cb1-e55b-4301-9d3b-234cb11395ec")
+		)
+		(pin "23"
+			(uuid "bfd489bd-bfe0-4646-bdd7-1f509539366e")
+		)
+		(pin "24"
+			(uuid "00256d89-f811-4518-9c7a-3b7ae2773444")
+		)
+		(pin "25"
+			(uuid "871ba182-3ad8-425f-93a2-53ce679386a1")
+		)
+		(pin "3"
+			(uuid "d5f47b32-ea40-443a-9f5c-09c064a965d1")
+		)
+		(pin "4"
+			(uuid "2848ab52-ecde-4b9a-b743-9d368ac06c5c")
+		)
+		(pin "5"
+			(uuid "4b31a9de-f2ba-43c7-8f5a-5c6ca70e5efd")
+		)
+		(pin "6"
+			(uuid "57be166f-4940-45b6-9d3a-6ae7b3e39dea")
+		)
+		(pin "7"
+			(uuid "3de66ff3-e12a-4643-af21-a36541310aeb")
+		)
+		(pin "8"
+			(uuid "ae3ecb4d-733b-4936-858c-db7791eed73f")
+		)
+		(pin "9"
+			(uuid "c358a2ad-730a-42b0-b464-6e9ff02ac915")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Amplifier:GALI-39")
+		(at 340.995 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "392fc2ba-b346-4164-9c20-d91da2704f32")
+		(property "Reference" "U9"
+			(at 340.995 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GALI-39"
+			(at 340.995 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 342.265 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf"
+			(at 340.995 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.995 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c41b072c-98d8-484e-8335-a18f823ee778")
+		)
+		(pin "2"
+			(uuid "fa5326f3-a85e-4587-91cf-a79b17702b65")
+		)
+		(pin "3"
+			(uuid "c967205a-cae1-4f00-a23f-e8a4ef49c7c2")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 204.47 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "484367f5-ffb3-4b4b-ba2d-155f4172b791")
+		(property "Reference" "C4"
+			(at 204.47 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 204.47 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "554a6419-ad24-430c-b560-6ab50ec8b552")
+		)
+		(pin "2"
+			(uuid "9bafdcb7-0bd2-490a-a961-3495757d6ef5")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 233.68 76.835 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4af5d7ac-6ab7-4334-befc-5f67db2cdc62")
+		(property "Reference" "C1"
+			(at 233.68 81.915 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 233.68 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ad4fdae-5b61-4bbb-8e70-a85c61f49b19")
+		)
+		(pin "2"
+			(uuid "6e8d3c02-605a-46f3-89c2-269f6636b98b")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Switch:ADG901BCPZ")
+		(at 379.095 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a98864b-f5ca-4b63-88f4-65c6e08073ad")
+		(property "Reference" "U3"
+			(at 387.985 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADG901BCPZ"
+			(at 388.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm"
+			(at 379.095 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG901_902.pdf"
+			(at 379.095 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 379.095 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c051749-56c7-451e-aa27-8e8b7f6cc45f")
+		)
+		(pin "2"
+			(uuid "710f75ec-588d-4137-b16a-a315d1cb4008")
+		)
+		(pin "3"
+			(uuid "07649f94-0fbe-4e35-a901-8cf86bde23cb")
+		)
+		(pin "4"
+			(uuid "efcef890-7d85-459b-8a6b-837c779e981b")
+		)
+		(pin "5"
+			(uuid "1208f719-d534-46c5-a10f-c308b0bd3f6c")
+		)
+		(pin "6"
+			(uuid "95149bb1-4f4b-47a1-9f78-49e1f9c4c781")
+		)
+		(pin "7"
+			(uuid "9c2291b5-a2bf-4a77-b076-e1aa31d78015")
+		)
+		(pin "8"
+			(uuid "e81ac0b6-7709-4407-89c4-496e7ba9c24d")
+		)
+		(pin "9"
+			(uuid "20b1715f-69e0-4959-8731-36a450ed1537")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Amplifier:GALI-39")
+		(at 217.17 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e7d344d-ce33-4ced-bc8a-30fbcf47836b")
+		(property "Reference" "U4"
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GALI-39"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 218.44 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf"
+			(at 217.17 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b94dedb-3ca9-490c-9058-ba4838c2dbd2")
+		)
+		(pin "2"
+			(uuid "a2b5c80d-ce67-4d50-9f3b-4733da7bb7de")
+		)
+		(pin "3"
+			(uuid "44170080-7f44-4347-85e6-86d509a64e61")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tim-RF:HMC8193")
+		(at 248.285 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ed3e4c2-e786-4092-a015-b7ed89f01ac2")
+		(property "Reference" "U1"
+			(at 254.635 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HMC8193"
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.285 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc8193.pdf"
+			(at 248.285 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.285 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0ed7e99-898c-459b-8744-f92003d0f568")
+		)
+		(pin "10"
+			(uuid "f29c6ca5-7f8f-4f65-b8b8-d7a543ffe0da")
+		)
+		(pin "11"
+			(uuid "6c04d24f-44b1-44f9-bdcb-0810bbfadeef")
+		)
+		(pin "12"
+			(uuid "8f72a332-7795-4da3-baf0-9ece6c4808fc")
+		)
+		(pin "13"
+			(uuid "35abb444-2cb3-4d14-a9db-f6c4c06b2f96")
+		)
+		(pin "14"
+			(uuid "59c39993-5541-4a14-b974-21c7d33b22a0")
+		)
+		(pin "15"
+			(uuid "4c190026-760b-4d8b-841e-d95918693471")
+		)
+		(pin "16"
+			(uuid "93a728a7-0d5c-44ba-965f-ed925d3ae825")
+		)
+		(pin "17"
+			(uuid "36d4a38b-8d55-44cd-930b-89cc09d95aa7")
+		)
+		(pin "18"
+			(uuid "6b6d3b22-861b-444c-a262-06d398c3d394")
+		)
+		(pin "19"
+			(uuid "72fd45e1-deeb-4c6c-83ce-1c3da4567bf2")
+		)
+		(pin "2"
+			(uuid "822c6314-5e14-4c3f-a25e-42b8d2aacafd")
+		)
+		(pin "20"
+			(uuid "45bbce24-45ad-4fda-85eb-b8f89950a398")
+		)
+		(pin "21"
+			(uuid "5622cfb1-f028-494a-949f-190f06198796")
+		)
+		(pin "22"
+			(uuid "561d6acb-0af1-45fa-875e-fbbd5c9d5cd9")
+		)
+		(pin "23"
+			(uuid "bcadb44d-376e-495f-89db-50909a51a59e")
+		)
+		(pin "24"
+			(uuid "64ad170c-4409-466d-8c88-756d9db67346")
+		)
+		(pin "25"
+			(uuid "f3779eaa-5560-4bb6-8be9-753f3a4a1b38")
+		)
+		(pin "3"
+			(uuid "0d5a3827-9a06-43c3-bbc4-242973884755")
+		)
+		(pin "4"
+			(uuid "d74f7911-31b4-42d7-9124-3c840bb27789")
+		)
+		(pin "5"
+			(uuid "137079f8-d4d8-4c42-887e-3e525e6a82e4")
+		)
+		(pin "6"
+			(uuid "74ad0162-a7ad-4083-86c8-b8e03ff6aa4f")
+		)
+		(pin "7"
+			(uuid "54e0749d-7055-4ef3-9721-5d48bb625ec2")
+		)
+		(pin "8"
+			(uuid "c275c67a-0882-4c5b-a6a5-9f8f90078dce")
+		)
+		(pin "9"
+			(uuid "1aa49fe7-c637-4383-8d61-8c63aaf78721")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 396.875 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6680f26b-d02f-4567-a931-17dc20f55325")
+		(property "Reference" "C9"
+			(at 396.875 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 396.875 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.875 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 396.875 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 396.875 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3d1c5c0-f941-4c96-b489-03e90aeffa3a")
+		)
+		(pin "2"
+			(uuid "fae2f894-f6dc-4727-aab4-d2cddb91d0ae")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 287.02 37.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "668b1884-6dc1-4918-961f-6d2604cd11be")
+		(property "Reference" "L3"
+			(at 288.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120nH"
+			(at 288.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "053a2de4-5b7e-4577-9922-20ce2f110c3e")
+		)
+		(pin "2"
+			(uuid "f3c70259-09d4-41ad-b48e-8cbeb27d7950")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 227.965 37.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67939549-525a-43f9-bfe1-4726af132e5c")
+		(property "Reference" "L2"
+			(at 229.235 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120nH"
+			(at 229.235 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.965 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.965 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.965 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b9ad88e-cf14-45f1-b878-678d9bbc5dc9")
+		)
+		(pin "2"
+			(uuid "8cc6be13-8365-4b87-9b59-dec47b204a18")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 233.68 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b6b5875-90b4-4297-aba5-317bc0e7e04a")
+		(property "Reference" "C3"
+			(at 233.68 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 233.68 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce17f0f7-f00e-49ff-bad7-ed6d141d45ba")
+		)
+		(pin "2"
+			(uuid "f450db0d-9b33-4718-a517-a3340c4a4f71")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 271.78 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "888c8f32-cbc2-4656-86e0-1e8385e20bfc")
+		(property "Reference" "J1"
+			(at 267.97 98.7182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 267.97 101.2582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 271.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3595a23d-73f8-497b-b0cd-929ead26a77d")
+		)
+		(pin "2"
+			(uuid "06bf5b49-6620-407a-ae5d-e818ca635bee")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Amplifier:GALI-39")
+		(at 276.225 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fec72de-167e-4d6b-9e30-ca649c4b1b39")
+		(property "Reference" "U7"
+			(at 276.225 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GALI-39"
+			(at 276.225 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 277.495 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/GALI-39+.pdf"
+			(at 276.225 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.225 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb7f393c-2e2b-4ef4-86ca-105921b20a2a")
+		)
+		(pin "2"
+			(uuid "da983eae-70b5-4fba-a7a0-507853ca6bdd")
+		)
+		(pin "3"
+			(uuid "a4734a48-3580-4557-a16f-1d22abd33422")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 227.965 65.405 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98242b0f-4d65-44ff-b750-88e4794fda7b")
+		(property "Reference" "R1"
+			(at 229.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100*"
+			(at 229.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.965 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.965 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.965 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "098bcd42-5fef-43bc-9e01-9598a7678852")
+		)
+		(pin "2"
+			(uuid "40910d37-3541-4051-a41b-40c6521416fd")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 204.47 76.835 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e211578-c814-47b0-b65f-ac8e79506293")
+		(property "Reference" "C2"
+			(at 204.47 81.915 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 204.47 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c2d304b-4067-47fe-a25f-d5db9b9bb135")
+		)
+		(pin "2"
+			(uuid "ff44b583-8dbe-4527-a9a6-a8fa67904561")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tim-RF:GP2Y1+")
+		(at 302.895 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f316ecd-9964-46c2-bf3d-eeddaeba32a0")
+		(property "Reference" "U6"
+			(at 302.895 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GP2Y1+"
+			(at 302.895 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/GP2Y1+.pdf"
+			(at 302.895 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 302.895 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "823d533f-bbd7-48af-99ee-987d566cbc3d")
+		)
+		(pin "10"
+			(uuid "57d29d2e-15eb-4a48-8aa1-ea25afeab9d1")
+		)
+		(pin "11"
+			(uuid "796f32d9-d45c-40fc-994b-ce8c1108c4df")
+		)
+		(pin "12"
+			(uuid "1f698ecb-bd82-4550-85be-5a284cf0950a")
+		)
+		(pin "13"
+			(uuid "7e2c62e1-5887-466e-a7fb-61fdf73c080d")
+		)
+		(pin "2"
+			(uuid "a148cac5-00aa-4cda-9864-5b97bfc2d6be")
+		)
+		(pin "3"
+			(uuid "f8cd48db-af2a-4509-b8f7-54fe203d7b86")
+		)
+		(pin "4"
+			(uuid "b3c4a6ff-6fec-4f6a-b2b1-b1a88226404f")
+		)
+		(pin "5"
+			(uuid "021c16f5-703a-4395-b52d-9625509041aa")
+		)
+		(pin "6"
+			(uuid "a6d0903a-1c43-478f-9e9e-6ed08d2c64e9")
+		)
+		(pin "7"
+			(uuid "32e70a54-eb31-4012-823f-74a0619e7a00")
+		)
+		(pin "8"
+			(uuid "7c04bd9a-a247-4ca1-8f28-d721e45ab10b")
+		)
+		(pin "9"
+			(uuid "8fd9c06f-5f42-4506-ae72-2e64dc6e9ed0")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 357.505 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f9118de-8abb-4d82-a2b4-6ef1f7f5432f")
+		(property "Reference" "C8"
+			(at 357.505 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 357.505 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 357.505 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 357.505 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 357.505 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "734917fe-dbe0-40be-b20f-5fb3102d147e")
+		)
+		(pin "2"
+			(uuid "6bada2e5-4c18-4861-8fb6-a6265fb1275e")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 287.02 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaecff37-7c5c-4ab3-973e-316d6af2ca43")
+		(property "Reference" "R3"
+			(at 288.925 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100*"
+			(at 288.925 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6866026-b936-4170-9e72-2e2c201e90d8")
+		)
+		(pin "2"
+			(uuid "5ecd97e2-c631-45e3-9849-471faeb52a77")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 263.525 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b20be279-9e0c-49a7-8dab-1f381c93a77b")
+		(property "Reference" "C5"
+			(at 263.525 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 263.525 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 263.525 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 263.525 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 263.525 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "844ac5f1-5601-4025-9577-cfcdbdc29de4")
+		)
+		(pin "2"
+			(uuid "c226ab0a-6e38-477e-b0cd-2bf6429b4791")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 292.735 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b38e59e2-eecf-44e4-95f4-e718e4c00525")
+		(property "Reference" "C6"
+			(at 292.735 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 292.735 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.735 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.735 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.735 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "597802eb-6c81-452c-8858-1a5da8483850")
+		)
+		(pin "2"
+			(uuid "c39c51f1-3450-42ec-a3fd-0c6d1a818621")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 227.965 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b647d3-0c0c-4ded-8dda-a352df055187")
+		(property "Reference" "R2"
+			(at 229.87 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100*"
+			(at 229.87 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.965 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.965 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.965 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3ef4fb7-af1b-45c6-9895-f20b1acd7f51")
+		)
+		(pin "2"
+			(uuid "9bca844f-d7f2-4678-a793-5f9bd3418e54")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 328.295 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de4a629a-cc8b-47ce-973d-cc67570f056a")
+		(property "Reference" "C7"
+			(at 328.295 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 328.295 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.295 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.295 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.295 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3f300e0-5379-40f2-b1e0-102346665de7")
+		)
+		(pin "2"
+			(uuid "5a32756a-3367-443c-867b-3ee4f0241f5a")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 227.965 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6123b67-1339-48d8-9b02-830d09c0229c")
+		(property "Reference" "L1"
+			(at 229.235 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120nH"
+			(at 229.235 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.965 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.965 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.965 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef9651c7-4046-4a78-8953-e69194fe9517")
+		)
+		(pin "2"
+			(uuid "d6cf7eff-b064-4600-8926-3bbe4baf167f")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 83.82)
+		(size 55.88 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc")
+		(property "Sheetname" "Microcontroller"
+			(at 20.32 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micro.kicad_sch"
+			(at 20.32 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 16.51)
+		(size 55.88 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f8ad4e6-608c-455a-8c5c-ffe69657f316")
+		(property "Sheetname" "Synthesizer"
+			(at 20.32 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "synthesizer.kicad_sch"
+			(at 20.32 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 143.51)
+		(size 55.88 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39233606-ce53-49cf-9f32-d543f22663a6")
+		(property "Sheetname" "Power Supply"
+			(at 20.32 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 20.32 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 16.51)
+		(size 57.15 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd41cfbd-cb46-4539-92e1-7ba2287bca8a")
+		(property "Sheetname" "Transmitter"
+			(at 83.82 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transmitter.kicad_sch"
+			(at 83.82 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 83.82)
+		(size 58.42 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f050a99f-ee17-49d7-ba1b-b225c3b6208d")
+		(property "Sheetname" "Receiver"
+			(at 82.55 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "receiver.kicad_sch"
+			(at 82.55 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
