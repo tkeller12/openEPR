@@ -1199,7 +1199,7 @@
 	)
 	(text "PE44820\n8-bit phase shifter\n1.7-2.2 GHz\nSPI\nhttps://www.psemi.com/pdf/datasheets/pe44820ds.pdf"
 		(exclude_from_sim no)
-		(at 75.184 50.546 0)
+		(at 71.628 49.784 0)
 		(effects
 			(font
 				(size 1.27 1.27)

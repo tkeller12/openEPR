@@ -5,4 +5,34 @@
 	(uuid "609f43fe-bb0d-4f09-bd21-8d24d562e14c")
 	(paper "A4")
 	(lib_symbols)
+	(text "TSS-53LNB3+\nBypass Amplifier\nhttps://www.minicircuits.com/pdfs/TSS-53LNB3+.pdf"
+		(exclude_from_sim no)
+		(at 78.994 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f93a0ba-0a2c-4246-a4a2-a89b916f1b90")
+	)
+	(text "ADL5380\nIQ DEMOD\nhttps://www.analog.com/media/en/technical-documentation/data-sheets/ADL5380.pdf\n"
+		(exclude_from_sim no)
+		(at 77.978 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "774f116f-1232-4b1c-aee9-880ea33c5278")
+	)
+	(text "SKY16603-632LF\nLIMITER\nhttps://store.skyworksinc.com/datasheets/skyworks/sky16603-632lf_205442c.pdf\n"
+		(exclude_from_sim no)
+		(at 88.9 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7cae19d0-da2d-4c9d-8e57-ec6bd897ac60")
+	)
 )
