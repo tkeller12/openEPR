@@ -2422,7 +2422,7 @@
 			)
 		)
 	)
-	(text_box "Low Cost Solution:\nDesign must cost < $200\nNo IQ Mixer, phase shifter PE44820\nDirectional coupler: D17W+\nLog Det: ADL5906\nSplitter: GP2Y1+\nAtten: DAT-31A+\nIQ Mixer: ADL5380\nAMP: SKY65017-70LF\nSynth: ADF4351\n\n\n\n\n\n"
+	(text_box "Low Cost Solution:\nDesign must cost < $200\nNo IQ Mixer, phase shifter PE44820\nDirectional coupler: D17W+ or DCW-22-332+\nLog Det: ADL5906\nSplitter: GP2Y1+\nAtten: DAT-31A+\nIQ Mixer: ADL5380\nAMP: SKY65017-70LF\nSynth: ADF4351\n\n\n\n\n\n"
 		(exclude_from_sim no)
 		(at 217.17 135.89 0)
 		(size 62.865 45.085)
