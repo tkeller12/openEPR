@@ -2441,6 +2441,16 @@
 		)
 		(uuid "9fd8f3ea-ba02-4b1e-b1f2-87d7fc09a979")
 	)
+	(text "DIRECTIONAL COUPLER\nDCW-22-332+\n"
+		(exclude_from_sim no)
+		(at 191.77 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8479feba-3f65-4257-98ef-17b626a04381")
+	)
 	(text "ADRF5019BCPZN-R7\nSPDT Switch for RX Bypass LNA"
 		(exclude_from_sim no)
 		(at 287.02 74.93 0)
