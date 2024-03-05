@@ -234,6 +234,173 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1177,6 +1344,318 @@
 				)
 			)
 		)
+		(symbol "_tim-RF:AD8253"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.668 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AD8253"
+				(at 7.62 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+				(at 0 -26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8253.pdf"
+				(at 0 -26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10 MHz, 20 V/μs, G = 1, 10, 100, 1000 iCMOS Programmable Gain Instrumentation Amplifier"
+				(at 0 -26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Instrumentation amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*P1.27mm* DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AD8253_0_1"
+				(polyline
+					(pts
+						(xy -6.985 -5.08) (xy -5.715 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 5.08) (xy -5.715 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 4.445) (xy -6.35 5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -7.62 -7.62) (xy 7.62 0) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AD8253_1_1"
+				(rectangle
+					(start -12.7 12.7)
+					(end 11.43 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -15.24 90)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "-Vs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -7.62 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -10.16 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "~{WR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "+Vs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -15.24 90)
+					(length 2.54)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "_tim-RF:ADL5380"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1757,6 +2236,586 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "_tim-RF:ADL5906"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.175 -15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADL5906"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5906.pdf"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10 MHz to 10 GHz, 67 dB TruPwr Detector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Log Power Detector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADL5906_0_1"
+				(rectangle
+					(start -10.16 13.97)
+					(end 10.16 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ADL5906_1_1"
+				(pin input line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "TADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 16.51 270)
+					(length 2.54)
+					(name "VPOS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "VTGT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -10.16 0)
+					(length 2.54) hide
+					(name "NIC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "RFIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "RFIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -10.16 0)
+					(length 2.54) hide
+					(name "NIC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -16.51 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "NIC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 16.51 270)
+					(length 2.54)
+					(name "VPOS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -16.51 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -16.51 90)
+					(length 2.54)
+					(name "CRMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "VRMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "VSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 11.43 180)
+					(length 2.54)
+					(name "VTEMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -16.51 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "_tim-RF:DCW-22-332+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 6.096 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_tim-RF-Mini-Circuits:JC0603C"
+				(at 0 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/DCW-22-332+.pdf"
+				(at 0 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Directional Coupler, 50ohm, 22 dB coupling, 1200 to 3300 MHz"
+				(at 0 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Directional coupler, 50 ohm, 22 dB coupling, 1200 to 3300 MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DCW-22-332+_1_1"
+				(rectangle
+					(start -12.7 7.62)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy -6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -10.16 90)
+					(length 2.54)
+					(name "CPL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -10.16 90)
+					(length 2.54)
+					(name "TERM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2611,10 +3670,10 @@
 		(uuid "52133053-ad61-4abd-b8de-81f9ab5831eb")
 	)
 	(junction
-		(at 120.65 118.11)
+		(at 240.03 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "644b021f-bb06-4cf3-8bad-db5d89ddd3b1")
+		(uuid "6e7c339c-319e-45a5-b881-d4cda586714b")
 	)
 	(junction
 		(at 124.46 118.11)
@@ -2629,6 +3688,12 @@
 		(uuid "8bf57f72-a8e7-419b-9461-1dd7f3f1b327")
 	)
 	(junction
+		(at 259.08 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a621c093-7f66-4aa6-88b1-a6e162c0f30e")
+	)
+	(junction
 		(at 168.91 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2641,12 +3706,6 @@
 		(uuid "c16f2a82-3b12-430e-948c-08fc7fe3bf92")
 	)
 	(junction
-		(at 120.65 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c92cfd88-b7d5-4aae-9d40-3739a172cc9e")
-	)
-	(junction
 		(at 110.49 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2657,6 +3716,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4d67219-3a44-4024-a0ec-6e0a94c5c1a3")
+	)
+	(junction
+		(at 220.98 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da5354e7-9d3d-463d-b32a-9ba61fe27734")
 	)
 	(junction
 		(at 129.54 133.35)
@@ -2718,6 +3783,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 140.97) (xy 219.71 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0def7118-aa12-4d07-910e-00b3dcd04c62")
+	)
+	(wire
+		(pts
 			(xy 151.13 57.15) (xy 153.67 57.15)
 		)
 		(stroke
@@ -2748,13 +3823,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 125.73) (xy 120.65 128.27)
+			(xy 267.97 81.28) (xy 267.97 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bb3a3e4-a798-42c0-a834-5af97d16f630")
+		(uuid "1af797c9-59a4-4363-9a9f-891109fe7a98")
 	)
 	(wire
 		(pts
@@ -2778,13 +3853,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 128.27) (xy 121.92 128.27)
+			(xy 105.41 128.27) (xy 121.92 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "274478c1-1ffa-41bd-a864-04fd5e10a225")
+	)
+	(wire
+		(pts
+			(xy 245.11 86.36) (xy 245.11 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294e5f0a-3c60-48c9-9922-f72a06e1d4e4")
+	)
+	(wire
+		(pts
+			(xy 220.98 109.22) (xy 220.98 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7f39e0-f9dd-4b2b-96ca-44d4c5f2fc2f")
 	)
 	(wire
 		(pts
@@ -2798,6 +3893,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 86.36) (xy 240.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a1a94d-f3bc-455a-a573-35061a76a5a9")
+	)
+	(wire
+		(pts
+			(xy 208.28 134.62) (xy 220.98 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3409e59b-7350-4a77-ad20-935c902266f5")
+	)
+	(wire
+		(pts
 			(xy 124.46 118.11) (xy 129.54 118.11)
 		)
 		(stroke
@@ -2805,6 +3920,36 @@
 			(type default)
 		)
 		(uuid "3569befb-9431-495f-9a86-f90d439c689d")
+	)
+	(wire
+		(pts
+			(xy 218.44 76.2) (xy 224.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b35522-4813-4635-82c0-f918caa7d4f7")
+	)
+	(wire
+		(pts
+			(xy 259.08 73.66) (xy 259.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40930d8b-c513-43b5-a15b-825e1dc45cc4")
+	)
+	(wire
+		(pts
+			(xy 219.71 140.97) (xy 219.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45aa55e7-f40c-4289-9569-6e67e5211203")
 	)
 	(wire
 		(pts
@@ -2828,6 +3973,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 109.22) (xy 220.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51483702-652a-4941-88f3-de1007860825")
+	)
+	(wire
+		(pts
 			(xy 127 81.28) (xy 128.27 81.28)
 		)
 		(stroke
@@ -2848,13 +4003,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 120.65) (xy 134.62 120.65)
+			(xy 219.71 147.32) (xy 219.71 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6172013a-4e91-463e-b80b-c4b15b2f92a5")
+		(uuid "5e5ba0d9-4b6d-47f3-86bc-335d5d17b302")
 	)
 	(wire
 		(pts
@@ -2885,6 +4040,16 @@
 			(type default)
 		)
 		(uuid "674056e6-4992-4127-b193-8c57bf8f925e")
+	)
+	(wire
+		(pts
+			(xy 208.28 139.7) (xy 208.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696ae3c0-daab-4e88-8658-64560eef9303")
 	)
 	(wire
 		(pts
@@ -3008,6 +4173,36 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 76.2) (xy 255.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90847d38-a36c-4ae9-81b6-d3fb5ce79264")
+	)
+	(wire
+		(pts
+			(xy 259.08 76.2) (xy 262.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9600c9c6-c607-4206-b7a3-dcf2a1bf9c67")
+	)
+	(wire
+		(pts
+			(xy 240.03 90.17) (xy 240.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9983187f-7f47-4556-97cf-35b2686054b3")
+	)
+	(wire
+		(pts
 			(xy 121.92 133.35) (xy 129.54 133.35)
 		)
 		(stroke
@@ -3088,6 +4283,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 134.62) (xy 228.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa213925-2e5e-412a-8a05-6c930a1770b6")
+	)
+	(wire
+		(pts
 			(xy 151.13 59.69) (xy 151.13 57.15)
 		)
 		(stroke
@@ -3098,23 +4303,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 128.27) (xy 120.65 128.27)
+			(xy 220.98 134.62) (xy 222.25 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba79ca81-a704-42e9-a727-ab3561207fcd")
-	)
-	(wire
-		(pts
-			(xy 133.35 125.73) (xy 134.62 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f5a646-75e1-447d-a206-ba2f605c7dbc")
+		(uuid "c2b55f5c-bfbd-44ed-9208-f50db65d9ce8")
 	)
 	(wire
 		(pts
@@ -3148,13 +4343,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 118.11) (xy 124.46 118.11)
+			(xy 234.95 86.36) (xy 234.95 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da458a61-2e7d-4f10-8f48-c19558530a20")
+		(uuid "d6ea35c9-23da-42b1-8b65-b481c3af6c31")
 	)
 	(wire
 		(pts
@@ -3168,7 +4363,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 118.11) (xy 120.65 118.11)
+			(xy 110.49 118.11) (xy 124.46 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3195,16 +4390,6 @@
 			(type default)
 		)
 		(uuid "f5146a36-007f-4d58-9428-164efc14e661")
-	)
-	(wire
-		(pts
-			(xy 120.65 118.11) (xy 120.65 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f71980f2-b335-42d5-9f49-e84eb94a9ace")
 	)
 	(wire
 		(pts
@@ -3266,6 +4451,16 @@
 		)
 		(uuid "1f93a0ba-0a2c-4246-a4a2-a89b916f1b90")
 	)
+	(text "*DO NOT CONNECT PAD"
+		(exclude_from_sim no)
+		(at 203.2 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "615388ae-7ed9-4785-b70c-f7fb170c77e2")
+	)
 	(text "ADL5380\nIQ DEMOD\nhttps://www.analog.com/media/en/technical-documentation/data-sheets/ADL5380.pdf\n"
 		(exclude_from_sim no)
 		(at 68.834 171.704 0)
@@ -3285,6 +4480,28 @@
 			)
 		)
 		(uuid "7cae19d0-da2d-4c9d-8e57-ec6bd897ac60")
+	)
+	(global_label "RX_IN"
+		(shape input)
+		(at 259.08 73.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "032449d9-e4c8-42ab-b19e-d69289bfb5f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 65.2924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LO+"
 		(shape input)
@@ -3710,6 +4927,86 @@
 		)
 	)
 	(symbol
+		(lib_id "_tim-RF:DCW-22-332+")
+		(at 240.03 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3236d7c9-ca30-45bd-acdc-cbe07f13788d")
+		(property "Reference" "U20"
+			(at 240.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 240.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tim-RF-Mini-Circuits:JC0603C"
+			(at 240.03 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/DCW-22-332+.pdf"
+			(at 240.03 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Directional Coupler, 50ohm, 22 dB coupling, 1200 to 3300 MHz"
+			(at 240.03 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d46e7e6f-b57f-4df9-8ec4-2e327c427cba")
+		)
+		(pin "6"
+			(uuid "d2fbb0ae-ff76-4d6a-bfde-00469d504de4")
+		)
+		(pin "3"
+			(uuid "c6dd0bc5-e09e-4683-ac77-dd86974cce91")
+		)
+		(pin "1"
+			(uuid "47eed64a-8945-4391-99af-e31d82128de2")
+		)
+		(pin "2"
+			(uuid "ec981efb-3f21-4c1f-8547-d2de13b69827")
+		)
+		(pin "5"
+			(uuid "18eb13e0-d164-4212-baa7-04624c6297c1")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 86.36 0)
 		(unit 1)
@@ -3843,6 +5140,100 @@
 		)
 	)
 	(symbol
+		(lib_id "_tim-RF:AD8253")
+		(at 149.86 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4346cf03-cffc-49be-b010-7d6c6476cb55")
+		(property "Reference" "U22"
+			(at 152.0541 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AD8253"
+			(at 152.0541 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+			(at 149.86 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8253.pdf"
+			(at 149.86 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 MHz, 20 V/μs, G = 1, 10, 100, 1000 iCMOS Programmable Gain Instrumentation Amplifier"
+			(at 149.86 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dad17343-8f66-4136-bd9b-73ba5a366e09")
+		)
+		(pin "1"
+			(uuid "a396d3ac-3abc-4820-b05c-79bbd2ed7cdf")
+		)
+		(pin "4"
+			(uuid "950c252f-4004-4a20-b580-c4caaac6dc21")
+		)
+		(pin "6"
+			(uuid "d4a27ad5-ad05-45d6-83dd-a369c51c7056")
+		)
+		(pin "5"
+			(uuid "61843425-5f86-498d-a560-13aafe3f55b4")
+		)
+		(pin "3"
+			(uuid "757e37ad-5fea-46de-830d-739098da822f")
+		)
+		(pin "10"
+			(uuid "e1b52355-8999-423f-ab21-fe27df484348")
+		)
+		(pin "2"
+			(uuid "02d41ea4-03ea-46bb-81fa-201c41b2df42")
+		)
+		(pin "9"
+			(uuid "c67f5136-6325-432f-861c-783af6ada2f0")
+		)
+		(pin "7"
+			(uuid "05274e2a-82d8-4914-a480-a295792110fe")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 156.21 57.15 90)
 		(unit 1)
@@ -3904,6 +5295,71 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5197d747-f00a-482f-94a4-16598d615088")
+		(property "Reference" "#PWR055"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1f86514-8e55-4060-99a1-3e90bf12beaf")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4114,6 +5570,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 267.97 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5534212f-1373-4739-8bb8-76b5d023e0ac")
+		(property "Reference" "J6"
+			(at 271.78 75.2231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 271.78 77.7631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f162d21d-6c75-4884-8762-91b6944305ec")
+		)
+		(pin "2"
+			(uuid "bcef8cda-a791-42d6-92df-6f41a4c00dc8")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transformer:ETC1-1-13")
 		(at 133.35 78.74 0)
 		(unit 1)
@@ -4191,6 +5717,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 267.97 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bb3be4f-495b-44c5-bbde-dbdf0ca79367")
+		(property "Reference" "#PWR060"
+			(at 267.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9de98331-54c1-43cd-97d0-f52b80d13a26")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 121.92 130.81 180)
 		(unit 1)
@@ -4259,75 +5850,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 120.65 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62d7bc35-b2b8-4a26-8643-8264ceddbbb2")
-		(property "Reference" "R21"
-			(at 115.316 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 115.062 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "faa60ff1-1070-4784-ac04-1bef599fe277")
-		)
-		(pin "1"
-			(uuid "882cd61b-1e19-4240-b73f-277c133fec71")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 129.54 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4344,7 +5866,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1M"
 			(at 123.952 132.334 0)
 			(effects
 				(font
@@ -4396,6 +5918,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 224.79 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66d69385-2059-4687-a542-ecd1edcf8ce4")
+		(property "Reference" "C62"
+			(at 224.7963 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 224.7963 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 224.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffd495d0-966f-4d49-a136-debce0bac7c5")
+		)
+		(pin "1"
+			(uuid "6f09d0b6-6c3b-4b7d-992b-fdf78a9d02f2")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 129.54 113.03 0)
 		(unit 1)
@@ -4413,7 +6003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1M"
 			(at 127.508 113.284 90)
 			(effects
 				(font
@@ -4459,6 +6049,75 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "724ef4d8-1263-43b2-8743-c4adb0e70ec6")
+		(property "Reference" "R22"
+			(at 203.2 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "60.4"
+			(at 202.946 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab4d6b1b-582c-4a68-8def-c402a4508984")
+		)
+		(pin "2"
+			(uuid "b06555d1-c75e-424d-9a22-210e7f0d06e9")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4677,7 +6336,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Instrumentation:AD8429")
-		(at 144.78 123.19 0)
+		(at 148.59 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4686,7 +6345,7 @@
 		(fields_autoplaced yes)
 		(uuid "824540c0-2e35-4e88-9975-35c5f59b6cf9")
 		(property "Reference" "U18"
-			(at 157.48 118.999 0)
+			(at 161.29 152.019 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +6353,7 @@
 			)
 		)
 		(property "Value" "AD8429"
-			(at 157.48 121.539 0)
+			(at 161.29 154.559 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,7 +6361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 123.19 0)
+			(at 140.97 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +6370,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf"
-			(at 153.67 133.35 0)
+			(at 157.48 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +6379,7 @@
 			)
 		)
 		(property "Description" "Single Low Noise Instrumentation Amplifier, SOIC-8"
-			(at 144.78 123.19 0)
+			(at 148.59 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,75 +6589,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 133.35 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c47bfd6-c27f-42f5-aaff-831ab4b2772f")
-		(property "Reference" "R17"
-			(at 128.016 121.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "60.4"
-			(at 127.762 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 133.35 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bcd54817-8195-412f-81f2-4fb42b2973d7")
-		)
-		(pin "1"
-			(uuid "5cf8d47a-8c96-4e74-a4c1-9e373a7264c0")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Instrumentation:AD8429")
 		(at 132.08 45.72 0)
 		(unit 1)
@@ -5079,6 +6669,205 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93248824-01d9-4bdc-b351-2d0ac4177e1f")
+		(property "Reference" "#PWR059"
+			(at 208.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac74fdda-a138-4a55-9c2f-b35e2428c217")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "934a0778-8c79-4848-82af-bb2280f0ee3f")
+		(property "Reference" "#PWR058"
+			(at 219.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7697e692-7505-4eeb-ad6b-ba4628e2a586")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 237.49 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2321715-35a9-46ae-a23e-5aaeed4e960d")
+		(property "Reference" "R23"
+			(at 237.49 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 237.49 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33085b67-5499-414b-b770-888af852a0ff")
+		)
+		(pin "1"
+			(uuid "d3173024-09f9-41ce-989b-51282ec7c4cb")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5221,6 +7010,76 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 219.71 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bda958b8-1dd6-4a72-b8b9-5a984ea49ecb")
+		(property "Reference" "C63"
+			(at 222.25 143.5162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 222.25 146.0562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b9b6a5b-fbcc-4fde-82cf-2636cd963f3c")
+		)
+		(pin "1"
+			(uuid "f5697c98-601a-4065-beb6-48129642a6fa")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 124.46 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5281,6 +7140,121 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tim-RF:ADL5906")
+		(at 241.3 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1aab5fe-869c-4291-b929-7f1f1184e81b")
+		(property "Reference" "U21"
+			(at 243.4941 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADL5906"
+			(at 243.4941 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5906.pdf"
+			(at 241.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 MHz to 10 GHz, 67 dB TruPwr Detector"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "60ea075a-a1ac-4889-b382-a7b8b75400d2")
+		)
+		(pin "15"
+			(uuid "890aa26b-b797-45fd-b09c-cdc7a245f882")
+		)
+		(pin "8"
+			(uuid "b0b3ec76-0150-4de2-a9a6-b6444a9287a6")
+		)
+		(pin "1"
+			(uuid "ac969a8b-2e29-4b07-93f7-da1b73689307")
+		)
+		(pin "11"
+			(uuid "9e028191-9147-4fd0-949b-1b912cf3b3f6")
+		)
+		(pin "6"
+			(uuid "824c62ef-90f6-4ba7-8e01-6a8e2bf958a1")
+		)
+		(pin "5"
+			(uuid "246a7ddc-7f0c-4156-9874-7c0d53cac635")
+		)
+		(pin "10"
+			(uuid "f6614353-036f-4e8b-a2f2-e11073247946")
+		)
+		(pin "3"
+			(uuid "5b21c106-34d3-4b0d-9900-09203297b89b")
+		)
+		(pin "14"
+			(uuid "4aada075-b345-4e72-82ac-942c0ae5244d")
+		)
+		(pin "16"
+			(uuid "ad92bb98-b4ad-4af9-8d89-c61dc7b1c027")
+		)
+		(pin "12"
+			(uuid "ba35f82b-ad5e-4805-9111-bb0c3deb2fac")
+		)
+		(pin "2"
+			(uuid "88c4ece0-29bb-4d0d-8e61-19fc072d6dbe")
+		)
+		(pin "9"
+			(uuid "32693a4f-5adb-47e5-bac4-b784a96669fc")
+		)
+		(pin "17"
+			(uuid "e38bc0fe-525a-47fb-b1b4-ff5e090d2528")
+		)
+		(pin "4"
+			(uuid "4e4b3aa8-2650-4c08-8a1f-9634e6277fbd")
+		)
+		(pin "7"
+			(uuid "bccf32c7-20c6-448b-877c-2495b88eb9a5")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "U21")
 					(unit 1)
 				)
 			)
