@@ -2419,6 +2419,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 72.39) (xy 215.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a68e440-1680-43c1-8d48-df833c5c26eb")
+	)
+	(wire
+		(pts
 			(xy 88.9 124.46) (xy 88.9 127)
 		)
 		(stroke
@@ -2899,6 +2909,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 63.5) (xy 248.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f972ad-c9c0-4918-9231-e34668cadeb3")
+	)
+	(wire
+		(pts
 			(xy 152.4 64.77) (xy 152.4 69.85)
 		)
 		(stroke
@@ -3246,6 +3266,16 @@
 			(type default)
 		)
 		(uuid "a3ca6087-26ba-4ea5-a3d5-9aa2491fdfbf")
+	)
+	(wire
+		(pts
+			(xy 213.36 121.92) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47d51ce-ac3a-4770-b093-f782061f024e")
 	)
 	(wire
 		(pts
@@ -4047,6 +4077,16 @@
 		)
 		(uuid "fbcebd58-9cd5-4039-9d8d-daffc3db244d")
 	)
+	(text "0dBm"
+		(exclude_from_sim no)
+		(at 255.524 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d7fb5fc-5936-4b04-90b4-f15610bf6451")
+	)
 	(global_label "XO_REF"
 		(shape input)
 		(at 50.8 36.83 90)
@@ -4289,6 +4329,50 @@
 			)
 		)
 	)
+	(global_label "+3V3PLL"
+		(shape input)
+		(at 214.63 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9973ece3-5a38-4b87-8ad0-4127f4c84e9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2386 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3PLL"
+		(shape input)
+		(at 213.36 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a0d3296-31b6-4520-a596-242d4bc04af1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.9686 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOSI"
 		(shape input)
 		(at 118.11 83.82 90)
@@ -4302,6 +4386,28 @@
 		(uuid "b0010be4-f71e-4dab-9fa3-20d32d39857b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.11 76.2386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYNTH_TX"
+		(shape input)
+		(at 248.92 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bca9099d-785e-4906-b5dc-f418364dd455")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.9766 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +8986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_EuroQuartz_XO91-4Pin_7.0x5.0mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm"
 			(at 57.15 49.53 0)
 			(effects
 				(font

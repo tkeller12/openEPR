@@ -1,4 +1,4 @@
-23054602348173180
+23058022059527622
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94387,6 +94387,13 @@ Varistor VF
 0
 2
 2
+_tim-DC-DC
+IES0105S05-H
+
+
+0
+0
+0
 _tim-Headers
 PinHeader_Nano_1x15_P2.54mm_Vertical
 Through hole straight pin header, 1x15, 2.54mm pitch, single row
@@ -94442,6 +94449,13 @@ Voltage Variable Attenuator
 
 0
 34
+6
+_tim-RF-Mini-Circuits
+JC0603C
+
+
+0
+6
 6
 _tim-RF-Mini-Circuits
 SCPHS-180+
