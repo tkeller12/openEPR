@@ -8820,7 +8820,7 @@
 			(uuid "8f057122-6892-4cfe-b126-bceaa06a717f")
 		)
 		(pin "8"
-			(uuid "b7f85bb9-2a56-406f-8cb7-811b2d2ca4ab")
+			(uuid "b7f85bb9-2a56-406f-8cb7-811b2d2ca4ad")
 		)
 		(pin "6"
 			(uuid "b94c202d-6a27-4f31-9f31-4ad6b2e10428")
@@ -8829,16 +8829,16 @@
 			(uuid "3ec5400f-01ed-4de1-8322-c77e5caeef39")
 		)
 		(pin "3"
-			(uuid "217cf365-2285-417c-a1d1-5b8729c27b35")
+			(uuid "217cf365-2285-417c-a1d1-5b8729c27b36")
 		)
 		(pin "4"
-			(uuid "77d7cca6-df38-4672-a7e4-6f97ccdfcf4f")
+			(uuid "77d7cca6-df38-4672-a7e4-6f97ccdfcf51")
 		)
 		(pin "1"
-			(uuid "24e3c7c3-4d83-4437-8b5e-c1ffeaeea108")
+			(uuid "24e3c7c3-4d83-4437-8b5e-c1ffeaeea109")
 		)
 		(pin "2"
-			(uuid "37ba1abd-cbda-4157-857b-9486894def78")
+			(uuid "37ba1abd-cbda-4157-857b-9486894def79")
 		)
 		(instances
 			(project "S-Band Transceiver"
@@ -10462,28 +10462,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "8f057122-6892-4cfe-b126-bceaa06a7180")
+			(uuid "8f057122-6892-4cfe-b126-bceaa06a7181")
 		)
 		(pin "8"
-			(uuid "b7f85bb9-2a56-406f-8cb7-811b2d2ca4ac")
+			(uuid "b7f85bb9-2a56-406f-8cb7-811b2d2ca4ae")
 		)
 		(pin "6"
-			(uuid "b94c202d-6a27-4f31-9f31-4ad6b2e10429")
+			(uuid "b94c202d-6a27-4f31-9f31-4ad6b2e1042a")
 		)
 		(pin "5"
-			(uuid "3ec5400f-01ed-4de1-8322-c77e5caeef3a")
+			(uuid "3ec5400f-01ed-4de1-8322-c77e5caeef3b")
 		)
 		(pin "3"
-			(uuid "217cf365-2285-417c-a1d1-5b8729c27b36")
+			(uuid "217cf365-2285-417c-a1d1-5b8729c27b37")
 		)
 		(pin "4"
-			(uuid "77d7cca6-df38-4672-a7e4-6f97ccdfcf50")
+			(uuid "77d7cca6-df38-4672-a7e4-6f97ccdfcf52")
 		)
 		(pin "1"
-			(uuid "24e3c7c3-4d83-4437-8b5e-c1ffeaeea109")
+			(uuid "24e3c7c3-4d83-4437-8b5e-c1ffeaeea10a")
 		)
 		(pin "2"
-			(uuid "37ba1abd-cbda-4157-857b-9486894def79")
+			(uuid "37ba1abd-cbda-4157-857b-9486894def7a")
 		)
 		(instances
 			(project "S-Band Transceiver"
@@ -11022,28 +11022,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "8f057122-6892-4cfe-b126-bceaa06a7181")
+			(uuid "8f057122-6892-4cfe-b126-bceaa06a7182")
 		)
 		(pin "8"
-			(uuid "b7f85bb9-2a56-406f-8cb7-811b2d2ca4ad")
+			(uuid "b7f85bb9-2a56-406f-8cb7-811b2d2ca4af")
 		)
 		(pin "6"
-			(uuid "b94c202d-6a27-4f31-9f31-4ad6b2e1042a")
+			(uuid "b94c202d-6a27-4f31-9f31-4ad6b2e1042b")
 		)
 		(pin "5"
-			(uuid "3ec5400f-01ed-4de1-8322-c77e5caeef3b")
+			(uuid "3ec5400f-01ed-4de1-8322-c77e5caeef3c")
 		)
 		(pin "3"
-			(uuid "217cf365-2285-417c-a1d1-5b8729c27b37")
+			(uuid "217cf365-2285-417c-a1d1-5b8729c27b38")
 		)
 		(pin "4"
-			(uuid "77d7cca6-df38-4672-a7e4-6f97ccdfcf51")
+			(uuid "77d7cca6-df38-4672-a7e4-6f97ccdfcf53")
 		)
 		(pin "1"
-			(uuid "24e3c7c3-4d83-4437-8b5e-c1ffeaeea10a")
+			(uuid "24e3c7c3-4d83-4437-8b5e-c1ffeaeea10b")
 		)
 		(pin "2"
-			(uuid "37ba1abd-cbda-4157-857b-9486894def7a")
+			(uuid "37ba1abd-cbda-4157-857b-9486894def7b")
 		)
 		(instances
 			(project "S-Band Transceiver"
