@@ -5640,6 +5640,28 @@
 			)
 		)
 	)
+	(global_label "PDB_RF"
+		(shape input)
+		(at 55.88 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0350511d-fbbe-4b71-9a7a-aaee38efee8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.7586 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USBDM"
 		(shape input)
 		(at 199.39 39.37 0)
@@ -6164,6 +6186,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LD"
+		(shape input)
+		(at 55.88 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6b2d191-ce52-4085-8667-36d339a09a56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.5967 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
