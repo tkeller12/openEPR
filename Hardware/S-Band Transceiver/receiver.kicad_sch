@@ -3610,6 +3610,12 @@
 		(uuid "4c847862-9ebb-44c5-a127-934c360e9716")
 	)
 	(junction
+		(at 40.64 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57a22af7-057a-41d8-8a06-848a49998ed6")
+	)
+	(junction
 		(at 132.08 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3724,6 +3730,12 @@
 		(uuid "a621c093-7f66-4aa6-88b1-a6e162c0f30e")
 	)
 	(junction
+		(at 20.32 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad6a5354-5f92-46d2-80d9-4bce3fc6c61f")
+	)
+	(junction
 		(at 227.33 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3766,10 +3778,22 @@
 		(uuid "c55155e5-602f-4971-9115-f6632cff3d02")
 	)
 	(junction
+		(at 20.32 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8d408f0-4cd7-4a49-aaf5-a8421243d552")
+	)
+	(junction
 		(at 210.82 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8ea9d3f-2208-4260-b275-54ebb84bcc77")
+	)
+	(junction
+		(at 40.64 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb280726-33d7-49db-af26-172b523c875b")
 	)
 	(junction
 		(at 116.84 63.5)
@@ -3987,6 +4011,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 132.08) (xy 21.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba51c6d-18d7-4bec-bbd4-5ccc470661b0")
+	)
+	(wire
+		(pts
 			(xy 240.03 106.68) (xy 241.3 106.68)
 		)
 		(stroke
@@ -4057,6 +4091,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 132.08) (xy 48.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25959ac3-6dea-41e9-b1e4-33fe2c16f266")
+	)
+	(wire
+		(pts
 			(xy 210.82 101.6) (xy 210.82 132.08)
 		)
 		(stroke
@@ -4087,6 +4131,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 148.59) (xy 40.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbccc05-6209-4299-a7a7-51fb7362f2aa")
+	)
+	(wire
+		(pts
 			(xy 236.22 105.41) (xy 236.22 106.68)
 		)
 		(stroke
@@ -4094,6 +4148,16 @@
 			(type default)
 		)
 		(uuid "2dd252ef-0e75-482a-aa78-20dd8e265d4d")
+	)
+	(wire
+		(pts
+			(xy 134.62 33.02) (xy 132.08 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed2d784-fc02-44f2-8ac0-08372868ed71")
 	)
 	(wire
 		(pts
@@ -4207,6 +4271,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 132.08) (xy 27.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412f195a-7ba3-4f19-a7c4-44df22651fb2")
+	)
+	(wire
+		(pts
 			(xy 256.54 134.62) (xy 256.54 135.89)
 		)
 		(stroke
@@ -4247,6 +4321,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 133.35) (xy 49.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44848e9d-7739-4474-94cb-45873c737712")
+	)
+	(wire
+		(pts
 			(xy 218.44 138.43) (xy 218.44 139.7)
 		)
 		(stroke
@@ -4267,7 +4351,17 @@
 	)
 	(wire
 		(pts
-			(xy -19.05 130.81) (xy -19.05 132.08)
+			(xy 40.64 132.08) (xy 43.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b36dfe-a592-45a8-a9c9-e2e5ecd2a902")
+	)
+	(wire
+		(pts
+			(xy 20.32 148.59) (xy 20.32 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4327,6 +4421,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 132.08) (xy 40.64 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da57520-d145-437f-9f04-ee5952ef6ea8")
+	)
+	(wire
+		(pts
 			(xy 233.68 106.68) (xy 236.22 106.68)
 		)
 		(stroke
@@ -4357,6 +4461,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 149.86) (xy 40.64 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5189c337-1741-4f35-b2d8-daa6e44282cc")
+	)
+	(wire
+		(pts
 			(xy 92.71 87.63) (xy 93.98 87.63)
 		)
 		(stroke
@@ -4384,6 +4498,16 @@
 			(type default)
 		)
 		(uuid "5539860b-40f6-4a23-a5db-9cb696bc710b")
+	)
+	(wire
+		(pts
+			(xy 27.94 149.86) (xy 29.21 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d798fa-d4a3-4e19-a85a-d3addf1b410b")
 	)
 	(wire
 		(pts
@@ -4587,13 +4711,43 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 33.02) (xy 132.08 33.02)
+			(xy 140.97 33.02) (xy 139.7 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7b3e6a0e-c7bd-460b-aae0-50c32a1e7b2c")
+	)
+	(wire
+		(pts
+			(xy 40.64 130.81) (xy 40.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6aec1a-b542-4408-8f84-529536978c4d")
+	)
+	(wire
+		(pts
+			(xy 20.32 132.08) (xy 20.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c60f4f5-3ca0-4131-8d58-11fea6ef2378")
+	)
+	(wire
+		(pts
+			(xy 29.21 149.86) (xy 29.21 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7deba344-d917-4fcf-9f79-af849371646c")
 	)
 	(wire
 		(pts
@@ -4637,7 +4791,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 38.1) (xy 138.43 39.37)
+			(xy 146.05 38.1) (xy 146.05 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4837,6 +4991,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 149.86) (xy 48.26 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba32240-285b-4883-9ae6-b36a41603eb7")
+	)
+	(wire
+		(pts
 			(xy 66.04 97.79) (xy 66.04 99.06)
 		)
 		(stroke
@@ -5027,6 +5191,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 149.86) (xy 22.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9392060-3311-49d4-8a3f-4c34cf85e5d8")
+	)
+	(wire
+		(pts
 			(xy 85.09 16.51) (xy 85.09 17.78)
 		)
 		(stroke
@@ -5047,7 +5221,7 @@
 	)
 	(wire
 		(pts
-			(xy -19.05 114.3) (xy -19.05 115.57)
+			(xy 20.32 130.81) (xy 20.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5107,7 +5281,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 152.4 138.43)
+			(xy 158.75 137.16) (xy 158.75 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5124,6 +5298,16 @@
 			(type default)
 		)
 		(uuid "c2b55f5c-bfbd-44ed-9208-f50db65d9ce8")
+	)
+	(wire
+		(pts
+			(xy 49.53 151.13) (xy 49.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3100900-98c2-4bb8-8aa4-04f272ffb4cc")
 	)
 	(wire
 		(pts
@@ -5377,6 +5561,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 149.86) (xy 43.18 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f3cf4d-64d1-4f41-87c5-fea9a1078322")
+	)
+	(wire
+		(pts
 			(xy 120.65 129.54) (xy 125.73 129.54)
 		)
 		(stroke
@@ -5384,6 +5578,16 @@
 			(type default)
 		)
 		(uuid "ec7fba87-1435-4947-96c0-1517fa2240f3")
+	)
+	(wire
+		(pts
+			(xy 26.67 132.08) (xy 27.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ededeb79-de6b-4bc1-93c0-003b3eae5162")
 	)
 	(wire
 		(pts
@@ -5437,6 +5641,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 132.08) (xy 153.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f815f173-aafa-45ec-bb80-6817e36becd6")
+	)
+	(wire
+		(pts
 			(xy 86.36 82.55) (xy 87.63 82.55)
 		)
 		(stroke
@@ -5474,6 +5688,16 @@
 			(type default)
 		)
 		(uuid "fc9963a4-0b41-4bd9-9964-900cdfccf88b")
+	)
+	(wire
+		(pts
+			(xy 20.32 149.86) (xy 20.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9bcd00-15a2-4892-b7cd-dfb322a3a473")
 	)
 	(wire
 		(pts
@@ -5819,6 +6043,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 149.86 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c642d2c-8d83-4e2a-8bb6-16c7a977ba93")
+		(property "Reference" "R55"
+			(at 149.86 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 149.86 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1024b96d-a182-404b-8a07-aa1da4caedfa")
+		)
+		(pin "1"
+			(uuid "e67392ea-07d7-4364-9603-8ad16eb246d2")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 99.06 0)
 		(unit 1)
@@ -6016,6 +6307,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 29.21 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20808d88-b096-4e35-9fec-2916037ce604")
+		(property "Reference" "#PWR0120"
+			(at 29.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5abb249e-53ec-49bd-84e3-d2fcf19e4aac")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 101.6 120.65 0)
 		(unit 1)
@@ -6146,6 +6502,73 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "L15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 24.13 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23c2445f-bbbf-4757-a978-d951f9066311")
+		(property "Reference" "C8"
+			(at 24.13 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 24.13 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 24.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f2c5185-bb10-4155-8a3c-6536351de0c4")
+		)
+		(pin "1"
+			(uuid "1901a7b2-e011-4158-b37a-b71ba8faf668")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6653,7 +7076,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 152.4 132.08 0)
+		(at 158.75 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6662,7 +7085,7 @@
 		(fields_autoplaced yes)
 		(uuid "38812e74-5ef1-4fb6-a8fd-8276caa45131")
 		(property "Reference" "J1"
-			(at 156.21 131.1031 0)
+			(at 162.56 131.1031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,7 +7094,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 156.21 133.6431 0)
+			(at 162.56 133.6431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +7103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 132.08 0)
+			(at 158.75 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +7112,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 152.4 132.08 0)
+			(at 158.75 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +7121,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 152.4 132.08 0)
+			(at 158.75 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,6 +8429,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 137.16 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5be0dd12-d616-4fa2-bc37-4ffa65c5b03e")
+		(property "Reference" "R56"
+			(at 137.16 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 137.16 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 137.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfd34a96-7530-47ff-ba79-a64cfb4d65d9")
+		)
+		(pin "1"
+			(uuid "0b0fa397-c3d6-4205-b9cd-766b9c2dc4a8")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 85.09 17.78 0)
 		(unit 1)
@@ -8134,6 +8624,73 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 25.4 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fad75be-51fb-42be-9260-7db2ec3e4b4f")
+		(property "Reference" "C9"
+			(at 25.4 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 25.4 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 25.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d696cc4-ae1b-47cc-85c3-a83a668506cc")
+		)
+		(pin "1"
+			(uuid "75353011-c45a-425c-941e-d4bb6508f535")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8334,6 +8891,72 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 40.64 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c6e8412-bf95-4dc0-a49b-44d24456de66")
+		(property "Reference" "#PWR0118"
+			(at 40.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ea86769-43dc-4f0d-9ced-1a1ba33a3d45")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -8850,6 +9473,94 @@
 		)
 	)
 	(symbol
+		(lib_id "_tim-RF:LT1819")
+		(at 43.18 140.97 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bf8d2da-72c3-40e7-98e1-faa12dc61948")
+		(property "Reference" "U1"
+			(at 41.91 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LT1819"
+			(at 41.91 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400MHz, 2500V/µs, 9mA Single/Dual Operational Amplifi ers"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "8f057122-6892-4cfe-b126-bceaa06a7182")
+		)
+		(pin "8"
+			(uuid "6a84d1d4-a933-43db-af9d-560665d0637a")
+		)
+		(pin "6"
+			(uuid "b94c202d-6a27-4f31-9f31-4ad6b2e1042b")
+		)
+		(pin "5"
+			(uuid "3ec5400f-01ed-4de1-8322-c77e5caeef3c")
+		)
+		(pin "3"
+			(uuid "217cf365-2285-417c-a1d1-5b8729c27b38")
+		)
+		(pin "4"
+			(uuid "22d3aca8-690c-40c2-96dc-1e34241314b5")
+		)
+		(pin "1"
+			(uuid "24e3c7c3-4d83-4437-8b5e-c1ffeaeea10b")
+		)
+		(pin "2"
+			(uuid "37ba1abd-cbda-4157-857b-9486894def7b")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_tim-RF:SKY16603-632LF")
 		(at 168.91 82.55 0)
 		(mirror y)
@@ -8994,7 +9705,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 138.43 33.02 0)
+		(at 146.05 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9003,7 +9714,7 @@
 		(fields_autoplaced yes)
 		(uuid "848bc589-39fc-479e-b4ea-169e664a9503")
 		(property "Reference" "J8"
-			(at 142.24 32.0431 0)
+			(at 149.86 32.0431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +9723,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 142.24 34.5831 0)
+			(at 149.86 34.5831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,7 +9732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 33.02 0)
+			(at 146.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +9741,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 138.43 33.02 0)
+			(at 146.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +9750,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 138.43 33.02 0)
+			(at 146.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,6 +9768,71 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84b3cf4f-f73d-41ab-8b72-7047cb898870")
+		(property "Reference" "#PWR0119"
+			(at 49.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "575d2295-bfce-4080-84b3-6552236e9c44")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -9300,7 +10076,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at -19.05 132.08 180)
+		(at 20.32 151.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9309,7 +10085,7 @@
 		(fields_autoplaced yes)
 		(uuid "92564778-24d3-497d-8f98-8a2aa01d357f")
 		(property "Reference" "#PWR064"
-			(at -19.05 128.27 0)
+			(at 20.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +10094,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at -19.05 137.16 0)
+			(at 20.32 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +10102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -19.05 132.08 0)
+			(at 20.32 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +10111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -19.05 132.08 0)
+			(at 20.32 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,7 +10120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at -19.05 132.08 0)
+			(at 20.32 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +10470,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at -19.05 114.3 0)
+		(at 20.32 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9703,7 +10479,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab17f998-a5f1-48bf-9876-eacd99702cd8")
 		(property "Reference" "#PWR063"
-			(at -19.05 118.11 0)
+			(at 20.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +10488,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at -19.05 109.22 0)
+			(at 20.32 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +10496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -19.05 114.3 0)
+			(at 20.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +10505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -19.05 114.3 0)
+			(at 20.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +10514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at -19.05 114.3 0)
+			(at 20.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,6 +10529,72 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 40.64 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad0d7153-a2c1-4092-a7b2-cffd77f9f934")
+		(property "Reference" "#PWR0117"
+			(at 40.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 40.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 40.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92ea0ca7-b918-48e1-952e-ca639a363b65")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -10345,7 +11187,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 39.37 0)
+		(at 146.05 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10353,7 +11195,7 @@
 		(dnp no)
 		(uuid "c61cc384-4acc-4300-8c71-bd9b5e8f2b4c")
 		(property "Reference" "#PWR099"
-			(at 138.43 45.72 0)
+			(at 146.05 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +11204,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 42.926 0)
+			(at 146.05 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10370,7 +11212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 39.37 0)
+			(at 146.05 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10379,7 +11221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 39.37 0)
+			(at 146.05 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,7 +11230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 39.37 0)
+			(at 146.05 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,6 +11471,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d14f6084-569f-4d63-903c-b64df2772ca7")
+		(property "Reference" "C6"
+			(at 45.72 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 45.72 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6283660-cd07-4acf-952b-fd7f91d42378")
+		)
+		(pin "1"
+			(uuid "1208a884-a39a-4bf2-ac5b-fdae27fad134")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 116.84 66.04 0)
 		(mirror y)
@@ -10833,6 +11742,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 27.94 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da17af35-3233-4dee-89ff-945c0dc448b1")
+		(property "Reference" "#PWR0121"
+			(at 27.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0975944-a99f-43e1-a09c-265d5248be4f")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 100.33 36.83 90)
 		(unit 1)
@@ -10894,6 +11868,71 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "def35e35-bbc4-4995-8a8f-eb18eb5690b8")
+		(property "Reference" "#PWR0122"
+			(at 49.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff65384-aa4f-4d1f-af78-bb6bb2018c37")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -10967,8 +12006,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2d5e058-87fe-4f1a-ac17-a48c0ff4121c")
+		(property "Reference" "C7"
+			(at 45.72 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 45.72 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d46bde9-7571-4ea9-986f-fcdbade16375")
+		)
+		(pin "1"
+			(uuid "86b60845-8159-42f5-ab2f-d8ffcddd7c8a")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_tim-RF:LT1819")
-		(at -16.51 123.19 0)
+		(at 22.86 140.97 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10977,7 +12083,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3f3a86c-909c-40ff-97a3-e32eb251ffaf")
 		(property "Reference" "U18"
-			(at -17.78 121.9199 0)
+			(at 21.59 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +12092,7 @@
 			)
 		)
 		(property "Value" "LT1819"
-			(at -17.78 124.4599 0)
+			(at 21.59 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10995,7 +12101,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at -16.51 123.19 0)
+			(at 22.86 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +12110,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf"
-			(at -16.51 123.19 0)
+			(at 22.86 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,7 +12119,7 @@
 			)
 		)
 		(property "Description" "400MHz, 2500V/µs, 9mA Single/Dual Operational Amplifi ers"
-			(at -16.51 123.19 0)
+			(at 22.86 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11389,7 +12495,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 138.43 0)
+		(at 158.75 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11397,7 +12503,7 @@
 		(dnp no)
 		(uuid "eeaa6ea1-a66d-4d63-9012-b5e263eca96a")
 		(property "Reference" "#PWR098"
-			(at 152.4 144.78 0)
+			(at 158.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11406,7 +12512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 141.986 0)
+			(at 158.75 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11414,7 +12520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 138.43 0)
+			(at 158.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11423,7 +12529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 138.43 0)
+			(at 158.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11432,7 +12538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 138.43 0)
+			(at 158.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4818,7 +4818,7 @@
 			)
 		)
 	)
-	(global_label "RX_VRMS"
+	(global_label "TX_VRMS"
 		(shape input)
 		(at 247.65 118.11 0)
 		(fields_autoplaced yes)
@@ -4830,7 +4830,7 @@
 		)
 		(uuid "4f2ff991-4416-42fa-9301-8bd6a6f7550b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.1018 118.11 0)
+			(at 258.7994 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
