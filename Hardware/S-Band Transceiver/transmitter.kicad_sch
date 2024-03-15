@@ -5,6 +5,178 @@
 	(uuid "a0a66d5e-00e6-4d6e-b21c-cd2dd5091b25")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74xGxx:SN74LVC1G125DCK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1G125DCK"
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G5_DCK-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-353"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas?R?PDSO?G5?DCK*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1G125DCK_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN74LVC1G125DCK_1_1"
+				(pin input inverted
+					(at 0 10.16 270)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
@@ -3544,6 +3716,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 31.75) (xy 176.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1d3776-2f18-4f18-b6e9-5938a5f53ff5")
+	)
+	(wire
+		(pts
 			(xy 240.03 52.07) (xy 240.03 55.88)
 		)
 		(stroke
@@ -3571,6 +3753,16 @@
 			(type default)
 		)
 		(uuid "2baa2054-f576-4687-9d80-7865e0372d4e")
+	)
+	(wire
+		(pts
+			(xy 176.53 31.75) (xy 176.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb8a983-0008-4fa1-a289-a81f37257668")
 	)
 	(wire
 		(pts
@@ -3994,6 +4186,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 41.91) (xy 156.21 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e43d9e-89f0-4985-868d-18759222c729")
+	)
+	(wire
+		(pts
 			(xy 54.61 34.29) (xy 52.07 34.29)
 		)
 		(stroke
@@ -4281,16 +4483,6 @@
 			(type default)
 		)
 		(uuid "adb6bae1-6ddd-47ee-8be2-d8cb3da4a8a6")
-	)
-	(wire
-		(pts
-			(xy 176.53 39.37) (xy 176.53 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae454366-32dc-4ac7-a221-8a66736ecd91")
 	)
 	(wire
 		(pts
@@ -4704,6 +4896,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 20.32) (xy 156.21 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb55b45f-377d-42ec-8f8a-4a34fb0083b2")
+	)
+	(wire
+		(pts
 			(xy 118.11 24.13) (xy 118.11 30.48)
 		)
 		(stroke
@@ -4732,15 +4934,35 @@
 		)
 		(uuid "fe820a89-ac51-49bb-b3bd-158d74fad77c")
 	)
-	(wire
-		(pts
-			(xy 133.35 71.12) (xy 135.89 71.12)
+	(text "10 MHz to 10 GHz"
+		(exclude_from_sim no)
+		(at 227.33 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "397df274-c2a4-4089-8030-4aee3283cebf")
+	)
+	(text "0.5 to 5 GHz"
+		(exclude_from_sim no)
+		(at 176.53 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(uuid "ffedacb6-c9ef-4983-a64d-bc5b19caaba5")
+		(uuid "486485b1-fecc-4cd3-83b0-e739260709f5")
+	)
+	(text "DC to 4GHz"
+		(exclude_from_sim no)
+		(at 55.118 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f0f6270-46b0-4ee7-bff7-65bfbd045725")
 	)
 	(text "DC BLOCKING REQUIRED"
 		(exclude_from_sim no)
@@ -4763,6 +4985,26 @@
 		)
 		(uuid "83d666f0-7789-4e32-b777-577c0d94a720")
 	)
+	(text "1.7 to 2.2 GHz\nExtended Operation: 1.1-3.0 GHz"
+		(exclude_from_sim no)
+		(at 118.11 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85319909-fe73-4503-859a-6cfc3c67efab")
+	)
+	(text "PIN 20 Should always be low"
+		(exclude_from_sim no)
+		(at 44.704 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8793a66c-968b-4061-9984-73675e845553")
+	)
 	(text "DAT-31A-PP+\n31dB 5-bit digital atten.\nParallel control interface\nhttps://www.minicircuits.com/pdfs/DAT-31A-PP+.pdf"
 		(exclude_from_sim no)
 		(at 17.272 173.736 0)
@@ -4773,6 +5015,26 @@
 			(justify left)
 		)
 		(uuid "8ec54041-cc16-461e-b19b-7aaf5d8ebce4")
+	)
+	(text "For direct parallel programming\nLE should be pulled high"
+		(exclude_from_sim no)
+		(at 44.704 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2aaa87a-a910-4336-976c-4dd92bffc44a")
+	)
+	(text "1200 to 3300 MHz"
+		(exclude_from_sim no)
+		(at 212.09 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b78213a7-60fb-4cfb-b334-9644e41eb286")
 	)
 	(text "31.5dB startup:\nPUP1 HIGH\nPUP2 HIGH\nLE LOW"
 		(exclude_from_sim no)
@@ -4795,28 +5057,6 @@
 			(justify left)
 		)
 		(uuid "f397e8fd-faaf-4ac9-ae18-dd195ac436fd")
-	)
-	(global_label "MISO"
-		(shape input)
-		(at 135.89 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "167aabd0-cd52-45cf-8349-9592c98cd61c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.4714 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "TX_VRMS"
 		(shape input)
@@ -4996,22 +5236,22 @@
 	)
 	(global_label "TX_AMP_EN"
 		(shape input)
-		(at 176.53 39.37 90)
+		(at 146.05 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9fa5e3c7-91eb-43cf-b147-b21a8eefeeb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 25.983 90)
+			(at 132.663 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6607,6 +6847,136 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
+		(at 156.21 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bebf6ef-daf7-4ec4-b568-d3a77641c9a9")
+		(property "Reference" "#PWR0130"
+			(at 156.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 156.21 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 156.21 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99dadc60-d43d-4056-b76d-91f2be6d1eb7")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e74ad55-b939-467d-a948-24355a49b4ac")
+		(property "Reference" "#PWR0131"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "649660b3-38e6-4856-b47d-88cbf1fb761a")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
 		(at 125.73 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7424,6 +7794,82 @@
 		)
 	)
 	(symbol
+		(lib_id "74xGxx:SN74LVC1G125DCK")
+		(at 161.29 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94373ba0-f2ef-4005-8d2a-9b4626b43290")
+		(property "Reference" "U3"
+			(at 176.53 27.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G125DCK"
+			(at 145.034 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-353"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e73407-e0f6-4a78-abee-e98443cd92ca")
+		)
+		(pin "3"
+			(uuid "8a4dcfb5-fb07-4eac-bf36-a4e9dee651dd")
+		)
+		(pin "5"
+			(uuid "eeb27fbc-9a20-41c5-9fac-9a4378e8d043")
+		)
+		(pin "4"
+			(uuid "bdd98b62-f7a7-4139-bf20-d047ce8bce4a")
+		)
+		(pin "2"
+			(uuid "d03035f7-13ec-4f79-a2dc-907c51a44d0d")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 194.31 125.73 0)
 		(unit 1)
@@ -7631,7 +8077,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a63acf42-a8a8-4bd9-8703-c7a473c57159")
 		(property "Reference" "#PWR072"
 			(at 184.15 31.75 0)
@@ -7643,7 +8088,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 184.15 22.86 0)
+			(at 184.15 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

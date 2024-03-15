@@ -2005,6 +2005,12 @@
 		(uuid "323c8565-c8cd-4746-ae60-b4ae02d75d1f")
 	)
 	(junction
+		(at 106.68 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38d487b4-3379-468b-b194-1111861a00c3")
+	)
+	(junction
 		(at 147.32 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2476,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 124.46 96.52)
+			(xy 106.68 96.52) (xy 124.46 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2746,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 110.49 91.44)
+			(xy 106.68 92.71) (xy 106.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3116,6 +3122,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 96.52) (xy 106.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637158c8-e44d-45e1-9dbf-dd1cebd9248d")
+	)
+	(wire
+		(pts
 			(xy 81.28 119.38) (xy 81.28 116.84)
 		)
 		(stroke
@@ -3353,6 +3369,16 @@
 			(type default)
 		)
 		(uuid "809f5c67-b4bf-4cf4-b078-92fb5e5a3eb8")
+	)
+	(wire
+		(pts
+			(xy 106.68 86.36) (xy 106.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81aa3bd8-1897-441f-ad67-0cc34f206f64")
 	)
 	(wire
 		(pts
@@ -4696,6 +4722,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYNTH_CE"
+		(shape input)
+		(at 104.14 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "823e178b-0031-4131-91e3-e7ab1d952915")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.8415 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7935,6 +7983,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 106.68 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "920f5f35-29de-42fa-8808-9c0401128b81")
+		(property "Reference" "R60"
+			(at 109.728 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 109.474 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "660545fb-482c-4bdb-92da-a4a4b6801de2")
+		)
+		(pin "1"
+			(uuid "bffdb685-e747-4f6d-916d-5e9a0ed8aa70")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/1f8ad4e6-608c-455a-8c5c-ffe69657f316"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 128.27 0)
 		(unit 1)
@@ -8330,7 +8445,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 110.49 91.44 0)
+		(at 106.68 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8338,7 +8453,7 @@
 		(dnp no)
 		(uuid "9fd9be6f-ce1c-4040-90cc-9581b0302924")
 		(property "Reference" "#PWR0127"
-			(at 110.49 95.25 0)
+			(at 106.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +8462,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 110.49 87.122 0)
+			(at 106.68 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 91.44 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +8479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 91.44 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8373,7 +8488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 110.49 91.44 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
