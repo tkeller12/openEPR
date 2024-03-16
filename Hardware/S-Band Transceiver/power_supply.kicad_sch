@@ -908,6 +908,12 @@
 		(uuid "38b0116c-635f-4f40-b9b4-87b2dbb81872")
 	)
 	(junction
+		(at 101.6 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6532b386-b77e-4c6a-a5ef-f2202109c3c4")
+	)
+	(junction
 		(at 160.02 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -979,6 +985,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 48.26) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360da03a-bbd9-4c0d-a291-5be0544bbf53")
+	)
+	(wire
+		(pts
 			(xy 156.21 49.53) (xy 160.02 49.53)
 		)
 		(stroke
@@ -986,6 +1002,16 @@
 			(type default)
 		)
 		(uuid "36689ae9-9ac5-4c3d-a6da-964a8417bb81")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436f1f6a-35a6-48bc-9f70-e27440fe9d2a")
 	)
 	(wire
 		(pts
@@ -1126,6 +1152,26 @@
 			(type default)
 		)
 		(uuid "d607a454-32ae-4e63-b738-46c2d848a6de")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba1c336-e4b7-4fa4-9ea3-543af0165657")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 101.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57ebda7-b710-41a5-8088-5d9290ae39c8")
 	)
 	(wire
 		(pts
@@ -1719,7 +1765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -1763,6 +1809,76 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
+		(at 101.6 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8065c601-fa82-4ebe-a365-0a93617d7934")
+		(property "Reference" "C50"
+			(at 104.14 51.6381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 104.14 54.1781 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "658658be-3f31-4f23-8639-83c2dc77eee2")
+		)
+		(pin "1"
+			(uuid "a2114c7e-34f1-4564-8d11-b7b854c0c332")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/39233606-ce53-49cf-9f32-d543f22663a6"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
 		(at 77.47 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1789,7 +1905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 77.47 53.34 0)
 			(effects
 				(font
@@ -1899,16 +2015,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 101.6 53.34 0)
+		(at 110.49 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cebe1031-dcea-448a-bdd8-1b3c2d579ab3")
-		(property "Reference" "C50"
-			(at 104.14 51.6381 0)
+		(uuid "c0cc14a2-d0b9-4fb7-88ae-ba57cd66b569")
+		(property "Reference" "C91"
+			(at 113.03 51.6381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,8 +2032,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 104.14 54.1781 0)
+		(property "Value" "10uF"
+			(at 113.03 54.1781 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,8 +2041,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 53.34 0)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 110.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 53.34 0)
+			(at 110.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2060,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 101.6 53.34 0)
+			(at 110.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,15 +2069,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c3a90c28-3c0e-4e70-bfd4-5210fab7e5ea")
+			(uuid "c7c2a1ae-112a-4c76-9c2f-fbb896848ced")
 		)
 		(pin "1"
-			(uuid "eb600243-8453-405f-bd7d-e17a7d8057f0")
+			(uuid "83da6871-01bc-4cf3-9bac-eb6710114064")
 		)
 		(instances
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/39233606-ce53-49cf-9f32-d543f22663a6"
-					(reference "C50")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -2060,7 +2176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 160.02 52.07 0)
 			(effects
 				(font

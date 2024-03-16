@@ -1,4 +1,4 @@
-23058022059527622
+23058022060375939
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94392,8 +94392,8 @@ IES0105S05-H
 
 
 0
-0
-0
+5
+5
 _tim-Headers
 PinHeader_Nano_1x15_P2.54mm_Vertical
 Through hole straight pin header, 1x15, 2.54mm pitch, single row
