@@ -3291,6 +3291,12 @@
 		(uuid "305c91a4-e61f-4bd7-ada3-d65e2af5e647")
 	)
 	(junction
+		(at 156.21 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3880affe-bc42-4384-9dfc-5e01ff71b0e3")
+	)
+	(junction
 		(at 207.01 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3886,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 67.31) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b22a4c4-9a62-48f3-94dc-07f9386ba745")
+	)
+	(wire
+		(pts
 			(xy 133.35 63.5) (xy 135.89 63.5)
 		)
 		(stroke
@@ -4023,6 +4039,16 @@
 			(type default)
 		)
 		(uuid "55d6d2d3-44d4-4b8f-95e9-d4fece777ef7")
+	)
+	(wire
+		(pts
+			(xy 156.21 55.88) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56287100-a4b1-47a2-95be-cca4e882f55f")
 	)
 	(wire
 		(pts
@@ -4236,6 +4262,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 55.88) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c66963f-911a-477d-bf6a-449704715009")
+	)
+	(wire
+		(pts
 			(xy 205.74 125.73) (xy 205.74 127)
 		)
 		(stroke
@@ -4416,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 55.88) (xy 161.29 55.88)
+			(xy 149.86 55.88) (xy 156.21 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7294,6 +7330,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Small")
+		(at 156.21 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "750ad82d-c5d4-46f5-b398-867e6091be90")
+		(property "Reference" "L9"
+			(at 157.226 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nH"
+			(at 156.972 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9943b75-fedd-4ccc-b064-5bb119021752")
+		)
+		(pin "1"
+			(uuid "5103cf3a-6d7f-4433-b1df-fd9a43acaeb5")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
+					(reference "L9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 57.15 34.29 90)
 		(unit 1)
@@ -9597,6 +9702,73 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e43aa126-4c06-4ed9-8674-d9856205194c")
+		(property "Reference" "#PWR0137"
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfeb1b16-89d9-4e50-9875-286f42069cdc")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
