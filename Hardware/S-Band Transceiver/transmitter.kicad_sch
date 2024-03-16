@@ -4954,6 +4954,16 @@
 		)
 		(uuid "486485b1-fecc-4cd3-83b0-e739260709f5")
 	)
+	(text "+16V DC Max"
+		(exclude_from_sim no)
+		(at 262.128 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ed7be98-fee1-44fa-b0aa-e40d3aa56434")
+	)
 	(text "DC to 4GHz"
 		(exclude_from_sim no)
 		(at 55.118 28.956 0)
@@ -5046,6 +5056,16 @@
 			(justify left)
 		)
 		(uuid "c518fa36-6dfb-41b8-aa78-dde2f79bc599")
+	)
+	(text "2GHz is Target Frequency"
+		(exclude_from_sim no)
+		(at 33.274 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8ba2e9a-712d-4f70-afd4-811ef13a4dd6")
 	)
 	(text "VSS_EXT to GND:\nenable internal negative voltage generator\n"
 		(exclude_from_sim no)
@@ -5991,74 +6011,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 147.32 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "336f6e88-cd84-4a8d-8544-2984fdced61b")
-		(property "Reference" "C60"
-			(at 147.3263 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100pF"
-			(at 147.3263 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 147.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 147.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3aa5ce77-48c0-467c-bf05-cab174f03874")
-		)
-		(pin "2"
-			(uuid "45dc22c9-3291-44ba-ae81-3f2a3f8ff06e")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
-					(reference "C60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "_tim-RF:ADL5906")
 		(at 227.33 121.92 0)
 		(unit 1)
@@ -6181,8 +6133,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b94b23a-9a4d-488a-997a-44264552780c")
-		(property "Reference" "C64"
+		(uuid "3c93e961-6814-434d-a749-4953cdaf7eeb")
+		(property "Reference" "C63"
 			(at 210.8263 113.03 90)
 			(effects
 				(font
@@ -6207,7 +6159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
 			(at 210.82 119.38 0)
 			(effects
 				(font
@@ -6225,16 +6177,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "77bbd21b-a1b4-438a-b269-d5968b2c25d3")
+		(property "Digikey" "1284-1540-1-ND"
+			(at 210.82 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e57bf840-0a34-4628-b70e-140477315919")
+			(uuid "9a5a9cde-d5fb-49d2-a0a4-05d3c12857ed")
+		)
+		(pin "2"
+			(uuid "3b80079d-6f28-45cd-b0d6-88b4ecf9633f")
 		)
 		(instances
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
-					(reference "C64")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -7177,34 +7138,32 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 205.74 129.54 0)
+		(at 147.32 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "69d40714-146c-432e-a9bd-b01761fd9ab1")
-		(property "Reference" "C63"
-			(at 208.28 128.2762 0)
+		(uuid "6e147277-5b7b-4fd0-9857-26c3c26a0088")
+		(property "Reference" "C60"
+			(at 147.3263 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10nF"
-			(at 208.28 130.8162 0)
+			(at 147.3263 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 205.74 129.54 0)
+			(at 147.32 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,8 +7171,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 205.74 129.54 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
+			(at 147.32 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +7181,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 205.74 129.54 0)
+			(at 147.32 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,16 +7189,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "9707158a-e6b6-4f6e-9a23-f4759b3c39d0")
+		(property "Digikey" "1284-1540-1-ND"
+			(at 147.32 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "692a8673-eb9a-482d-963a-3c7e52666b9a")
+			(uuid "020ed5a4-dc26-46a0-ac92-c0130aad9be9")
+		)
+		(pin "2"
+			(uuid "4d2e2f75-a707-4725-b40f-878310ff5147")
 		)
 		(instances
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
-					(reference "C63")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -8765,6 +8733,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 205.74 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0bca1f8-e282-47e5-90dc-4bfc4aa18472")
+		(property "Reference" "C64"
+			(at 208.28 128.2762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 208.28 130.8162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1284-1540-1-ND"
+			(at 205.74 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2f5b27c-faaf-4dc0-b166-3c155d4819c4")
+		)
+		(pin "2"
+			(uuid "554aaa50-b97d-4786-84b8-79cc858e0ebd")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 72.39 0)
 		(unit 1)
@@ -9091,74 +9138,6 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 92.71 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0f204aa-01d7-475f-ab89-a524e18a96d9")
-		(property "Reference" "C57"
-			(at 92.7163 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100pF"
-			(at 92.7163 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 92.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ad33540-cfed-460b-b1d0-d093ba8c1f8a")
-		)
-		(pin "2"
-			(uuid "c0a31603-ae2d-4fc8-9373-b29afc448c90")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
-					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -9840,7 +9819,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "10nF"
 			(at 233.6863 52.07 90)
 			(effects
 				(font
@@ -9857,7 +9836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -9868,6 +9847,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1284-1540-1-ND"
+			(at 233.68 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,6 +10070,83 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbdca53e-a0c2-4ef8-8be8-57168d4347b9")
+		(property "Reference" "C57"
+			(at 92.7163 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 92.7163 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1284-1540-1-ND"
+			(at 92.71 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "794c78a8-2436-41a9-8b34-b9f104356477")
+		)
+		(pin "2"
+			(uuid "f77000b0-deae-4778-9c82-7f87f73da904")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
+					(reference "C57")
 					(unit 1)
 				)
 			)

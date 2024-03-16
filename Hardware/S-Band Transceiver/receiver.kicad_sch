@@ -3872,16 +3872,16 @@
 		)
 	)
 	(junction
+		(at 153.67 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f2e43ec-5389-4358-b4d8-bae7e27b2ec7")
+	)
+	(junction
 		(at 127 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e615805-7349-45fa-8e8f-a187226991a1")
-	)
-	(junction
-		(at 81.28 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f65d10f-d4ab-4b80-b2ed-6ab57d7c6da0")
 	)
 	(junction
 		(at 90.17 27.94)
@@ -3924,6 +3924,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f81f263-5b37-4a35-8603-7cf87f1ce3e1")
+	)
+	(junction
+		(at 142.24 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fd176af-a9e3-406f-b404-8c0b482b632d")
 	)
 	(junction
 		(at 256.54 147.32)
@@ -4026,6 +4032,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a621c093-7f66-4aa6-88b1-a6e162c0f30e")
+	)
+	(junction
+		(at 81.28 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7dad3a7-e4de-48f6-ab47-29863e8ea7dd")
 	)
 	(junction
 		(at 20.32 149.86)
@@ -4136,6 +4148,16 @@
 			(type default)
 		)
 		(uuid "033f0127-c24b-463b-aff0-f403fab33317")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.04) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04aa0fe1-0b64-4079-adfc-7411d5cba140")
 	)
 	(wire
 		(pts
@@ -4316,6 +4338,16 @@
 			(type default)
 		)
 		(uuid "1ba51c6d-18d7-4bec-bbd4-5ccc470661b0")
+	)
+	(wire
+		(pts
+			(xy 142.24 33.02) (xy 139.7 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c655c05-24bf-49a8-ba77-fe98f5965ca3")
 	)
 	(wire
 		(pts
@@ -4509,6 +4541,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 132.08) (xy 153.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331cf204-8b52-4b2f-bec4-01c6b68bb69e")
+	)
+	(wire
+		(pts
 			(xy 96.52 127) (xy 101.6 127)
 		)
 		(stroke
@@ -4549,6 +4591,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 82.55) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2e5c3b-d5a2-41d6-b0da-4b2d54351b2f")
+	)
+	(wire
+		(pts
 			(xy 71.12 59.69) (xy 71.12 55.88)
 		)
 		(stroke
@@ -4559,7 +4611,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 68.58) (xy 83.82 68.58)
+			(xy 81.28 66.04) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4639,6 +4691,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 78.74) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e58524-a5d0-48e6-9102-34e5df88e9dd")
+	)
+	(wire
+		(pts
 			(xy 218.44 138.43) (xy 218.44 139.7)
 		)
 		(stroke
@@ -4649,13 +4711,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 62.23) (xy 85.09 62.23)
+			(xy 81.28 60.96) (xy 85.09 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4713d2e6-7e22-4d33-a659-9f223ba72676")
+	)
+	(wire
+		(pts
+			(xy 106.68 82.55) (xy 104.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478a75b6-da3f-461d-8d00-4c35d330256c")
 	)
 	(wire
 		(pts
@@ -4716,16 +4788,6 @@
 			(type default)
 		)
 		(uuid "4bd5a74c-cd0f-43be-a7c3-2310058e5fec")
-	)
-	(wire
-		(pts
-			(xy 104.14 87.63) (xy 106.68 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c849930-e0d4-4e43-ade7-ab8719d9bd65")
 	)
 	(wire
 		(pts
@@ -4919,7 +4981,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 129.54) (xy 143.51 132.08)
+			(xy 153.67 129.54) (xy 153.67 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4999,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 30.48) (xy 132.08 33.02)
+			(xy 142.24 30.48) (xy 142.24 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5019,7 +5081,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 33.02) (xy 139.7 33.02)
+			(xy 144.78 33.02) (xy 142.24 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5099,7 +5161,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 38.1) (xy 146.05 39.37)
+			(xy 149.86 38.1) (xy 149.86 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5176,6 +5238,16 @@
 			(type default)
 		)
 		(uuid "8b643ced-b46f-4912-a2a3-c6a975eb4708")
+	)
+	(wire
+		(pts
+			(xy 87.63 77.47) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4158ac-a5e2-4e63-9413-9ca984fb3071")
 	)
 	(wire
 		(pts
@@ -5256,6 +5328,16 @@
 			(type default)
 		)
 		(uuid "9600c9c6-c607-4206-b7a3-dcf2a1bf9c67")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 114.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969029fd-0b0e-44cd-b651-efdbaabeb4f2")
 	)
 	(wire
 		(pts
@@ -5409,6 +5491,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 87.63) (xy 104.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9575da1-c4d8-46fc-a806-37870929d459")
+	)
+	(wire
+		(pts
 			(xy 226.06 132.08) (xy 227.33 132.08)
 		)
 		(stroke
@@ -5509,7 +5601,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 72.39) (xy 81.28 68.58)
+			(xy 81.28 66.04) (xy 81.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5599,7 +5691,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 68.58) (xy 88.9 68.58)
+			(xy 95.25 66.04) (xy 88.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5619,7 +5711,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 137.16) (xy 158.75 138.43)
+			(xy 161.29 137.16) (xy 161.29 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5666,16 +5758,6 @@
 			(type default)
 		)
 		(uuid "c53276b1-4124-4b21-a0c3-1d6cd393adee")
-	)
-	(wire
-		(pts
-			(xy 81.28 68.58) (xy 81.28 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6fd0912-7bc3-46d0-aff7-3c57914eb07b")
 	)
 	(wire
 		(pts
@@ -5739,7 +5821,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 106.68 90.17)
+			(xy 106.68 82.55) (xy 106.68 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6019,6 +6101,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 71.12) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a9b856-5fcf-4e95-98b9-8cc89ebae595")
+	)
+	(wire
+		(pts
 			(xy 71.12 114.3) (xy 71.12 118.11)
 		)
 		(stroke
@@ -6059,7 +6151,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 90.17 68.58)
+			(xy 95.25 67.31) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6067,19 +6159,9 @@
 		)
 		(uuid "ff4e4fc8-9ea9-4dd6-bb29-e4ed14f5db17")
 	)
-	(wire
-		(pts
-			(xy 104.14 82.55) (xy 119.38 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff973313-7cde-4db7-99ca-55776acd7c37")
-	)
 	(text "4.5 - 3000 MHz"
 		(exclude_from_sim no)
-		(at 99.06 75.438 0)
+		(at 99.06 95.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6159,6 +6241,26 @@
 			(justify left)
 		)
 		(uuid "7cae19d0-da2d-4c9d-8e57-ec6bd897ac60")
+	)
+	(text "+16V DC Max"
+		(exclude_from_sim no)
+		(at 259.588 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81e19011-3645-4c2e-8f56-85486f14382f")
+	)
+	(text "VREF is 2.3V"
+		(exclude_from_sim no)
+		(at 273.05 145.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cba1a3c-59d4-4e3d-8eaa-42acccf4070c")
 	)
 	(text "1200 to 3300 MHz"
 		(exclude_from_sim no)
@@ -6258,7 +6360,7 @@
 	)
 	(global_label "IQ_MIXER_EN"
 		(shape input)
-		(at 85.09 62.23 0)
+		(at 85.09 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6268,7 +6370,7 @@
 		)
 		(uuid "76c09af7-2b83-4e6e-8c0a-e8218af32f4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.1099 62.23 0)
+			(at 100.1099 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +6404,7 @@
 	)
 	(global_label "I_IF"
 		(shape input)
-		(at 132.08 30.48 90)
+		(at 142.24 30.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6312,7 +6414,7 @@
 		)
 		(uuid "8a2fe026-06e0-43d2-aeda-f31060911c46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 24.229 90)
+			(at 142.24 24.229 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6470,7 @@
 	)
 	(global_label "Q_IF"
 		(shape input)
-		(at 143.51 129.54 90)
+		(at 153.67 129.54 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6378,7 +6480,7 @@
 		)
 		(uuid "e1c1cd87-f4ee-4769-97ce-3bf8d5c26126")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 122.5633 90)
+			(at 153.67 122.5633 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7140,32 +7242,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 227.33 82.55 90)
+		(lib_id "power:+5V")
+		(at 87.63 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3106f384-4aa0-4378-a64c-e2fef5722f25")
-		(property "Reference" "C85"
-			(at 227.33 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100pF"
-			(at 227.33 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 227.33 82.55 0)
+		(uuid "2c0040f1-27d8-4394-8652-22d8ed309558")
+		(property "Reference" "#PWR0136"
+			(at 87.63 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,8 +7259,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 227.33 82.55 0)
+		(property "Value" "+5V"
+			(at 84.836 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7182,8 +7276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 227.33 82.55 0)
+		(property "Datasheet" ""
+			(at 87.63 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,16 +7285,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "6cb3b7e5-8993-4a12-8eac-8f0963e1b85f")
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 87.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "5676bdad-9c2c-4792-84cf-84e596b69b82")
+			(uuid "5a16b0c3-1c96-4f52-91ff-02d4033af09b")
 		)
 		(instances
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
-					(reference "C85")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -7488,7 +7588,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 158.75 132.08 0)
+		(at 161.29 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7497,7 +7597,7 @@
 		(fields_autoplaced yes)
 		(uuid "38812e74-5ef1-4fb6-a8fd-8276caa45131")
 		(property "Reference" "J7"
-			(at 162.56 131.1031 0)
+			(at 165.1 131.1031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +7606,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 162.56 133.6431 0)
+			(at 165.1 133.6431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +7615,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 158.75 132.08 0)
+			(at 161.29 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7624,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 158.75 132.08 0)
+			(at 161.29 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +7633,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 158.75 132.08 0)
+			(at 161.29 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,6 +8124,83 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 227.33 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bb9fccc-56f5-406f-9065-916dd5f7c99d")
+		(property "Reference" "C85"
+			(at 227.3363 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 227.3363 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1284-1540-1-ND"
+			(at 227.33 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "355dcef5-2456-4759-9d81-404c688b97e1")
+		)
+		(pin "2"
+			(uuid "c3f9aa73-5611-4fc0-912a-86092684b686")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -8567,15 +8744,15 @@
 	(symbol
 		(lib_id "Transformer:ETC1-1-13")
 		(at 99.06 85.09 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55d14250-2e87-4ebb-8d9f-a203c6604e10")
 		(property "Reference" "TR1"
-			(at 99.314 77.47 0)
+			(at 99.314 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8760,7 @@
 			)
 		)
 		(property "Value" "ETC1-1-13"
-			(at 99.314 80.01 0)
+			(at 99.314 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +8768,7 @@
 			)
 		)
 		(property "Footprint" "Transformer_SMD:Transformer_MACOM_SM-22"
-			(at 99.06 78.74 0)
+			(at 99.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9235,74 +9412,6 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 223.52 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66d69385-2059-4687-a542-ecd1edcf8ce4")
-		(property "Reference" "C84"
-			(at 223.5263 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10nF"
-			(at 223.5263 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 223.52 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 223.52 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ffd495d0-966f-4d49-a136-debce0bac7c5")
-		)
-		(pin "1"
-			(uuid "6f09d0b6-6c3b-4b7d-992b-fdf78a9d02f2")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
-					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -10182,7 +10291,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 146.05 33.02 0)
+		(at 149.86 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10191,7 +10300,7 @@
 		(fields_autoplaced yes)
 		(uuid "848bc589-39fc-479e-b4ea-169e664a9503")
 		(property "Reference" "J6"
-			(at 149.86 32.0431 0)
+			(at 153.67 32.0431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10309,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 149.86 34.5831 0)
+			(at 153.67 34.5831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10318,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 146.05 33.02 0)
+			(at 149.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,7 +10327,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 146.05 33.02 0)
+			(at 149.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10336,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 146.05 33.02 0)
+			(at 149.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,16 +10527,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 90.17 0)
+		(at 106.68 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8bc269dc-643c-492d-9068-85a64e65b922")
 		(property "Reference" "#PWR0114"
-			(at 106.68 96.52 0)
+			(at 106.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +10544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 95.25 0)
+			(at 109.982 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,7 +10552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 90.17 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,7 +10561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 90.17 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10462,7 +10570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 90.17 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +10592,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 86.36 68.58 270)
+		(at 86.36 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10492,7 +10600,7 @@
 		(dnp no)
 		(uuid "8ceb637b-7ee1-4ce1-9f4d-a2cee49c5746")
 		(property "Reference" "R45"
-			(at 84.836 66.802 90)
+			(at 84.836 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,7 +10608,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 88.138 66.802 90)
+			(at 88.138 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10508,7 +10616,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.36 68.58 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,7 +10625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 68.58 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10634,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 86.36 68.58 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,6 +11050,82 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 90.17 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a238ee50-dd2c-4464-a1b7-ec653ee4dedb")
+		(property "Reference" "C80"
+			(at 89.916 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 90.17 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 90.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
+			(at 90.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 90.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1284-1540-1-ND"
+			(at 90.17 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e16c874-3405-4719-83b0-78961a320104")
+		)
+		(pin "2"
+			(uuid "a86ebaa3-53aa-4189-8f6e-3f52eb2e8b17")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -11555,78 +11739,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 218.44 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bda958b8-1dd6-4a72-b8b9-5a984ea49ecb")
-		(property "Reference" "C83"
-			(at 220.98 140.9762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 220.98 143.5162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 218.44 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 218.44 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b9b6a5b-fbcc-4fde-82cf-2636cd963f3c")
-		)
-		(pin "1"
-			(uuid "f5697c98-601a-4065-beb6-48129642a6fa")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
-					(reference "C83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 90.17 69.85 0)
+		(at 95.25 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11634,7 +11748,7 @@
 		(dnp no)
 		(uuid "c04f5a4f-42d4-4011-8ab2-bc03c5327540")
 		(property "Reference" "#PWR0112"
-			(at 90.17 76.2 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11643,7 +11757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 73.406 0)
+			(at 95.25 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,7 +11765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 69.85 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11660,7 +11774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 69.85 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,7 +11783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 69.85 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11684,73 +11798,6 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 90.17 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0a25e95-783d-47d9-8845-883859c39a9d")
-		(property "Reference" "C79"
-			(at 90.17 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100pF"
-			(at 90.17 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 90.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 90.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81c78bbb-bb55-4674-b909-f7cf60b85166")
-		)
-		(pin "1"
-			(uuid "db3ef60d-7ec1-44a5-8c66-84c8305dabf1")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
-					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -11871,32 +11918,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 90.17 87.63 270)
+		(lib_id "Device:R_Small_US")
+		(at 87.63 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c4132eb0-23cd-419a-b57e-d8a1724ad80d")
-		(property "Reference" "C80"
-			(at 90.17 92.456 90)
+		(uuid "c1bfd50f-8c8e-4ea3-91d7-1217d3db191c")
+		(property "Reference" "R65"
+			(at 90.678 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100pF"
-			(at 90.17 90.424 90)
+		(property "Value" "1.5k"
+			(at 90.678 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 90.17 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 87.63 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +11952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 87.63 0)
+			(at 87.63 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11913,8 +11960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 90.17 87.63 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 87.63 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,15 +11970,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c4bc6aa4-2316-4555-8286-4679163917eb")
+			(uuid "02110d77-cc3d-45a6-847f-eada7c5bcf3a")
 		)
 		(pin "1"
-			(uuid "e1012041-50f2-4e5c-a449-acc0031aa88f")
+			(uuid "c3195949-d55b-40bc-973d-cae6c4eac3cb")
 		)
 		(instances
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
-					(reference "C80")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -11939,7 +11986,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 39.37 0)
+		(at 149.86 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11947,7 +11994,7 @@
 		(dnp no)
 		(uuid "c61cc384-4acc-4300-8c71-bd9b5e8f2b4c")
 		(property "Reference" "#PWR0120"
-			(at 146.05 45.72 0)
+			(at 149.86 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11956,7 +12003,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 42.926 0)
+			(at 149.86 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11964,7 +12011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 39.37 0)
+			(at 149.86 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11973,7 +12020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 39.37 0)
+			(at 149.86 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11982,7 +12029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 39.37 0)
+			(at 149.86 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,6 +12130,83 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 223.52 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbca631d-94c5-4e96-b866-d231c8ad3f01")
+		(property "Reference" "C83"
+			(at 223.5263 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 223.5263 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1284-1540-1-ND"
+			(at 223.52 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf5a9c9f-cf63-4d11-976d-549859f1b9e6")
+		)
+		(pin "2"
+			(uuid "54e98753-c936-4743-a3c9-48f5838e9706")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -13247,7 +13371,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 138.43 0)
+		(at 161.29 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13255,7 +13379,7 @@
 		(dnp no)
 		(uuid "eeaa6ea1-a66d-4d63-9012-b5e263eca96a")
 		(property "Reference" "#PWR0123"
-			(at 158.75 144.78 0)
+			(at 161.29 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13264,7 +13388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 141.986 0)
+			(at 161.29 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13272,7 +13396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 138.43 0)
+			(at 161.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13281,7 +13405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 138.43 0)
+			(at 161.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,7 +13414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 138.43 0)
+			(at 161.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,6 +13565,161 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f45bfce1-c266-409f-ade8-2512edfa97f1")
+		(property "Reference" "C84"
+			(at 220.98 140.9635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 220.98 143.5035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1284-1540-1-ND"
+			(at 218.44 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8317bfd-993f-496a-b83b-2d748a2e25a2")
+		)
+		(pin "2"
+			(uuid "41e2b2c0-0b3d-4f2f-9820-74a970b9ff36")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 90.17 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f683ce11-b91e-4e98-8b71-852a7b3be954")
+		(property "Reference" "C79"
+			(at 90.17 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 90.17 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1284-1540-1-ND"
+			(at 90.17 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b411154-d660-48e4-82da-281617578b4d")
+		)
+		(pin "2"
+			(uuid "7f311f7b-ba4f-4a05-8c51-f37f24f86a7d")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "C79")
 					(unit 1)
 				)
 			)

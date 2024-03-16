@@ -8155,75 +8155,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 257.81 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "060187e8-d626-45f3-a885-1deba9c8b431")
-		(property "Reference" "D5"
-			(at 259.588 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RED"
-			(at 259.334 137.922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 257.81 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 257.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02c221ab-097d-4190-ba2f-0af703d919bc")
-		)
-		(pin "2"
-			(uuid "2b71a416-a679-4716-80e2-a58c9fd13123")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 17.78 64.77 90)
 		(unit 1)
@@ -8368,7 +8299,7 @@
 		(dnp no)
 		(uuid "0f97e59f-a05a-4023-a840-da7ffb28149e")
 		(property "Reference" "D3"
-			(at 40.64 126.9364 90)
+			(at 40.386 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,13 +8307,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "150080SS75000"
 			(at 40.64 129.4764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
@@ -8394,7 +8326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080VS75000.pdf"
 			(at 38.1 128.27 90)
 			(effects
 				(font
@@ -8815,6 +8747,76 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 257.81 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23e31677-ac5d-4ea0-983f-b1fb57908778")
+		(property "Reference" "D5"
+			(at 259.588 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150080VS75000"
+			(at 250.444 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 257.81 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080VS75000.pdf"
+			(at 257.81 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 257.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba99babb-9c4c-4df7-aa48-afb28a13cd50")
+		)
+		(pin "2"
+			(uuid "e8c9e3e4-5678-457f-9790-e6725924a6ca")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9497,6 +9499,76 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 266.7 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f38297d-e3d9-48b5-a166-7e6e9a55c488")
+		(property "Reference" "D6"
+			(at 268.478 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150080VS75000"
+			(at 259.334 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 266.7 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080VS75000.pdf"
+			(at 266.7 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 266.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01f4c39b-b074-474e-a67a-b436e6bf4832")
+		)
+		(pin "2"
+			(uuid "67d7316d-9d93-4ca1-af11-f7c8708d4bcf")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10791,75 +10863,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 266.7 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a1a14dd-3f66-474a-86b2-13f7caaec5f1")
-		(property "Reference" "D6"
-			(at 268.732 62.992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RED"
-			(at 267.716 65.786 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 266.7 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 266.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1240e43d-1210-4989-94f3-c705971cd251")
-		)
-		(pin "2"
-			(uuid "c5f39b69-3718-4c66-87e6-07bb2d2ec10e")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 238.76 100.33 90)
 		(unit 1)
@@ -10987,75 +10990,6 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 267.97 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d3ddb7e-4958-4c27-9ed9-a5b9e27ad020")
-		(property "Reference" "D7"
-			(at 270.002 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RED"
-			(at 268.986 138.176 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 267.97 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 267.97 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95eac220-4d28-4c47-8d56-4890d43a0f0e")
-		)
-		(pin "2"
-			(uuid "2fcd4339-1400-4366-960d-eb07b3584a7b")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11950,7 +11884,7 @@
 		(dnp no)
 		(uuid "bbcadc53-fabe-4059-ac9d-192edc2acb31")
 		(property "Reference" "D2"
-			(at 30.48 126.9364 90)
+			(at 29.718 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11958,13 +11892,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
-			(at 30.48 129.4764 90)
+		(property "Value" "150080VS75000"
+			(at 20.574 131.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
@@ -11976,7 +11911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080VS75000.pdf"
 			(at 27.94 128.27 90)
 			(effects
 				(font
@@ -12070,6 +12005,76 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 267.97 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be5ba54f-c248-4317-bcc8-e462d62025bc")
+		(property "Reference" "D7"
+			(at 269.748 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150080VS75000"
+			(at 260.604 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 267.97 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080VS75000.pdf"
+			(at 267.97 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 267.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "098e3ce9-260a-481f-aba4-b6e486b97763")
+		)
+		(pin "2"
+			(uuid "721376e2-3c53-420a-8b27-fa0bb3255e9e")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
+					(reference "D7")
 					(unit 1)
 				)
 			)
