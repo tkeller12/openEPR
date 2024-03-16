@@ -9908,7 +9908,7 @@
 	)
 	(symbol
 		(lib_id "_tim-RF:LT1819")
-		(at 133.35 132.08 0)
+		(at 111.76 129.54 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9917,7 +9917,7 @@
 		(fields_autoplaced yes)
 		(uuid "77e528d3-fa86-453a-b91e-15da8d0ff17f")
 		(property "Reference" "U13"
-			(at 133.35 121.92 0)
+			(at 111.76 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9925,7 +9925,7 @@
 			)
 		)
 		(property "Value" "LT1819"
-			(at 133.35 124.46 0)
+			(at 111.76 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +9933,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 133.35 132.08 0)
+			(at 111.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +9942,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf"
-			(at 133.35 132.08 0)
+			(at 111.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9951,7 +9951,7 @@
 			)
 		)
 		(property "Description" "400MHz, 2500V/µs, 9mA Single/Dual Operational Amplifi ers"
-			(at 133.35 132.08 0)
+			(at 111.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12051,7 +12051,7 @@
 	)
 	(symbol
 		(lib_id "_tim-RF:LT1819")
-		(at 111.76 129.54 0)
+		(at 133.35 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12060,7 +12060,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6f4b6a1-363b-4564-8301-9e202a738842")
 		(property "Reference" "U13"
-			(at 111.76 119.38 0)
+			(at 133.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,7 +12068,7 @@
 			)
 		)
 		(property "Value" "LT1819"
-			(at 111.76 121.92 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,7 +12076,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 111.76 129.54 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12085,7 +12085,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf"
-			(at 111.76 129.54 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12094,7 +12094,7 @@
 			)
 		)
 		(property "Description" "400MHz, 2500V/µs, 9mA Single/Dual Operational Amplifi ers"
-			(at 111.76 129.54 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
