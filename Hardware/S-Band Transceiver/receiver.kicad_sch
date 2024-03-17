@@ -6506,6 +6506,16 @@
 		)
 		(uuid "94ac935e-d9f5-43bf-82e4-e9be174ab99b")
 	)
+	(text "ADL5380 Evaluation board\nuses baluns for I and Q outputs"
+		(exclude_from_sim no)
+		(at 37.846 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfe64d4e-1e10-4b14-b910-302f2eda46a4")
+	)
 	(text "0.5 to 5.0 GHz"
 		(exclude_from_sim no)
 		(at 135.128 104.394 0)
