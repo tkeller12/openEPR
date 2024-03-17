@@ -7162,7 +7162,7 @@
 	)
 	(global_label "USBDP"
 		(shape input)
-		(at 187.96 119.38 90)
+		(at 193.04 119.38 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7172,7 +7172,7 @@
 		)
 		(uuid "58549e0b-5599-40a0-b65a-95511d25a0d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 110.0448 90)
+			(at 193.04 110.0448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,7 +7998,7 @@
 	)
 	(global_label "USBDM"
 		(shape input)
-		(at 193.04 119.38 90)
+		(at 187.96 119.38 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8008,7 +8008,7 @@
 		)
 		(uuid "ff7a82c8-ef25-4ce2-a82e-903645eba276")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 109.8634 90)
+			(at 187.96 109.8634 90)
 			(effects
 				(font
 					(size 1.27 1.27)

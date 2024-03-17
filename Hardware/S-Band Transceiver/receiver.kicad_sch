@@ -7968,7 +7968,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 161.29 132.08 0)
+		(at 149.86 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7977,7 +7977,7 @@
 		(fields_autoplaced yes)
 		(uuid "38812e74-5ef1-4fb6-a8fd-8276caa45131")
 		(property "Reference" "J7"
-			(at 165.1 131.1031 0)
+			(at 153.67 32.0431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +7986,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 165.1 133.6431 0)
+			(at 153.67 34.5831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,7 +7995,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 161.29 132.08 0)
+			(at 149.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +8004,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 161.29 132.08 0)
+			(at 149.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +8013,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 161.29 132.08 0)
+			(at 149.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10805,7 +10805,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 149.86 33.02 0)
+		(at 161.29 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10814,7 +10814,7 @@
 		(fields_autoplaced yes)
 		(uuid "848bc589-39fc-479e-b4ea-169e664a9503")
 		(property "Reference" "J6"
-			(at 153.67 32.0431 0)
+			(at 165.1 131.1031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10823,7 +10823,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 153.67 34.5831 0)
+			(at 165.1 133.6431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +10832,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 149.86 33.02 0)
+			(at 161.29 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,7 +10841,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 149.86 33.02 0)
+			(at 161.29 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +10850,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 149.86 33.02 0)
+			(at 161.29 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11111,7 +11111,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8ceb637b-7ee1-4ce1-9f4d-a2cee49c5746")
 		(property "Reference" "R45"
 			(at 84.836 64.262 90)
@@ -11121,8 +11121,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 88.138 64.262 90)
+		(property "Value" "10k"
+			(at 88.646 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
