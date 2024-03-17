@@ -1885,12 +1885,6 @@
 		(uuid "323c8565-c8cd-4746-ae60-b4ae02d75d1f")
 	)
 	(junction
-		(at 106.68 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38d487b4-3379-468b-b194-1111861a00c3")
-	)
-	(junction
 		(at 147.32 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2107,6 +2101,12 @@
 		(uuid "c0b0d495-1b53-4b4a-ab1a-808463edf2be")
 	)
 	(junction
+		(at 106.68 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c221fe8f-49d8-4e9d-966e-77203573d61b")
+	)
+	(junction
 		(at 180.34 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2159,6 +2159,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4717cef-4c2c-43e5-b4fa-2faf145561a4")
+	)
+	(wire
+		(pts
+			(xy 106.68 85.09) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0020b50c-3ab3-4849-be9e-1859f5b2b04d")
 	)
 	(wire
 		(pts
@@ -2372,6 +2382,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 86.36) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0add07-c0d5-46d6-9df5-65d8297c935f")
+	)
+	(wire
+		(pts
 			(xy 147.32 129.54) (xy 147.32 132.08)
 		)
 		(stroke
@@ -2429,6 +2449,16 @@
 			(type default)
 		)
 		(uuid "232e8dce-4d39-40e7-8cf0-e5e5735d66dd")
+	)
+	(wire
+		(pts
+			(xy 102.87 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f717f5-80b4-4bb5-a5e8-8e191018ea20")
 	)
 	(wire
 		(pts
@@ -2792,16 +2822,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 124.46 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a00cf22-7b61-47df-a97e-87d58c9cbd28")
-	)
-	(wire
-		(pts
 			(xy 215.9 68.58) (xy 219.71 68.58)
 		)
 		(stroke
@@ -3002,6 +3022,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 86.36) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626536b9-5a4a-42d7-bb43-2fb679062bf9")
+	)
+	(wire
+		(pts
 			(xy 134.62 62.23) (xy 134.62 64.77)
 		)
 		(stroke
@@ -3009,16 +3039,6 @@
 			(type default)
 		)
 		(uuid "62ec2bf9-21f6-4649-b158-b7af1bb273ae")
-	)
-	(wire
-		(pts
-			(xy 104.14 96.52) (xy 106.68 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "637158c8-e44d-45e1-9dbf-dd1cebd9248d")
 	)
 	(wire
 		(pts
@@ -3279,6 +3299,16 @@
 			(type default)
 		)
 		(uuid "87db67d4-3696-4673-b91a-51406b317d31")
+	)
+	(wire
+		(pts
+			(xy 102.87 93.98) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886fe8b2-2cd5-4e71-997a-3b791f809757")
 	)
 	(wire
 		(pts
@@ -4442,28 +4472,6 @@
 			)
 		)
 	)
-	(global_label "PDB_RF"
-		(shape input)
-		(at 121.92 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16af09f5-b3bb-4144-90c6-5b93da76827d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.7986 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{SYNTH_CS}"
 		(shape input)
 		(at 114.3 83.82 90)
@@ -4592,28 +4600,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SYNTH_EN"
-		(shape input)
-		(at 104.14 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "823e178b-0031-4131-91e3-e7ab1d952915")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.781 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5618,6 +5604,73 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/1f8ad4e6-608c-455a-8c5c-ffe69657f316"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 102.87 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30ca1a60-fa9b-48c3-98db-1fd55b47d073")
+		(property "Reference" "R66"
+			(at 99.822 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 100.076 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5884aba5-34ef-46c4-bafe-67538a6fdd8b")
+		)
+		(pin "1"
+			(uuid "f4a52c77-91f8-428e-96c3-ed1ad06d7b11")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/1f8ad4e6-608c-455a-8c5c-ffe69657f316"
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -8439,7 +8492,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 106.68 86.36 0)
+		(at 106.68 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8447,7 +8500,7 @@
 		(dnp no)
 		(uuid "9fd9be6f-ce1c-4040-90cc-9581b0302924")
 		(property "Reference" "#PWR07"
-			(at 106.68 90.17 0)
+			(at 106.68 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8509,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 106.68 82.042 0)
+			(at 106.68 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 86.36 0)
+			(at 106.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 86.36 0)
+			(at 106.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +8535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 106.68 86.36 0)
+			(at 106.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

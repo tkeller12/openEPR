@@ -4070,12 +4070,6 @@
 		(uuid "a683fe31-1759-40ed-9418-69b784f5057c")
 	)
 	(junction
-		(at 81.28 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7dad3a7-e4de-48f6-ab47-29863e8ea7dd")
-	)
-	(junction
 		(at 54.61 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4202,16 +4196,6 @@
 			(type default)
 		)
 		(uuid "033f0127-c24b-463b-aff0-f403fab33317")
-	)
-	(wire
-		(pts
-			(xy 81.28 66.04) (xy 81.28 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04aa0fe1-0b64-4079-adfc-7411d5cba140")
 	)
 	(wire
 		(pts
@@ -4812,16 +4796,6 @@
 			(type default)
 		)
 		(uuid "45aa55e7-f40c-4289-9569-6e67e5211203")
-	)
-	(wire
-		(pts
-			(xy 81.28 60.96) (xy 85.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4713d2e6-7e22-4d33-a659-9f223ba72676")
 	)
 	(wire
 		(pts
@@ -6593,28 +6567,6 @@
 		(uuid "6aa267cf-fd37-4e93-a1a6-35dee1a726b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 222.6347 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IQ_MIXER_EN"
-		(shape input)
-		(at 85.09 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "76c09af7-2b83-4e6e-8c0a-e8218af32f4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.1099 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11111,7 +11063,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8ceb637b-7ee1-4ce1-9f4d-a2cee49c5746")
 		(property "Reference" "R45"
 			(at 84.836 64.262 90)

@@ -4183,6 +4183,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3VA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -5650,16 +5770,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 96.52) (xy 102.87 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cddaae1-4ab3-4c20-946f-9de0e34bc3c7")
-	)
-	(wire
-		(pts
 			(xy 245.11 31.75) (xy 241.3 31.75)
 		)
 		(stroke
@@ -6360,16 +6470,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 88.9) (xy 102.87 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44a874d-1709-4621-845e-2131fa4b1804")
-	)
-	(wire
-		(pts
 			(xy 187.96 120.65) (xy 203.2 120.65)
 		)
 		(stroke
@@ -6790,16 +6890,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 71.12) (xy 59.69 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa54597a-f457-4b6b-afcc-60111b6806e1")
-	)
-	(wire
-		(pts
 			(xy 118.11 144.78) (xy 120.65 144.78)
 		)
 		(stroke
@@ -6965,28 +7055,6 @@
 		(uuid "008d186f-6116-41c4-8a8e-f9c03d7afac3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.6479 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PDB_RF"
-		(shape input)
-		(at 102.87 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0350511d-fbbe-4b71-9a7a-aaee38efee8d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.9914 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,28 +7324,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SYNTH_EN"
-		(shape input)
-		(at 55.88 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58fbcab9-32c4-4164-adaf-ee04eb99149d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.521 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7680,7 +7726,7 @@
 	)
 	(global_label "XO_EN"
 		(shape input)
-		(at 102.87 91.44 0)
+		(at 102.87 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7690,7 +7736,7 @@
 		)
 		(uuid "bff8c6d3-2c05-4560-9523-e8822de710cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.8423 91.44 0)
+			(at 111.8423 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7814,7 @@
 	)
 	(global_label "RX_AMP_EN"
 		(shape input)
-		(at 102.87 93.98 0)
+		(at 102.87 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7778,7 +7824,7 @@
 		)
 		(uuid "c89e0e95-f3f5-4e2e-a8a5-f9e02620b74f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5594 93.98 0)
+			(at 116.5594 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,28 +8001,6 @@
 		(uuid "e54d3671-721a-4f45-9749-beccf5857656")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.9309 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IQ_MIXER_EN"
-		(shape input)
-		(at 102.87 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e73eaf15-55be-424a-9d4a-68185f062fa1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.8899 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,6 +9671,72 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 120.65 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f6c82d0-5146-44ac-b75b-196e441684ef")
+		(property "Reference" "#PWR043"
+			(at 120.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 120.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 120.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "880c6180-3008-46b7-93af-98e41ade11e0")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13722,72 +13812,6 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 120.65 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbc1bea2-bfed-4409-828e-4162166664b2")
-		(property "Reference" "#PWR043"
-			(at 120.65 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 120.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cabbf2ee-fa70-4e17-a8fc-6e5d5007b6e8")
-		)
-		(instances
-			(project "S-Band Transceiver"
-				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/03e3241c-59a9-4f6f-b7cc-ae3fa2c59abc"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
