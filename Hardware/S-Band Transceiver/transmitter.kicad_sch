@@ -5041,6 +5041,16 @@
 		)
 		(uuid "85319909-fe73-4503-859a-6cfc3c67efab")
 	)
+	(text "OPT: Not used for Serial (tie low)"
+		(exclude_from_sim no)
+		(at 120.904 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85911d5f-be3b-4be9-92bc-6de393f22ca4")
+	)
 	(text "PIN 20 Should always be low"
 		(exclude_from_sim no)
 		(at 44.704 96.774 0)

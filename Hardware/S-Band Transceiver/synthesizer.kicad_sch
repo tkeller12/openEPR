@@ -4440,15 +4440,27 @@
 		)
 		(uuid "3d7fb5fc-5936-4b04-90b4-f15610bf6451")
 	)
-	(text "RF Power Down"
+	(text "PDBRF: RF Power Down\nLOW -> Mute Outputs\nHIGH -> ENABLE Outputs\nSoftware controllable"
 		(exclude_from_sim no)
-		(at 104.394 99.314 0)
+		(at 67.818 93.726 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "3f0da11e-212f-4f76-b6ba-08c2dd2df347")
+	)
+	(text "CE -> Chip Enable\nLOW -> Power Down\nHIGH -> Powers Up Device"
+		(exclude_from_sim no)
+		(at 67.818 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53206687-e377-400b-8254-25ee03423827")
 	)
 	(global_label "XO_REF"
 		(shape input)

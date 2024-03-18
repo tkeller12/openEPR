@@ -6230,16 +6230,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 55.88) (xy 102.87 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab43ffba-8110-4f56-ba36-d3540bb120ac")
-	)
-	(wire
-		(pts
 			(xy 222.25 40.64) (xy 222.25 41.91)
 		)
 		(stroke
@@ -7900,28 +7890,6 @@
 			)
 		)
 	)
-	(global_label "~{CS}"
-		(shape input)
-		(at 102.87 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc8e0f66-0815-4885-aa8a-edcd4983e66f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3347 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX_VRMS"
 		(shape input)
 		(at 85.09 153.67 180)
@@ -9311,7 +9279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SP0503BAHT"
+		(property "Value" "SP0503BAHTG"
 			(at 243.84 62.2299 0)
 			(effects
 				(font
@@ -9340,6 +9308,15 @@
 			)
 		)
 		(property "Description" "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"
+			(at 237.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "F2715CT-ND"
 			(at 237.49 60.96 0)
 			(effects
 				(font
@@ -9414,6 +9391,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "2073-USB4085-GF-ACT-ND"
 			(at 181.61 40.64 0)
 			(effects
 				(font

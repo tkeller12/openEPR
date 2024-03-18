@@ -6408,6 +6408,17 @@
 		)
 		(uuid "3b5e87a6-c0b0-4cd6-8185-e4938be7d026")
 	)
+	(text "~{EN}: ENABLE Function\nLOW -> Chip Enabled\nHIGH -> Chip Disabled"
+		(exclude_from_sim no)
+		(at 26.416 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c43c4a4-e30f-4f07-81ce-9321bb50badb")
+	)
 	(text "0.6 to 6.0 GHz"
 		(exclude_from_sim no)
 		(at 168.656 69.088 0)
@@ -6509,6 +6520,17 @@
 			)
 		)
 		(uuid "ee63ec07-6141-4761-a741-8273dd6936a6")
+	)
+	(text "ADJ: Improve 3rd order intercept\n1.5kOhm for <3GHz operation"
+		(exclude_from_sim no)
+		(at 23.114 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef6887be-8cd6-4671-b80c-df36fdd15959")
 	)
 	(global_label "RX_IN"
 		(shape input)

@@ -1311,7 +1311,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1957,7 +1957,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2723,6 +2723,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "505-ADL5380ACPZ-R7CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64706d4e-b471-49e3-afb3-fa36f2a11a13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6145,7 +6158,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8208,7 +8221,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 270)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9232,6 +9245,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1046-1144-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d41a011-c313-4f87-a7be-f8428446a3b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11699,6 +11725,19 @@
 				)
 			)
 		)
+		(property "Digikey" "LT1819CS8#TRPBFCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78109657-a460-4918-b8c6-4de0ae9e54e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
 		(path "/f050a99f-ee17-49d7-ba1b-b225c3b6208d/6e5fabfa-3789-46c7-9340-b23860a69540")
 		(sheetname "Receiver")
@@ -12240,6 +12279,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "505-ADF4351BCPZ-RL7CT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c051b48f-6e9b-4980-a2ca-4a88e2149d13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17268,6 +17320,19 @@
 				)
 			)
 		)
+		(property "Digikey" "296-11604-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "353dd3bf-9acb-4044-b2ba-2b1766e60a71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Texas?R?PDSO?G5?DCK*")
 		(path "/bd41cfbd-cb46-4539-92e1-7ba2287bca8a/94373ba0-f2ef-4005-8d2a-9b4626b43290")
 		(sheetname "Transmitter")
@@ -17547,6 +17612,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "505-ADL5906ACPZN-R7CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "293162c2-c6da-45fc-9b07-b213f757e670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18349,6 +18427,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "edb348ce-ee1b-425d-8ecf-528501b3e79f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "3157-DCW-22-332+CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2de0a42-aee3-40af-b840-8a79f4504815")
 			(effects
 				(font
 					(size 1 1)
@@ -19261,7 +19352,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -19908,7 +19999,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 0 13 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -19932,7 +20023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19953,6 +20044,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdcd3531-6e28-4df1-be10-6b03a017e3ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24097,7 +24201,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 0 13 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -24121,7 +24225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24142,6 +24246,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "972c8468-e8db-4669-8ff6-a152a668f668")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24726,6 +24843,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "296-38850-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92bb770b-0aba-4c80-b070-a2cd513c0050")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26528,6 +26658,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c87df181-0b53-4bcf-9c18-b0a3098b8c07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "863-SKY16603-632LFCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "323f5d16-b5b6-4541-8cde-ce352afbee0f")
 			(effects
 				(font
 					(size 1 1)
@@ -30214,7 +30357,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -33594,6 +33737,19 @@
 				)
 			)
 		)
+		(property "Digikey" "LT1819CS8#TRPBFCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f5c7821-8b09-4b9b-9d25-4cfdb44ce703")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
 		(path "/f050a99f-ee17-49d7-ba1b-b225c3b6208d/e3f3a86c-909c-40ff-97a3-e32eb251ffaf")
 		(sheetname "Receiver")
@@ -35009,6 +35165,19 @@
 				)
 			)
 		)
+		(property "Digikey" "505-ADL5906ACPZN-R7CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8be8664d-5c7a-4bd6-b0a7-3f243cd55ab6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bd41cfbd-cb46-4539-92e1-7ba2287bca8a/3a5226a1-6852-4699-96ce-f968ce2ae961")
 		(sheetname "Transmitter")
 		(sheetfile "transmitter.kicad_sch")
@@ -35553,7 +35722,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -37254,7 +37423,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -38583,6 +38752,19 @@
 				)
 			)
 		)
+		(property "Digikey" "1465-1217-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75e28e79-2f98-44db-abab-039500d03033")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Transformer*MACOM*SM?22*")
 		(path "/f050a99f-ee17-49d7-ba1b-b225c3b6208d/55d14250-2e87-4ebb-8d9f-a203c6604e10")
 		(sheetname "Receiver")
@@ -39494,7 +39676,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -39929,7 +40111,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 0 13 -90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -39953,7 +40135,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39974,6 +40156,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46d4d014-7bcb-471a-a416-6301706b0ea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -40463,6 +40658,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "296-11604-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bf5ee22-6099-4707-ac14-5df370410dfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -43002,7 +43210,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 0 13 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -43026,7 +43234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43047,6 +43255,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31189d10-5f0a-449c-b0e6-b48f5007a8f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -43747,6 +43968,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "3157-TSS-53LNB3+CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f10aa153-613a-4c86-9aa1-d3836cfda7e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -45001,7 +45235,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 0 13 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -45025,7 +45259,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45046,6 +45280,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41b599d3-3c84-4529-89ef-e160ba610d53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -45746,6 +45993,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "3157-DAT-31A-PP+CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3907e25-61d6-4a62-93df-a8d7ecf8b656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -49343,6 +49603,19 @@
 				)
 			)
 		)
+		(property "Digikey" "3157-DCW-22-332+CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c63fb5c-fdaa-49d2-b0ce-4468b658589e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bd41cfbd-cb46-4539-92e1-7ba2287bca8a/709cffc9-7290-415c-9cc7-c10f26cbe1d1")
 		(sheetname "Transmitter")
 		(sheetfile "transmitter.kicad_sch")
@@ -49520,7 +49793,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 0 1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -50209,7 +50482,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 0 13 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -50233,7 +50506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50254,6 +50527,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33107768-c286-4001-904e-df101b3090ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -53130,6 +53416,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "3157-TSS-53LNB3+CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41a05c1a-9af0-4e03-a3f9-f007ea97f3a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -56764,6 +57063,14 @@
 		(uuid "19b01cba-3b65-4adb-a4a6-858cd2449eab")
 	)
 	(segment
+		(start 73.6289 113.8)
+		(end 74.4289 113.8)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "1a14c50e-37c7-4fdc-a09d-dd41c884eddd")
+	)
+	(segment
 		(start 129.4532 54.3078)
 		(end 129.4532 54.027801)
 		(width 0.254)
@@ -57050,6 +57357,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "5cc02059-08b8-4fe8-89d7-463c1e2a86e5")
+	)
+	(segment
+		(start 76.543 57.666)
+		(end 77.343 57.666)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "5fcd65b0-15be-4f90-b516-0fb300e0aab4")
 	)
 	(segment
 		(start 145.542 109.998592)
