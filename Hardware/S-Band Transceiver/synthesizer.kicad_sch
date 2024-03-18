@@ -5764,7 +5764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 259.08 114.5931 0)
 			(effects
 				(font
@@ -5782,7 +5782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 255.27 113.03 0)
 			(effects
 				(font
@@ -5792,6 +5792,15 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 255.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
 			(at 255.27 113.03 0)
 			(effects
 				(font
@@ -9148,6 +9157,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "505-ADF4351BCPZ-RL7CT-ND"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "7ded2a40-3d83-4fdd-870c-1a69b99d2f55")
 		)
@@ -10429,7 +10447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 73.66 51.0931 0)
 			(effects
 				(font
@@ -10447,7 +10465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 69.85 49.53 0)
 			(effects
 				(font
@@ -10457,6 +10475,15 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
 			(at 69.85 49.53 0)
 			(effects
 				(font

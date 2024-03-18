@@ -5540,6 +5540,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1046-1144-1-ND"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "66168be2-be2d-4b16-a24a-f35530ef67b6")
 		)
@@ -6100,6 +6109,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "505-ADL5906ACPZN-R7CT-ND"
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "58ca9431-7d39-4c02-905c-b35425326a74")
 		)
@@ -6178,7 +6196,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 210.8263 115.57 90)
 			(effects
 				(font
@@ -7190,7 +7208,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 147.3263 52.07 90)
 			(effects
 				(font
@@ -7295,6 +7313,15 @@
 		)
 		(property "Description" "Directional Coupler, 50ohm, 22 dB coupling, 1200 to 3300 MHz"
 			(at 212.09 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "3157-DCW-22-332+CT-ND"
+			(at 212.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,6 +7945,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-11604-1-ND"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25e73407-e0f6-4a78-abee-e98443cd92ca")
 		)
@@ -8026,7 +8062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 249.936 57.404 0)
 			(effects
 				(font
@@ -8044,7 +8080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 247.65 55.88 0)
 			(effects
 				(font
@@ -8054,6 +8090,15 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 247.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
 			(at 247.65 55.88 0)
 			(effects
 				(font
@@ -8655,6 +8700,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "3157-TSS-53LNB3+CT-ND"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "fcea9bd8-0c2b-4cba-81bf-d316c495b78e")
 		)
@@ -8856,7 +8910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 208.28 130.8162 0)
 			(effects
 				(font
@@ -9360,6 +9414,15 @@
 		)
 		(property "Description" "Digital Step Attenuator, 50Ω 0 to 31 dB, 1.0 dB Step DC to 4.0 GHz"
 			(at 67.31 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "3157-DAT-31A-PP+CT-ND"
+			(at 67.31 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +10054,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 233.6863 52.07 90)
 			(effects
 				(font
@@ -10265,7 +10328,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 92.7163 52.07 90)
 			(effects
 				(font

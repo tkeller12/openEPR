@@ -7540,6 +7540,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "LT1819CS8#TRPBFCT-ND"
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "c5be94e4-c75f-4a07-aa2b-48662d584138")
 		)
@@ -7758,6 +7767,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "3157-DCW-22-332+CT-ND"
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d46e7e6f-b57f-4df9-8ec4-2e327c427cba")
 		)
@@ -7937,7 +7955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 153.67 34.5831 0)
 			(effects
 				(font
@@ -7955,7 +7973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 149.86 33.02 0)
 			(effects
 				(font
@@ -7965,6 +7983,15 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 149.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
 			(at 149.86 33.02 0)
 			(effects
 				(font
@@ -8479,7 +8506,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 227.3363 78.74 90)
 			(effects
 				(font
@@ -9022,7 +9049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 246.38 84.1131 0)
 			(effects
 				(font
@@ -9040,7 +9067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 242.57 82.55 0)
 			(effects
 				(font
@@ -9050,6 +9077,15 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 242.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
 			(at 242.57 82.55 0)
 			(effects
 				(font
@@ -9118,6 +9154,15 @@
 			)
 		)
 		(property "Description" "4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1465-1217-1-ND"
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -10067,6 +10112,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "LT1819CS8#TRPBFCT-ND"
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "8f057122-6892-4cfe-b126-bceaa06a7180")
 		)
@@ -10288,6 +10342,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "505-ADL5380ACPZ-R7CT-ND"
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "25"
 			(uuid "3e294d4a-85e2-4fc0-bff2-74c3d3acc860")
 		)
@@ -10425,6 +10488,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "LT1819CS8#TRPBFCT-ND"
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "8f057122-6892-4cfe-b126-bceaa06a717f")
 		)
@@ -10505,6 +10577,15 @@
 			)
 		)
 		(property "Description" "400MHz, 2500V/µs, 9mA Single/Dual Operational Amplifi ers"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "LT1819CS8#TRPBFCT-ND"
 			(at 43.18 140.97 0)
 			(effects
 				(font
@@ -10665,6 +10746,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "863-SKY16603-632LFCT-ND"
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "cfabef56-9cda-470e-a419-318e0c55d785")
 		)
@@ -10774,7 +10864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 165.1 133.6431 0)
 			(effects
 				(font
@@ -10792,7 +10882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 161.29 132.08 0)
 			(effects
 				(font
@@ -10802,6 +10892,15 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM8857-ND"
 			(at 161.29 132.08 0)
 			(effects
 				(font
@@ -10935,6 +11034,15 @@
 			)
 		)
 		(property "Description" "Low Noise Bypass Amplifier, 50ohm, 0.5 to 5 GHz"
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "3157-TSS-53LNB3+CT-ND"
 			(at 134.62 82.55 0)
 			(effects
 				(font
@@ -11538,7 +11646,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 90.17 90.424 90)
 			(effects
 				(font
@@ -11984,6 +12092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-11604-1-ND"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70b6a8d1-8d48-4635-8c66-572837cc15b5")
 		)
@@ -12390,6 +12507,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "505-ADL5906ACPZN-R7CT-ND"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "60ea075a-a1ac-4889-b382-a7b8b75400d2")
 		)
@@ -12635,6 +12761,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "LT1819CS8#TRPBFCT-ND"
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "8f057122-6892-4cfe-b126-bceaa06a7181")
 		)
@@ -12686,7 +12821,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 223.5263 128.27 90)
 			(effects
 				(font
@@ -13536,6 +13671,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "LT1819CS8#TRPBFCT-ND"
+			(at 22.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "8f057122-6892-4cfe-b126-bceaa06a7183")
 		)
@@ -14189,7 +14333,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 220.98 143.5035 0)
 			(effects
 				(font
@@ -14266,7 +14410,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10000pF"
 			(at 90.17 80.01 90)
 			(effects
 				(font

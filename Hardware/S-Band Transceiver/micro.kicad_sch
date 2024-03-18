@@ -9244,6 +9244,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-38850-1-ND"
+			(at 120.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3137a29c-7ea4-446d-9d34-1e1262084fcf")
 		)
