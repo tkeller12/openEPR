@@ -8055,7 +8055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200nH"
+		(property "Value" "100nH"
 			(at 69.342 60.198 90)
 			(effects
 				(font
@@ -9001,7 +9001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200nH"
+		(property "Value" "100nH"
 			(at 64.262 108.204 0)
 			(effects
 				(font
@@ -10816,7 +10816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200nH"
+		(property "Value" "100nH"
 			(at 77.724 59.436 90)
 			(effects
 				(font
@@ -11271,8 +11271,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.74"
-			(at 262.128 137.414 0)
+		(property "Value" "3.74k"
+			(at 263.398 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12010,7 +12010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200nH"
+		(property "Value" "100nH"
 			(at 77.47 107.9499 0)
 			(effects
 				(font
