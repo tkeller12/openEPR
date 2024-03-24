@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include <SPI.h>
-#include "adf4351.h"
+//#include "adf4351.h"
+//#include "ADS1118.h"
+//#include "DAT-31A.h"
 #include "serial.h"
 #include "main.h"
 
@@ -12,8 +14,8 @@
 #define TX_AMP_ENABLE PIN_PB5 // Digital pin to enable TX Amplifier
 #define RX_AMP_ENABLE PIN_PC5 // Digital pin to enable RX Amplifier
 
-#define TX_ATTEN_LE PIN_PC1
-#define TX_PHASE_LE PIN_PC2
+#define TX_ATTEN_LE PIN_PC1 // TX Digital Attenuator load enable pin
+#define TX_PHASE_LE PIN_PC2 // TX Phase Shifter load enable pin
 
 #define ADC_CS PIN_PC3 // ADS1118 ~CS pin
 
@@ -36,11 +38,13 @@
 
 ADF4351 adf(ADF_LE);
 DAT31A dat(TX_ATTEN_LE, C1_PIN, C2_PIN, C4_PIN, C8_PIN, C16_PIN);
+ADS1118 adc(ADC_CS);
 
 uint32_t freq = 100000; // Frequency in kHz
 uint8_t power = 3; // 0 is min output power, 3 is max power output
 uint8_t atten = 31;
 bool is_rf_enabled = 1; // 0 is disabled, 1 is enabled
+float adc_reading = 0;
 
 void setup() {
   Serial.begin(SERIAL_BAUD); // First we initialize serial communication
@@ -82,6 +86,12 @@ void setup() {
   dat.writeAtten(atten);
 
   // Initialize ADC
+  adc.begin();
+  adc.setSamplingRate(adc.RATE_860SPS);
+  adc.setInputSelected(adc.DIFF_0_1);
+  adc.setFullScaleRange(adc.FSR_4096);
+  adc.setContinuousMode();
+  adc_reading = adc.getMilliVolts();
 
   // Initialize PHASE
 

@@ -35,7 +35,10 @@ void serialLoop() {
     }
     serialString = "";  //reset string
 
-    if (serialCommand == "freq"){
+    if (serialCommand == "*IDN") { // should thick check for "?"?
+      Serial.println('openEPR,S-Band Transceiver,v0.1.0');
+    }
+    else if (serialCommand == "freq"){
       if (serialQuery) {
         Serial.println(freq);
       }
@@ -60,9 +63,31 @@ void serialLoop() {
       else if ((serialValue == 0) || (serialValue == 1)) {
         is_rf_enabled = serialValue;
         adf.rfEnable(is_rf_enabled);
-
+      }
+    }
+    else if (serialCommand == "adc"){
+      if (serialQuery) {
+        Serial.println(String(adc.getMilliVolts(),4));
+      }
+      else if (serialData == "tx"){
+        adc.setInputSelected(adc.AIN_0);
+      }
+      else if (serialData == "rx"){
+        adc.setInputSelected(adc.AIN_1);
+      }
+      else if (serialData == "diff"){
+        adc.setInputSelected(adc.DIFF_0_1);
+      }
+    }
+    else if (serialCommand == "atten"){
+      if (serialQuery) {
+        Serial.println(atten);
+      }
+      else if (serialValue < 32) {
+        dat.writeAtten(atten);
       }
     }
   }
+
 
 }
