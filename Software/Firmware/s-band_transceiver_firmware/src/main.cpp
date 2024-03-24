@@ -39,6 +39,7 @@
 ADF4351 adf(ADF_LE);
 DAT31A dat(TX_ATTEN_LE, C1_PIN, C2_PIN, C4_PIN, C8_PIN, C16_PIN);
 ADS1118 adc(ADC_CS);
+PE44820 ps(TX_PHASE_LE);
 
 uint32_t freq = 100000; // Frequency in kHz
 uint8_t power = 3; // 0 is min output power, 3 is max power output
