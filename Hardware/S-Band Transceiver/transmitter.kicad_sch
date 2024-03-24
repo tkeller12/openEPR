@@ -9931,7 +9931,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "100pF"
 			(at 192.278 40.386 90)
 			(effects
 				(font

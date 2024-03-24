@@ -8167,14 +8167,14 @@
 		(dnp no)
 		(uuid "0406f218-ddc2-45f6-bbc1-6c1df52c4061")
 		(property "Reference" "R14"
-			(at 90.678 158.242 90)
+			(at 91.948 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 87.376 157.988 90)
 			(effects
 				(font
@@ -9754,7 +9754,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 86.614 151.638 90)
 			(effects
 				(font
@@ -10564,7 +10564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 103.632 162.306 0)
 			(effects
 				(font
@@ -13761,7 +13761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 96.012 162.306 0)
 			(effects
 				(font
