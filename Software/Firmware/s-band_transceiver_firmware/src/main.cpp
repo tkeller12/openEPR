@@ -54,7 +54,6 @@ void setup() {
   pinMode(ERROR_LED, OUTPUT);  // Setup ERROR LED as output pin
   digitalWrite(ERROR_LED, HIGH); // Write ERROR LED high while initializing
 
-
   // RUN LED INDICATOR
   pinMode(RUN_LED, OUTPUT);  // Setup ERROR LED as output pin
   digitalWrite(ERROR_LED, LOW); // Write ERROR LED high while initializing
@@ -73,7 +72,6 @@ void setup() {
 
   // Lock Detect
   pinMode(LD, INPUT);
-
 
   // Initialize ADF4351
   adf.begin();
@@ -95,6 +93,8 @@ void setup() {
   adc_reading = adc.getMilliVolts();
 
   // Initialize PHASE
+  ps.begin();
+  ps.setPhase(0);
 
   digitalWrite(ERROR_LED, LOW); // Last step is to write ERROR_LED LOW
 }
@@ -106,7 +106,7 @@ void loop()
 
   current_time = millis(); // time at start of loop
 
-  if ((current_time - run_led_last_updated) > 1000) {
+  if ((current_time - run_led_last_updated) > 500) {
     digitalWrite(RUN_LED, !digitalRead(RUN_LED)); // toggle RUN LED to indicate processor running
     run_led_last_updated = current_time; // Update time
   }
