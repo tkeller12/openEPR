@@ -41,8 +41,8 @@ DAT31A dat(TX_ATTEN_LE, C1_PIN, C2_PIN, C4_PIN, C8_PIN, C16_PIN);
 ADS1118 adc(ADC_CS);
 PE44820 ps(TX_PHASE_LE);
 
-uint32_t freq = 100000; // Frequency in kHz
-uint8_t power = 3; // 0 is min output power, 3 is max power output
+uint32_t freq = 2000000; // Frequency in kHz
+uint8_t power = 0; // 0 is min output power, 3 is max power output
 uint8_t atten = 31;
 bool is_rf_enabled = 1; // 0 is disabled, 1 is enabled
 float adc_reading = 0;
@@ -63,8 +63,8 @@ void setup() {
   digitalWrite(TX_AMP_ENABLE, LOW);
 
   // RX AMP
-  pinMode(TX_AMP_ENABLE, OUTPUT);
-  digitalWrite(TX_AMP_ENABLE, LOW);
+  pinMode(RX_AMP_ENABLE, OUTPUT);
+  digitalWrite(RX_AMP_ENABLE, LOW);
 
   // OSCILLATOR ENABLE
   pinMode(XO_ENABLE, OUTPUT);
@@ -77,7 +77,9 @@ void setup() {
   adf.begin();
   adf.setFrequency(freq); // Initialize Frequency
   adf.setPower(power); // Initialize Power
+  adf.setPower(power, 1); // Initialize Power
   adf.rfEnable(is_rf_enabled); // Initialize Output ON
+  adf.rfEnable(is_rf_enabled, 1); // Initialize Output ON
   adf.writeAllRegisters(); // write all registers
 
   // Initialize DAT-31A

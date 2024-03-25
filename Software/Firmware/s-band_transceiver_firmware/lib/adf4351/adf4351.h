@@ -150,7 +150,7 @@ class ADF4351 {
 
         uint8_t CS;
         const uint32_t SCLK       = 2000000;///< SPI SCLK frequency
-        const uint32_t F_REF = 25000; // Reference frequency in kHz
+        const uint32_t F_REF = 10000; // Reference frequency in kHz
 };
 
 

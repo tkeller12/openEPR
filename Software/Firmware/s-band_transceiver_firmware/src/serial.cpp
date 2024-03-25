@@ -84,6 +84,7 @@ void serialLoop() {
         Serial.println(atten);
       }
       else if (serialValue < 32) {
+        atten = serialValue;
         dat.writeAtten(atten);
       }
     }
