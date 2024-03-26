@@ -73,6 +73,18 @@ def atten(atten = None):
         command = 'atten %i\n'%atten
         ser.write(command.encode('utf-8'))
 
+def phase(phase = None):
+    if phase == None:
+        command = 'phase?\n'
+        ser.write(command.encode('utf-8'))
+        raw_bytes = ser.readline()
+        my_string = raw_bytes.decode('utf-8')
+        return my_string
+
+    else:
+        command = 'phase %i\n'%phase
+        ser.write(command.encode('utf-8'))
+
 
 def rfenable(rfenable = None):
     if rfenable == None:
@@ -85,6 +97,31 @@ def rfenable(rfenable = None):
     else:
         command = 'rfenable %i\n'%rfenable
         ser.write(command.encode('utf-8'))
+
+def txamp(enable = None):
+    if enable == None:
+        command = 'txamp?\n'
+        ser.write(command.encode('utf-8'))
+        raw_bytes = ser.readline()
+        my_string = raw_bytes.decode('utf-8')
+        return my_string
+
+    else:
+        command = 'txamp %i\n'%enable
+        ser.write(command.encode('utf-8'))
+
+def rxamp(enable = None):
+    if enable == None:
+        command = 'rxamp?\n'
+        ser.write(command.encode('utf-8'))
+        raw_bytes = ser.readline()
+        my_string = raw_bytes.decode('utf-8')
+        return my_string
+
+    else:
+        command = 'rxamp %i\n'%enable
+        ser.write(command.encode('utf-8'))
+
 
 
 def sweep_freq(start_freq,stop_freq, points = 1000, dwell_time = 10e-3):
@@ -114,7 +151,7 @@ def sweep_adc(points = 100, dwell_time = 1e-3):
     total_time = stop_time - start_time
     print('Total Sweep Time: %0.01fs'%total_time)
 
-def sweep_freq_adc(start_freq = 1000000,stop_freq = 2000000, points = 100, dwell_time = 10e-3):
+def sweep_freq_adc(start_freq = 1000000,stop_freq = 4000000, points = 100, dwell_time = 1e-3):
     freq_list = np.linspace(start_freq, stop_freq, points)
 #    freq_list = np.r_[start_freq:stop_freq:step]
 
@@ -135,10 +172,12 @@ def sweep_freq_adc(start_freq = 1000000,stop_freq = 2000000, points = 100, dwell
 
     figure()
     plot(freq_list,-1*adc_array)
-    show()
 
 
 #sweep_freq(35000,45000,200)
-atten(0)
-sweep_freq_adc()
-atten(31)
+atten(15)
+adc('tx')
+#sweep_freq_adc()
+#atten(31)
+#ser.close()
+show()

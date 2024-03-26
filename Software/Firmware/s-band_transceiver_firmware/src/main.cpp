@@ -7,8 +7,8 @@
 
 #define ADF_LE PIN_PC0 // ADF4351 Load Enable Pin for SPI communication
 
-#define TX_AMP_ENABLE PIN_PB5 // Digital pin to enable TX Amplifier
-#define RX_AMP_ENABLE PIN_PC5 // Digital pin to enable RX Amplifier
+// #define TX_AMP_ENABLE PIN_PB5 // Digital pin to enable TX Amplifier
+// #define RX_AMP_ENABLE PIN_PC5 // Digital pin to enable RX Amplifier
 
 #define TX_ATTEN_LE PIN_PC1 // TX Digital Attenuator load enable pin
 #define TX_PHASE_LE PIN_PC2 // TX Phase Shifter load enable pin
@@ -37,10 +37,13 @@ DAT31A dat(TX_ATTEN_LE, C1_PIN, C2_PIN, C4_PIN, C8_PIN, C16_PIN);
 ADS1118 adc(ADC_CS);
 PE44820 ps(TX_PHASE_LE);
 
-uint32_t freq = 2000000; // Frequency in kHz
+uint32_t freq = 1000000; // Frequency in kHz
 uint8_t power = 0; // 0 is min output power, 3 is max power output
 uint8_t atten = 31;
+uint8_t phase = 0;
 bool is_rf_enabled = 1; // 0 is disabled, 1 is enabled
+bool is_tx_amp_enabled = 0; // 0 is disabled, 1 is enabled
+bool is_rx_amp_enabled = 0; // 0 is disabled, 1 is enabled
 float adc_reading = 0;
 
 unsigned long run_led_last_updated = 0; // time RUN LED as last updated
@@ -57,13 +60,13 @@ void setup() {
   digitalWrite(ERROR_LED, LOW); // Write ERROR LED high while initializing
 
   // TX AMP
-  // pinMode(TX_AMP_ENABLE, OUTPUT);
+  // pinMode(TX_AMP_ENABLE, OUTPUT); // Don't do this, it causes an issue with SPI communication...
   PORTB_DIR |= 0b100000; // SET PIN_B5 to output
-  // digitalWrite(TX_AMP_ENABLE, LOW);
+  digitalWrite(TX_AMP_ENABLE, is_tx_amp_enabled);
 
   // RX AMP
   pinMode(RX_AMP_ENABLE, OUTPUT);
-  digitalWrite(RX_AMP_ENABLE, LOW);
+  digitalWrite(RX_AMP_ENABLE, is_tx_amp_enabled);
 
   // OSCILLATOR ENABLE
   pinMode(XO_ENABLE, OUTPUT);

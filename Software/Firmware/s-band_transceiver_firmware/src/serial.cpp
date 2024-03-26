@@ -88,6 +88,33 @@ void serialLoop() {
         dat.writeAtten(atten);
       }
     }
+    else if (serialCommand == "txamp"){
+      if (serialQuery) {
+        Serial.println(is_tx_amp_enabled);
+      }
+      else if (serialValue == 0 or serialValue == 1) {
+        is_tx_amp_enabled = serialValue;
+        digitalWrite(TX_AMP_ENABLE, is_tx_amp_enabled);
+      }
+    }
+    else if (serialCommand == "rxamp"){
+      if (serialQuery) {
+        Serial.println(is_rx_amp_enabled);
+      }
+      else if (serialValue == 0 or serialValue == 1) {
+        is_rx_amp_enabled = serialValue;
+        digitalWrite(RX_AMP_ENABLE, is_rx_amp_enabled);
+      }
+    }
+    else if (serialCommand == "phase"){
+      if (serialQuery) {
+        Serial.println(phase);
+      }
+      else if (serialValue < 255) {
+        phase = serialValue;
+        ps.setPhase(phase);
+      }
+    }
   }
 
 
