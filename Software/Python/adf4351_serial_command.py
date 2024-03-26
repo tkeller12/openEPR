@@ -114,7 +114,7 @@ def sweep_adc(points = 100, dwell_time = 1e-3):
     total_time = stop_time - start_time
     print('Total Sweep Time: %0.01fs'%total_time)
 
-def sweep_freq_adc(start_freq = 2000000,stop_freq = 3000000, points = 1000, dwell_time = 3e-3):
+def sweep_freq_adc(start_freq = 1000000,stop_freq = 2000000, points = 100, dwell_time = 10e-3):
     freq_list = np.linspace(start_freq, stop_freq, points)
 #    freq_list = np.r_[start_freq:stop_freq:step]
 
