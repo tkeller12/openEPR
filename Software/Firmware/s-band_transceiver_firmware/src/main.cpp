@@ -9,7 +9,7 @@
 #define SERIAL_BAUD 115200 // Serial baud rate
 
 
-#define ADF_LE PIN_PC0 // Load Enable Pin for SPI communication
+#define ADF_LE PIN_PC0 // ADF4351 Load Enable Pin for SPI communication
 
 #define TX_AMP_ENABLE PIN_PB5 // Digital pin to enable TX Amplifier
 #define RX_AMP_ENABLE PIN_PC5 // Digital pin to enable RX Amplifier
@@ -25,7 +25,7 @@
 #define RUN_LED PIN_PE1 // Processor RUN LED indicator
 #define ERROR_LED PIN_PE2 // ERROR Led
 
-#define RUN_LED_MS_DELAY 
+//#define RUN_LED_MS_DELAY 
 
 
 // TX ATTEN CONTROL PINS
@@ -61,8 +61,8 @@ void setup() {
   digitalWrite(ERROR_LED, LOW); // Write ERROR LED high while initializing
 
   // TX AMP
-  pinMode(TX_AMP_ENABLE, OUTPUT);
-  digitalWrite(TX_AMP_ENABLE, LOW);
+  // pinMode(TX_AMP_ENABLE, OUTPUT);
+  // digitalWrite(TX_AMP_ENABLE, LOW);
 
   // RX AMP
   pinMode(RX_AMP_ENABLE, OUTPUT);
@@ -88,6 +88,10 @@ void setup() {
   dat.begin();
   dat.writeAtten(atten);
 
+  // Initialize PHASE
+  ps.begin();
+  ps.setPhase(0);
+
   // Initialize ADC
   adc.begin();
   adc.setSamplingRate(adc.RATE_860SPS);
@@ -95,10 +99,6 @@ void setup() {
   adc.setFullScaleRange(adc.FSR_4096);
   adc.setContinuousMode();
   adc_reading = adc.getMilliVolts();
-
-  // Initialize PHASE
-  ps.begin();
-  ps.setPhase(0);
 
   digitalWrite(ERROR_LED, LOW); // Last step is to write ERROR_LED LOW
 }
