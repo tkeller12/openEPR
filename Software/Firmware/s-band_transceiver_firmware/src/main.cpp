@@ -58,6 +58,7 @@ void setup() {
 
   // TX AMP
   // pinMode(TX_AMP_ENABLE, OUTPUT);
+  PORTB_DIR |= 0b100000; // SET PIN_B5 to output
   // digitalWrite(TX_AMP_ENABLE, LOW);
 
   // RX AMP
