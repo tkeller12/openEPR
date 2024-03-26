@@ -131,9 +131,10 @@ def sweep_freq_adc(start_freq = 2000000,stop_freq = 3000000, points = 1000, dwel
     stop_time = time.time()
     total_time = stop_time - start_time
     print('Total Sweep Time: %0.01fs'%total_time)
+    adc_array = np.array(adc_list)
 
     figure()
-    plot(freq_list,adc_list)
+    plot(freq_list,-1*adc_array)
     show()
 
 
