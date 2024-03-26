@@ -23,7 +23,7 @@
 
 #define LD PIN_PE0 // Lock Detect Pin, this is a digital input
 #define RUN_LED PIN_PE1 // Processor RUN LED indicator
-#define ERROR_LED PIN_PE2 // 
+#define ERROR_LED PIN_PE2 // ERROR Led
 
 #define RUN_LED_MS_DELAY 
 
@@ -46,6 +46,8 @@ uint8_t power = 0; // 0 is min output power, 3 is max power output
 uint8_t atten = 31;
 bool is_rf_enabled = 1; // 0 is disabled, 1 is enabled
 float adc_reading = 0;
+
+unsigned long run_led_last_updated = 0; // time RUN LED as last updated
 
 void setup() {
   Serial.begin(SERIAL_BAUD); // First we initialize serial communication
@@ -103,7 +105,6 @@ void setup() {
 
 void loop()
 {
-  unsigned long run_led_last_updated = 0; // time RUN LED as last updated
   unsigned long current_time;
 
   current_time = millis(); // time at start of loop

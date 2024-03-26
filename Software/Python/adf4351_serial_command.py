@@ -32,6 +32,20 @@ def freq(freq = None): # in kHz
         command = 'freq %i\n'%freq
         ser.write(command.encode('utf-8'))
 
+def adc(mode = None): # in kHz
+    if mode == None:
+        command = 'adc?\n'
+        ser.write(command.encode('utf-8'))
+        raw_bytes = ser.readline()
+        my_string = raw_bytes.decode('utf-8')
+        return my_string
+
+    else:
+        if (mode not in ['tx', 'rx', 'diff']):
+            raise ValueError('Mode not valid')
+        command = 'adc %s\n'%mode
+        ser.write(command.encode('utf-8'))
+
 
 def power(power = None):
     if power == None:
@@ -87,4 +101,14 @@ def sweep_freq(start_freq,stop_freq, points = 1000, dwell_time = 10e-3):
     total_time = stop_time - start_time
     print('Total Sweep Time: %0.01fs'%total_time)
 
+def sweep_adc(points = 100, dwell_time = 1e-3):
+    start_time = time.time()
+    ix = 0
+    for ix in range(points):
+        print(adc())
+        time.sleep(dwell_time)
+        ix+=1
+    stop_time = time.time()
+    total_time = stop_time - start_time
+    print('Total Sweep Time: %0.01fs'%total_time)
 #sweep_freq(35000,45000,200)
