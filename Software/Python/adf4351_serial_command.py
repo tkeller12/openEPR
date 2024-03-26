@@ -3,6 +3,8 @@ from serial.tools.list_ports import comports
 import numpy as np
 import time
 
+from matplotlib.pylab import *
+
 ports = comports()
 
 port = None
@@ -111,4 +113,31 @@ def sweep_adc(points = 100, dwell_time = 1e-3):
     stop_time = time.time()
     total_time = stop_time - start_time
     print('Total Sweep Time: %0.01fs'%total_time)
+
+def sweep_freq_adc(start_freq = 2000000,stop_freq = 3000000, points = 1000, dwell_time = 3e-3):
+    freq_list = np.linspace(start_freq, stop_freq, points)
+#    freq_list = np.r_[start_freq:stop_freq:step]
+
+    start_time = time.time()
+    ix = 0
+    adc_list = []
+    for freq_value in freq_list:
+#        print(ix)
+        print('Setting freq: %0.03f'%freq_value)
+        freq(freq_value)
+        time.sleep(dwell_time)
+        adc_list.append(float(adc()))
+        ix+=1
+    stop_time = time.time()
+    total_time = stop_time - start_time
+    print('Total Sweep Time: %0.01fs'%total_time)
+
+    figure()
+    plot(freq_list,adc_list)
+    show()
+
+
 #sweep_freq(35000,45000,200)
+atten(0)
+sweep_freq_adc()
+atten(31)

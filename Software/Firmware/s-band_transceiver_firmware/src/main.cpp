@@ -1,13 +1,9 @@
 #include <Arduino.h>
 #include <SPI.h>
-//#include "adf4351.h"
-//#include "ADS1118.h"
-//#include "DAT-31A.h"
 #include "serial.h"
 #include "main.h"
 
 #define SERIAL_BAUD 115200 // Serial baud rate
-
 
 #define ADF_LE PIN_PC0 // ADF4351 Load Enable Pin for SPI communication
 
@@ -25,7 +21,7 @@
 #define RUN_LED PIN_PE1 // Processor RUN LED indicator
 #define ERROR_LED PIN_PE2 // ERROR Led
 
-//#define RUN_LED_MS_DELAY 
+#define RUN_LED_MS_DELAY 500
 
 
 // TX ATTEN CONTROL PINS
@@ -109,7 +105,7 @@ void loop()
 
   current_time = millis(); // time at start of loop
 
-  if ((current_time - run_led_last_updated) > 500) {
+  if ((current_time - run_led_last_updated) > RUN_LED_MS_DELAY) {
     digitalWrite(RUN_LED, !digitalRead(RUN_LED)); // toggle RUN LED to indicate processor running
     run_led_last_updated = current_time; // Update time
   }
