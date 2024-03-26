@@ -5219,6 +5219,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 52.07) (xy 143.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a94b4ca-dd30-4ae6-a9ba-94803117e8a2")
+	)
+	(wire
+		(pts
 			(xy 149.86 82.55) (xy 152.4 82.55)
 		)
 		(stroke
@@ -6209,6 +6219,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 49.53) (xy 148.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc081b6-1cb7-4517-9c70-1d7a26eba34f")
+	)
+	(wire
+		(pts
 			(xy 26.67 132.08) (xy 27.94 132.08)
 		)
 		(stroke
@@ -6709,6 +6729,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08f1a1c4-7a58-411b-9fd4-3c1782785fcd")
+		(property "Reference" "#PWR0143"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24266167-6047-4c86-9954-e472ffd782fa")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 149.86 132.08 90)
 		(unit 1)
@@ -6836,6 +6921,75 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 146.05 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0db67171-8d35-47b3-b403-babe0f2d7ef7")
+		(property "Reference" "R68"
+			(at 147.574 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 140.97 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "813e2cc4-c8df-43c4-b9a1-3d5f06c833aa")
+		)
+		(pin "2"
+			(uuid "ec68c779-8acd-445d-b37b-221fac27dea2")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/f050a99f-ee17-49d7-ba1b-b225c3b6208d"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -12079,7 +12233,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G125DCK"
+		(property "Value" "SN74LVC1G125DBVR"
 			(at 166.878 56.388 0)
 			(effects
 				(font
