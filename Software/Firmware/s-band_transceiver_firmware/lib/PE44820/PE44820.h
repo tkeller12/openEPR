@@ -6,10 +6,10 @@
 
 union REGISTER{
     struct {
-        uint8_t ADDR : 3;
+        uint8_t ADDR : 4;
         bool OPT : 1;
         uint8_t PHASE : 8;
-        uint8_t DONTCARE : 4;
+        uint8_t DONTCARE : 3;
     } bits;
     struct {
         uint8_t BYTE0;

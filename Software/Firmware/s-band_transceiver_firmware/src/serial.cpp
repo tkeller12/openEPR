@@ -27,6 +27,7 @@ void serialLoop() {
     whitespaceIndex = serialString.indexOf(" "); // Find index of space
     serialCommand = serialString.substring(0,whitespaceIndex); // Command is 1st part
     serialData = serialString.substring(whitespaceIndex); // Data is 2nd part
+    serialData.trim(); // remove whitespace from serial data
     serialQuery = serialCommand.endsWith("?"); // Queries have question mark
     serialValue = serialData.toInt(); // Convert data to integer
 

@@ -3369,6 +3369,12 @@
 		(uuid "6b49aebe-e84f-46dd-a7a9-4e743d41d8ce")
 	)
 	(junction
+		(at 135.89 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74dc24ff-f15a-439e-8dec-e6a5ff4660d7")
+	)
+	(junction
 		(at 214.63 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3469,6 +3475,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5f04539-2f0e-4750-b8ef-809af7f01090")
+	)
+	(junction
+		(at 135.89 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9d96a39-2b55-4c01-afe7-d12d4e410582")
+	)
+	(junction
+		(at 135.89 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff3269b9-4c1b-4f10-bea5-025e4256ef00")
 	)
 	(wire
 		(pts
@@ -3639,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "199a133a-edd2-4487-a279-1540146eaaa8")
+	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 135.89 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19cbae56-8e73-456d-b1b7-aa50717052c9")
 	)
 	(wire
 		(pts
@@ -3959,6 +3987,16 @@
 			(type default)
 		)
 		(uuid "450c754f-3bfa-4c9d-9172-d3d649539603")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ecd66d-b776-434e-b5d5-155892ee782b")
 	)
 	(wire
 		(pts
@@ -4652,6 +4690,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 81.28) (xy 135.89 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bd9d3d-9923-4075-b850-0c5a268c3085")
+	)
+	(wire
+		(pts
 			(xy 44.45 66.04) (xy 41.91 66.04)
 		)
 		(stroke
@@ -4662,6 +4710,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 86.36) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f72c88-d536-4b5c-a90d-71c2b9d70608")
+	)
+	(wire
+		(pts
+			(xy 135.89 78.74) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c466a2ca-bfc8-4f96-ad41-0a89209ef9c2")
+	)
+	(wire
+		(pts
 			(xy 191.77 31.75) (xy 195.58 31.75)
 		)
 		(stroke
@@ -4669,6 +4737,16 @@
 			(type default)
 		)
 		(uuid "c51d4972-4224-4e28-bd49-7b90d1073ba2")
+	)
+	(wire
+		(pts
+			(xy 135.89 83.82) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89fbfe6-b221-4a31-a09f-275ae59783cf")
 	)
 	(wire
 		(pts
@@ -4942,6 +5020,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 83.82) (xy 135.89 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54ce376-ebfc-4c77-bd4e-bcdf275fe330")
+	)
+	(wire
+		(pts
 			(xy 110.49 92.71) (xy 110.49 93.98)
 		)
 		(stroke
@@ -5009,6 +5097,16 @@
 			(type default)
 		)
 		(uuid "fe820a89-ac51-49bb-b3bd-158d74fad77c")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 135.89 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffee8f3c-8bed-48ec-b4b6-232f84e8fd79")
 	)
 	(text "NOTE: ~{OE} Pulled high to disable"
 		(exclude_from_sim no)
@@ -5543,6 +5641,72 @@
 			(project "S-Band Transceiver"
 				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "061ae2fa-44e9-4f14-a121-534a7c946567")
+		(property "Reference" "#PWR0145"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f54fd4ec-efd5-402b-b98b-b5cbea386a3e")
+		)
+		(instances
+			(project "S-Band Transceiver"
+				(path "/811f57cf-e3df-4fba-aff9-353adc85299e/bd41cfbd-cb46-4539-92e1-7ba2287bca8a"
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)

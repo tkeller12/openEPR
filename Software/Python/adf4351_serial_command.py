@@ -98,6 +98,11 @@ def rfenable(rfenable = None):
         command = 'rfenable %i\n'%rfenable
         ser.write(command.encode('utf-8'))
 
+def read():
+    raw_bytes = ser.readline()
+    my_string = raw_bytes.decode('utf-8')
+    return my_string
+
 def txamp(enable = None):
     if enable == None:
         command = 'txamp?\n'
@@ -151,7 +156,7 @@ def sweep_adc(points = 100, dwell_time = 1e-3):
     total_time = stop_time - start_time
     print('Total Sweep Time: %0.01fs'%total_time)
 
-def sweep_freq_adc(start_freq = 1000000,stop_freq = 4000000, points = 100, dwell_time = 1e-3):
+def sweep_freq_adc(start_freq = 1000000,stop_freq = 2000000, points = 100, dwell_time = 1e-3):
     freq_list = np.linspace(start_freq, stop_freq, points)
 #    freq_list = np.r_[start_freq:stop_freq:step]
 
@@ -175,9 +180,11 @@ def sweep_freq_adc(start_freq = 1000000,stop_freq = 4000000, points = 100, dwell
 
 
 #sweep_freq(35000,45000,200)
-atten(15)
+atten(0)
 adc('tx')
-#sweep_freq_adc()
-#atten(31)
+txamp(0)
+rxamp(0)
+sweep_freq_adc()
+atten(31)
 #ser.close()
 show()
