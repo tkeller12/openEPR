@@ -27,6 +27,7 @@ void serialLoop() {
     whitespaceIndex = serialString.indexOf(" "); // Find index of space
     serialCommand = serialString.substring(0,whitespaceIndex); // Command is 1st part
     serialData = serialString.substring(whitespaceIndex); // Data is 2nd part
+    serialData.trim(); // remove whitespace from serial data
     serialQuery = serialCommand.endsWith("?"); // Queries have question mark
     serialValue = serialData.toInt(); // Convert data to integer
 
@@ -86,6 +87,33 @@ void serialLoop() {
       else if (serialValue < 32) {
         atten = serialValue;
         dat.writeAtten(atten);
+      }
+    }
+    else if (serialCommand == "txamp"){
+      if (serialQuery) {
+        Serial.println(is_tx_amp_enabled);
+      }
+      else if (serialValue == 0 or serialValue == 1) {
+        is_tx_amp_enabled = serialValue;
+        digitalWrite(TX_AMP_ENABLE, is_tx_amp_enabled);
+      }
+    }
+    else if (serialCommand == "rxamp"){
+      if (serialQuery) {
+        Serial.println(is_rx_amp_enabled);
+      }
+      else if (serialValue == 0 or serialValue == 1) {
+        is_rx_amp_enabled = serialValue;
+        digitalWrite(RX_AMP_ENABLE, is_rx_amp_enabled);
+      }
+    }
+    else if (serialCommand == "phase"){
+      if (serialQuery) {
+        Serial.println(phase);
+      }
+      else if (serialValue < 255) {
+        phase = serialValue;
+        ps.setPhase(phase);
       }
     }
   }
