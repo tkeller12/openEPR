@@ -164,7 +164,7 @@ def sweep_adc(points = 100, dwell_time = 1e-3):
     total_time = stop_time - start_time
     print('Total Sweep Time: %0.01fs'%total_time)
 
-def sweep_freq_adc(start_freq = 1000000,stop_freq = 4000000, points = 100, dwell_time = 1e-3):
+def sweep_freq_adc(start_freq = 1000000,stop_freq = 3000000, points = 100, dwell_time = 1e-3):
     freq_list = np.linspace(start_freq, stop_freq, points)
 #    freq_list = np.r_[start_freq:stop_freq:step]
 
@@ -189,9 +189,9 @@ def sweep_freq_adc(start_freq = 1000000,stop_freq = 4000000, points = 100, dwell
 
 #sweep_freq(35000,45000,200)
 freq(2000000)
-atten(1)
-adc('tx')
-txamp(0)
+atten(0)
+adc('diff')
+txamp(1)
 rxamp(0)
 #power(0)
 #sweep_freq_adc()
@@ -200,8 +200,8 @@ txamp(0)
 rxamp(0)
 #ser.close()
 
-for ix in range(100):
-    for ix in range(127):
-        time.sleep(0.01)
-        phase(ix)
+#for ix in range(100):
+#    for ix in range(127):
+#        time.sleep(0.01)
+#        phase(ix)
 show()
