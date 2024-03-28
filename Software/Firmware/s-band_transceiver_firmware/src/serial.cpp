@@ -116,6 +116,11 @@ void serialLoop() {
         ps.setPhase(phase);
       }
     }
+    else if (serialCommand == "ld"){
+      if (serialQuery) {
+        Serial.println(digitalRead(LD));
+      }
+    }
   }
 
 

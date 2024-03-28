@@ -17,7 +17,6 @@
 
 #define XO_ENABLE PIN_PC6 // 10 MHz oscillator on board enable pin
 
-#define LD PIN_PE0 // Lock Detect Pin, this is a digital input
 #define RUN_LED PIN_PE1 // Processor RUN LED indicator
 #define ERROR_LED PIN_PE2 // ERROR Led
 
@@ -38,7 +37,7 @@ ADS1118 adc(ADC_CS);
 PE44820 ps(TX_PHASE_LE);
 
 uint32_t freq = 1000000; // Frequency in kHz
-uint8_t power = 0; // 0 is min output power, 3 is max power output
+uint8_t power = 3; // 0 is min output power, 3 is max power output
 uint8_t atten = 31;
 uint8_t phase = 0;
 bool is_rf_enabled = 1; // 0 is disabled, 1 is enabled

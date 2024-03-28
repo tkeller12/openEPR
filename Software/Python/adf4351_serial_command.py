@@ -82,6 +82,7 @@ def phase(phase = None):
         return my_string
 
     else:
+        phase = int('{:08b}'.format(phase)[::-1], 2) # reverse bits
         command = 'phase %i\n'%phase
         ser.write(command.encode('utf-8'))
 
@@ -97,6 +98,13 @@ def rfenable(rfenable = None):
     else:
         command = 'rfenable %i\n'%rfenable
         ser.write(command.encode('utf-8'))
+
+def ld():
+    command = 'ld?\n'
+    ser.write(command.encode('utf-8'))
+    raw_bytes = ser.readline()
+    my_string = raw_bytes.decode('utf-8')
+    return my_string
 
 def read():
     raw_bytes = ser.readline()
@@ -180,13 +188,20 @@ def sweep_freq_adc(start_freq = 1000000,stop_freq = 4000000, points = 100, dwell
 
 
 #sweep_freq(35000,45000,200)
-atten(0)
+freq(2000000)
+atten(1)
 adc('tx')
 txamp(0)
 rxamp(0)
-power(0)
-sweep_freq_adc()
-atten(31)
+#power(0)
+#sweep_freq_adc()
+#atten(31)
 txamp(0)
-ser.close()
+rxamp(0)
+#ser.close()
+
+for ix in range(100):
+    for ix in range(127):
+        time.sleep(0.01)
+        phase(ix)
 show()

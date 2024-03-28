@@ -12,6 +12,8 @@
 #define TX_AMP_ENABLE PIN_PB5 // Digital pin to enable TX Amplifier
 #define RX_AMP_ENABLE PIN_PC5 // Digital pin to enable RX Amplifier
 
+#define LD PIN_PE0 // Lock Detect Pin, this is a digital input
+
 extern ADF4351 adf;
 extern DAT31A dat;
 extern ADS1118 adc;
@@ -23,6 +25,5 @@ extern uint8_t phase; // TX phase 0 to 255
 extern bool is_rf_enabled; // 0 is disabled, 1 is enabled
 extern bool is_tx_amp_enabled;
 extern bool is_rx_amp_enabled;
-
 
 #endif

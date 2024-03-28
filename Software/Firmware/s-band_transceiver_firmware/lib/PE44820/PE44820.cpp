@@ -9,12 +9,12 @@ void PE44820::begin() {
     pinMode(CS, OUTPUT);
     digitalWrite(CS, HIGH);
     SPI.begin();
-    // NOTE: Confirm Mode is correct
-    SPI.beginTransaction(SPISettings(SCLK, MSBFIRST, SPI_MODE0));
+    // NOTE: Confirm Mode is correct, MODE 1 seems to work best...
+    SPI.beginTransaction(SPISettings(SCLK, MSBFIRST, SPI_MODE1));
 }
 
 void PE44820::writeRegister() {
-    SPI.setDataMode(SPI_MODE0);
+    SPI.setDataMode(SPI_MODE1);
     digitalWrite(CS, LOW);
     SPI.transfer16(REG.word);
     digitalWrite(CS, HIGH);
