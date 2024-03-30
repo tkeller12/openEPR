@@ -83,7 +83,13 @@ def phase(phase = None):
         ser.write(command.encode('utf-8'))
         raw_bytes = ser.readline()
         my_string = raw_bytes.decode('utf-8')
-        return my_string
+
+        phase = int(my_string)
+        phase = int('{:08b}'.format(phase)[::-1], 2) # reverse bits
+
+        phase *= phase_resolution
+
+        return phase
 
     else:
         phase = (phase % 360)
