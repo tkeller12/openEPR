@@ -74,6 +74,10 @@ def atten(atten = None):
         ser.write(command.encode('utf-8'))
 
 def phase(phase = None):
+    '''Phase in degrees'''
+
+    phase_resolution = 1.4 # degrees
+
     if phase == None:
         command = 'phase?\n'
         ser.write(command.encode('utf-8'))
@@ -82,8 +86,11 @@ def phase(phase = None):
         return my_string
 
     else:
-        phase = int('{:08b}'.format(phase)[::-1], 2) # reverse bits
-        command = 'phase %i\n'%phase
+        phase = (phase % 360)
+        phase_bits = int(phase / phase_resolution)
+        phase_bits &= 0xff
+        phase_bits_reversed = int('{:08b}'.format(phase_bits)[::-1], 2) # reverse bits
+        command = 'phase %i\n'%phase_bits_reversed
         ser.write(command.encode('utf-8'))
 
 
@@ -189,9 +196,9 @@ def sweep_freq_adc(start_freq = 1000000,stop_freq = 3000000, points = 100, dwell
 
 #sweep_freq(35000,45000,200)
 freq(2000000)
-atten(0)
+atten(10)
 adc('diff')
-txamp(1)
+txamp(0)
 rxamp(0)
 #power(0)
 #sweep_freq_adc()
@@ -200,8 +207,8 @@ txamp(0)
 rxamp(0)
 #ser.close()
 
-#for ix in range(100):
-#    for ix in range(127):
-#        time.sleep(0.01)
-#        phase(ix)
+#for ix2 in range(100):
+for ix in range(360):
+    time.sleep(0.001)
+    phase(ix)
 show()
