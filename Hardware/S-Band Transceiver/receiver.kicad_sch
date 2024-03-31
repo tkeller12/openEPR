@@ -6552,6 +6552,16 @@
 		)
 		(uuid "ef6887be-8cd6-4671-b80c-df36fdd15959")
 	)
+	(text "NF: 1.5 dB at 2GHz"
+		(exclude_from_sim no)
+		(at 123.698 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1a51c36-9fe9-4e8b-9c13-d9e2ec5b956f")
+	)
 	(global_label "RX_IN"
 		(shape input)
 		(at 233.68 80.01 90)
