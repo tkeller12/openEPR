@@ -8,7 +8,7 @@ txr = pytxr.Txr()
 
 dwell_time = 0.010 # seconds
 pts = 100.
-freq_array = np.r_[800e6:1200e6:1j*pts]
+freq_array = np.r_[800e6:1000e6:1j*pts]
 
 
 txr.txamp(1)
