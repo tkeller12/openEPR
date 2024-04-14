@@ -11,8 +11,8 @@ pts = 100.
 freq_array = np.r_[800e6:1000e6:1j*pts]
 
 
-txr.txamp(1)
-txr.atten(10)
+#txr.txamp(1)
+#txr.atten(10)
 #txr.adc('tx')
 #txr.adc('rx')
 txr.adc('diff')
