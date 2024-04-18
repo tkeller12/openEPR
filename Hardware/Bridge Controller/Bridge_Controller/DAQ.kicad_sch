@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "6e005d5e-1b88-4fc6-89e1-adfe0e1df42d")
 	(paper "A4")
+	(title_block
+		(title "openEPR DAQ")
+		(date "2024-04-17")
+		(rev "v1.0")
+		(company "openEPR")
+		(comment 1 "Timothy Keller")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LMV358"
 			(pin_names
@@ -2290,6 +2297,12 @@
 		(uuid "41f6fb6e-d2c1-41a6-908c-3701f2612c07")
 	)
 	(junction
+		(at 48.26 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49fb463a-a0d6-4d17-b357-10b0541d12fb")
+	)
+	(junction
 		(at 35.56 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2300,6 +2313,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56ab7468-f6e8-4295-8b11-3eed6c4cb8b7")
+	)
+	(junction
+		(at 44.45 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65518bb0-9cc3-42cf-8e1c-53f3d4579f70")
 	)
 	(junction
 		(at 172.72 38.1)
@@ -2404,7 +2423,7 @@
 		(uuid "d82c625e-1828-4ba6-ad81-591ebcdd88e2")
 	)
 	(junction
-		(at 110.49 49.53)
+		(at 116.84 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8647c82-0178-4505-b266-17b5888e05c2")
@@ -2563,6 +2582,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 41.91) (xy 62.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5de72b-a1de-49e5-983f-f815577010d4")
+	)
+	(wire
+		(pts
 			(xy 151.13 38.1) (xy 157.48 38.1)
 		)
 		(stroke
@@ -2713,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 49.53) (xy 111.76 49.53)
+			(xy 116.84 49.53) (xy 118.11 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2803,6 +2832,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 133.35) (xy 44.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258c1a62-932f-4610-bb6f-d8163ab2fe09")
+	)
+	(wire
+		(pts
 			(xy 81.28 73.66) (xy 100.33 73.66)
 		)
 		(stroke
@@ -2823,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 30.48) (xy 43.18 31.75)
+			(xy 43.18 27.94) (xy 43.18 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 49.53) (xy 110.49 49.53)
+			(xy 115.57 49.53) (xy 116.84 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2973,6 +3012,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 27.94) (xy 43.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320f5e64-38e8-4afe-a89d-8e870f194449")
+	)
+	(wire
+		(pts
 			(xy 236.22 57.15) (xy 251.46 57.15)
 		)
 		(stroke
@@ -3013,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 26.67) (xy 48.26 31.75)
+			(xy 48.26 26.67) (xy 48.26 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3110,6 +3159,16 @@
 			(type default)
 		)
 		(uuid "4b95cb58-eca4-453c-81b9-28c866a3e35e")
+	)
+	(wire
+		(pts
+			(xy 48.26 27.94) (xy 50.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8e285b-2fe1-4062-be06-1505394549fc")
 	)
 	(wire
 		(pts
@@ -3223,6 +3282,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 134.62) (xy 33.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae158cc-c99d-4bc6-b568-989ea320fcf2")
+	)
+	(wire
+		(pts
 			(xy 83.82 69.85) (xy 81.28 69.85)
 		)
 		(stroke
@@ -3310,6 +3379,16 @@
 			(type default)
 		)
 		(uuid "70fcfa03-08ea-4c80-8e43-93cae02219dd")
+	)
+	(wire
+		(pts
+			(xy 39.37 133.35) (xy 44.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7108320e-d36f-400f-9768-fbc2dd6fbd3a")
 	)
 	(wire
 		(pts
@@ -3513,13 +3592,33 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 104.14 49.53)
+			(xy 69.85 39.37) (xy 69.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b69a1d9-671a-42ec-918b-c68949ab57e5")
+	)
+	(wire
+		(pts
+			(xy 100.33 49.53) (xy 102.87 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c01f93c-2dc6-41cf-adb8-c346fcc4804b")
+	)
+	(wire
+		(pts
+			(xy 107.95 49.53) (xy 110.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8f407b-a62f-4cd7-b954-11f422c58689")
 	)
 	(wire
 		(pts
@@ -3530,6 +3629,16 @@
 			(type default)
 		)
 		(uuid "8eac7e29-dc32-4ca6-ae95-25c338c316d8")
+	)
+	(wire
+		(pts
+			(xy 33.02 133.35) (xy 34.29 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec304fb-9d7f-433c-8c1b-38fdfae6c7a6")
 	)
 	(wire
 		(pts
@@ -3703,6 +3812,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 39.37) (xy 63.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ab6090-13fb-4e51-8b3f-f488b26e89d1")
+	)
+	(wire
+		(pts
 			(xy 59.69 139.7) (xy 59.69 149.86)
 		)
 		(stroke
@@ -3723,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 49.53) (xy 110.49 50.8)
+			(xy 116.84 49.53) (xy 116.84 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3863,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 41.91) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26eb717-79a3-4e7a-9d8b-a58fc834dc76")
+	)
+	(wire
+		(pts
 			(xy 167.64 34.29) (xy 167.64 38.1)
 		)
 		(stroke
@@ -3870,6 +3999,16 @@
 			(type default)
 		)
 		(uuid "b5fcab93-0862-4684-abcd-40e8c84cfa90")
+	)
+	(wire
+		(pts
+			(xy 68.58 39.37) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73f4a99-a93b-4408-b83e-ffe133ab532a")
 	)
 	(wire
 		(pts
@@ -3920,6 +4059,16 @@
 			(type default)
 		)
 		(uuid "bb7f2891-d033-45ee-912d-078b1c10c173")
+	)
+	(wire
+		(pts
+			(xy 34.29 27.94) (xy 35.56 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba334b8-49a2-42be-90f7-5536d01d90c5")
 	)
 	(wire
 		(pts
@@ -4123,6 +4272,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 29.21) (xy 34.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd8b756-a16d-42b3-8bce-6c7b9bf6192e")
+	)
+	(wire
+		(pts
 			(xy 46.99 97.79) (xy 49.53 97.79)
 		)
 		(stroke
@@ -4153,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 134.62) (xy 44.45 137.16)
+			(xy 44.45 130.81) (xy 44.45 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4213,7 +4372,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 54.61) (xy 116.84 55.88)
+			(xy 123.19 54.61) (xy 123.19 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4270,6 +4429,16 @@
 			(type default)
 		)
 		(uuid "d773a3d3-d7cd-4c3d-a853-890abc35a822")
+	)
+	(wire
+		(pts
+			(xy 55.88 27.94) (xy 57.15 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ec70ec-6fca-4523-a266-014012885c98")
 	)
 	(wire
 		(pts
@@ -4353,6 +4522,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 27.94) (xy 48.26 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5051bc1-adc7-4741-9943-184a72256e88")
+	)
+	(wire
+		(pts
 			(xy 227.33 46.99) (xy 227.33 48.26)
 		)
 		(stroke
@@ -4390,6 +4569,16 @@
 			(type default)
 		)
 		(uuid "eabd82d5-4809-41ad-8a77-21f870ef0c86")
+	)
+	(wire
+		(pts
+			(xy 57.15 27.94) (xy 57.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed63bd77-8e7b-4b36-8587-04efe9967750")
 	)
 	(wire
 		(pts
@@ -5020,7 +5209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00835028-9f1c-4bff-b7e2-97bd3e776310")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR066"
 			(at 227.33 54.61 0)
 			(effects
 				(font
@@ -5070,7 +5259,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR045")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5085,7 +5274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0862f059-4957-40c9-aabe-99aab758d906")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR070"
 			(at 247.65 156.21 0)
 			(effects
 				(font
@@ -5135,7 +5324,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR057")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -5169,7 +5358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
 			(at 250.19 140.97 0)
 			(effects
 				(font
@@ -5239,7 +5428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b99161f-9490-4d5f-a644-d2801f14981b")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR042"
 			(at 62.23 64.77 0)
 			(effects
 				(font
@@ -5289,7 +5478,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR082")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5304,7 +5493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e305006-1377-474f-97eb-865dc457f25b")
-		(property "Reference" "R32"
+		(property "Reference" "R27"
 			(at 157.48 40.386 90)
 			(effects
 				(font
@@ -5322,7 +5511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.56 38.1 0)
 			(effects
 				(font
@@ -5358,7 +5547,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R32")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5373,7 +5562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0faf02b4-58d1-44da-8caf-69ee882f4ab4")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR062"
 			(at 198.12 67.31 0)
 			(effects
 				(font
@@ -5423,7 +5612,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR043")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5438,7 +5627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "115be603-776c-4966-a3f5-9269d2ef4357")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR065"
 			(at 215.9 156.21 0)
 			(effects
 				(font
@@ -5488,7 +5677,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR071")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5504,7 +5693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12472203-6b2e-4f52-b477-03f0fa618422")
-		(property "Reference" "U11"
+		(property "Reference" "U6"
 			(at 275.59 139.6999 0)
 			(effects
 				(font
@@ -5522,7 +5711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
 			(at 276.86 140.97 0)
 			(effects
 				(font
@@ -5576,7 +5765,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U11")
+					(reference "U6")
 					(unit 3)
 				)
 			)
@@ -5591,7 +5780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1418f2cd-33ff-4a28-88a1-5df891acc28b")
-		(property "Reference" "R47"
+		(property "Reference" "R44"
 			(at 221.742 77.216 90)
 			(effects
 				(font
@@ -5609,7 +5798,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.71 81.28 0)
 			(effects
 				(font
@@ -5645,7 +5834,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R47")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5660,7 +5849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1846128b-ad38-437e-b7dd-2a3c29ea0bc7")
-		(property "Reference" "C22"
+		(property "Reference" "C18"
 			(at 70.866 141.986 0)
 			(effects
 				(font
@@ -5678,7 +5867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 143.51 0)
 			(effects
 				(font
@@ -5714,7 +5903,72 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C22")
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a297021-e964-4dfa-982e-40f89232b646")
+		(property "Reference" "#PWR080"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.734 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2dd4e3a-1b5a-4008-978a-8e9ef25e8a4e")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5730,7 +5984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1af63ed4-1f99-4a67-aee2-7f93222548d8")
-		(property "Reference" "C30"
+		(property "Reference" "C23"
 			(at 189.23 40.6462 0)
 			(effects
 				(font
@@ -5748,7 +6002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.69 41.91 0)
 			(effects
 				(font
@@ -5784,7 +6038,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C30")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5799,7 +6053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b9992d0-d192-4c76-aab8-9f754653642c")
-		(property "Reference" "R44"
+		(property "Reference" "R40"
 			(at 209.042 46.736 90)
 			(effects
 				(font
@@ -5817,7 +6071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 50.8 0)
 			(effects
 				(font
@@ -5853,7 +6107,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R44")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -5868,7 +6122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c49f037-40ca-4639-9e46-c92332276c60")
-		(property "Reference" "R42"
+		(property "Reference" "R17"
 			(at 49.784 95.758 90)
 			(effects
 				(font
@@ -5920,7 +6174,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R42")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5951,7 +6205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -6020,7 +6274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d020ecf-2ddd-456f-b219-1ffe5e05fe42")
-		(property "Reference" "C32"
+		(property "Reference" "C20"
 			(at 74.676 49.022 0)
 			(effects
 				(font
@@ -6038,7 +6292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.66 50.8 0)
 			(effects
 				(font
@@ -6074,7 +6328,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C32")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6089,7 +6343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dda8b5b-a491-4c02-90a1-f19d96b658ae")
-		(property "Reference" "R51"
+		(property "Reference" "R24"
 			(at 99.568 144.526 90)
 			(effects
 				(font
@@ -6105,7 +6359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 142.24 0)
 			(effects
 				(font
@@ -6141,7 +6395,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R51")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6157,7 +6411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e0f5fd-1427-4bc3-a65e-efb7530ee8d9")
-		(property "Reference" "U11"
+		(property "Reference" "U6"
 			(at 91.44 57.15 0)
 			(effects
 				(font
@@ -6173,7 +6427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
 			(at 91.44 67.31 0)
 			(effects
 				(font
@@ -6227,7 +6481,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U11")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -6242,7 +6496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22b982ac-150b-4467-aa16-e4b1d9eef2b1")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR064"
 			(at 205.74 140.97 0)
 			(effects
 				(font
@@ -6292,7 +6546,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR038")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6300,15 +6554,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 116.84 49.53 0)
+		(at 123.19 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "23f81fa2-32cd-4a34-a73e-002f71032d28")
-		(property "Reference" "J9"
-			(at 115.57 44.704 0)
+		(property "Reference" "J6"
+			(at 121.92 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6571,7 @@
 			)
 		)
 		(property "Value" "SMA-J-P-H-ST-EM1"
-			(at 106.172 46.482 0)
+			(at 112.522 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6580,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 116.84 49.53 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6589,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
-			(at 116.84 49.53 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6598,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 116.84 49.53 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6607,7 @@
 			)
 		)
 		(property "Digikey" "SAM8857-ND"
-			(at 116.84 49.53 0)
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6624,72 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "J9")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "240ac320-6fd1-4573-94e5-1bf99961cb79")
+		(property "Reference" "#PWR081"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.452 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fda97d0e-e7d0-4d45-b4f1-bdbd374395ae")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -6385,7 +6704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "249edae7-82ac-4ce5-ac35-b93d740067cf")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR075"
 			(at 266.7 139.7 0)
 			(effects
 				(font
@@ -6435,7 +6754,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR061")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -6451,7 +6770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26244b01-5457-477b-956e-8b2d18450ed5")
-		(property "Reference" "R37"
+		(property "Reference" "R32"
 			(at 179.07 73.66 90)
 			(effects
 				(font
@@ -6467,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.07 78.74 0)
 			(effects
 				(font
@@ -6503,7 +6822,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R37")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6518,7 +6837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "266cce02-94af-40f6-82ab-fd165363b8f8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR043"
 			(at 69.85 153.67 0)
 			(effects
 				(font
@@ -6568,7 +6887,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR051")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6576,15 +6895,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.68 49.53 90)
+		(at 113.03 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2844970e-ccb4-4d58-9dfa-ce24158e8009")
-		(property "Reference" "C28"
-			(at 103.632 48.006 90)
+		(property "Reference" "C21"
+			(at 109.982 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,15 +6911,15 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 106.68 52.324 90)
+			(at 113.03 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 49.53 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +6928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 49.53 0)
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6937,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 106.68 49.53 0)
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,7 +6954,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C28")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6650,7 +6969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a015cf7-1862-42de-8b68-6ce355da5c6f")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR061"
 			(at 191.77 156.21 0)
 			(effects
 				(font
@@ -6700,7 +7019,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR064")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6715,7 +7034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d03ce2a-75f5-4a32-a9ac-8b6b447d3164")
-		(property "Reference" "C26"
+		(property "Reference" "C22"
 			(at 170.942 132.588 0)
 			(effects
 				(font
@@ -6733,7 +7052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.53 134.62 0)
 			(effects
 				(font
@@ -6769,7 +7088,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C26")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -6784,7 +7103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f38c9dd-671b-405a-8316-252e2837d106")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR077"
 			(at 274.32 156.21 0)
 			(effects
 				(font
@@ -6834,7 +7153,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR055")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -6849,7 +7168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32594125-db25-4b3c-b49c-a81e1dc00beb")
-		(property "Reference" "C24"
+		(property "Reference" "C29"
 			(at 254.254 128.524 90)
 			(effects
 				(font
@@ -6865,7 +7184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 257.81 132.08 0)
 			(effects
 				(font
@@ -6901,7 +7220,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C24")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -6916,7 +7235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41633e2b-7ad9-424e-85b7-bad0bd399faa")
-		(property "Reference" "TP3"
+		(property "Reference" "TP6"
 			(at 240.792 37.846 0)
 			(effects
 				(font
@@ -6935,7 +7254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 241.3 40.64 0)
 			(effects
 				(font
@@ -6968,7 +7287,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "TP3")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6983,7 +7302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "443fadef-4614-4b1c-b8b9-a9a4f8b7e972")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR068"
 			(at 240.03 139.7 0)
 			(effects
 				(font
@@ -7033,7 +7352,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR058")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7048,7 +7367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4482d693-daa5-4ef3-9eff-b76e26566adf")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 26.67 56.896 0)
 			(effects
 				(font
@@ -7124,7 +7443,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7139,7 +7458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "459ad88d-6273-4ba0-8129-03f71227a677")
-		(property "Reference" "R48"
+		(property "Reference" "R19"
 			(at 61.468 137.922 90)
 			(effects
 				(font
@@ -7155,7 +7474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -7191,7 +7510,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R48")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7206,7 +7525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4626ae49-77cd-4526-8bf0-9d765a328f0a")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR035"
 			(at 26.67 96.52 0)
 			(effects
 				(font
@@ -7216,7 +7535,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 23.622 92.202 0)
+			(at 26.67 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7575,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR074")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7271,7 +7590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47885a50-dec0-4d57-b341-34fc1e7647e9")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 58.42 102.362 0)
 			(effects
 				(font
@@ -7290,7 +7609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 52.07 99.06 0)
 			(effects
 				(font
@@ -7323,7 +7642,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "TP6")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7338,7 +7657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4886cb70-ac79-4cbe-a5de-1e070fd579a7")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 106.68 137.668 0)
 			(effects
 				(font
@@ -7357,7 +7676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 113.03 140.97 0)
 			(effects
 				(font
@@ -7390,7 +7709,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7405,7 +7724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49f9396b-c63e-4ff9-aece-1cca23bfc95c")
-		(property "Reference" "R56"
+		(property "Reference" "R35"
 			(at 187.96 29.718 0)
 			(effects
 				(font
@@ -7423,7 +7742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 186.69 30.48 0)
 			(effects
 				(font
@@ -7459,7 +7778,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R56")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7474,7 +7793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4bce14dd-ebc1-479e-a95b-c205ce6d3bf4")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR049"
 			(at 123.19 154.94 0)
 			(effects
 				(font
@@ -7524,7 +7843,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR054")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7540,7 +7859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd38a92-52d7-4b4e-ae4e-bbed90cc786f")
-		(property "Reference" "R36"
+		(property "Reference" "R33"
 			(at 180.34 33.02 90)
 			(effects
 				(font
@@ -7556,7 +7875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.34 38.1 0)
 			(effects
 				(font
@@ -7592,7 +7911,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R36")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7607,7 +7926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e8ef6f1-bd7e-4f08-b371-17e8905e3c49")
-		(property "Reference" "C29"
+		(property "Reference" "C25"
 			(at 210.312 142.748 0)
 			(effects
 				(font
@@ -7625,7 +7944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 215.9 144.78 0)
 			(effects
 				(font
@@ -7661,7 +7980,74 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C29")
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 53.34 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4faf9e06-8969-4afb-b7d2-cb522dc79568")
+		(property "Reference" "C32"
+			(at 50.546 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.404 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7901a8e1-5e01-4e67-b06b-1ec9df0fb43f")
+		)
+		(pin "1"
+			(uuid "fff7cb6d-c9a8-4793-a880-7ec403e31a3c")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -7676,7 +8062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52a0208d-ba31-4c48-8e9d-7f87280d3551")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR071"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -7726,7 +8112,74 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR060")
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 105.41 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "531a7787-4b30-494c-a593-f42f5755e536")
+		(property "Reference" "R45"
+			(at 105.664 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 105.41 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 105.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 105.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fbd77d9-99d2-4a85-b2be-d83c78d13674")
+		)
+		(pin "1"
+			(uuid "b782ce78-1172-4bd7-b0b6-4c9904e01292")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -7741,7 +8194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5329ddd3-f4cd-4b66-85fe-cf30d9ae0f95")
-		(property "Reference" "R41"
+		(property "Reference" "R39"
 			(at 200.406 96.52 0)
 			(effects
 				(font
@@ -7759,7 +8212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 198.12 97.79 0)
 			(effects
 				(font
@@ -7795,7 +8248,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R41")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -7810,7 +8263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56c7cfb5-6029-4a55-99cc-3efd97c6af09")
-		(property "Reference" "R43"
+		(property "Reference" "R41"
 			(at 209.296 87.376 90)
 			(effects
 				(font
@@ -7828,7 +8281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 91.44 0)
 			(effects
 				(font
@@ -7864,7 +8317,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R43")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -7895,7 +8348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
 			(at 205.74 40.64 0)
 			(effects
 				(font
@@ -7965,7 +8418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba71155-eaff-44fe-bb83-5d5ea9bdfcca")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR041"
 			(at 48.26 30.48 0)
 			(effects
 				(font
@@ -8015,7 +8468,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR081")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8030,7 +8483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bc3e3ba-1ece-477b-9433-12b2630eaeec")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR053"
 			(at 172.72 52.07 0)
 			(effects
 				(font
@@ -8080,7 +8533,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR041")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8095,7 +8548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e1ee9a4-9933-4872-8c8a-66da2347dc96")
-		(property "Reference" "R57"
+		(property "Reference" "R16"
 			(at 16.002 92.456 0)
 			(effects
 				(font
@@ -8113,7 +8566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 20.32 93.98 0)
 			(effects
 				(font
@@ -8149,7 +8602,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R57")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8165,7 +8618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62bc0451-f7bd-458b-8f9c-7e3a08da1c11")
-		(property "Reference" "C27"
+		(property "Reference" "C24"
 			(at 189.23 81.2862 0)
 			(effects
 				(font
@@ -8183,7 +8636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.69 82.55 0)
 			(effects
 				(font
@@ -8219,7 +8672,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C27")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -8234,7 +8687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6505a323-f346-4215-8832-d66fbfaf7be7")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR073"
 			(at 261.62 134.62 0)
 			(effects
 				(font
@@ -8284,7 +8737,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR062")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8299,7 +8752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "660e968f-9966-41dd-ace4-cb977604e8da")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR063"
 			(at 198.12 107.95 0)
 			(effects
 				(font
@@ -8349,7 +8802,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR044")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8364,7 +8817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68349e39-45ce-4ce2-9607-dd62951bb001")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR051"
 			(at 146.05 50.8 0)
 			(effects
 				(font
@@ -8414,7 +8867,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR039")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8429,7 +8882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68584747-e301-4cdb-b1d6-a1d4123e9fc0")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR057"
 			(at 186.69 52.07 0)
 			(effects
 				(font
@@ -8479,7 +8932,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR072")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8494,7 +8947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c4d0f22-e607-4a06-a41a-7cf601469ee7")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 91.186 145.288 0)
 			(effects
 				(font
@@ -8510,7 +8963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
 			(at 87.63 142.24 0)
 			(effects
 				(font
@@ -8564,7 +9017,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U10")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8579,7 +9032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d6413b9-b0f3-46bd-b350-491fbb123319")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR054"
 			(at 172.72 92.71 0)
 			(effects
 				(font
@@ -8629,7 +9082,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR042")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8644,7 +9097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70f0ee2d-cbfc-43cf-a698-c517b7551dab")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR044"
 			(at 69.85 170.18 0)
 			(effects
 				(font
@@ -8694,7 +9147,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR050")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8702,15 +9155,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 110.49 50.8 180)
+		(at 116.84 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "71e64300-85d1-4806-b452-da6d863bb9bf")
-		(property "Reference" "TP7"
-			(at 108.712 56.896 0)
+		(property "Reference" "TP4"
+			(at 115.062 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +9172,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 56.642 0)
+			(at 110.49 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,8 +9181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 105.41 50.8 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 111.76 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +9191,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 50.8 0)
+			(at 111.76 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +9200,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 110.49 50.8 0)
+			(at 116.84 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +9214,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "TP7")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8777,7 +9230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72b3213f-7f1f-4003-b5ce-770e4edf033b")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR036"
 			(at 35.56 90.17 0)
 			(effects
 				(font
@@ -8827,7 +9280,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR075")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8842,7 +9295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77f22b7e-9355-4638-a551-e4307445fdc5")
-		(property "Reference" "R40"
+		(property "Reference" "R38"
 			(at 200.406 55.88 0)
 			(effects
 				(font
@@ -8860,7 +9313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 198.12 57.15 0)
 			(effects
 				(font
@@ -8896,7 +9349,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R40")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8912,7 +9365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77f7f044-36e9-48e7-a0bc-e6efd13353fa")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 262.89 139.6999 0)
 			(effects
 				(font
@@ -8930,7 +9383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -8984,7 +9437,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U10")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -9000,7 +9453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79e1a397-06cf-4b85-a8c6-b7bb76f5931a")
-		(property "Reference" "C25"
+		(property "Reference" "C30"
 			(at 270.5163 125.73 90)
 			(effects
 				(font
@@ -9016,7 +9469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 270.51 132.08 0)
 			(effects
 				(font
@@ -9052,7 +9505,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C25")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -9067,7 +9520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a6fb3f7-4003-469d-921e-76feee2169ba")
-		(property "Reference" "R35"
+		(property "Reference" "R31"
 			(at 171.45 83.566 0)
 			(effects
 				(font
@@ -9085,7 +9538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 82.55 0)
 			(effects
 				(font
@@ -9121,7 +9574,74 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R35")
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 38.1 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b106246-4134-4ea9-94a5-cbcf7bd9b29e")
+		(property "Reference" "C33"
+			(at 35.306 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 42.164 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c7ec97f-422f-4dd4-b50d-292da0cb657f")
+		)
+		(pin "1"
+			(uuid "fbb6a025-5fa4-4ddc-8333-9a559fdd57ee")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -9136,7 +9656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b2cd6a5-f1d8-4d99-8897-b8d2849ee9e1")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR067"
 			(at 227.33 95.25 0)
 			(effects
 				(font
@@ -9186,7 +9706,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR046")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9202,7 +9722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c30c4c1-5bbf-4300-90d9-67b99d487977")
-		(property "Reference" "U6"
+		(property "Reference" "U9"
 			(at 263.8141 46.99 0)
 			(effects
 				(font
@@ -9220,7 +9740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 260.35 63.5 0)
 			(effects
 				(font
@@ -9280,7 +9800,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U6")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -9288,15 +9808,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 55.88 0)
+		(at 123.19 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7d1bb116-265e-4fd3-a406-974537b306bb")
-		(property "Reference" "#PWR069"
-			(at 116.84 62.23 0)
+		(property "Reference" "#PWR048"
+			(at 123.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,7 +9825,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 59.944 0)
+			(at 123.19 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 55.88 0)
+			(at 123.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,7 +9842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 55.88 0)
+			(at 123.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9851,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 55.88 0)
+			(at 123.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,7 +9865,76 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR069")
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 36.83 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ff3f6a1-d59d-4926-86d5-57ac37010fcb")
+		(property "Reference" "C31"
+			(at 35.56 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 43.688 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 36.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 36.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ffbb633-86b7-4106-969b-aaa71a7f4f26")
+		)
+		(pin "1"
+			(uuid "f66a6e77-2932-453b-bc7d-506e17950321")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -9360,7 +9949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82e59daa-11fe-4938-952f-b33593659306")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 106.68 152.908 0)
 			(effects
 				(font
@@ -9379,7 +9968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 113.03 156.21 0)
 			(effects
 				(font
@@ -9412,7 +10001,74 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "TP4")
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "835296fb-26dd-4083-9412-fa473ce0e04d")
+		(property "Reference" "C34"
+			(at 63.246 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 70.104 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce644b65-e4a1-44c2-973c-6f53119c3386")
+		)
+		(pin "1"
+			(uuid "4232f1ad-87c6-4674-a011-49c843a95ab8")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -9428,7 +10084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "837ad715-82b2-4469-ab1e-924894479738")
-		(property "Reference" "C19"
+		(property "Reference" "C26"
 			(at 229.87 43.1862 0)
 			(effects
 				(font
@@ -9446,7 +10102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.33 44.45 0)
 			(effects
 				(font
@@ -9482,7 +10138,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C19")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9497,7 +10153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9837724d-b882-4c95-898b-174d8a538ec0")
-		(property "Reference" "R55"
+		(property "Reference" "R26"
 			(at 156.972 33.02 90)
 			(effects
 				(font
@@ -9515,7 +10171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.56 34.29 0)
 			(effects
 				(font
@@ -9551,7 +10207,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R55")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9566,7 +10222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9947db85-37f7-4370-9cf0-4ff3013f9056")
-		(property "Reference" "U12"
+		(property "Reference" "U7"
 			(at 209.55 136.052 0)
 			(effects
 				(font
@@ -9639,7 +10295,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U12")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9654,7 +10310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a4c13dc-e99f-4c8d-95cb-31b27913333b")
-		(property "Reference" "C23"
+		(property "Reference" "C28"
 			(at 240.03 128.778 90)
 			(effects
 				(font
@@ -9670,7 +10326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 243.84 132.08 0)
 			(effects
 				(font
@@ -9706,7 +10362,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C23")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -9721,7 +10377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9eea6e46-56df-4667-bb83-d33b1d30854a")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR047"
 			(at 76.2 110.49 0)
 			(effects
 				(font
@@ -9771,7 +10427,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR077")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9786,7 +10442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a10d9700-a19b-459a-9490-b8812e514dd4")
-		(property "Reference" "R34"
+		(property "Reference" "R30"
 			(at 171.45 42.926 0)
 			(effects
 				(font
@@ -9804,7 +10460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 41.91 0)
 			(effects
 				(font
@@ -9840,7 +10496,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R34")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9855,7 +10511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a213cda6-c023-46c1-8876-f04745097d06")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 70.866 158.496 0)
 			(effects
 				(font
@@ -9873,7 +10529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 160.02 0)
 			(effects
 				(font
@@ -9909,7 +10565,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9924,7 +10580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2382471-3015-4a73-8ff4-9b5aacc8337f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR069"
 			(at 247.65 134.62 0)
 			(effects
 				(font
@@ -9974,7 +10630,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR059")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9989,7 +10645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a24be567-2d07-4eb2-afd6-fe8f61f1ca0d")
-		(property "Reference" "U11"
+		(property "Reference" "U6"
 			(at 93.218 42.672 0)
 			(effects
 				(font
@@ -10005,7 +10661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -10059,7 +10715,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U11")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -10074,7 +10730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a787ad76-9960-4260-9e76-16e6fd35d87a")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR040"
 			(at 45.72 67.31 0)
 			(effects
 				(font
@@ -10124,7 +10780,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR070")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10139,7 +10795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa455c49-e497-42fa-a11c-ee56719176af")
-		(property "Reference" "R50"
+		(property "Reference" "R25"
 			(at 99.568 159.766 90)
 			(effects
 				(font
@@ -10155,7 +10811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 157.48 0)
 			(effects
 				(font
@@ -10191,7 +10847,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R50")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10214,7 +10870,7 @@
 				)
 			)
 		)
-		(property "Value" "XO32"
+		(property "Value" "XO53"
 			(at 39.37 91.44 0)
 			(effects
 				(font
@@ -10222,7 +10878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -10241,6 +10897,15 @@
 			)
 		)
 		(property "Description" "HCMOS Clock Oscillator"
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "XC1902CT-ND"
 			(at 35.56 97.79 0)
 			(effects
 				(font
@@ -10279,7 +10944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afbb6913-a91e-4982-b00a-b626ba12ba86")
-		(property "Reference" "R46"
+		(property "Reference" "R43"
 			(at 221.742 36.576 90)
 			(effects
 				(font
@@ -10297,7 +10962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.71 40.64 0)
 			(effects
 				(font
@@ -10333,7 +10998,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R46")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -10348,7 +11013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b41f6ab3-15e2-40a7-81c3-20128bbb2fa6")
-		(property "Reference" "R38"
+		(property "Reference" "R34"
 			(at 188.214 23.114 0)
 			(effects
 				(font
@@ -10366,7 +11031,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 186.69 24.13 0)
 			(effects
 				(font
@@ -10402,7 +11067,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R38")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -10417,7 +11082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b66d5b3b-141e-4f18-a0c3-eafa34d71448")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR037"
 			(at 35.56 114.3 0)
 			(effects
 				(font
@@ -10467,7 +11132,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR076")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10482,7 +11147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdf043f4-133f-499e-a376-fc0520da5ac2")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 121.92 137.414 0)
 			(effects
 				(font
@@ -10545,7 +11210,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10560,7 +11225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfc784ab-9e23-4303-8204-e9f86908fc49")
-		(property "Reference" "C31"
+		(property "Reference" "C17"
 			(at 30.48 84.582 90)
 			(effects
 				(font
@@ -10576,7 +11241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.48 88.9 0)
 			(effects
 				(font
@@ -10612,7 +11277,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C31")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10627,7 +11292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfd18655-1ec9-4806-a26f-092b609cf766")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR052"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -10677,7 +11342,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR040")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10692,7 +11357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfdb4945-3354-4077-9096-0cc645713ae5")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR045"
 			(at 73.66 60.96 0)
 			(effects
 				(font
@@ -10742,7 +11407,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR079")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10757,7 +11422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c08ed738-00e7-470b-b9bd-a7cf7c827efa")
-		(property "Reference" "R60"
+		(property "Reference" "R23"
 			(at 75.184 70.104 0)
 			(effects
 				(font
@@ -10775,7 +11440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 71.12 0)
 			(effects
 				(font
@@ -10811,7 +11476,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R60")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -10819,7 +11484,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 44.45 134.62 0)
+		(at 44.45 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10827,8 +11492,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c13eb991-7891-473f-8e5b-80c4785fafcf")
-		(property "Reference" "#PWR049"
-			(at 44.45 138.43 0)
+		(property "Reference" "#PWR038"
+			(at 44.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,7 +11502,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 44.45 129.54 0)
+			(at 44.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,7 +11510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 134.62 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +11519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 134.62 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +11528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 134.62 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10877,7 +11542,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR049")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10892,7 +11557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3e6b1ee-7950-4286-b989-5c4852bece72")
-		(property "Reference" "R33"
+		(property "Reference" "R29"
 			(at 157.48 80.264 90)
 			(effects
 				(font
@@ -10910,7 +11575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -10946,7 +11611,72 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R33")
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c43627ab-8b75-4a7c-871b-bece0bc767f0")
+		(property "Reference" "#PWR079"
+			(at 33.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d9f14ce-8fd9-4fdc-a829-81def3b4ac88")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -10961,7 +11691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c614a1ca-e234-4d2e-b711-f32472d3d074")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 90.678 161.036 0)
 			(effects
 				(font
@@ -10977,7 +11707,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
 			(at 87.63 157.48 0)
 			(effects
 				(font
@@ -11031,7 +11761,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U10")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -11046,7 +11776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c85fd6d7-383d-42a7-8427-bb80d4c7b4f3")
-		(property "Reference" "R59"
+		(property "Reference" "R22"
 			(at 62.992 63.246 90)
 			(effects
 				(font
@@ -11064,7 +11794,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 64.77 0)
 			(effects
 				(font
@@ -11100,7 +11830,72 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R59")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9961f4a-b70b-4152-9c24-bba9691310e1")
+		(property "Reference" "#PWR082"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.152 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8c99f34-06cb-4c6f-a4c9-0ac5f06c83cc")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -11116,7 +11911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb8b5527-4f7f-41f8-81a9-eaded5de81f0")
-		(property "Reference" "C20"
+		(property "Reference" "C27"
 			(at 229.87 83.8262 0)
 			(effects
 				(font
@@ -11134,7 +11929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.33 85.09 0)
 			(effects
 				(font
@@ -11170,7 +11965,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "C20")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -11184,10 +11979,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc3b3533-8a54-4d42-a6b7-81897e395010")
-		(property "Reference" "R58"
-			(at 67.31 41.91 90)
+		(property "Reference" "R21"
+			(at 64.008 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,14 +11989,14 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 67.31 44.45 90)
+			(at 70.358 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.31 46.99 0)
 			(effects
 				(font
@@ -11238,7 +12032,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R58")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11253,7 +12047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccb5dccc-db7a-485f-be49-4f3d23e3b4aa")
-		(property "Reference" "TP2"
+		(property "Reference" "TP7"
 			(at 234.95 61.468 0)
 			(effects
 				(font
@@ -11272,7 +12066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 241.3 64.77 0)
 			(effects
 				(font
@@ -11305,7 +12099,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "TP2")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -11320,7 +12114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d02f5cd2-502b-45cc-b13c-6e0867c4b845")
-		(property "Reference" "R52"
+		(property "Reference" "R28"
 			(at 156.972 73.66 90)
 			(effects
 				(font
@@ -11338,7 +12132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.56 74.93 0)
 			(effects
 				(font
@@ -11374,7 +12168,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R52")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -11389,7 +12183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d649ff9d-6cbb-499e-a5ac-6ec7a9cb13bb")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR046"
 			(at 73.66 81.28 0)
 			(effects
 				(font
@@ -11439,7 +12233,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR080")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11455,7 +12249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8555629-30ba-4eb2-b581-9c1faf6c854c")
-		(property "Reference" "J10"
+		(property "Reference" "J5"
 			(at 80.01 96.8131 0)
 			(effects
 				(font
@@ -11473,7 +12267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291_Vertical"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -11518,7 +12312,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "J10")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11534,7 +12328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9e1416d-ad1d-4408-84d0-2baf036207da")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR058"
 			(at 186.69 67.31 0)
 			(effects
 				(font
@@ -11584,7 +12378,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR065")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -11599,7 +12393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db31dd32-400a-4f60-8a8a-1b8a3e25011e")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR074"
 			(at 261.62 156.21 0)
 			(effects
 				(font
@@ -11649,7 +12443,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR056")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -11665,7 +12459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db559112-f597-48c2-804b-41692f2b723c")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR034"
 			(at 20.32 93.98 0)
 			(effects
 				(font
@@ -11715,7 +12509,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR078")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11730,7 +12524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcf8efe6-c1b1-4aef-8e53-e2663af026c5")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR050"
 			(at 123.19 170.18 0)
 			(effects
 				(font
@@ -11780,7 +12574,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR053")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11795,7 +12589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e06e165c-1eaa-488f-9585-bf90e44c055a")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR076"
 			(at 274.32 134.62 0)
 			(effects
 				(font
@@ -11845,7 +12639,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR063")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -11860,7 +12654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4a2b2f0-a84c-46f6-810e-d4f94632835d")
-		(property "Reference" "R54"
+		(property "Reference" "R42"
 			(at 210.312 138.43 90)
 			(effects
 				(font
@@ -11878,7 +12672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 212.09 139.7 0)
 			(effects
 				(font
@@ -11914,7 +12708,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R54")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -11930,7 +12724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7ba6d92-c307-4995-940f-9164166326a7")
-		(property "Reference" "J5"
+		(property "Reference" "J9"
 			(at 147.32 33.274 0)
 			(effects
 				(font
@@ -11993,7 +12787,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "J5")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -12008,7 +12802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb69d444-4c62-4ce2-9918-1828975f7428")
-		(property "Reference" "R53"
+		(property "Reference" "R37"
 			(at 188.468 71.882 0)
 			(effects
 				(font
@@ -12062,7 +12856,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R53")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -12077,7 +12871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed1018ae-46aa-41a3-9f56-22f2c8078704")
-		(property "Reference" "U9"
+		(property "Reference" "U3"
 			(at 35.56 164.084 0)
 			(effects
 				(font
@@ -12158,7 +12952,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "U9")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12173,7 +12967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee036a32-7b0a-4386-b8a5-9eb4a5ba47a0")
-		(property "Reference" "R49"
+		(property "Reference" "R20"
 			(at 61.468 157.226 90)
 			(effects
 				(font
@@ -12189,7 +12983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 154.94 0)
 			(effects
 				(font
@@ -12225,7 +13019,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R49")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12240,7 +13034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeffbc49-6cb4-43f1-b124-98daa133a072")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR060"
 			(at 191.77 130.81 0)
 			(effects
 				(font
@@ -12290,7 +13084,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR068")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -12305,7 +13099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0d129a1-d421-4f20-9272-cc163edd7c6c")
-		(property "Reference" "R39"
+		(property "Reference" "R36"
 			(at 188.214 65.278 0)
 			(effects
 				(font
@@ -12323,7 +13117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 186.69 67.31 0)
 			(effects
 				(font
@@ -12359,7 +13153,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R39")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -12375,7 +13169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f149d2ef-1ac0-4712-8ee4-db864e573c08")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR056"
 			(at 186.69 24.13 0)
 			(effects
 				(font
@@ -12425,7 +13219,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR073")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -12440,7 +13234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1527056-7634-45ae-86ea-e285486dd6fc")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR055"
 			(at 176.53 146.05 0)
 			(effects
 				(font
@@ -12490,7 +13284,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR067")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -12505,7 +13299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3e1081c-9dd4-42fa-871c-a9f8c06edc4d")
-		(property "Reference" "TP1"
+		(property "Reference" "TP5"
 			(at 201.168 143.764 0)
 			(effects
 				(font
@@ -12524,7 +13318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 200.66 140.97 0)
 			(effects
 				(font
@@ -12557,7 +13351,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "TP1")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12573,7 +13367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f40c4785-ce86-4741-8256-ec721672607d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR072"
 			(at 261.62 52.07 0)
 			(effects
 				(font
@@ -12623,7 +13417,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR048")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -12638,7 +13432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f58815f1-adb8-44e1-8af1-97ca06e88d67")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR059"
 			(at 186.69 92.71 0)
 			(effects
 				(font
@@ -12688,7 +13482,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR066")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -12703,7 +13497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f64e10e6-32e6-45f6-bc89-800006c33d32")
-		(property "Reference" "R45"
+		(property "Reference" "R18"
 			(at 60.452 95.758 90)
 			(effects
 				(font
@@ -12755,7 +13549,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "R45")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12770,7 +13564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9ef0a03-5a24-41b2-af40-7e69a44bf492")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR039"
 			(at 44.45 172.72 0)
 			(effects
 				(font
@@ -12820,7 +13614,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "#PWR052")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12835,7 +13629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe30957a-e276-4361-8449-2a61a71307bf")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 121.92 152.654 0)
 			(effects
 				(font
@@ -12898,7 +13692,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -12914,7 +13708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff971347-8b08-482e-9825-98f31f70fe69")
-		(property "Reference" "J6"
+		(property "Reference" "J10"
 			(at 147.32 73.914 0)
 			(effects
 				(font
@@ -12977,7 +13771,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a/b3babb85-9482-47ba-95de-b046c7dc5037"
-					(reference "J6")
+					(reference "J10")
 					(unit 1)
 				)
 			)
