@@ -9005,6 +9005,16 @@
 		)
 		(uuid "caeaa7cf-62fc-4bcf-b154-f73e90627a1e")
 	)
+	(text "For PWM"
+		(exclude_from_sim no)
+		(at 102.108 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cdd5adfc-e2ab-4dd6-a1b9-df07d1d0423a")
+	)
 	(text "Defined from \nMicrocontroller"
 		(exclude_from_sim no)
 		(at 107.442 51.054 0)
@@ -9147,7 +9157,7 @@
 			)
 		)
 	)
-	(global_label "PWM3"
+	(global_label "PB3"
 		(shape input)
 		(at 149.86 49.53 0)
 		(fields_autoplaced yes)
@@ -9159,7 +9169,7 @@
 		)
 		(uuid "12475baa-c9d0-42fe-bf4d-2d3cbc3febfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.2275 49.53 0)
+			(at 156.5947 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9421,7 @@
 			)
 		)
 	)
-	(global_label "PWM3"
+	(global_label "PB3"
 		(shape input)
 		(at 90.17 80.01 0)
 		(fields_autoplaced yes)
@@ -9423,7 +9433,7 @@
 		)
 		(uuid "3d6ff497-670d-43c6-b3be-e61160bf12ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.5375 80.01 0)
+			(at 96.9047 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9465,7 @@
 			)
 		)
 	)
-	(global_label "PWM1"
+	(global_label "PB1"
 		(shape input)
 		(at 90.17 74.93 0)
 		(fields_autoplaced yes)
@@ -9467,7 +9477,7 @@
 		)
 		(uuid "40087e37-4375-41f9-966e-a4eb7d9c67b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.5375 74.93 0)
+			(at 96.9047 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +9509,7 @@
 			)
 		)
 	)
-	(global_label "PWM2"
+	(global_label "PB2"
 		(shape input)
 		(at 90.17 77.47 0)
 		(fields_autoplaced yes)
@@ -9511,7 +9521,7 @@
 		)
 		(uuid "46ed9dad-aaa5-43db-b5f9-430b87a58c98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.5375 77.47 0)
+			(at 96.9047 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9685,7 @@
 			)
 		)
 	)
-	(global_label "PWM2"
+	(global_label "PB2"
 		(shape input)
 		(at 133.35 49.53 180)
 		(fields_autoplaced yes)
@@ -9687,7 +9697,7 @@
 		)
 		(uuid "6b2ceb86-ed96-4c22-934a-c40b6fc62ec4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.9825 49.53 0)
+			(at 126.6153 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +9949,7 @@
 			)
 		)
 	)
-	(global_label "PWM0"
+	(global_label "PB0"
 		(shape input)
 		(at 90.17 72.39 0)
 		(fields_autoplaced yes)
@@ -9951,7 +9961,7 @@
 		)
 		(uuid "8ee3829d-1b5c-4c1f-b3f4-62821afdd072")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.5375 72.39 0)
+			(at 96.9047 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10543,7 @@
 			)
 		)
 	)
-	(global_label "PWM1"
+	(global_label "PB1"
 		(shape input)
 		(at 149.86 46.99 0)
 		(fields_autoplaced yes)
@@ -10545,7 +10555,7 @@
 		)
 		(uuid "eb7e927d-aced-474a-a198-514afda89172")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.2275 46.99 0)
+			(at 156.5947 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +10609,7 @@
 			)
 		)
 	)
-	(global_label "PWM0"
+	(global_label "PB0"
 		(shape input)
 		(at 133.35 46.99 180)
 		(fields_autoplaced yes)
@@ -10611,7 +10621,7 @@
 		)
 		(uuid "fc6b60d9-34b4-448c-8005-22bc5ddb0763")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.9825 46.99 0)
+			(at 126.6153 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +10684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05471f32-6e93-42eb-9e5d-18642bbae442")
-		(property "Reference" "R46"
+		(property "Reference" "R16"
 			(at 255.524 140.208 90)
 			(effects
 				(font
@@ -10728,7 +10738,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "R46")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10944,7 +10954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10ea9975-4837-4b13-9e5f-1ed2562daac7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 143.51 93.98 0)
 			(effects
 				(font
@@ -10994,7 +11004,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11009,7 +11019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a0d7192-c98a-4d5a-ba2c-13356f01bab0")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 258.318 124.46 90)
 			(effects
 				(font
@@ -11064,7 +11074,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11149,7 +11159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "221d07d0-0db4-4b99-9ee2-095a72c4aed5")
-		(property "Reference" "J11"
+		(property "Reference" "J4"
 			(at 142.24 44.196 0)
 			(effects
 				(font
@@ -11166,7 +11176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 140.97 49.53 0)
 			(effects
 				(font
@@ -11214,7 +11224,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "J11")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11339,7 +11349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22c63cec-56b1-47d1-9773-5d5684790888")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 269.24 34.29 0)
 			(effects
 				(font
@@ -11389,7 +11399,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11404,7 +11414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "249b71f0-7e92-4520-a8d1-d70c5fe9ee7e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 152.4 151.13 0)
 			(effects
 				(font
@@ -11454,7 +11464,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11469,7 +11479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2508c421-ddbe-4a0c-9ae2-9cc04b610f0e")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 265.938 124.46 90)
 			(effects
 				(font
@@ -11524,7 +11534,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11540,7 +11550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b8b8274-087d-4a91-8b78-3de672f24f25")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 182.88 19.05 0)
 			(effects
 				(font
@@ -11646,7 +11656,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11661,7 +11671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b916038-a2ce-492c-bd93-e4b2f05ca3fa")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR09"
 			(at 134.62 48.26 0)
 			(effects
 				(font
@@ -11711,7 +11721,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR086")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11793,7 +11803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "306cefb3-5227-4b6f-abd3-c1aa6c0c87ef")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 254 34.29 0)
 			(effects
 				(font
@@ -11843,7 +11853,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11941,7 +11951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c8fac59-0fa6-44a6-bbeb-6a54511fa1e6")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 63.5 26.67 0)
 			(effects
 				(font
@@ -11991,7 +12001,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12006,7 +12016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c9c2959-2a3f-43af-b831-de4904d5a1d5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 243.84 57.15 0)
 			(effects
 				(font
@@ -12056,7 +12066,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12071,7 +12081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e3e244e-ea33-456a-a483-df0c103229df")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 64.77 151.13 0)
 			(effects
 				(font
@@ -12121,7 +12131,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12137,7 +12147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42659d46-540a-460a-a002-dd73f07213d2")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 270.51 57.1499 0)
 			(effects
 				(font
@@ -12191,7 +12201,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12340,7 +12350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47f65fd2-c18e-4998-9f49-82b731751d2c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 237.49 97.79 0)
 			(effects
 				(font
@@ -12390,7 +12400,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12406,7 +12416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d68c1d1-098d-4031-a1f4-ffb4a8b66529")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 223.52 50.8 0)
 			(effects
 				(font
@@ -12456,7 +12466,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12608,7 +12618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "526bce29-04ea-4f72-b149-639d17064265")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 260.35 115.57 0)
 			(effects
 				(font
@@ -12658,7 +12668,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12673,7 +12683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "538a6c92-d066-4eba-83e4-99d600d92724")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 182.88 73.66 0)
 			(effects
 				(font
@@ -12723,7 +12733,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12805,7 +12815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d8782a4-5033-4203-93f8-108d4d77916e")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 157.48 119.38 0)
 			(effects
 				(font
@@ -12855,7 +12865,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13012,7 +13022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f70e6bb-d895-4613-89d5-a622c2b3adc5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 267.97 58.42 0)
 			(effects
 				(font
@@ -13062,7 +13072,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13367,7 +13377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6650975e-1991-4400-8d87-6e7d62317500")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 80.01 44.45 0)
 			(effects
 				(font
@@ -13417,7 +13427,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13432,7 +13442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67f45b7c-d87b-4e32-bcd2-9bc8c49ec476")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR021"
 			(at 203.2 140.97 0)
 			(effects
 				(font
@@ -13482,7 +13492,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR089")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13632,7 +13642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f023c66-ffdf-4fa1-848a-da7df8bce95f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 267.97 74.93 0)
 			(effects
 				(font
@@ -13682,7 +13692,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13833,7 +13843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f0ed3bd-be54-41b6-bf4d-b25483a14338")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR022"
 			(at 203.2 154.94 0)
 			(effects
 				(font
@@ -13883,7 +13893,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR088")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13969,7 +13979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81e94364-37d5-4c26-9526-77e22b29d99e")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 200.66 27.94 0)
 			(effects
 				(font
@@ -14019,7 +14029,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14168,7 +14178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e0b081-de09-4eaf-b027-86bcc7c18940")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 203.2 130.81 0)
 			(effects
 				(font
@@ -14218,7 +14228,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -14233,7 +14243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a97ec13-fcc3-466d-8ecd-43afeecf3c5a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR033"
 			(at 261.62 52.07 0)
 			(effects
 				(font
@@ -14283,7 +14293,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14298,7 +14308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90f6b0bf-53e9-42c4-b90b-7fac848e845d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 186.69 127 0)
 			(effects
 				(font
@@ -14348,7 +14358,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -14363,7 +14373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91ccfb52-bd77-4a51-8853-f58083163505")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 227.33 88.9 0)
 			(effects
 				(font
@@ -14413,7 +14423,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14698,7 +14708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b887651-9e18-4aff-bec5-11ba80a46109")
-		(property "Reference" "U12"
+		(property "Reference" "U2"
 			(at 211.074 97.79 0)
 			(effects
 				(font
@@ -14845,7 +14855,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "U12")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -14860,7 +14870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ca79f82-704f-4f3e-8252-771512f499b4")
-		(property "Reference" "C36"
+		(property "Reference" "C12"
 			(at 198.628 143.002 0)
 			(effects
 				(font
@@ -14914,7 +14924,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "C36")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15178,7 +15188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a940ad35-6b4a-424e-936a-fac99893029e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 217.17 97.79 0)
 			(effects
 				(font
@@ -15228,7 +15238,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15771,7 +15781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd5fb911-3515-4a2c-8191-a6a18a71b290")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 62.23 165.1 0)
 			(effects
 				(font
@@ -15821,7 +15831,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15836,7 +15846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdccc2d5-7ac3-4b73-9c0b-732a198d325d")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR012"
 			(at 149.86 59.69 0)
 			(effects
 				(font
@@ -15886,7 +15896,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR085")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15968,7 +15978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1c2caa0-d679-4209-9949-013b90f3af14")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR010"
 			(at 137.16 38.1 0)
 			(effects
 				(font
@@ -16018,7 +16028,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR078")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16033,7 +16043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1fbd8f3-0735-448e-8051-f5e1452ca7fc")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 62.23 190.5 0)
 			(effects
 				(font
@@ -16083,7 +16093,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -16098,7 +16108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3fab659-8f8f-4fea-8958-19033cad8890")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 157.48 143.51 0)
 			(effects
 				(font
@@ -16148,7 +16158,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -16163,7 +16173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4118f30-5318-4f21-857a-87338a1d25c4")
-		(property "Reference" "R48"
+		(property "Reference" "R14"
 			(at 255.524 135.128 90)
 			(effects
 				(font
@@ -16217,7 +16227,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "R48")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -16301,7 +16311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfe31916-f6c0-427a-b67a-bbeb37628c4d")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR030"
 			(at 248.92 152.4 0)
 			(effects
 				(font
@@ -16351,7 +16361,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR087")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -16636,7 +16646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e88f2e8a-cea8-4a04-a294-b57f530b52f0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR034"
 			(at 262.89 137.16 0)
 			(effects
 				(font
@@ -16686,7 +16696,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR017")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -16701,7 +16711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb8e6257-d8d8-4b7b-8a27-2a91e3291c1a")
-		(property "Reference" "R47"
+		(property "Reference" "R15"
 			(at 255.524 137.668 90)
 			(effects
 				(font
@@ -16755,7 +16765,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "R47")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16840,7 +16850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f7cf9f-e995-4c39-9776-c0968568ac9b")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 266.7 116.8399 0)
 			(effects
 				(font
@@ -16894,7 +16904,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -16909,7 +16919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f651cb70-7cd4-4ee4-bc2e-ca7215f5b31c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 227.33 162.56 0)
 			(effects
 				(font
@@ -16959,7 +16969,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -17041,7 +17051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcba0554-1bd0-4b28-8dae-af3bf4f8848f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -17091,7 +17101,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -17106,7 +17116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe910709-5a45-400f-bb3e-c21534be63c4")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -17156,7 +17166,7 @@
 		(instances
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
