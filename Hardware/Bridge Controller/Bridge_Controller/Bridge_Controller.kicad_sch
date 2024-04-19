@@ -10387,7 +10387,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10ea9975-4837-4b13-9e5f-1ed2562daac7")
 		(property "Reference" "#PWR09"
 			(at 143.51 93.98 0)
@@ -10399,7 +10398,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 92.71 0)
+			(at 143.51 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11974,7 +11973,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "538a6c92-d066-4eba-83e4-99d600d92724")
 		(property "Reference" "#PWR014"
 			(at 182.88 73.66 0)
@@ -11986,7 +11984,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 72.39 0)
+			(at 182.88 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,7 +12179,7 @@
 				)
 			)
 		)
-		(property "Value" "MH1608-601Y"
+		(property "Value" "10uH"
 			(at 261.62 30.734 90)
 			(effects
 				(font
@@ -12189,7 +12187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 261.62 33.02 0)
 			(effects
 				(font
@@ -12209,6 +12207,15 @@
 		)
 		(property "Description" "Inductor with ferrite core, small symbol"
 			(at 261.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "445-6762-1-ND"
+			(at 261.62 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,7 +12246,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ef87621-f6d4-4062-a383-5a8fc279e5fe")
 		(property "Reference" "#PWR01"
 			(at 29.21 187.96 0)
@@ -12251,7 +12257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 186.69 0)
+			(at 29.21 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12527,7 +12533,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "649620e4-89ea-4319-b511-88ff2659e946")
 		(property "Reference" "#PWR08"
 			(at 133.35 93.98 0)
@@ -12539,7 +12544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 92.71 0)
+			(at 133.35 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
