@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "9b7097fd-8b63-4064-a89a-d51b75c1f71a")
 	(paper "A4")
+	(title_block
+		(title "openEPR DAQ")
+		(date "2024-04-19")
+		(rev "v1.0")
+		(company "openEPR")
+		(comment 1 "Timothy Keller")
+	)
 	(lib_symbols
 		(symbol "B12T_Connector:Conn_02x08_standard_header_for_IO"
 			(pin_names
