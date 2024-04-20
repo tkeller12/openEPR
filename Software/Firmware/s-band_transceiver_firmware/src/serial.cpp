@@ -27,6 +27,7 @@ void serialLoop() {
     whitespaceIndex = serialString.indexOf(" "); // Find index of space
     serialCommand = serialString.substring(0,whitespaceIndex); // Command is 1st part
     serialData = serialString.substring(whitespaceIndex); // Data is 2nd part
+    serialData.trim(); // remove whitespace from serial data
     serialQuery = serialCommand.endsWith("?"); // Queries have question mark
     serialValue = serialData.toInt(); // Convert data to integer
 
@@ -35,7 +36,10 @@ void serialLoop() {
     }
     serialString = "";  //reset string
 
-    if (serialCommand == "freq"){
+    if (serialCommand == "*IDN") { // should thick check for "?"?
+      Serial.println('openEPR,S-Band Transceiver,v0.1.0');
+    }
+    else if (serialCommand == "freq"){
       if (serialQuery) {
         Serial.println(freq);
       }
@@ -60,9 +64,64 @@ void serialLoop() {
       else if ((serialValue == 0) || (serialValue == 1)) {
         is_rf_enabled = serialValue;
         adf.rfEnable(is_rf_enabled);
-
+      }
+    }
+    else if (serialCommand == "adc"){
+      if (serialQuery) {
+        Serial.println(String(adc.getMilliVolts(),4));
+      }
+      else if (serialData == "tx"){
+        adc.setInputSelected(adc.AIN_0);
+      }
+      else if (serialData == "rx"){
+        adc.setInputSelected(adc.AIN_1);
+      }
+      else if (serialData == "diff"){
+        adc.setInputSelected(adc.DIFF_0_1);
+      }
+    }
+    else if (serialCommand == "atten"){
+      if (serialQuery) {
+        Serial.println(atten);
+      }
+      else if (serialValue < 32) {
+        atten = serialValue;
+        dat.writeAtten(atten);
+      }
+    }
+    else if (serialCommand == "txamp"){
+      if (serialQuery) {
+        Serial.println(is_tx_amp_enabled);
+      }
+      else if (serialValue == 0 or serialValue == 1) {
+        is_tx_amp_enabled = serialValue;
+        digitalWrite(TX_AMP_ENABLE, is_tx_amp_enabled);
+      }
+    }
+    else if (serialCommand == "rxamp"){
+      if (serialQuery) {
+        Serial.println(is_rx_amp_enabled);
+      }
+      else if (serialValue == 0 or serialValue == 1) {
+        is_rx_amp_enabled = serialValue;
+        digitalWrite(RX_AMP_ENABLE, is_rx_amp_enabled);
+      }
+    }
+    else if (serialCommand == "phase"){
+      if (serialQuery) {
+        Serial.println(phase);
+      }
+      else if (serialValue < 255) {
+        phase = serialValue;
+        ps.setPhase(phase);
+      }
+    }
+    else if (serialCommand == "ld"){
+      if (serialQuery) {
+        Serial.println(digitalRead(LD));
       }
     }
   }
+
 
 }

@@ -7002,6 +7002,16 @@
 		)
 		(uuid "6513848d-3400-4531-afad-93383f6d1d82")
 	)
+	(text "Should shield be grounded?"
+		(exclude_from_sim no)
+		(at 181.356 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f87a977-453e-4a62-9eb3-45d74329d59d")
+	)
 	(text "Defined from \nMicrocontroller"
 		(exclude_from_sim no)
 		(at 265.43 114.3 0)
@@ -8167,14 +8177,14 @@
 		(dnp no)
 		(uuid "0406f218-ddc2-45f6-bbc1-6c1df52c4061")
 		(property "Reference" "R14"
-			(at 90.678 158.242 90)
+			(at 91.948 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 87.376 157.988 90)
 			(effects
 				(font
@@ -9754,7 +9764,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 86.614 151.638 90)
 			(effects
 				(font
@@ -10564,7 +10574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 103.632 162.306 0)
 			(effects
 				(font
@@ -13761,7 +13771,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 96.012 162.306 0)
 			(effects
 				(font

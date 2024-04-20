@@ -1,4 +1,3 @@
-
 #include "adf4351.h"
 #include "Arduino.h"
 
@@ -71,6 +70,7 @@ void ADF4351::initRegisters() {
 }
 
 void ADF4351::writeRegister(uint32_t word) {
+    SPI.setDataMode(SPI_MODE0); // This is a hack for now...
     digitalWrite(CS, LOW);
     SPI.transfer16((word >> 16) & 0xffff); // Write Two MSB
     SPI.transfer16(word & 0xffff); // Write Two LSB
