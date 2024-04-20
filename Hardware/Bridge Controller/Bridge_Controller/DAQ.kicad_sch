@@ -13006,7 +13006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "132291"
+		(property "Value" "2057-RF2-19A-T-00-50-G-ND"
 			(at 78.74 99.3531 0)
 			(effects
 				(font
@@ -13042,7 +13042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "SAM8857-ND"
+		(property "Digikey" "2057-RF2-19A-T-00-50-G-ND"
 			(at 76.2 97.79 0)
 			(effects
 				(font

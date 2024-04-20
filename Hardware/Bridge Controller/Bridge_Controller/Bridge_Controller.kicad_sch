@@ -11459,6 +11459,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "900-0702461602-ND"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "99e091c1-a4a8-4ac9-a06e-db899fe02001")
 		)
@@ -15398,6 +15407,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "900-0702461602-ND"
 			(at 130.81 133.35 0)
 			(effects
 				(font
