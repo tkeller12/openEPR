@@ -913,6 +913,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -7462,6 +7564,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 33.02) (xy 269.24 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76dae108-b6ab-4212-a5a3-5407538b2f6c")
+	)
+	(wire
+		(pts
 			(xy 149.86 52.07) (xy 149.86 53.34)
 		)
 		(stroke
@@ -8059,6 +8171,16 @@
 			(type default)
 		)
 		(uuid "b580a955-2c26-419e-8581-c8c2ff38da5b")
+	)
+	(wire
+		(pts
+			(xy 274.32 31.75) (xy 274.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60c88ba-fec1-47b5-a4fe-c65df4b69c32")
 	)
 	(wire
 		(pts
@@ -10729,6 +10851,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 256.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3235736-d094-435a-9cf5-a61e602bea6c")
 		)
@@ -10861,6 +10992,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KHRCT-ND"
+			(at 26.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c45b6052-03d1-419f-8f38-b7bb13517845")
 		)
@@ -10922,6 +11062,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4944-1-ND"
 			(at 189.23 115.57 0)
 			(effects
 				(font
@@ -11065,6 +11214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "732-4986-1-ND"
+			(at 256.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4296c076-f338-4107-90b8-b2bbba94d11f")
 		)
@@ -11135,6 +11293,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "399-3684-1-ND"
+			(at 269.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd36cb57-9f4f-42bb-acbd-a1ab156c30a7")
 		)
@@ -11195,6 +11362,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "609-3234-ND"
 			(at 140.97 49.53 0)
 			(effects
 				(font
@@ -11525,6 +11701,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "732-4986-1-ND"
+			(at 264.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77f9a814-388e-4e13-9495-add9e4d12696")
 		)
@@ -11779,6 +11964,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 72.39 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad3f4714-c604-4c9e-8639-acdd838aafdd")
 		)
@@ -11906,6 +12100,15 @@
 			)
 		)
 		(property "Description" "Atmel 6-pin UPDI connector"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "609-3234-ND"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -12192,6 +12395,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KHRCT-ND"
+			(at 267.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "121653c7-e354-4a97-9d3f-242ba85adab0")
 		)
@@ -12259,6 +12471,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 72.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3974cfaa-8955-4b72-b641-ebe0e9534101")
 		)
@@ -12318,6 +12539,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 72.39 36.83 0)
 			(effects
 				(font
@@ -12527,6 +12757,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KHRCT-ND"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9575109f-b7a4-4638-9ca5-6a22e9ae9b36")
 		)
@@ -12586,6 +12825,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4778-1-ND"
 			(at 54.61 33.02 0)
 			(effects
 				(font
@@ -12791,6 +13039,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6474c40e-18dc-4dfd-9e9a-c266d9be7e59")
 		)
@@ -12801,6 +13058,73 @@
 			(project "Bridge_Controller"
 				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 274.32 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c654281-40c4-4210-bc60-a274f5289356")
+		(property "Reference" "TP8"
+			(at 276.098 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 280.67 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 274.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92bf2d07-25dd-4be5-9243-505802d1eb84")
+		)
+		(instances
+			(project "Bridge_Controller"
+				(path "/9b7097fd-8b63-4064-a89a-d51b75c1f71a"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -13133,6 +13457,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 33.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c926a73-1199-46cd-8aa8-c53b3cbe8869")
 		)
@@ -13353,6 +13686,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 227.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f42ecd71-0efd-4ed9-bc79-93c4788dd746")
 		)
@@ -13544,6 +13886,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 233.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 233.68 39.37 0)
 			(effects
 				(font
@@ -13753,6 +14104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "732-4985-1-ND"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74aa5cea-65e4-4b36-9772-f4f94d2a6155")
 		)
@@ -13954,6 +14314,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SW1203CT-ND"
+			(at 20.32 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cad15b33-8d2c-4083-abfc-acebf8d9558c")
 		)
@@ -14079,6 +14448,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 254 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -14547,6 +14925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4778-1-ND"
+			(at 54.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0ba49f7-f9d2-44e2-9294-274a3f1dd091")
 		)
@@ -14609,6 +14996,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-1.00KHRCT-ND"
 			(at 143.51 77.47 0)
 			(effects
 				(font
@@ -14684,6 +15080,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-27GRCT-ND"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20d733ce-3bd4-457e-be5d-412096fe9edb")
 		)
@@ -14746,6 +15151,15 @@
 		)
 		(property "Description" "USB to Serial Interface, QFN-32"
 			(at 227.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "768-1307-ND"
+			(at 227.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14907,6 +15321,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 203.2 144.78 0)
 			(effects
 				(font
@@ -15094,6 +15517,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KHRCT-ND"
+			(at 256.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6192aba-2549-4ee4-8aa0-a61b4a4b06dc")
 		)
@@ -15156,6 +15588,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 267.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "732-4986-1-ND"
 			(at 267.97 64.77 0)
 			(effects
 				(font
@@ -15296,6 +15737,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4778-1-ND"
+			(at 54.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b37ba7cf-e8d8-4c49-a20f-ca8a0d9585bc")
 		)
@@ -15366,6 +15816,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "732-4986-1-ND"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "348a9cf1-bfa6-4e46-b330-4453f467d799")
 		)
@@ -15428,6 +15887,15 @@
 			)
 		)
 		(property "Description" "24MHz, 128kB Flash, 16kB SRAM, EEPROM with Touch Sensing, TQFP-64"
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "150-AVR128DA64T-I/PTCT-ND"
 			(at 64.77 92.71 0)
 			(effects
 				(font
@@ -15689,6 +16157,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-27GRCT-ND"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b6712ed-d41b-4d08-a82c-3bebab919710")
 		)
@@ -15748,6 +16225,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4778-1-ND"
 			(at 54.61 36.83 0)
 			(effects
 				(font
@@ -15946,6 +16432,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 220.98 90.17 0)
 			(effects
 				(font
@@ -16218,6 +16713,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 256.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4993bd57-a994-4ebf-9af2-31499d81d044")
 		)
@@ -16279,6 +16783,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 213.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 213.36 39.37 0)
 			(effects
 				(font
@@ -16419,6 +16932,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-27GRCT-ND"
+			(at 93.98 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f8220365-207c-42d5-ad2c-001f82331b86")
 		)
@@ -16478,6 +17000,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 72.39 29.21 0)
 			(effects
 				(font
@@ -16555,6 +17086,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36932a08-de03-471f-b019-25c19842ba2a")
 		)
@@ -16614,6 +17154,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 93.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-27GRCT-ND"
 			(at 93.98 62.23 0)
 			(effects
 				(font
@@ -16756,6 +17305,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 256.54 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e89705c-0f58-485a-b886-b997966a0ed6")
 		)
@@ -16817,6 +17375,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4944-1-ND"
 			(at 184.15 115.57 0)
 			(effects
 				(font
@@ -16887,6 +17454,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-1.00KHRCT-ND"
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -17019,6 +17595,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-27GRCT-ND"
 			(at 195.58 109.22 0)
 			(effects
 				(font

@@ -5441,6 +5441,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-18457-1-ND"
+			(at 250.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "2837c8c3-7025-4131-82bf-2886bb4c5783")
 		)
@@ -5659,6 +5668,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68873666-17f7-4fa5-9ea4-69257a2e4ab6")
 		)
@@ -5859,6 +5877,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-18457-1-ND"
+			(at 276.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c95cac6f-f337-4955-9984-d70d7910aeac")
 		)
@@ -5946,6 +5973,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 219.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca2c0619-a536-49d9-9f37-c4cdd8daf1c1")
 		)
@@ -6007,6 +6043,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 69.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 69.85 143.51 0)
 			(effects
 				(font
@@ -6150,6 +6195,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 186.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "04b82d49-0a43-41d8-958c-096eb5848379")
 		)
@@ -6219,6 +6273,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 207.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ff5608f-3707-4c7a-bf93-9cc897920bda")
 		)
@@ -6251,7 +6314,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "27"
 			(at 53.848 95.758 90)
 			(effects
 				(font
@@ -6278,6 +6341,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 52.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-27GRCT-ND"
 			(at 52.07 97.79 0)
 			(effects
 				(font
@@ -6345,6 +6417,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-18457-1-ND"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -6440,6 +6521,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4944-1-ND"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e17ba756-f062-4699-91c3-68c9fa97b97f")
 		)
@@ -6472,7 +6562,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "27"
 			(at 103.886 144.526 90)
 			(effects
 				(font
@@ -6499,6 +6589,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-27GRCT-ND"
 			(at 101.6 142.24 0)
 			(effects
 				(font
@@ -6567,6 +6666,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 91.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-18457-1-ND"
 			(at 91.44 67.31 0)
 			(effects
 				(font
@@ -6934,6 +7042,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 179.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f395e3d-2fd8-471f-90c9-69b6d5abcb02")
 		)
@@ -7058,6 +7175,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 113.03 49.53 0)
 			(effects
 				(font
@@ -7200,6 +7326,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 176.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec00ba78-2224-4022-a4a0-0c5ab76aa1f4")
 		)
@@ -7324,6 +7459,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 257.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 257.81 132.08 0)
 			(effects
 				(font
@@ -7531,6 +7675,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "505-AD9833BRMZ-ND"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "25ecb9cd-9e24-4a35-883a-f91221cc823c")
 		)
@@ -7614,6 +7767,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -7890,6 +8052,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KHRCT-ND"
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ae1aaf9-89f6-4a3f-9edd-f910ed61e1c1")
 		)
@@ -8023,6 +8194,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f5c2d1a-29f3-4514-a357-45d62bfa7409")
 		)
@@ -8092,6 +8272,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dccd8914-ac91-4bb9-aaf6-58af325b2720")
 		)
@@ -8151,6 +8340,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 53.34 27.94 0)
 			(effects
 				(font
@@ -8291,6 +8489,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-27GRCT-ND"
+			(at 105.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2fbd77d9-99d2-4a85-b2be-d83c78d13674")
 		)
@@ -8360,6 +8567,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c78bd8b6-cc4d-45be-bd46-8b5ccaa35296")
 		)
@@ -8419,6 +8635,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 256.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 256.54 46.99 0)
 			(effects
 				(font
@@ -8496,6 +8721,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 207.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "249c694a-1f65-46b3-a37c-f193bd70dce5")
 		)
@@ -8555,6 +8789,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-18457-1-ND"
 			(at 205.74 40.64 0)
 			(effects
 				(font
@@ -8781,6 +9024,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 20.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a173742a-84d4-4dfc-ba55-40e779a0409e")
 		)
@@ -8843,6 +9095,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 186.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 186.69 82.55 0)
 			(effects
 				(font
@@ -9170,6 +9431,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-18457-1-ND"
 			(at 87.63 142.24 0)
 			(effects
 				(font
@@ -9528,6 +9798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f4747b9-72e1-4881-8bb8-51f0613ab193")
 		)
@@ -9590,6 +9869,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-18457-1-ND"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -9684,6 +9972,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 270.51 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8c65c633-0603-44f6-aa3e-1a3d4d92e33a")
 		)
@@ -9753,6 +10050,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KHRCT-ND"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec25f8ec-acbf-4ad1-ad44-60660b32ff7d")
 		)
@@ -9812,6 +10118,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 38.1 27.94 0)
 			(effects
 				(font
@@ -9947,6 +10262,15 @@
 			)
 		)
 		(property "Description" "Ultrasmall, Low-Power, SPI-Compatible, 16-Bit Analog-to-Digital Converter with Internal Reference and Temperature Sensor, VSSOP-10"
+			(at 261.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-38850-1-ND"
 			(at 261.62 62.23 0)
 			(effects
 				(font
@@ -10113,6 +10437,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 36.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ffbb633-86b7-4106-969b-aaa71a7f4f26")
 		)
@@ -10247,6 +10580,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce644b65-e4a1-44c2-973c-6f53119c3386")
 		)
@@ -10317,6 +10659,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 227.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6adb206-02cb-426d-8f96-513336ccb898")
 		)
@@ -10378,6 +10729,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 162.56 34.29 0)
 			(effects
 				(font
@@ -10541,6 +10901,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af71145c-b0dc-43d7-ab3c-237a0fd8ea4f")
 		)
@@ -10675,6 +11044,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KHRCT-ND"
+			(at 172.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8edbde2e-00ca-46fc-95bc-a9abb3478078")
 		)
@@ -10736,6 +11114,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 69.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-4779-1-ND"
 			(at 69.85 160.02 0)
 			(effects
 				(font
@@ -10868,6 +11255,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-18457-1-ND"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -11056,7 +11452,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "27"
 			(at 103.886 159.766 90)
 			(effects
 				(font
@@ -11083,6 +11479,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 101.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-27GRCT-ND"
 			(at 101.6 157.48 0)
 			(effects
 				(font
@@ -11242,6 +11647,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 219.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be7ee4e7-4c49-4edb-8f24-a0d6e03e4424")
 		)
@@ -11303,6 +11717,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 186.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 186.69 24.13 0)
 			(effects
 				(font
@@ -11521,6 +11944,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 30.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "87aba4fe-0f22-4ba0-912a-6647d129fd1a")
 		)
@@ -11720,6 +12152,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e10a88a7-391f-440e-8881-d10b7bf56f59")
 		)
@@ -11847,6 +12288,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -11987,6 +12437,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-18457-1-ND"
+			(at 87.63 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "d09acc6a-16e1-4d49-871d-403531fff556")
 		)
@@ -12066,6 +12525,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 68.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 68.58 64.77 0)
 			(effects
 				(font
@@ -12209,6 +12677,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "490-4779-1-ND"
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "71684727-a17b-4262-a1a2-5457c37f37b9")
 		)
@@ -12268,6 +12745,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 67.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 67.31 46.99 0)
 			(effects
 				(font
@@ -12412,6 +12898,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0215b82c-d93e-44df-bbd5-82cb6fb85e5c")
 		)
@@ -12503,7 +12998,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8555629-30ba-4eb2-b581-9c1faf6c854c")
 		(property "Reference" "J6"
-			(at 80.01 96.8131 0)
+			(at 78.74 96.8131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12511,8 +13006,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA-J-P-H-ST-EM1"
-			(at 80.01 99.3531 0)
+		(property "Value" "132291"
+			(at 78.74 99.3531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12952,6 +13447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 212.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2358c382-47b1-4513-aeed-e1d0deec0050")
 		)
@@ -13092,6 +13596,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-1.00KHRCT-ND"
 			(at 186.69 73.66 0)
 			(effects
 				(font
@@ -13263,6 +13776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "146c7ebf-9c7f-45a6-be91-10ca87f57dd5")
 		)
@@ -13389,6 +13911,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 186.69 67.31 0)
 			(effects
 				(font
@@ -13758,8 +14289,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 63.754 95.758 90)
+		(property "Value" "27"
+			(at 64.262 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,6 +14316,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-27GRCT-ND"
 			(at 62.23 97.79 0)
 			(effects
 				(font
