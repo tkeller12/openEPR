@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "openEPR DAQ")
-		(date "2024-04-17")
-		(rev "v1.0")
+		(date "2024-05-01")
+		(rev "v1.1")
 		(company "openEPR")
 		(comment 1 "Timothy Keller")
 	)
