@@ -12,6 +12,10 @@ txr.txamp(1)
 txr.rxamp(1)
 txr.atten(0)
 
+#txr.txamp(0)
+#txr.rxamp(0)
+#txr.atten(31)
+
 txr.adc('diff')
 
 txr.close()
