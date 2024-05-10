@@ -16,6 +16,8 @@ print(tx.atten())
 print(tx.txamp())
 print(tx.rxamp())
 
+tx.close()
+
 #tx.adc()
 #
 #tx.adc('diff')
