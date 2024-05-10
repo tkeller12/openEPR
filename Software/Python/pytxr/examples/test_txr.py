@@ -16,9 +16,9 @@ print(tx.atten())
 print(tx.txamp())
 print(tx.rxamp())
 
-tx.adc()
-
-tx.adc('diff')
-for ix in range(100):
-    print(tx.adc())
+#tx.adc()
+#
+#tx.adc('diff')
+#for ix in range(100):
+#    print(tx.adc())
 
