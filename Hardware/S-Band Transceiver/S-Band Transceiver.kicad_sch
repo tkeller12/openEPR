@@ -365,6 +365,17 @@
 		)
 		(uuid "9fd8f3ea-ba02-4b1e-b1f2-87d7fc09a979")
 	)
+	(text "Updates:\nAdd 2nd synthesizer\nRemove Digital phase shifter\n"
+		(exclude_from_sim no)
+		(at 151.892 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68935bd7-d4cc-4443-b6a4-5cd5d0ad0af7")
+	)
 	(text "DIRECTIONAL COUPLER\nDCW-22-332+\n"
 		(exclude_from_sim no)
 		(at 233.934 124.46 0)
