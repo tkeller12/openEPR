@@ -89,7 +89,7 @@ void setup() {
   //delay(10); // Allow ADF to lock
   delay(100); // Allow ADF to lock
 
-  //adf.writeRegister(0x580005); // register 5
+  adf.writeRegister(0x5a0005); // register 5
   delay(100); // Allow ADF to lock
   //adf.REG1.bits.PHASE_ADJUST = 1; 
   //adf.writeRegister(0x580005); // register 5
