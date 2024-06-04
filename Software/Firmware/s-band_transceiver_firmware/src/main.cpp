@@ -36,7 +36,8 @@ DAT31A dat(TX_ATTEN_LE, C1_PIN, C2_PIN, C4_PIN, C8_PIN, C16_PIN);
 ADS1118 adc(ADC_CS);
 PE44820 ps(TX_PHASE_LE);
 
-uint32_t freq = 1000000; // Frequency in kHz
+//uint32_t freq = 1000000; // Frequency in kHz
+uint32_t freq = 200000; // Frequency in kHz
 uint8_t power = 3; // 0 is min output power, 3 is max power output
 uint8_t atten = 31;
 uint8_t phase = 0;
@@ -105,6 +106,7 @@ void setup() {
 void loop()
 {
   unsigned long current_time;
+  uint16_t phase_ix; // for testing
 
   current_time = millis(); // time at start of loop
 
@@ -114,4 +116,16 @@ void loop()
   }
 
   serialLoop();
+
+
+  for (uint16_t phase_ix = 0; phase_ix < 2500; phase_ix++)
+  {
+    //adf.REG1.bits.PHASE = phase_ix; // set phase 
+    //adf.writeAllRegisters();
+    //adf.phase(phase_ix);
+    adf.phase(0);
+    //adf.setFrequency(200000);
+    //adf.writeAllRegisters();
+    delay(100); // delay ms
+  }
 }

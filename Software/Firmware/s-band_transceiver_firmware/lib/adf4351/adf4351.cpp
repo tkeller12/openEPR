@@ -24,7 +24,8 @@ void ADF4351::initRegisters() {
     REG1.bits.MOD = 2500; // MOD determines frequency resolution, RESOLUTION = F_PFD / MOD
     REG1.bits.PHASE = 1; // 1 is recommended
     REG1.bits.PRESCALER = 1; // 0 is 4/5, 1 is 8/9
-    REG1.bits.PHASE_ADJUST = 0; // 0 is phase adjust off
+    //REG1.bits.PHASE_ADJUST = 1; // Do not perform VCO band selection or resync
+    REG1.bits.PHASE_ADJUST = 0; // Enable phase resync
 
     // REGISTER 2
     REG2.bits.CTRL = 2; // Control bits
@@ -44,8 +45,9 @@ void ADF4351::initRegisters() {
 
     // REGISTER 3
     REG3.bits.CTRL = 3; // Control bits
-    REG3.bits.CLOCK_DIVIDER = 0; // Clock divider value for resync
-    REG3.bits.CLK_DIV_MODE = 0; // 0 disables clock divider
+    REG3.bits.CLOCK_DIVIDER = 4095; // Clock divider value for resync
+    //REG3.bits.CLK_DIV_MODE = 0; // 0 disables clock divider
+    REG3.bits.CLK_DIV_MODE = 2; // 0b10=2 enables resync (for phase control)
     REG3.bits.CSR = 0; // 0 disables slip cycle reduction
     REG3.bits.CHARGE_CANCEL = 0; // 0 disables charge cancellation, should be 0 in N-frac mode 
     REG3.bits.ABP = 0; // Anti-Backlash Pulse, 0 for FRAC-N, 1 for INT-N
@@ -149,4 +151,10 @@ void ADF4351::rfEnable(bool rf_enable, bool channel = 0) {
         REG4.bits.AUX_OUTPUT_ENABLE = rf_enable;
         }
     writeRegister(REG4.word);
+}
+
+void ADF4351::phase(uint16_t phase) {
+    REG1.bits.PHASE = phase % REG1.bits.MOD;
+    writeRegister(REG1.word);
+    writeRegister(REG0.word);
 }

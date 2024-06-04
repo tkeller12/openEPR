@@ -139,6 +139,7 @@ class ADF4351 {
         void setFrequency(uint32_t freq);
         void setPower(uint8_t power, bool channel = 0);
         void rfEnable(bool rf_enable, bool channel = 0);
+        void phase(uint16_t phase);
         ADF4351(uint8_t LE); // Constructor
 
         REGISTER0 REG0;
