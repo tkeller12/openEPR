@@ -84,6 +84,13 @@ void setup() {
   adf.rfEnable(is_rf_enabled, 1); // Initialize Output ON
   adf.writeAllRegisters(); // write all registers
 
+  // Now we go through Procedure
+  delay(10); // Allow ADF to lock
+  //adf.REG1.bits.PHASE_ADJUST = 0; 
+  //adf.writeAllRegisters(); // write all registers
+  delay(10); // Allow ADF to lock
+
+
   // Initialize DAT-31A
   dat.begin();
   dat.writeAtten(atten);
@@ -106,7 +113,7 @@ void setup() {
 void loop()
 {
   unsigned long current_time;
-  uint16_t phase_ix; // for testing
+  static uint16_t phase_ix; // for testing
 
   current_time = millis(); // time at start of loop
 
@@ -117,15 +124,14 @@ void loop()
 
   serialLoop();
 
-
-  for (uint16_t phase_ix = 0; phase_ix < 2500; phase_ix++)
-  {
-    //adf.REG1.bits.PHASE = phase_ix; // set phase 
-    //adf.writeAllRegisters();
-    //adf.phase(phase_ix);
-    adf.phase(0);
-    //adf.setFrequency(200000);
-    //adf.writeAllRegisters();
-    delay(100); // delay ms
+  phase_ix += 1;
+  if (phase_ix > 2500) {
+    phase_ix = 0;
   }
+  //adf.phase(phase_ix);
+  //adf.phase(10);
+  //adf.writeAllRegisters();
+  adf.writeRegister(adf.REG1.word);
+  adf.writeRegister(adf.REG0.word);
+  delay(500); // delay ms
 }

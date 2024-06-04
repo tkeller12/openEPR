@@ -22,7 +22,7 @@ void ADF4351::initRegisters() {
     // REGISTER 1
     REG1.bits.CTRL = 1; // Control bits
     REG1.bits.MOD = 2500; // MOD determines frequency resolution, RESOLUTION = F_PFD / MOD
-    REG1.bits.PHASE = 1; // 1 is recommended
+    REG1.bits.PHASE = 10; // 1 is recommended
     REG1.bits.PRESCALER = 1; // 0 is 4/5, 1 is 8/9
     //REG1.bits.PHASE_ADJUST = 1; // Do not perform VCO band selection or resync
     REG1.bits.PHASE_ADJUST = 0; // Enable phase resync
@@ -45,13 +45,14 @@ void ADF4351::initRegisters() {
 
     // REGISTER 3
     REG3.bits.CTRL = 3; // Control bits
-    REG3.bits.CLOCK_DIVIDER = 4095; // Clock divider value for resync
+    REG3.bits.CLOCK_DIVIDER = 160; // Clock divider value for resync
     //REG3.bits.CLK_DIV_MODE = 0; // 0 disables clock divider
     REG3.bits.CLK_DIV_MODE = 2; // 0b10=2 enables resync (for phase control)
     REG3.bits.CSR = 0; // 0 disables slip cycle reduction
     REG3.bits.CHARGE_CANCEL = 0; // 0 disables charge cancellation, should be 0 in N-frac mode 
     REG3.bits.ABP = 0; // Anti-Backlash Pulse, 0 for FRAC-N, 1 for INT-N
-    REG3.bits.BAND_SELECT_CLOCK_MODE = 1; // recommended for high PDF
+    //REG3.bits.BAND_SELECT_CLOCK_MODE = 1; // recommended for high PDF
+    REG3.bits.BAND_SELECT_CLOCK_MODE = 0; // off
 
     // REGISTER 4
     REG4.bits.CTRL = 4; // Control bits
@@ -60,11 +61,13 @@ void ADF4351::initRegisters() {
     REG4.bits.AUX_OUTPUT_POWER = 0; // 0 is -4 dBm
     REG4.bits.AUX_OUTPUT_ENABLE = 0; // 0 is disabled
     REG4.bits.AUX_OUTPUT_SELECT = 0; // 0 is divided output
-    REG4.bits.MTLD = 0; // 1 is MUTE until lock enabled
+    REG4.bits.MTLD = 1; // 1 is MUTE until lock enabled
     REG4.bits.VCO_POWER_DOWN = 0; // 0 is VCO powered up
     REG4.bits.BAND_SELECT_CLOCK_DIVIDER = 25; // 
     REG4.bits.RF_DIVIDER_SELECT = 4; // 4 is divide by 16
-    REG4.bits.FEEDBACK_SELECT = 1; // 1 is fundamental, 0 is divided
+    //REG4.bits.FEEDBACK_SELECT = 1; // 1 is fundamental, 0 is divided
+    REG4.bits.FEEDBACK_SELECT = 0; // 1 is fundamental, 0 is divided
+    // For Phase control, divided is feedback is necessary
 
     // REGISTER 5
     REG5.bits.CTRL = 5; // Control bits
@@ -105,6 +108,7 @@ void ADF4351::setFrequency(uint32_t freq) {
     }
 
     VCO_FREQ = freq * divisor;
+    //VCO_FREQ = freq; // Testing divided feedback
 
     INT = VCO_FREQ / F_REF;
     FRAC = (VCO_FREQ - (INT * F_REF)) * REG1.bits.MOD / F_REF ;
@@ -154,7 +158,7 @@ void ADF4351::rfEnable(bool rf_enable, bool channel = 0) {
 }
 
 void ADF4351::phase(uint16_t phase) {
-    REG1.bits.PHASE = phase % REG1.bits.MOD;
+    REG1.bits.PHASE = phase;// % REG1.bits.MOD;
     writeRegister(REG1.word);
     writeRegister(REG0.word);
 }

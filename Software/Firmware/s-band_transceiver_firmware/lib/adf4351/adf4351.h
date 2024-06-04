@@ -77,7 +77,7 @@ union REGISTER3 {
         uint8_t CHARGE_CANCEL:1;         // 00000000 00?00000 00000000 00000000
         uint8_t ABP:1;                   // 00000000 0?000000 00000000 00000000
         uint8_t BAND_SELECT_CLOCK_MODE:1;// 00000000 ?0000000 00000000 00000000
-        uint8_t RES2;                    // ???????? 00000000 00000000 00000000
+        uint8_t RES2:8;                  // ???????? 00000000 00000000 00000000
     } bits;
     struct{
         uint8_t BYTE0;
