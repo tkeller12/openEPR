@@ -5,8 +5,9 @@ import time
 
 txr = pytxr.Txr()
 
-txr.freq(880e6)
-txr.phase(65)
+#txr.freq(880e6)
+txr.freq(873e6)
+txr.phase(65 - 70)
 
 txr.txamp(1)
 txr.rxamp(1)
