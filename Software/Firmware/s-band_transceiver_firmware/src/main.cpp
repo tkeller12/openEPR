@@ -38,6 +38,7 @@ PE44820 ps(TX_PHASE_LE);
 
 //uint32_t freq = 1000000; // Frequency in kHz
 uint32_t freq = 200000; // Frequency in kHz
+//uint32_t freq = 347500; // Frequency in kHz
 uint8_t power = 3; // 0 is min output power, 3 is max power output
 uint8_t atten = 31;
 uint8_t phase = 0;
@@ -90,6 +91,9 @@ void setup() {
   //adf.writeAllRegisters(); // write all registers
   delay(10); // Allow ADF to lock
 
+  //adf.writeRegister(0x580005);
+  //adf.writeRegister(0x3500FC);
+
 
   // Initialize DAT-31A
   dat.begin();
@@ -124,14 +128,14 @@ void loop()
 
   serialLoop();
 
-  phase_ix += 1;
-  if (phase_ix > 2500) {
+  phase_ix += 100;
+  if (phase_ix > 1000) {
     phase_ix = 0;
   }
-  //adf.phase(phase_ix);
+  adf.phase(phase_ix);
   //adf.phase(10);
-  //adf.writeAllRegisters();
   adf.writeRegister(adf.REG1.word);
   adf.writeRegister(adf.REG0.word);
-  delay(500); // delay ms
+  //adf.writeAllRegisters();
+  delay(1000); // delay ms
 }

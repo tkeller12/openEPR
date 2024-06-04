@@ -21,8 +21,9 @@ void ADF4351::initRegisters() {
 
     // REGISTER 1
     REG1.bits.CTRL = 1; // Control bits
-    REG1.bits.MOD = 2500; // MOD determines frequency resolution, RESOLUTION = F_PFD / MOD
-    REG1.bits.PHASE = 10; // 1 is recommended
+    //REG1.bits.MOD = 2500; // MOD determines frequency resolution, RESOLUTION = F_PFD / MOD
+    REG1.bits.MOD = 1000; // MOD determines frequency resolution, RESOLUTION = F_PFD / MOD
+    REG1.bits.PHASE = 1; // 1 is recommended
     REG1.bits.PRESCALER = 1; // 0 is 4/5, 1 is 8/9
     //REG1.bits.PHASE_ADJUST = 1; // Do not perform VCO band selection or resync
     REG1.bits.PHASE_ADJUST = 0; // Enable phase resync
@@ -37,7 +38,8 @@ void ADF4351::initRegisters() {
     REG2.bits.LDF = 0; // 0 for FRAC-N, 1 for INT-N
     REG2.bits.CHARGE_PUMP_CURRENT = 0; // 0 is slowest
     REG2.bits.DOUBLE_BUFFER = 0; //
-    REG2.bits.R_COUNTER = 1; // Divider for reference
+    //REG2.bits.R_COUNTER = 1; // Divider for reference
+    REG2.bits.R_COUNTER = 10; // Divider for reference
     REG2.bits.RDIV2 = 0; // Reference divide by 2
     REG2.bits.REFERENCE_DOUBLER = 0; // Reference doubler
     REG2.bits.MUXOUT = 6; // 6 is digital lock detect
@@ -45,14 +47,14 @@ void ADF4351::initRegisters() {
 
     // REGISTER 3
     REG3.bits.CTRL = 3; // Control bits
-    REG3.bits.CLOCK_DIVIDER = 160; // Clock divider value for resync
+    REG3.bits.CLOCK_DIVIDER = 4095; // Clock divider value for resync, max value 4095
     //REG3.bits.CLK_DIV_MODE = 0; // 0 disables clock divider
     REG3.bits.CLK_DIV_MODE = 2; // 0b10=2 enables resync (for phase control)
     REG3.bits.CSR = 0; // 0 disables slip cycle reduction
     REG3.bits.CHARGE_CANCEL = 0; // 0 disables charge cancellation, should be 0 in N-frac mode 
     REG3.bits.ABP = 0; // Anti-Backlash Pulse, 0 for FRAC-N, 1 for INT-N
-    //REG3.bits.BAND_SELECT_CLOCK_MODE = 1; // recommended for high PDF
-    REG3.bits.BAND_SELECT_CLOCK_MODE = 0; // off
+    REG3.bits.BAND_SELECT_CLOCK_MODE = 1; // recommended for high PDF (> 125 kHz)
+    //REG3.bits.BAND_SELECT_CLOCK_MODE = 0; // off
 
     // REGISTER 4
     REG4.bits.CTRL = 4; // Control bits
@@ -110,8 +112,10 @@ void ADF4351::setFrequency(uint32_t freq) {
     VCO_FREQ = freq * divisor;
     //VCO_FREQ = freq; // Testing divided feedback
 
-    INT = VCO_FREQ / F_REF;
-    FRAC = (VCO_FREQ - (INT * F_REF)) * REG1.bits.MOD / F_REF ;
+    //INT = VCO_FREQ / F_REF;
+    INT = freq / F_REF;
+    //FRAC = (VCO_FREQ - (INT * F_REF)) * REG1.bits.MOD / F_REF ;
+    FRAC = (freq - (INT * F_REF)) * REG1.bits.MOD / F_REF ;
 
     REG4.bits.RF_DIVIDER_SELECT = divisor_count;
     REG0.bits.INT = INT;
