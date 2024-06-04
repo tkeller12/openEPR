@@ -86,13 +86,20 @@ void setup() {
   adf.writeAllRegisters(); // write all registers
 
   // Now we go through Procedure
-  delay(10); // Allow ADF to lock
-  //adf.REG1.bits.PHASE_ADJUST = 0; 
-  //adf.writeAllRegisters(); // write all registers
-  delay(10); // Allow ADF to lock
+  //delay(10); // Allow ADF to lock
+  delay(100); // Allow ADF to lock
 
-  //adf.writeRegister(0x580005);
+  //adf.writeRegister(0x580005); // register 5
+  delay(100); // Allow ADF to lock
+  //adf.REG1.bits.PHASE_ADJUST = 1; 
+  //adf.writeRegister(0x580005); // register 5
+  // adf.writeRegister(adf.REG4.word); //
+  // adf.writeRegister(adf.REG3.word); //
+  // adf.writeRegister(adf.REG2.word); //
+  // adf.writeRegister(adf.REG1.word); //
+  // adf.writeRegister(adf.REG0.word); //
   //adf.writeRegister(0x3500FC);
+  //adf.phase(100);
 
 
   // Initialize DAT-31A
@@ -133,9 +140,9 @@ void loop()
     phase_ix = 0;
   }
   adf.phase(phase_ix);
-  //adf.phase(10);
-  adf.writeRegister(adf.REG1.word);
-  adf.writeRegister(adf.REG0.word);
+  //adf.writeRegister(adf.REG1.word);
+  //delay(500); // delay ms
+  //adf.writeRegister(adf.REG0.word);
   //adf.writeAllRegisters();
-  delay(1000); // delay ms
+  delay(500); // delay ms
 }

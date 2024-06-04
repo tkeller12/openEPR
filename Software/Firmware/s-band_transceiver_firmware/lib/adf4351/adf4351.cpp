@@ -35,7 +35,11 @@ void ADF4351::initRegisters() {
     REG2.bits.POWER_DOWN = 0; // 0 for normal operation
     REG2.bits.PD_POLARITY = 1; // 1 for passive loop or non-inverting loop filter
     REG2.bits.LDP = 0; // 0 is 10 ns window
+
     REG2.bits.LDF = 0; // 0 for FRAC-N, 1 for INT-N
+    //REG2.bits.LDF = 1; // 0 for FRAC-N, 1 for INT-N
+    // Quick test INT-N
+
     REG2.bits.CHARGE_PUMP_CURRENT = 0; // 0 is slowest
     REG2.bits.DOUBLE_BUFFER = 0; //
     //REG2.bits.R_COUNTER = 1; // Divider for reference
@@ -47,7 +51,7 @@ void ADF4351::initRegisters() {
 
     // REGISTER 3
     REG3.bits.CTRL = 3; // Control bits
-    REG3.bits.CLOCK_DIVIDER = 4095; // Clock divider value for resync, max value 4095
+    REG3.bits.CLOCK_DIVIDER = 100; // Clock divider value for resync, max value 4095
     //REG3.bits.CLK_DIV_MODE = 0; // 0 disables clock divider
     REG3.bits.CLK_DIV_MODE = 2; // 0b10=2 enables resync (for phase control)
     REG3.bits.CSR = 0; // 0 disables slip cycle reduction
