@@ -51,7 +51,7 @@ void ADF4351::initRegisters() {
 
     // REGISTER 3
     REG3.bits.CTRL = 3; // Control bits
-    REG3.bits.CLOCK_DIVIDER = 100; // Clock divider value for resync, max value 4095
+    REG3.bits.CLOCK_DIVIDER = 80; // Clock divider value for resync, max value 4095
     //REG3.bits.CLK_DIV_MODE = 0; // 0 disables clock divider
     REG3.bits.CLK_DIV_MODE = 2; // 0b10=2 enables resync (for phase control)
     REG3.bits.CSR = 0; // 0 disables slip cycle reduction
