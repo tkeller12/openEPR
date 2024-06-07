@@ -136,7 +136,7 @@ void loop()
   serialLoop();
 
   phase_ix += 10;
-  if (phase_ix > 1000) {
+  if (phase_ix > adf.REG1.bits.MOD) {
     phase_ix = 0;
   }
   adf.phase(phase_ix);
@@ -144,5 +144,5 @@ void loop()
   //delay(500); // delay ms
   //adf.writeRegister(adf.REG0.word);
   //adf.writeAllRegisters();
-  delay(50); // delay ms
+  delay(200); // delay ms
 }

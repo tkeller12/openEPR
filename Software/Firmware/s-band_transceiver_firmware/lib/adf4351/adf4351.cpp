@@ -51,7 +51,7 @@ void ADF4351::initRegisters() {
 
     // REGISTER 3
     REG3.bits.CTRL = 3; // Control bits
-    REG3.bits.CLOCK_DIVIDER = 80; // Clock divider value for resync, max value 4095
+    REG3.bits.CLOCK_DIVIDER = 2; // Clock divider value for resync, max value 4095
     //REG3.bits.CLK_DIV_MODE = 0; // 0 disables clock divider
     REG3.bits.CLK_DIV_MODE = 2; // 0b10=2 enables resync (for phase control)
     REG3.bits.CSR = 0; // 0 disables slip cycle reduction
@@ -69,7 +69,7 @@ void ADF4351::initRegisters() {
     REG4.bits.AUX_OUTPUT_SELECT = 0; // 0 is divided output
     REG4.bits.MTLD = 1; // 1 is MUTE until lock enabled
     REG4.bits.VCO_POWER_DOWN = 0; // 0 is VCO powered up
-    REG4.bits.BAND_SELECT_CLOCK_DIVIDER = 25; // 
+    REG4.bits.BAND_SELECT_CLOCK_DIVIDER = 64; // Required for high PFD frequencies
     REG4.bits.RF_DIVIDER_SELECT = 4; // 4 is divide by 16
     //REG4.bits.FEEDBACK_SELECT = 1; // 1 is fundamental, 0 is divided
     REG4.bits.FEEDBACK_SELECT = 0; // 1 is fundamental, 0 is divided
