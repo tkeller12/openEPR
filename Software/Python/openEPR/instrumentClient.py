@@ -1,5 +1,4 @@
 import socket
-from socket import SHUT_RDWR
 import sys
 
 import socketserver
@@ -7,10 +6,10 @@ from instrumentServer import MyServer, MyTCPHandler
 from threading import Thread
 
 HOST, PORT = "localhost", 9999
-data = " ".join(sys.argv[1:])
 data = "Hello World!"
 
-server = socketserver.TCPServer((HOST, PORT), MyTCPHandler)
+#server = socketserver.TCPServer((HOST, PORT), MyTCPHandler)
+server = MyServer((HOST, PORT), MyTCPHandler)
 
 t = Thread(target = server.serve_forever)
 print('Starting Server...')
