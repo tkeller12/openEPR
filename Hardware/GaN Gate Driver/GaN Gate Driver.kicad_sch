@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "2ef17afe-2aa8-4b16-aaf3-287c537b694a")
 	(paper "A4")
+	(title_block
+		(title "GaN Gate Driver")
+		(date "2024-06-16")
+		(rev "v1.0")
+		(company "OpenEPR")
+		(comment 1 "Timothy Keller")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LMV358"
 			(pin_names
