@@ -432,6 +432,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1389,10 +1491,28 @@
 		)
 	)
 	(junction
+		(at 139.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "027f657c-da03-49cd-8076-5cdd3328d79f")
+	)
+	(junction
+		(at 152.4 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0379f010-2639-41c3-a01a-f3cc8c10c727")
+	)
+	(junction
 		(at 50.8 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11438e92-6495-409b-b050-dfd6b3886399")
+	)
+	(junction
+		(at 125.73 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12466814-ac52-4587-8f84-98b8faf958ed")
 	)
 	(junction
 		(at 116.84 63.5)
@@ -1407,10 +1527,28 @@
 		(uuid "3e87c7d0-72f5-43c2-b4b3-3790bd7a6ba2")
 	)
 	(junction
+		(at 125.73 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d7142e1-5a66-413f-aa08-8579f9622b33")
+	)
+	(junction
 		(at 198.12 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ae9b927-5d0e-4286-85ed-1c4f75287218")
+	)
+	(junction
+		(at 95.25 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d1f23a8-a534-4282-9e29-5c598beb0cf3")
+	)
+	(junction
+		(at 116.84 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80eb101b-246b-48dd-88a0-9d72c99e6577")
 	)
 	(junction
 		(at 198.12 91.44)
@@ -1419,10 +1557,34 @@
 		(uuid "86270766-8cd6-41f2-ac28-d3f789559466")
 	)
 	(junction
-		(at 125.095 63.5)
+		(at 95.25 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7b65db4-0057-4909-a475-3ddf041884d6")
+		(uuid "9297190e-03cb-4d64-9d2f-8f9684c88c4c")
+	)
+	(junction
+		(at 95.25 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97cb1b3b-4f49-431a-bd1f-7d836b15633a")
+	)
+	(junction
+		(at 116.84 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd508749-4a62-4fde-91a9-d477a4f1fa74")
+	)
+	(junction
+		(at 80.01 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9d47bc5-9611-467a-b6df-c8b4e73374e2")
+	)
+	(junction
+		(at 125.73 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec56b077-e8f6-49e8-a87f-08e27a398f64")
 	)
 	(wire
 		(pts
@@ -1433,16 +1595,6 @@
 			(type default)
 		)
 		(uuid "008d8a2c-fd64-46b5-b74f-eeed165813ea")
-	)
-	(wire
-		(pts
-			(xy 116.84 69.85) (xy 116.84 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07836978-aeff-4c1d-a453-a1f86a7bf071")
 	)
 	(wire
 		(pts
@@ -1476,13 +1628,43 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 60.96) (xy 44.45 60.96)
+			(xy 116.84 52.07) (xy 116.84 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d5f496e-8563-42bd-9486-972d6e2eee8a")
+		(uuid "153c1de4-b3b9-4ec7-86e2-89a193ec9f73")
+	)
+	(wire
+		(pts
+			(xy 118.11 52.07) (xy 116.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c8348f-101c-45c2-857c-6d33de3e2761")
+	)
+	(wire
+		(pts
+			(xy 50.8 58.42) (xy 50.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a387fdb-672b-4d1a-8c96-cfe9914b893c")
+	)
+	(wire
+		(pts
+			(xy 123.19 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c72110e-fd48-493e-8d91-4ca8dacd542c")
 	)
 	(wire
 		(pts
@@ -1496,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 67.31) (xy 125.095 63.5)
+			(xy 125.73 67.31) (xy 125.73 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1688,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 60.96) (xy 99.06 60.96)
+			(xy 104.14 46.99) (xy 95.25 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22dd56ff-42f5-4131-af48-238a626f264b")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 60.96 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1556,6 +1748,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 46.99) (xy 116.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b23429d-01ad-4637-bc6a-01cb60be462d")
+	)
+	(wire
+		(pts
+			(xy 152.4 71.12) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46366d84-d6ef-4fea-bc9d-46c6eb166340")
+	)
+	(wire
+		(pts
 			(xy 99.06 102.87) (xy 97.155 102.87)
 		)
 		(stroke
@@ -1566,13 +1778,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.885 74.93) (xy 95.885 66.04)
+			(xy 95.25 74.93) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5257d00a-7fef-4838-bf6b-3e4f790352cc")
+	)
+	(wire
+		(pts
+			(xy 95.25 66.04) (xy 99.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569151b1-9853-4891-bcd2-37f6091dd990")
 	)
 	(wire
 		(pts
@@ -1596,13 +1818,33 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 95.885 74.93)
+			(xy 152.4 66.04) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db6ccbc-dd41-47c2-85d9-6ebfe2fdeb3d")
+	)
+	(wire
+		(pts
+			(xy 85.09 74.93) (xy 95.25 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6048f4f4-07b2-4587-8272-2b3b33c29eee")
+	)
+	(wire
+		(pts
+			(xy 95.25 35.56) (xy 95.25 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640d3c8b-3ddd-4196-bc43-d2b6382ba1e8")
 	)
 	(wire
 		(pts
@@ -1626,13 +1868,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 60.96) (xy 50.8 60.96)
+			(xy 104.14 35.56) (xy 95.25 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bc43eb2-419e-4c93-a956-c643b1350c37")
+		(uuid "6b08979d-4755-43fd-9281-1e01e7caa334")
 	)
 	(wire
 		(pts
@@ -1656,7 +1898,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 63.5) (xy 127 63.5)
+			(xy 95.25 60.96) (xy 99.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7638756b-e850-4c3e-8711-a3d09cedc109")
+	)
+	(wire
+		(pts
+			(xy 123.19 63.5) (xy 125.73 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1918,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 67.31) (xy 125.095 67.31)
+			(xy 95.25 46.99) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd0f859-64b1-42db-846d-dd3eb72619d2")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.56) (xy 116.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f22f037-bdad-425a-852c-a1f3bb253d34")
+	)
+	(wire
+		(pts
+			(xy 130.81 67.31) (xy 125.73 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1686,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ce2a25-8f6d-48be-aaf8-9b6bf5299a98")
+	)
+	(wire
+		(pts
 			(xy 85.09 97.79) (xy 99.06 97.79)
 		)
 		(stroke
@@ -1693,16 +1975,6 @@
 			(type default)
 		)
 		(uuid "95702506-6ca4-4672-a884-645c72e61adb")
-	)
-	(wire
-		(pts
-			(xy 95.885 66.04) (xy 99.06 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "994c3978-7607-4a18-924c-b8895049cd30")
 	)
 	(wire
 		(pts
@@ -1726,13 +1998,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 52.07) (xy 125.095 63.5)
+			(xy 125.73 52.07) (xy 125.73 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad5c4793-5a49-4df0-b6d1-5bec59de0006")
+	)
+	(wire
+		(pts
+			(xy 116.84 46.99) (xy 116.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15d16ce-2a2d-44e8-bc14-1a857dfceb47")
 	)
 	(wire
 		(pts
@@ -1776,6 +2058,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 60.96) (xy 50.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4db3432-a71f-4d01-ad36-ab9390094dbe")
+	)
+	(wire
+		(pts
 			(xy 133.35 52.07) (xy 136.525 52.07)
 		)
 		(stroke
@@ -1796,6 +2088,36 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 60.96) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6034a40-61ae-4686-a188-78868c2fbc63")
+	)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69f34c3-bb23-4c20-b9d3-926c774827f5")
+	)
+	(wire
+		(pts
+			(xy 125.73 67.31) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d182f2e2-ee9c-4c2a-83db-b4e3a1ea9381")
+	)
+	(wire
+		(pts
 			(xy 116.84 100.33) (xy 114.3 100.33)
 		)
 		(stroke
@@ -1806,13 +2128,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 63.5) (xy 123.19 63.5)
+			(xy 50.8 50.8) (xy 50.8 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de1ccb14-a6eb-4215-9cdc-84b59c1ae596")
+		(uuid "e303405c-d69c-4f73-b881-3e198c342869")
 	)
 	(wire
 		(pts
@@ -1846,7 +2168,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 52.07) (xy 125.095 52.07)
+			(xy 109.22 35.56) (xy 116.84 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f450351d-6762-4db1-953b-2b5f131cf4ae")
+	)
+	(wire
+		(pts
+			(xy 128.27 52.07) (xy 125.73 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1856,13 +2188,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 116.84 77.47)
+			(xy 125.73 74.93) (xy 125.73 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f79d5126-aead-4077-bf87-1921d5c54583")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff50cdeb-168f-4e49-81f6-c93184330820")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1932,7 +2274,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 116.84 72.39 90)
+		(at 125.73 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1941,7 +2283,7 @@
 		(fields_autoplaced yes)
 		(uuid "067f8ed4-e6cf-4859-9b8c-88e632591341")
 		(property "Reference" "D1"
-			(at 119.38 71.1199 90)
+			(at 128.27 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +2292,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 119.38 73.6599 90)
+			(at 128.27 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +2301,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 116.84 72.39 90)
+			(at 125.73 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +2310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 72.39 90)
+			(at 125.73 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +2319,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 116.84 72.39 0)
+			(at 125.73 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +2328,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 116.84 72.39 0)
+			(at 125.73 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +2337,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 72.39 0)
+			(at 125.73 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,6 +2355,76 @@
 			(project "GaN Gate Driver"
 				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 50.8 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "07e376dd-5605-4193-8431-c1a36508ddf8")
+		(property "Reference" "R7"
+			(at 53.34 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 53.34 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19bb1573-ef9c-4792-abe9-b3b5aa45a866")
+		)
+		(pin "2"
+			(uuid "ef7764bb-19bb-498a-9aeb-ccaa5eb1adf0")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2227,6 +2639,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c442516-6423-4170-a665-e397de531eb5")
+		(property "Reference" "TP1"
+			(at 154.94 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.94 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0e4fab3-2d1d-4c10-ab7c-bd8fc9acb819")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 50.8 66.04 180)
 		(unit 1)
@@ -2362,17 +2841,84 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 77.47 0)
+		(lib_id "Device:R_Small_US")
+		(at 106.68 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "1ff553ed-da41-4eed-ade5-720c352f96d3")
+		(property "Reference" "R6"
+			(at 106.68 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 106.68 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0c34cb6-a8c6-497b-b58c-aa8e89cf4c17")
+		)
+		(pin "2"
+			(uuid "77f99843-cd1f-45c8-8461-bef01713ee6d")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "3a38bb6c-6921-4db1-9444-a9e29b98c0e5")
 		(property "Reference" "#PWR05"
-			(at 116.84 83.82 0)
+			(at 125.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2927,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 82.55 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 77.47 0)
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 77.47 0)
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 77.47 0)
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,6 +2968,73 @@
 			(project "GaN Gate Driver"
 				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d398dfa-cc79-4501-a698-175bb54ed521")
+		(property "Reference" "TP3"
+			(at 82.55 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 82.55 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b58c266-fe7c-4da9-afe4-ce6f2e4e4367")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2721,6 +3334,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77e8cff0-9b3d-490c-b189-21220ada73b5")
+		(property "Reference" "#PWR013"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba1c496c-85ea-458b-9ce0-623436fd7331")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 106.68 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8045f0d9-6d8f-4550-9d98-fa32681e0732")
+		(property "Reference" "C5"
+			(at 106.6863 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 106.6863 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fd599ae-f6dd-4470-a697-5a5e7dd75dbd")
+		)
+		(pin "1"
+			(uuid "4a1063cf-9c97-4a91-aad9-06ee69b04749")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LMV358")
 		(at 106.68 63.5 0)
 		(unit 1)
@@ -2774,28 +3520,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "f6c29943-fbb3-4e50-b878-2af3c676e704")
+			(uuid "f6c29943-fbb3-4e50-b878-2af3c676e705")
 		)
 		(pin "7"
-			(uuid "28e9fd27-da81-4335-b327-34932a0d6517")
+			(uuid "28e9fd27-da81-4335-b327-34932a0d6518")
 		)
 		(pin "2"
-			(uuid "5319dabb-83f4-4ee9-8d56-4857d0ff81f9")
+			(uuid "5319dabb-83f4-4ee9-8d56-4857d0ff81fa")
 		)
 		(pin "5"
-			(uuid "89dc0f9e-392f-4357-b9bd-24cb4987a11a")
+			(uuid "89dc0f9e-392f-4357-b9bd-24cb4987a11b")
 		)
 		(pin "6"
-			(uuid "53404f63-b19b-4515-b2c2-2a23ac3d52b9")
+			(uuid "53404f63-b19b-4515-b2c2-2a23ac3d52ba")
 		)
 		(pin "8"
-			(uuid "6a749232-7fe8-4b6a-81ab-9a5a97718f4d")
+			(uuid "6a749232-7fe8-4b6a-81ab-9a5a97718f4e")
 		)
 		(pin "1"
-			(uuid "4c91db90-20f1-400a-ad45-e373676c0518")
+			(uuid "4c91db90-20f1-400a-ad45-e373676c0519")
 		)
 		(pin "3"
-			(uuid "f3bbbea7-1aee-4177-9258-dfe628646bd6")
+			(uuid "f3bbbea7-1aee-4177-9258-dfe628646bd7")
 		)
 		(instances
 			(project "GaN Gate Driver"
@@ -2875,6 +3621,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-5V")
+		(at 139.7 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9066dc28-2414-4316-a65e-df655b135acc")
+		(property "Reference" "#PWR06"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 139.7 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b24d4b-d423-46d0-92bf-4de2c842c88d")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LMV358")
 		(at 106.68 100.33 0)
 		(unit 2)
@@ -2928,28 +3739,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "f6c29943-fbb3-4e50-b878-2af3c676e704")
+			(uuid "f6c29943-fbb3-4e50-b878-2af3c676e706")
 		)
 		(pin "7"
-			(uuid "28e9fd27-da81-4335-b327-34932a0d6517")
+			(uuid "28e9fd27-da81-4335-b327-34932a0d6519")
 		)
 		(pin "2"
-			(uuid "5319dabb-83f4-4ee9-8d56-4857d0ff81f9")
+			(uuid "5319dabb-83f4-4ee9-8d56-4857d0ff81fb")
 		)
 		(pin "5"
-			(uuid "89dc0f9e-392f-4357-b9bd-24cb4987a11a")
+			(uuid "89dc0f9e-392f-4357-b9bd-24cb4987a11c")
 		)
 		(pin "6"
-			(uuid "53404f63-b19b-4515-b2c2-2a23ac3d52b9")
+			(uuid "53404f63-b19b-4515-b2c2-2a23ac3d52bb")
 		)
 		(pin "8"
-			(uuid "6a749232-7fe8-4b6a-81ab-9a5a97718f4d")
+			(uuid "6a749232-7fe8-4b6a-81ab-9a5a97718f4f")
 		)
 		(pin "1"
-			(uuid "4c91db90-20f1-400a-ad45-e373676c0518")
+			(uuid "4c91db90-20f1-400a-ad45-e373676c051a")
 		)
 		(pin "3"
-			(uuid "f3bbbea7-1aee-4177-9258-dfe628646bd6")
+			(uuid "f3bbbea7-1aee-4177-9258-dfe628646bd8")
 		)
 		(instances
 			(project "GaN Gate Driver"
@@ -3225,7 +4036,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 46.99 60.96 90)
+		(at 63.5 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3234,7 +4045,7 @@
 		(fields_autoplaced yes)
 		(uuid "c714dfe4-3193-4b15-b9b6-ebc69e1483cf")
 		(property "Reference" "R4"
-			(at 46.99 54.61 90)
+			(at 63.5 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +4053,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 46.99 57.15 90)
+			(at 63.5 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +4061,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 46.99 60.96 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +4070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 60.96 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +4079,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 46.99 60.96 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,17 +4169,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 76.2 0)
+		(lib_id "Device:R_Small_US")
+		(at 152.4 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "d8c553f4-2b2e-4737-a9e4-dcd55e1b32e8")
-		(property "Reference" "#PWR06"
-			(at 139.7 82.55 0)
+		(uuid "d63e9a4f-0e42-4828-9bf3-b8242f1de664")
+		(property "Reference" "R5"
+			(at 154.94 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500"
+			(at 154.94 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 152.4 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,16 +4205,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 139.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 76.2 0)
+		(property "Datasheet" "~"
+			(at 152.4 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,17 +4214,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 139.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 76.2 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 152.4 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,12 +4224,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b74c0f1-d5df-4ed1-8612-ae271ce1b3b7")
+			(uuid "ef9f1180-d86a-455c-9d56-7dceef528b92")
+		)
+		(pin "2"
+			(uuid "a78f7dd4-ecb8-4a55-af19-19145bf21d63")
 		)
 		(instances
 			(project "GaN Gate Driver"
 				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
-					(reference "#PWR06")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3484,6 +4299,72 @@
 			(project "GaN Gate Driver"
 				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de8ee1c4-4c59-4072-94e1-d94ccebcd512")
+		(property "Reference" "#PWR012"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c10eb48-7c5f-43d4-b6fb-ff58166f8a98")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3620,6 +4501,141 @@
 			(project "GaN Gate Driver"
 				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed9aac4a-ac61-4a6f-a730-7e70453123f6")
+		(property "Reference" "TP2"
+			(at 97.79 76.9619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.79 79.5019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc22e1bf-0197-4de7-a615-ea9c557d78a0")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 120.65 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f10007b2-9910-4484-a33b-0ef980358330")
+		(property "Reference" "C4"
+			(at 120.6563 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 120.6563 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66af1a2a-32f6-4c7a-acb6-88f73092512a")
+		)
+		(pin "1"
+			(uuid "e4de4709-5213-4039-b157-88df4b6e262e")
+		)
+		(instances
+			(project "GaN Gate Driver"
+				(path "/2ef17afe-2aa8-4b16-aaf3-287c537b694a"
+					(reference "C4")
 					(unit 1)
 				)
 			)
