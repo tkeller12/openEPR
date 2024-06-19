@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "25bb5703-5946-409a-bc14-ea92dd4cb5e5")
 	(paper "A4")
+	(title_block
+		(title "Drain Driver")
+		(date "2024-06-18")
+		(rev "v1.0")
+		(company "openEPR")
+		(comment 1 "Timothy Keller")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
@@ -1685,6 +1692,12 @@
 		(uuid "663ad277-5d9a-4516-b89e-4c0b6e0b3139")
 	)
 	(junction
+		(at 158.75 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fa15b60-c400-4f00-8640-b5329251c405")
+	)
+	(junction
 		(at 119.38 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1703,10 +1716,26 @@
 		(uuid "ca76cd27-4f0f-42f4-bb00-45a5b8ba9035")
 	)
 	(junction
+		(at 129.54 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecf886b9-565c-4276-b51e-028f567668da")
+	)
+	(junction
 		(at 129.54 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed2f3081-460a-4721-959e-8201fc591889")
+	)
+	(wire
+		(pts
+			(xy 88.9 68.58) (xy 88.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091c814c-78a2-4a19-adb9-669f021c2314")
 	)
 	(wire
 		(pts
@@ -1790,7 +1819,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 63.5) (xy 158.75 64.77)
+			(xy 158.75 63.5) (xy 158.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1827,16 +1856,6 @@
 			(type default)
 		)
 		(uuid "3e1492c4-1cdc-44fb-85ce-6916b59b47f6")
-	)
-	(wire
-		(pts
-			(xy 74.93 68.58) (xy 74.93 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "413835ce-925a-4506-93a7-58147d18c917")
 	)
 	(wire
 		(pts
@@ -2030,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 63.5) (xy 96.52 63.5)
+			(xy 93.98 63.5) (xy 96.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 64.77) (xy 161.29 64.77)
+			(xy 158.75 68.58) (xy 161.29 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2127,6 +2146,16 @@
 			(type default)
 		)
 		(uuid "cfc6f861-2e89-4b88-84c3-19f558ec468b")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5dce90f-b02b-4e90-b95e-cd0edabb9790")
 	)
 	(wire
 		(pts
@@ -2220,7 +2249,7 @@
 	)
 	(global_label "AMP_DRAIN"
 		(shape input)
-		(at 161.29 64.77 0)
+		(at 161.29 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2230,7 +2259,7 @@
 		)
 		(uuid "156aacf2-0e18-47e2-a0ad-50d4ea02c3c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.6167 64.77 0)
+			(at 174.6167 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 233.68 53.34 0)
 			(effects
 				(font
@@ -2403,7 +2432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 96.52 67.31 0)
 			(effects
 				(font
@@ -2512,7 +2541,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 74.93 63.5 0)
+		(at 88.9 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2521,7 +2550,7 @@
 		(dnp no)
 		(uuid "31b93542-25bb-4999-a549-3eba52f506fd")
 		(property "Reference" "J1"
-			(at 71.12 62.5231 0)
+			(at 85.09 62.5231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2559,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 71.12 65.0631 0)
+			(at 85.09 65.0631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,8 +2567,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 74.93 63.5 0)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2577,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 74.93 63.5 0)
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2586,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 74.93 63.5 0)
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 105.41 53.34 0)
 			(effects
 				(font
@@ -2651,7 +2680,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 71.12 0)
+		(at 88.9 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2659,7 +2688,7 @@
 		(dnp no)
 		(uuid "43da5ba5-4581-4699-af2b-448975800fc2")
 		(property "Reference" "#PWR07"
-			(at 74.93 77.47 0)
+			(at 88.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 74.93 0)
+			(at 88.9 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 71.12 0)
+			(at 88.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 71.12 0)
+			(at 88.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 71.12 0)
+			(at 88.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 184.15 53.34 0)
 			(effects
 				(font
@@ -2877,7 +2906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 220.98 53.34 0)
 			(effects
 				(font
@@ -3012,7 +3041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 208.28 53.34 0)
 			(effects
 				(font
@@ -3082,7 +3111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 246.38 53.34 0)
 			(effects
 				(font
@@ -3305,7 +3334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 195.58 53.34 0)
 			(effects
 				(font
@@ -3372,7 +3401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 140.97 58.42 0)
 			(effects
 				(font
@@ -3553,25 +3582,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0c6260f-b2f7-4843-8827-6814de305594")
 		(property "Reference" "D1"
-			(at 125.73 43.18 0)
+			(at 130.302 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "EGP10B"
-			(at 125.73 45.72 0)
+		(property "Value" "1N5819HW-7-F"
+			(at 130.302 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.73 49.53 90)
 			(effects
 				(font
@@ -3608,6 +3636,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "BAV19W-E3-08GICT-ND"
 			(at 125.73 49.53 0)
 			(effects
 				(font
@@ -3659,7 +3696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.54 63.5 0)
 			(effects
 				(font
