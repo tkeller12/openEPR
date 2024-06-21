@@ -3048,6 +3048,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "493-4784-1-ND"
+			(at 233.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0cacf170-ecd1-4290-91fd-b9c2d2bb0d26")
 		)
@@ -3524,6 +3533,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "493-4784-1-ND"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d7be213-11d7-4378-859c-f4096a587b63")
 		)
@@ -3924,6 +3942,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "493-4784-1-ND"
+			(at 184.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2430235f-3aa9-497e-a3ef-a924f1a567bd")
 		)
@@ -4051,6 +4078,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "493-4784-1-ND"
 			(at 220.98 53.34 0)
 			(effects
 				(font
@@ -4461,6 +4497,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "493-4784-1-ND"
+			(at 208.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80518e15-48fe-4529-bd96-8c0192ae9a83")
 		)
@@ -4523,6 +4568,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 246.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "493-4784-1-ND"
 			(at 246.38 53.34 0)
 			(effects
 				(font
@@ -4666,6 +4720,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "IRS2005STRPBFCT-ND"
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e31deeb1-6b23-44a1-b06e-19007697b73e")
 		)
@@ -4746,6 +4809,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "493-4784-1-ND"
 			(at 195.58 53.34 0)
 			(effects
 				(font
@@ -5368,7 +5440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "BAV19W-E3-08GICT-ND"
+		(property "Digikey" "1N5819HW-FDICT-ND"
 			(at 125.73 49.53 0)
 			(effects
 				(font
@@ -5581,6 +5653,15 @@
 			)
 		)
 		(property "Description" "85A Id, 150V Vds, 12mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "IRFS4321TRLPBFCT-ND"
 			(at 156.21 58.42 0)
 			(effects
 				(font

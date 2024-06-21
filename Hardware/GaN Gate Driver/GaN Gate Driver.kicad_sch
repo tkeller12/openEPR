@@ -3116,7 +3116,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "067f8ed4-e6cf-4859-9b8c-88e632591341")
 		(property "Reference" "D1"
 			(at 173.99 67.3099 90)
@@ -3127,8 +3126,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
-			(at 173.99 69.8499 90)
+		(property "Value" "1N5819HW-7-F"
+			(at 167.386 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,6 +3173,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 171.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1N5819HW-FDICT-ND"
+			(at 171.45 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,6 +3450,15 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "3296W-102LF-ND"
 			(at 176.53 59.69 0)
 			(effects
 				(font
@@ -4330,6 +4347,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "LT1804CS8#PBF-ND"
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f6c29943-fbb3-4e50-b878-2af3c676e704")
 		)
@@ -4410,6 +4436,15 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "3296W-102LF-ND"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -5157,6 +5192,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "LT1804CS8#PBF-ND"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f6c29943-fbb3-4e50-b878-2af3c676e705")
 		)
@@ -5438,6 +5482,15 @@
 			)
 		)
 		(property "Description" "Single/Dual/Quad 100V/µs, 85MHz, Rail-to-Rail Input and Output Op Amps "
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "LT1804CS8#PBF-ND"
 			(at 91.44 57.15 0)
 			(effects
 				(font
