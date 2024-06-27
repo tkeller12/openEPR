@@ -3360,7 +3360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
+		(property "Value" "SMA-J-P-H-ST-EM1"
 			(at 85.09 65.0631 0)
 			(effects
 				(font
