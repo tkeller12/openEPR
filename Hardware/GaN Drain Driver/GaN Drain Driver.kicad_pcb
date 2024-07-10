@@ -106,7 +106,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "918a005b-a2cd-482a-abd1-dd9eb28bd0bf")
 			(effects
@@ -117,7 +117,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "ca588f38-1e2a-4f1e-ba81-4526e715de37")
 			(effects
@@ -269,7 +269,7 @@
 			(uuid "122d3b4b-65b7-4096-88ee-4e2532782686")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1369e950-d968-4e0f-8818-50cfe8c58c30")
 			(effects
@@ -3745,7 +3745,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "cbb3dcac-32c7-40d5-95bc-13695778193b")
 			(effects
@@ -3897,7 +3897,7 @@
 			(uuid "5ad09339-f247-4bc8-9fd6-c448a42ba7a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "65bf4c4b-d6ea-4cab-9afe-c6e8faaa2e8c")
 			(effects
@@ -7608,7 +7608,7 @@
 			(uuid "ddfbf7e9-1c05-4dc5-a826-b61d26f04d37")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 270)
+			(at 0 1.27 -90)
 			(layer "F.Fab")
 			(uuid "38b50f51-e7cb-4bd7-85e0-e143738ad0fe")
 			(effects
@@ -14748,7 +14748,7 @@
 			(uuid "569df8e8-704b-4763-8f6c-b65702df5150")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "81f342a7-141f-447c-847e-49ac39870dfa")
 			(effects
@@ -22304,7 +22304,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 1.905 270)
+			(at 0 1.905 -90)
 			(layer "F.SilkS")
 			(uuid "91128614-87ee-4260-a42c-2304690f1583")
 			(effects
