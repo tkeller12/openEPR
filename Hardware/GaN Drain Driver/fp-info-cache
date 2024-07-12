@@ -1,4 +1,4 @@
-23354724079652970
+23363316459756592
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -413,6 +413,13 @@ High Voltage - Isolated Module DC DC Converter
 12
 12
 B12T_DC_DC_Converter
+RS12-Z_RCP
+
+RS12-2424SZ 
+0
+9
+9
+B12T_DC_DC_Converter
 VX78012-500
 
 
@@ -819,6 +826,13 @@ SCPHS-180+
 107
 14
 B12T_Mini-Circuits
+TC4-1T
+
+
+0
+5
+5
+B12T_Mini-Circuits
 YAT-10A+
 MC1630
 Integrated Circuit
@@ -979,6 +993,13 @@ Integrated Circuit
 0
 8
 8
+B12T_Oscillator
+OD100LP_CNW
+
+OD100LP-61012SV-010.0M 
+0
+5
+5
 B12T_Oscillator
 OH320-CC
 
@@ -95493,6 +95514,20 @@ Varistor VF
 0
 2
 2
+_tim-DC-DC
+IES0105S05-H
+
+
+0
+5
+5
+_tim-DC-DC
+R1SE_SMD5_12.75X10.7X6.7_SINGLE_RCP
+
+R1SE-0505-R 
+0
+5
+5
 _tim-Headers
 PinHeader_Nano_1x15_P2.54mm_Vertical
 Through hole straight pin header, 1x15, 2.54mm pitch, single row
