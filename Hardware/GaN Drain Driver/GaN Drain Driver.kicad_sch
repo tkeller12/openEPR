@@ -3482,6 +3482,12 @@
 		(uuid "6ac121ce-7699-4248-803d-06a762dd4876")
 	)
 	(junction
+		(at 245.11 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc4cecf-b9fd-480c-931d-fe7760cdbfb9")
+	)
+	(junction
 		(at 233.68 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3851,6 +3857,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 29.21) (xy 245.11 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146bd700-4e6a-4153-a96d-1cca306ff3be")
+	)
+	(wire
+		(pts
 			(xy 97.79 106.68) (xy 97.79 111.125)
 		)
 		(stroke
@@ -3948,16 +3964,6 @@
 			(type default)
 		)
 		(uuid "1a10419b-80bf-4acb-88b9-67deac676252")
-	)
-	(wire
-		(pts
-			(xy 148.59 53.34) (xy 149.86 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ad6d278-0498-4cca-86fa-7af0a7e0d4ca")
 	)
 	(wire
 		(pts
@@ -4081,6 +4087,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 29.21) (xy 233.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbcf085-d09f-4b36-96f9-0a4d5dcf195e")
+	)
+	(wire
+		(pts
 			(xy 27.94 130.81) (xy 27.94 129.54)
 		)
 		(stroke
@@ -4191,6 +4207,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 53.34) (xy 146.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436e02dd-f136-4a5d-9e81-76672458f5d0")
+	)
+	(wire
+		(pts
 			(xy 180.34 100.33) (xy 180.34 102.87)
 		)
 		(stroke
@@ -4198,6 +4224,16 @@
 			(type default)
 		)
 		(uuid "4457a087-5c43-4c1e-9b1c-b3a1032fcf45")
+	)
+	(wire
+		(pts
+			(xy 146.05 53.34) (xy 149.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a351e8-e2b4-4511-b32e-a2e5e3475ea9")
 	)
 	(wire
 		(pts
@@ -4571,6 +4607,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 22.86) (xy 245.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a68dfff-0798-4453-8537-75278d5020c7")
+	)
+	(wire
+		(pts
 			(xy 231.14 60.96) (xy 233.68 60.96)
 		)
 		(stroke
@@ -4581,6 +4627,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 24.13) (xy 245.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b664140-0a13-43c8-825d-672c3ffa717b")
+	)
+	(wire
+		(pts
 			(xy 66.04 31.75) (xy 62.23 31.75)
 		)
 		(stroke
@@ -4588,6 +4644,16 @@
 			(type default)
 		)
 		(uuid "6bc8fc1c-01f8-4432-bc7e-991d22783eed")
+	)
+	(wire
+		(pts
+			(xy 245.11 22.86) (xy 256.54 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cafc62a-47bc-45ed-9471-0ae56695bfde")
 	)
 	(wire
 		(pts
@@ -4868,6 +4934,16 @@
 			(type default)
 		)
 		(uuid "8a3ad0b1-3630-41f8-926a-89e2bb35ffa1")
+	)
+	(wire
+		(pts
+			(xy 233.68 24.13) (xy 233.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4b2a7b-25b9-43a7-b31c-fb2f5d20433f")
 	)
 	(wire
 		(pts
@@ -5979,28 +6055,6 @@
 			)
 		)
 		(uuid "7698ff4a-1c4d-4108-9d7b-5a19f115e6fd")
-	)
-	(global_label "+3.3V REF"
-		(shape input)
-		(at 148.59 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b98d262-8557-4f3e-a195-0e038aebee81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.4448 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "COMP_OUT"
 		(shape input)
@@ -8247,6 +8301,71 @@
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38f27a1b-490a-47b6-a6ae-77b933273e2b")
+		(property "Reference" "#PWR054"
+			(at 233.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa6d5cac-a2a1-43d6-bf7f-7c8ee8c95e5f")
+		)
+		(instances
+			(project "GaN Drain Driver"
+				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10869,6 +10988,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 233.68 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aac2e06-1190-48a9-b230-cd6351cd6c2a")
+		(property "Reference" "C20"
+			(at 236.22 24.9681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 236.22 27.5081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "493-4784-1-ND"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c54a866-6856-4142-9810-dc4684841041")
+		)
+		(pin "2"
+			(uuid "27b400e2-3c97-4a4b-9531-fe319408ee3b")
+		)
+		(instances
+			(project "GaN Drain Driver"
+				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 80.01 163.83 0)
 		(unit 1)
@@ -11798,7 +11996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10M"
 			(at 261.366 65.532 0)
 			(effects
 				(font
@@ -11909,6 +12107,71 @@
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d1ef349-8e40-45a8-b708-662e1df70bf5")
+		(property "Reference" "#PWR053"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6732c6f6-4c4e-4764-b688-f17a1f0407f0")
+		)
+		(instances
+			(project "GaN Drain Driver"
+				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -13987,6 +14250,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 245.11 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df47b43a-572a-4c2a-b538-ac5b7e2c7fc9")
+		(property "Reference" "C4"
+			(at 247.65 24.9681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 247.65 27.5081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
+			(at 245.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 245.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "493-4784-1-ND"
+			(at 245.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e24dc38-6d6f-4b56-92c6-41e7355ae6a5")
+		)
+		(pin "2"
+			(uuid "bad9804a-e1e3-4806-ba9c-30f676d5f321")
+		)
+		(instances
+			(project "GaN Drain Driver"
+				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 219.71 60.96 180)
 		(unit 1)
@@ -15030,6 +15372,71 @@
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbd26487-eeb1-4b3f-a67f-a7c5f5dfaba7")
+		(property "Reference" "#PWR039"
+			(at 146.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 142.748 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a115f6a-a235-40ab-92a3-f081579401b9")
+		)
+		(instances
+			(project "GaN Drain Driver"
+				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
