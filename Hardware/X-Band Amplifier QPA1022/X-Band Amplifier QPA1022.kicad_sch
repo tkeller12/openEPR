@@ -7,7 +7,7 @@
 	(title_block
 		(title "X-Band 4W Amplifier")
 		(date "2024-06-16")
-		(rev "v1.0")
+		(rev "v1.1")
 		(company "openEPR")
 		(comment 1 "Timothy Keller")
 	)
