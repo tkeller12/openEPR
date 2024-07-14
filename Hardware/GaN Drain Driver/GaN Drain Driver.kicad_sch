@@ -6724,7 +6724,7 @@
 		(at 92.71 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0a690072-0d30-4c35-9073-bc1f8fca906b")
@@ -7664,7 +7664,7 @@
 		(at 218.44 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "201e9ba3-d243-444a-a4d8-a80b30cf68ea")
@@ -8373,6 +8373,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "SAM8857-ND"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fe97a58-6d2b-47ab-8a8d-2fc3c81a7455")
 		)
@@ -8973,6 +8982,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "3296W-103LF-ND"
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be83b5c1-dc88-46e7-b502-5de3534ff7aa")
 		)
@@ -8996,7 +9014,7 @@
 		(at 228.6 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "45bc0f5b-b242-48ea-b8c3-de8d7ba8592f")
@@ -9063,7 +9081,7 @@
 		(at 180.34 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "45c3f28b-a7d9-4d1f-9136-47f8eab2d370")
@@ -9173,6 +9191,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "WM4111-ND"
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -9927,7 +9954,7 @@
 		(at 57.15 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5dc67855-6b0f-4d87-ad8e-5f8a520b49aa")
@@ -10323,7 +10350,7 @@
 		(at 132.08 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6618fd6f-913d-49e7-ad48-c81f830e8067")
@@ -10753,7 +10780,7 @@
 		(at 257.81 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6ef43efc-2a1f-4dd4-b455-c6d5d4521cc7")
@@ -11293,7 +11320,7 @@
 		(at 245.11 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7befb454-31b8-490e-9e59-e6a4721a9cca")
@@ -11360,7 +11387,7 @@
 		(at 232.41 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7e040c2b-3f99-4948-936a-cd168150511e")
@@ -13072,6 +13099,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "3296W-103LF-ND"
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bfa8520-7b55-4012-873f-d160d9735fa3")
 		)
@@ -13272,6 +13308,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 214.63 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "WM4111-ND"
 			(at 214.63 25.4 0)
 			(effects
 				(font
@@ -13499,7 +13544,7 @@
 		(at 219.71 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cba2ff46-3689-4d82-acc4-a3eed49f7862")
@@ -13870,7 +13915,7 @@
 		(at 267.97 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d73e8ff0-f7c7-405d-9d3e-2c537c8e8afe")
@@ -14075,7 +14120,7 @@
 		(at 114.3 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "db6fc5da-1c11-4f1c-a466-6813dc3f6eb5")
@@ -15609,6 +15654,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "WM4111-ND"
 			(at 144.78 104.14 0)
 			(effects
 				(font
