@@ -9746,6 +9746,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "497-1593-1-ND"
+			(at 262.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "a3f29eec-f2ea-48db-9ddd-7f06bafd4d06")
 		)
@@ -14246,6 +14255,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "945-R1SE-0505-RCT-ND"
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b52bcde-223d-4093-9f22-bfb04497e575")
 		)
@@ -14532,6 +14550,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "497-1593-1-ND"
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "a3f29eec-f2ea-48db-9ddd-7f06bafd4d07")
 		)
@@ -14610,6 +14637,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "497-1593-1-ND"
 			(at 241.3 58.42 0)
 			(effects
 				(font
