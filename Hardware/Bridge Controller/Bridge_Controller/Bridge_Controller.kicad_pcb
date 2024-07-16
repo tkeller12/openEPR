@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "openEPR DAQ")
-		(date "2024-04-17")
-		(rev "v1.0")
+		(date "2024-05-01")
+		(rev "v1.1")
 		(company "openEPR")
 		(comment 1 "Timothy Keller")
 	)
@@ -1259,7 +1259,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C32"
-			(at -3.175 -1.905 180)
+			(at -3.175 0 180)
 			(layer "F.SilkS")
 			(uuid "43c7cd7b-dea8-413c-9419-ce8a9a061197")
 			(effects
@@ -26222,7 +26222,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R45"
-			(at 3.175 -1.905 0)
+			(at 3.175 0 0)
 			(layer "F.SilkS")
 			(uuid "c4dcbd7e-b761-4594-b1fe-dec9e742ac36")
 			(effects
