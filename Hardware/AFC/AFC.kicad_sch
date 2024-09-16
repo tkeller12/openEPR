@@ -8631,7 +8631,7 @@
 				)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "100k"
 			(at 34.29 125.984 90)
 			(effects
 				(font
@@ -9027,7 +9027,7 @@
 				)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "100k"
 			(at 41.91 125.984 90)
 			(effects
 				(font
@@ -9488,15 +9488,15 @@
 		(dnp no)
 		(uuid "26e91446-c041-4e3e-866c-9b22f5277d1e")
 		(property "Reference" "R18"
-			(at 112.014 133.096 0)
+			(at 111.76 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "7.68k"
-			(at 112.014 135.89 0)
+		(property "Value" "10k"
+			(at 111.506 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,7 +10727,7 @@
 				)
 			)
 		)
-		(property "Value" "845"
+		(property "Value" "1k"
 			(at 68.326 135.89 0)
 			(effects
 				(font
@@ -15188,7 +15188,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 222.25 107.188 0)
 			(effects
 				(font
