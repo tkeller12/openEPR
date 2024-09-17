@@ -20246,7 +20246,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRS140"
+		(property "Value" "MBRS140T3G"
 			(at 121.92 167.894 0)
 			(effects
 				(font
@@ -20974,18 +20974,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bebdb47d-9734-4b83-8956-34dfafc99a33")
 		(property "Reference" "D2"
-			(at 153.67 163.83 0)
+			(at 153.67 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MBRS140"
-			(at 153.67 166.37 0)
+		(property "Value" "MBRS140T3G"
+			(at 153.67 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
