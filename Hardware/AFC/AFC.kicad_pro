@@ -386,6 +386,18 @@
     [
       "bc8f9eaa-895a-45ef-96af-afbd66a724f7",
       "Root"
+    ],
+    [
+      "0d9505f5-5544-4003-b785-d80dc3254bad",
+      "input_stage"
+    ],
+    [
+      "9861837f-8115-48d0-a395-b2da8a579c1e",
+      "phase_sensitive_detector"
+    ],
+    [
+      "e590f7f9-de99-4c81-a98f-caf7d723c46b",
+      "PID_controller"
     ]
   ],
   "text_variables": {}
