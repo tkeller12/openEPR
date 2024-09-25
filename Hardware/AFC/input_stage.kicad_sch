@@ -4435,7 +4435,7 @@
 	)
 	(text "Cross Term AFC\n(IQ Mixer)"
 		(exclude_from_sim no)
-		(at 26.67 54.356 0)
+		(at 31.242 53.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4465,13 +4465,23 @@
 	)
 	(text "or Conventional Dispersion (Q^{2} only)"
 		(exclude_from_sim no)
-		(at 26.67 58.928 0)
+		(at 33.274 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "c328a7fb-1386-4ca8-8ed0-5a64e97dba36")
+	)
+	(text "Consider NE5532 low noise op amp as a replacement."
+		(exclude_from_sim no)
+		(at 168.656 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd900096-fbcb-4a95-b3d7-5790c3fadeaa")
 	)
 	(text "x11 Amplifier"
 		(exclude_from_sim no)
