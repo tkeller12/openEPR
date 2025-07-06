@@ -6,12 +6,12 @@ import time
 txr = pytxr.Txr()
 
 #txr.freq(880e6)
-txr.freq(1399e6)
+txr.freq(2000e6)
 #txr.phase(65 - 70)
 
 txr.txamp(0)
 txr.rxamp(0)
-txr.atten(0)
+txr.atten(10)
 
 #txr.txamp(0)
 #txr.rxamp(0)
