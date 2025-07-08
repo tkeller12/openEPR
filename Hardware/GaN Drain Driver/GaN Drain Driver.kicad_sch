@@ -1042,191 +1042,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pin" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Potentiometer_US"
 			(pin_names
 				(offset 1.016)
@@ -2928,7 +2743,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 119.38) (xy 179.07 119.38)
+			(xy 177.8 119.38) (xy 186.69 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3095,16 +2910,6 @@
 			(type default)
 		)
 		(uuid "790ef443-11d3-4b68-9cb2-88a92dd33702")
-	)
-	(wire
-		(pts
-			(xy 186.69 119.38) (xy 184.15 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a0341d7-b761-42c4-a0b8-76dc37f99027")
 	)
 	(wire
 		(pts
@@ -3388,16 +3193,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 125.73) (xy 224.79 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d315106b-ff17-41aa-a319-15dc28c2286a")
-	)
-	(wire
-		(pts
 			(xy 72.39 50.8) (xy 101.6 50.8)
 		)
 		(stroke
@@ -3405,16 +3200,6 @@
 			(type default)
 		)
 		(uuid "d5dce90f-b02b-4e90-b95e-cd0edabb9790")
-	)
-	(wire
-		(pts
-			(xy 224.79 118.11) (xy 224.79 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8d95f3e-6554-4ab6-a1e3-02b711b9b0be")
 	)
 	(wire
 		(pts
@@ -3772,7 +3557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 48.768 160.528 90)
 			(effects
 				(font
@@ -3801,6 +3586,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 46.99 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 46.99 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,6 +3671,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ad2c049-d0af-425d-98ac-463a1ae69737")
 		)
@@ -3938,6 +3741,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 50.8 167.64 0)
 			(effects
 				(font
@@ -4080,6 +3892,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 39.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c1df6ac-7f98-49c1-bd31-fd7264413bf6")
 		)
@@ -4162,71 +3983,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dd5e55e-d38c-4bdf-9a4b-2378766cf796")
-		(property "Reference" "#PWR017"
-			(at 224.79 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3297e241-de86-4998-a6b1-c50524486999")
-		)
-		(instances
-			(project "GaN Drain Driver"
-				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 46.99 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4291,75 +4047,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 181.61 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30b87c75-49b0-4d4d-aafb-ad73ce0db46e")
-		(property "Reference" "R7"
-			(at 183.642 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 182.118 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cd53748-add3-435d-82c0-ae8608fb5a08")
-		)
-		(pin "2"
-			(uuid "cbad6905-fe37-471e-ae8d-da184b044640")
-		)
-		(instances
-			(project "GaN Drain Driver"
-				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 31.75 45.72 0)
 		(mirror y)
@@ -4416,6 +4103,15 @@
 			)
 		)
 		(property "Digikey" "SAM8857-ND"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -4558,6 +4254,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 186.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67ab5ceb-d75c-487f-914d-530b644562db")
 		)
@@ -4684,6 +4389,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 62.23 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 62.23 179.07 0)
 			(effects
 				(font
@@ -4827,6 +4541,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af90c14f-002b-42a4-938c-2897522bcb72")
 		)
@@ -4896,6 +4619,15 @@
 			)
 		)
 		(property "Digikey" "WM4111-ND"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -5113,6 +4845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "d22137a5-f15d-45c2-be48-e8e06026dcc0")
 		)
@@ -5206,85 +4947,6 @@
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 224.79 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65205c1e-47c8-4060-8b20-94951bc4ccab")
-		(property "Reference" "D2"
-			(at 227.33 121.8564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 227.33 124.3964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 224.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 224.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "46040462-9142-4bf1-bb97-829903fc9e26")
-		)
-		(pin "1"
-			(uuid "8fed941e-c1f8-48b5-b1fd-74f8fc8fcb5d")
-		)
-		(instances
-			(project ""
-				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5410,6 +5072,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1da12556-ba12-4595-b02e-6090798aa431")
 		)
@@ -5477,6 +5148,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 245.11 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77972f27-fa10-4512-90c0-d5064159e570")
 		)
@@ -5536,6 +5216,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 232.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 232.41 152.4 0)
 			(effects
 				(font
@@ -5673,6 +5362,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 83.82 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dc4a503-7053-4363-8b06-47fd55b6bb2e")
 		)
@@ -5734,6 +5432,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 186.69 124.46 0)
 			(effects
 				(font
@@ -5816,6 +5523,15 @@
 			)
 		)
 		(property "Digikey" "488-NVD360N65S3T4GCT-ND"
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 99.06 59.69 0)
 			(effects
 				(font
@@ -6024,6 +5740,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 83.82 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9436d380-0773-487e-822e-6e863a46f49b")
 		)
@@ -6095,6 +5820,15 @@
 			)
 		)
 		(property "Digikey" "3296W-103LF-ND"
+			(at 49.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 49.53 114.3 0)
 			(effects
 				(font
@@ -6307,6 +6041,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f2decfe-1e12-46bf-a426-ac1d29279877")
 		)
@@ -6366,6 +6109,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 200.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 200.66 115.57 0)
 			(effects
 				(font
@@ -6570,6 +6322,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0eb9ab7d-650f-4bb3-b98b-0f3fc7a23dba")
 		)
@@ -6638,6 +6399,15 @@
 			)
 		)
 		(property "Digikey" "497-1593-1-ND"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 74.93 172.72 0)
 			(effects
 				(font
@@ -6733,6 +6503,15 @@
 			)
 		)
 		(property "Digikey" "497-1593-1-ND"
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 76.2 116.84 0)
 			(effects
 				(font
@@ -6919,6 +6698,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec8f5537-c744-4a9f-b8af-73bd68cc35a7")
 		)
@@ -6989,6 +6777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df7d91ec-5d22-4a48-b4dc-a069ecc630c4")
 		)
@@ -7050,6 +6847,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 62.23 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 62.23 171.45 0)
 			(effects
 				(font
@@ -7132,6 +6938,15 @@
 			)
 		)
 		(property "Digikey" "488-NVD360N65S3T4GCT-ND"
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 99.06 40.64 0)
 			(effects
 				(font
