@@ -2528,7 +2528,7 @@
 		)
 		(uuid 3f57ef28-08b3-476a-a07a-7a276dfcc7b0)
 	)
-	(text "Vg > Vg_limit -> 0V output (AMP Drain Disabled)\nVg < Vg_limit -> +5V output (AMP Drain Enabled)"
+	(text "Vg > Vg_limit -> -5V output (AMP Drain Disabled)\nVg < Vg_limit -> +5V output (AMP Drain Enabled)"
 		(exclude_from_sim no)
 		(at 54.864 141.224 0)
 		(effects
@@ -2538,6 +2538,26 @@
 			(justify left)
 		)
 		(uuid "1ed9e717-3955-4df5-8ccf-de0d42e36edc")
+	)
+	(text "+5V or -5V"
+		(exclude_from_sim no)
+		(at 171.45 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2dd7bf1e-15ae-4650-8650-c6dbd76d81a2")
+	)
+	(text "+5V or 0V"
+		(exclude_from_sim no)
+		(at 193.548 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38b844ac-cd0c-430b-90be-5e690be2469f")
 	)
 	(text "Power-On Time Delay Circuit"
 		(exclude_from_sim no)
@@ -2743,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 119.38) (xy 186.69 119.38)
+			(xy 177.8 119.38) (xy 179.07 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2770,6 +2790,16 @@
 			(type default)
 		)
 		(uuid "44a351e8-e2b4-4511-b32e-a2e5e3475ea9")
+	)
+	(wire
+		(pts
+			(xy 184.15 119.38) (xy 186.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f1043d-249e-4f2e-a07d-198ea0261c30")
 	)
 	(wire
 		(pts
@@ -5611,6 +5641,111 @@
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 181.61 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99b30fdd-31ab-41c9-9563-d9c9a8488af8")
+		(property "Reference" "R8"
+			(at 180.34 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 184.658 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-3976-1-ND"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEAC"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b06d918d-f2fb-4264-a717-376b72b1185b")
+		)
+		(pin "2"
+			(uuid "82ee1ba5-140f-4263-91f7-a70ebd18605b")
+		)
+		(instances
+			(project "GaN Drain Driver"
+				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
+					(reference "R8")
 					(unit 1)
 				)
 			)
