@@ -4789,7 +4789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "0022272021"
 			(at 128.27 53.3399 0)
 			(effects
 				(font

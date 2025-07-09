@@ -9108,7 +9108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "0022272021"
 			(at 38.1 35.5599 0)
 			(effects
 				(font
@@ -11179,7 +11179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "0022272021"
 			(at 269.24 134.6199 0)
 			(effects
 				(font
