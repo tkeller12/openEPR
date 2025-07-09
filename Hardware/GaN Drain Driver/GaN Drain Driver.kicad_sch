@@ -3053,16 +3053,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 119.38) (xy 186.69 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5f3eb2-6d8d-477d-bb57-49926e46a40f")
-	)
-	(wire
-		(pts
 			(xy 54.61 121.92) (xy 54.61 124.46)
 		)
 		(stroke
@@ -3260,16 +3250,6 @@
 			(type default)
 		)
 		(uuid "e56cef6c-e59e-41a4-9f6c-1aed570df882")
-	)
-	(wire
-		(pts
-			(xy 186.69 127) (xy 186.69 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7bae2bd-c3b1-4a6a-aa72-949ee8f836e4")
 	)
 	(wire
 		(pts
@@ -3584,7 +3564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 46.99 162.56 0)
 			(effects
 				(font
@@ -3594,6 +3574,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 46.99 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-3976-1-ND"
+			(at 46.99 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEAC"
+			(at 46.99 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
 			(at 46.99 162.56 90)
 			(effects
 				(font
@@ -3662,7 +3669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
 			(at 46.99 35.56 0)
 			(effects
 				(font
@@ -3672,6 +3679,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "478-KGM21NR71H104KTCT-ND"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM21NR71H104KT"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 46.99 35.56 0)
 			(effects
 				(font
@@ -3740,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0805"
 			(at 50.8 167.64 0)
 			(effects
 				(font
@@ -3750,6 +3784,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-2891-1-ND"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 50.8 167.64 0)
 			(effects
 				(font
@@ -3883,7 +3944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 39.37 49.53 0)
 			(effects
 				(font
@@ -3893,6 +3954,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 39.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-3976-1-ND"
+			(at 39.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEAC"
+			(at 39.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
 			(at 39.37 49.53 0)
 			(effects
 				(font
@@ -4093,7 +4181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "CONN SMA JACK STR 50OHM EDGE MNT"
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -4112,6 +4200,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMA-J-P-H-ST-EM1"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -4209,7 +4315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b25ff16-d351-48db-9e94-227eafd37976")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 187.96 112.522 0)
 			(effects
 				(font
@@ -4245,7 +4351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 186.69 114.3 0)
 			(effects
 				(font
@@ -4263,6 +4369,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "541-3976-1-ND"
+			(at 186.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEAC"
+			(at 186.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 186.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67ab5ceb-d75c-487f-914d-530b644562db")
 		)
@@ -4272,7 +4405,7 @@
 		(instances
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4388,7 +4521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 62.23 179.07 0)
 			(effects
 				(font
@@ -4398,6 +4531,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 62.23 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-3976-1-ND"
+			(at 62.23 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEAC"
+			(at 62.23 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
 			(at 62.23 179.07 0)
 			(effects
 				(font
@@ -4430,7 +4590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4544d810-06d1-462f-a64e-aa3f234b6d2b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 245.11 162.56 0)
 			(effects
 				(font
@@ -4480,7 +4640,7 @@
 		(instances
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4550,6 +4710,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af90c14f-002b-42a4-938c-2897522bcb72")
 		)
@@ -4609,7 +4787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -4636,6 +4814,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0022272021"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6cc5e128-4024-41bb-9f6a-7020af36d973")
 		)
@@ -4653,71 +4849,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cf268f5-9991-47e9-badd-9eb5871aa0ca")
-		(property "Reference" "#PWR015"
-			(at 186.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5732cfa5-14fc-4afb-a3d3-f90a5ce7ed9b")
-		)
-		(instances
-			(project "GaN Drain Driver"
-				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 257.81 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4725,7 +4856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e5ac85c-26b3-401d-b56a-83810e5a430a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 257.81 162.56 0)
 			(effects
 				(font
@@ -4775,7 +4906,7 @@
 		(instances
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4827,7 +4958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "200-V Half-Bridge Driver With Shutdown Input, 200V, 290/600mA, SOIC-8"
+		(property "Description" "IC GATE DRVR HALF-BRIDGE 8SOIC"
 			(at 62.23 45.72 0)
 			(effects
 				(font
@@ -4846,6 +4977,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IRS2008STRPBF"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
 			(at 62.23 45.72 0)
 			(effects
 				(font
@@ -5081,6 +5230,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1da12556-ba12-4595-b02e-6090798aa431")
 		)
@@ -5157,6 +5324,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 245.11 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 245.11 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77972f27-fa10-4512-90c0-d5064159e570")
 		)
@@ -5225,6 +5410,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 232.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 232.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 232.41 152.4 0)
 			(effects
 				(font
@@ -5353,7 +5556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 33 OHM 1% 1/8W 0805"
 			(at 83.82 53.34 0)
 			(effects
 				(font
@@ -5363,6 +5566,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 83.82 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0733RL"
+			(at 83.82 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 83.82 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-33.0CRCT-ND"
 			(at 83.82 53.34 90)
 			(effects
 				(font
@@ -5381,84 +5611,6 @@
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 186.69 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "986cc388-0084-45cd-a518-5e8f7427905b")
-		(property "Reference" "R9"
-			(at 188.722 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10M"
-			(at 187.706 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b53fd247-745a-4cbe-b729-6a02b1a7d4e7")
-		)
-		(pin "2"
-			(uuid "163836bc-55d5-4fee-a917-051d96316fef")
-		)
-		(instances
-			(project "GaN Drain Driver"
-				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5513,7 +5665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power, N-Channel, SUPERFET III, Easy Drive 650 V, 360 m, 10 A"
+		(property "Description" "SF3 EASY AUTO 360MOHM DPAK"
 			(at 99.06 59.69 0)
 			(effects
 				(font
@@ -5532,6 +5684,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NVD360N65S3T4G"
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
 			(at 99.06 59.69 0)
 			(effects
 				(font
@@ -5731,7 +5901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 33 OHM 1% 1/8W 0805"
 			(at 83.82 40.64 0)
 			(effects
 				(font
@@ -5741,6 +5911,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 83.82 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0733RL"
+			(at 83.82 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 83.82 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-33.0CRCT-ND"
 			(at 83.82 40.64 90)
 			(effects
 				(font
@@ -5783,7 +5980,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 46.99 115.5699 0)
 			(effects
 				(font
@@ -5810,7 +6007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer, US symbol"
+		(property "Description" "TRIMMER 100K OHM 0.5W PC PIN TOP"
 			(at 49.53 114.3 0)
 			(effects
 				(font
@@ -5819,7 +6016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "3296W-103LF-ND"
+		(property "Digikey" "118-PV36W104C01B00-ND"
 			(at 49.53 114.3 0)
 			(effects
 				(font
@@ -5829,6 +6026,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 49.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PV36W104C01B00"
+			(at 49.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
 			(at 49.53 114.3 0)
 			(effects
 				(font
@@ -6050,6 +6265,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f2decfe-1e12-46bf-a426-ac1d29279877")
 		)
@@ -6118,6 +6351,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 200.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 200.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 200.66 115.57 0)
 			(effects
 				(font
@@ -6212,7 +6463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd1204f1-5b8a-4a2a-8e4c-fb34a9c0258d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 232.41 162.56 0)
 			(effects
 				(font
@@ -6262,7 +6513,7 @@
 		(instances
 			(project "GaN Drain Driver"
 				(path "/25bb5703-5946-409a-bc14-ea92dd4cb5e5"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6313,7 +6564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
 			(at 54.61 119.38 0)
 			(effects
 				(font
@@ -6323,6 +6574,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "478-KGM21NR71H104KTCT-ND"
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM21NR71H104KT"
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 54.61 119.38 0)
 			(effects
 				(font
@@ -6389,7 +6667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "IC COMPARATOR 2 GEN PUR 8SOIC"
 			(at 74.93 172.72 0)
 			(effects
 				(font
@@ -6408,6 +6686,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM393DT"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 74.93 172.72 0)
 			(effects
 				(font
@@ -6493,7 +6789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" "IC COMPARATOR 2 GEN PUR 8SOIC"
 			(at 76.2 116.84 0)
 			(effects
 				(font
@@ -6512,6 +6808,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM393DT"
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 76.2 116.84 0)
 			(effects
 				(font
@@ -6662,7 +6976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "DIODE SCHOTTKY 40V 1A SOD123"
 			(at 68.58 31.75 0)
 			(effects
 				(font
@@ -6699,6 +7013,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N5819HW-7-F"
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 68.58 31.75 0)
 			(effects
 				(font
@@ -6768,7 +7100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
 			(at 72.39 45.72 0)
 			(effects
 				(font
@@ -6778,6 +7110,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "478-KGM21NR71H104KTCT-ND"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM21NR71H104KT"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 72.39 45.72 0)
 			(effects
 				(font
@@ -6846,7 +7205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 62.23 171.45 0)
 			(effects
 				(font
@@ -6856,6 +7215,33 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 62.23 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-3976-1-ND"
+			(at 62.23 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEAC"
+			(at 62.23 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
 			(at 62.23 171.45 0)
 			(effects
 				(font
@@ -6928,7 +7314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "85A Id, 150V Vds, 12mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
+		(property "Description" "SF3 EASY AUTO 360MOHM DPAK"
 			(at 99.06 40.64 0)
 			(effects
 				(font
@@ -6947,6 +7333,24 @@
 			)
 		)
 		(property "Sim.Pin" ""
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NVD360N65S3T4G"
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
 			(at 99.06 40.64 0)
 			(effects
 				(font
