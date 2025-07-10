@@ -2551,7 +2551,7 @@
 	)
 	(text "+5V or 0V"
 		(exclude_from_sim no)
-		(at 193.548 121.92 0)
+		(at 193.548 122.682 0)
 		(effects
 			(font
 				(size 1.27 1.27)
