@@ -946,6 +946,27 @@
 					)
 				)
 			)
+			(symbol "SKY13347-360LF_1_0"
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(symbol "SKY13347-360LF_1_1"
 				(rectangle
 					(start -6.35 6.35)
@@ -994,11 +1015,11 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_in line
 					(at 0 -8.89 90)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1050,11 +1071,11 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_in line
 					(at 0 -8.89 90)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3150,6 +3171,9 @@
 		)
 		(pin "5"
 			(uuid "1f7f37f7-9100-4d38-b368-ec0adc6669f5")
+		)
+		(pin "9"
+			(uuid "f53b0ae5-ab38-42b7-bc85-55c5d81bb966")
 		)
 		(instances
 			(project ""
