@@ -5,8 +5,10 @@
 	(uuid "0d3515dc-94f2-40d6-b456-582d03ba8e44")
 	(paper "A4")
 	(title_block
-		(date "2025-07-05")
-		(rev "1.1")
+		(title "Drain Driver")
+		(date "2025-07-11")
+		(rev "3.0")
+		(company "openEPR")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LMV358"
