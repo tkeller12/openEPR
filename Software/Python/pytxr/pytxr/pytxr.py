@@ -1,191 +1,365 @@
-import numpy as np
+from typing import Optional, Union, List
+import logging
 from serial import Serial
 from serial.tools.list_ports import comports
 import time
 
+# Constants
+BAUD_RATE: int = 115200
+TIMEOUT: float = 1.0
+VID: int = 1027
+PID: int = 24597
+PHASE_RESOLUTION: float = 1.4
 
-BAUD_RATE = 115200
-TIMEOUT = 1.
-
-VID = 1027
-PID = 24597
-
-PHASE_RESOLUTION = 1.4
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 class Txr:
-    '''
-    '''
+    """A class to control an S-band transceiver board via a serial interface.
 
-    def __init__(self, port = None):
+    This class provides methods to configure and query the transceiver's frequency,
+    attenuation, phase, RF enable, amplifiers, and ADC settings.
 
-        if port == None:
-            port = self.autodetect_port()
-#        self.ser = serial.Serial(port, baudrate = BAUD_RATE, timeout = TIMEOUT)
-        self._port = port
-        self._ser = None
+    Attributes:
+        port (str): The serial port used for communication.
+        ser (Optional[Serial]): The serial connection object.
+    """
 
+    def __init__(self, port: Optional[str] = None) -> None:
+        """Initialize the Txr object.
+
+        Args:
+            port (Optional[str]): The serial port to use. If None, attempts to autodetect.
+
+        Raises:
+            ValueError: If no port is provided and autodetection fails.
+            RuntimeError: If the serial port cannot be opened.
+        """
+        self._port: Optional[str] = port if port else self.autodetect_port()
+        self._ser: Optional[Serial] = None
         self.open()
+        logger.info(f"Initialized Txr on port {self._port}")
 
+    def __enter__(self) -> "Txr":
+        """Support for context manager to ensure the serial port is opened."""
+        return self
 
-    def autodetect_port(self):
-        ports = comports()
-
-        devices_list = []
-        for p in ports:
-            if (p.vid == VID) and (p.pid == PID):
-                devices_list.append(p.device)
-
-        if len(devices_list) == 0:
-            raise ValueError('Could not detect serial port. Is the device plugged in?')
-        elif len(devices_list) == 1:
-            return devices_list[0]
-        else:
-            raise ValueError('Multiple devices detected. Please manually select serial port: %s'%devices_list)
-
-
-    def __del__(self):
+    def __exit__(self, exc_type, exc_val, exc_tb) -> None:
+        """Ensure the serial port is closed when exiting the context."""
         self.close()
 
-    def close(self):
+    def autodetect_port(self) -> str:
+        """Autodetect the serial port of the transceiver.
+
+        Returns:
+            str: The detected port name.
+
+        Raises:
+            ValueError: If no device or multiple devices are detected.
+        """
+        ports = comports()
+        devices: List[str] = [p.device for p in ports if p.vid == VID and p.pid == PID]
+
+        if not devices:
+            raise ValueError("No S-band transceiver detected. Is the device plugged in?")
+        if len(devices) > 1:
+            raise ValueError(f"Multiple devices detected: {devices}. Please specify a port.")
+        return devices[0]
+
+    def open(self) -> None:
+        """Open the serial connection to the transceiver.
+
+        Raises:
+            RuntimeError: If the connection is already open or fails to open.
+        """
         if self._ser is not None:
-            self._ser.close()
-            self._ser = None
+            raise RuntimeError("Serial connection already open.")
+        try:
+            self._ser = Serial(port=self._port, baudrate=BAUD_RATE, timeout=TIMEOUT)
+        except Exception as e:
+            raise RuntimeError(f"Failed to open serial port {self._port}: {e}")
+        logger.debug(f"Opened serial connection on {self._port}")
 
-    def open(self):
+    def close(self) -> None:
+        """Close the serial connection if open."""
         if self._ser is not None:
-            raise RuntimeError('Device connection already open')
-        self._ser = Serial(port = self._port, baudrate = BAUD_RATE, timeout = TIMEOUT)
+            try:
+                self._ser.close()
+            except Exception as e:
+                logger.warning(f"Error closing serial port {self._port}: {e}")
+            finally:
+                self._ser = None
+            logger.debug(f"Closed serial connection on {self._port}")
 
+    def write(self, command: str) -> None:
+        """Write a command to the serial port.
 
-    def write(self, command):
-        command += '\r\n'
-        self._ser.write(command.encode('utf-8'))
+        Args:
+            command (str): The command to send.
 
-    def read(self):
-        return self._ser.readline().decode('utf-8').strip()
+        Raises:
+            RuntimeError: If the serial connection is not open or write fails.
+        """
+        if self._ser is None:
+            raise RuntimeError("Serial connection is not open.")
+        try:
+            self._ser.write(f"{command}\r\n".encode("utf-8"))
+        except Exception as e:
+            raise RuntimeError(f"Failed to write command '{command}': {e}")
 
-    def query(self, command):
+    def read(self) -> str:
+        """Read a response from the serial port.
+
+        Returns:
+            str: The decoded response.
+
+        Raises:
+            RuntimeError: If the serial connection is not open or read fails.
+        """
+        if self._ser is None:
+            raise RuntimeError("Serial connection is not open.")
+        try:
+            return self._ser.readline().decode("utf-8").strip()
+        except Exception as e:
+            raise RuntimeError(f"Failed to read response: {e}")
+
+    def query(self, command: str) -> str:
+        """Send a command and read the response.
+
+        Args:
+            command (str): The command to send.
+
+        Returns:
+            str: The response from the device.
+
+        Raises:
+            RuntimeError: If the query fails.
+        """
         self.write(command)
         return self.read()
 
-    
-    def freq(self, freq = None):
-        '''Set frequency in Hz
-        '''
+    @property
+    def freq(self) -> int:
+        """Get or set the transceiver frequency in Hz.
 
-        if freq == None:
-            command = 'freq?'
-            freq_string = self.query(command)
-            freq_kHz = int(freq_string)
-            freq = freq_kHz * 1000
-            return freq
+        Returns:
+            int: The current frequency in Hz.
 
-        freq_kHz = freq / 1000.
-        command = 'freq %i'%freq_kHz
-        self.write(command)
+        Raises:
+            ValueError: If the frequency is invalid or response is malformed.
+        """
+        try:
+            freq_khz = int(self.query("freq?"))
+            return freq_khz * 1000
+        except ValueError as e:
+            raise ValueError("Invalid frequency response from device") from e
 
+    @freq.setter
+    def freq(self, value: int) -> None:
+        """Set the frequency in Hz.
 
-    def atten(self, atten = None):
-        '''
-        '''
+        Args:
+            value (int): The frequency in Hz.
 
-        if atten == None:
-            command = 'atten?'
-            atten_string = self.query(command)
-            atten = int(atten_string)
-            return atten
+        Raises:
+            ValueError: If the frequency is negative.
+        """
+        if value < 0:
+            raise ValueError("Frequency must be non-negative.")
+        freq_khz = value // 1000
+        self.write(f"freq {freq_khz}")
 
-        elif (atten >= 0) and (atten <= 31):
-            command = 'atten %i'%atten
-            self.write(command)
+    @property
+    def atten(self) -> int:
+        """Get or set the attenuation level (0-31).
 
-        else:
-            raise ValueError('Attenuation out of range. Attenuation must be between 0 and 31')
+        Returns:
+            int: The current attenuation level.
 
-    def phase(self, phase = None):
-        '''
-        '''
+        Raises:
+            ValueError: If the response is malformed.
+        """
+        try:
+            return int(self.query("atten?"))
+        except ValueError as e:
+            raise ValueError("Invalid attenuation response from device") from e
 
-        if phase == None:
-            command = 'phase?'
-            phase_string = self.query(command)
+    @atten.setter
+    def atten(self, value: int) -> None:
+        """Set the attenuation level.
 
-            phase = int(phase_string)
-            phase = int('{:08b}'.format(phase)[::-1], 2) # reverse bits
+        Args:
+            value (int): Attenuation level (0-31).
 
-            phase *= PHASE_RESOLUTION
+        Raises:
+            ValueError: If the attenuation is out of range.
+        """
+        if not 0 <= value <= 31:
+            raise ValueError("Attenuation must be between 0 and 31.")
+        self.write(f"atten {value}")
 
-            return phase
-        else:
-            phase = (phase % 360)
-            phase_bits = int(phase / PHASE_RESOLUTION)
-            phase_bits &= 0xff
-            phase_bits_reversed = int('{:08b}'.format(phase_bits)[::-1], 2) # reverse bits
-            command = 'phase %i'%phase_bits_reversed
-            self.write(command)
+    @property
+    def phase(self) -> float:
+        """Get or set the phase in degrees.
 
-            
-    def rfenable(self, enable = None):
-        '''
-        '''
-        if enable == None:
-            command = 'rfenable?'
-            enable_string = self.query(command)
-            enable = int(enable_string)
-            return enable
+        Returns:
+            float: The current phase in degrees.
 
-        elif (enable == 0) or (enable == 1):
-            command = 'rfenable %i'%enable
-            self.write(command)
+        Raises:
+            ValueError: If the phase response is invalid.
+        """
+        try:
+            phase_bits = int(self.query("phase?"))
+            # Reverse bits and convert to degrees
+            phase_bits_reversed = int(f"{phase_bits:08b}"[::-1], 2)
+            return phase_bits_reversed * PHASE_RESOLUTION
+        except ValueError as e:
+            raise ValueError("Invalid phase response from device") from e
 
-        else:
-            raise ValueError('RF enable not valid, must be 1 or 0')
+    @phase.setter
+    def phase(self, value: float) -> None:
+        """Set the phase in degrees.
 
-    def ld(self):
-        '''
-        '''
-        command = 'ld?'
-        lock_detect_string = self.query(command)
-        lock_detect = int(lock_detect_string)
-        return lock_detect
+        Args:
+            value (float): Phase in degrees (0-360).
 
-    def txamp(self, enable = None):
-        if enable == None:
-            command = 'txamp?'
-            enable_string = self.query(command)
-            enable = int(enable_string)
-            return enable
-        
-        elif (enable == 0) or (enable == 1):
-            command = 'txamp %i'%enable
-            self.write(command)
-        else:
-            raise ValueError('Tx Enable must be 0 or 1')
+        Raises:
+            ValueError: If the phase is invalid.
+        """
+        value = value % 360  # Normalize to 0-360 degrees
+        phase_bits = int(value / PHASE_RESOLUTION) & 0xFF
+        phase_bits_reversed = int(f"{phase_bits:08b}"[::-1], 2)
+        self.write(f"phase {phase_bits_reversed}")
 
+    @property
+    def rfenable(self) -> bool:
+        """Get or set the RF enable state.
 
-    def rxamp(self, enable = None):
-        if enable == None:
-            command = 'rxamp?'
-            enable_string = self.query(command)
-            enable = int(enable_string)
-            return enable
-        
-        elif (enable == 0) or (enable == 1):
-            command = 'rxamp %i'%enable
-            self.write(command)
-        else:
-            raise ValueError('Tx Enable must be 0 or 1')
+        Returns:
+            bool: True if RF is enabled, False otherwise.
 
+        Raises:
+            ValueError: If the response is invalid.
+        """
+        try:
+            return bool(int(self.query("rfenable?")))
+        except ValueError as e:
+            raise ValueError("Invalid RF enable response from device") from e
 
-    def adc(self, mode = None):
-        '''
-        '''
-        if mode == None:
-            command = 'adc?'
-            adc_string = self.query(command)
-            adc_value = float(adc_string)
-            return adc_value
-        elif (mode in ['tx', 'rx', 'diff']):
-            command = 'adc %s'%mode
-            self.write(command)
+    @rfenable.setter
+    def rfenable(self, value: bool) -> None:
+        """Set the RF enable state.
 
+        Args:
+            value (bool): True to enable RF, False to disable.
+
+        Raises:
+            ValueError: If the value is not a boolean.
+        """
+        if not isinstance(value, bool):
+            raise ValueError("RF enable must be True or False.")
+        self.write(f"rfenable {1 if value else 0}")
+
+    @property
+    def ld(self) -> bool:
+        """Get the lock detect status.
+
+        Returns:
+            bool: True if locked, False otherwise.
+
+        Raises:
+            ValueError: If the response is invalid.
+        """
+        try:
+            return bool(int(self.query("ld?")))
+        except ValueError as e:
+            raise ValueError("Invalid lock detect response from device") from e
+
+    @property
+    def txamp(self) -> bool:
+        """Get or set the transmit amplifier state.
+
+        Returns:
+            bool: True if enabled, False otherwise.
+
+        Raises:
+            ValueError: If the response is invalid.
+        """
+        try:
+            return bool(int(self.query("txamp?")))
+        except ValueError as e:
+            raise ValueError("Invalid TX amplifier response from device") from e
+
+    @txamp.setter
+    def txamp(self, value: bool) -> None:
+        """Set the transmit amplifier state.
+
+        Args:
+            value (bool): True to enable, False to disable.
+
+        Raises:
+            ValueError: If the value is not a boolean.
+        """
+        if not isinstance(value, bool):
+            raise ValueError("TX amplifier enable must be True or False.")
+        self.write(f"txamp {1 if value else 0}")
+
+    @property
+    def rxamp(self) -> bool:
+        """Get or set the receive amplifier state.
+
+        Returns:
+            bool: True if enabled, False otherwise.
+
+        Raises:
+            ValueError: If the response is invalid.
+        """
+        try:
+            return bool(int(self.query("rxamp?")))
+        except ValueError as e:
+            raise ValueError("Invalid RX amplifier response from device") from e
+
+    @rxamp.setter
+    def rxamp(self, value: bool) -> None:
+        """Set the receive amplifier state.
+
+        Args:
+            value (bool): True to enable, False to disable.
+
+        Raises:
+            ValueError: If the value is not a boolean.
+        """
+        if not isinstance(value, bool):
+            raise ValueError("RX amplifier enable must be True or False.")
+        self.write(f"rxamp {1 if value else 0}")
+
+    @property
+    def adc(self) -> float:
+        """Get or set the ADC mode and value.
+
+        Returns:
+            float: The current ADC value.
+
+        Raises:
+            ValueError: If the response is invalid.
+        """
+        try:
+            return float(self.query("adc?"))
+        except ValueError as e:
+            raise ValueError("Invalid ADC response from device") from e
+
+    @adc.setter
+    def adc(self, mode: str) -> None:
+        """Set the ADC mode.
+
+        Args:
+            mode (str): One of 'tx', 'rx', or 'diff'.
+
+        Raises:
+            ValueError: If the mode is invalid.
+        """
+        valid_modes = ["tx", "rx", "diff"]
+        if mode not in valid_modes:
+            raise ValueError(f"ADC mode must be one of {valid_modes}.")
+        self.write(f"adc {mode}")
