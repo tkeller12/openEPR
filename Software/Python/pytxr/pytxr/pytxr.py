@@ -49,7 +49,7 @@ class Txr:
         """Ensure the serial port is closed when exiting the context."""
         self.close()
 
-    def autodetect_port(self) -> str:
+    def autodetect_port(self) -> str | None:
         """Autodetect the serial port of the transceiver.
 
         Returns:
@@ -62,7 +62,8 @@ class Txr:
         devices: List[str] = [p.device for p in ports if p.vid == VID and p.pid == PID]
 
         if not devices:
-            raise ValueError("No S-band transceiver detected. Is the device plugged in?")
+            # raise ValueError("No S-band transceiver detected. Is the device plugged in?")
+            return None
         if len(devices) > 1:
             raise ValueError(f"Multiple devices detected: {devices}. Please specify a port.")
         return devices[0]
@@ -78,6 +79,8 @@ class Txr:
         try:
             self._ser = Serial(port=self._port, baudrate=BAUD_RATE, timeout=TIMEOUT)
         except Exception as e:
+            self._ser = None
+            return
             raise RuntimeError(f"Failed to open serial port {self._port}: {e}")
         logger.debug(f"Opened serial connection on {self._port}")
 
@@ -103,10 +106,11 @@ class Txr:
         """
         if self._ser is None:
             raise RuntimeError("Serial connection is not open.")
-        try:
-            self._ser.write(f"{command}\r\n".encode("utf-8"))
-        except Exception as e:
-            raise RuntimeError(f"Failed to write command '{command}': {e}")
+        else:
+            try:
+                self._ser.write(f"{command}\r\n".encode("utf-8"))
+            except Exception as e:
+                raise RuntimeError(f"Failed to write command '{command}': {e}")
 
     def read(self) -> str:
         """Read a response from the serial port.
@@ -151,7 +155,10 @@ class Txr:
         """
         try:
             freq_khz = int(self.query("freq?"))
-            return freq_khz * 1000
+            freq_Hz = freq_khz * 1000
+            self._freq = freq_Hz
+            logger.debug(f"Current frequency: {freq_Hz} Hz")
+            return freq_Hz
         except ValueError as e:
             raise ValueError("Invalid frequency response from device") from e
 
@@ -363,3 +370,40 @@ class Txr:
         if mode not in valid_modes:
             raise ValueError(f"ADC mode must be one of {valid_modes}.")
         self.write(f"adc {mode}")
+
+    def is_open(self) -> bool:
+        """Check if the serial connection is open.
+
+        Returns:
+            bool: True if the connection is open, False otherwise.
+        """
+        return self._ser is not None and self._ser.is_open
+
+    def __del__(self) -> None:
+        """Ensure the serial port is closed when the object is deleted."""
+        if self._ser is not None:
+            try:
+                self._ser.close()
+            except Exception as e:
+                logger.warning(f"Error closing serial port {self._port}: {e}")
+            finally:
+                self._ser = None
+        logger.debug(f"Txr object on port {self._port} deleted.")
+
+if __name__ == "__main__":
+    # Example usage
+    try:
+        with Txr() as txr:
+            print(txr._ser)
+            if not txr._ser is None:
+                print(txr._ser.is_open)
+            txr.freq = 2400000000  # Set frequency to 2.4 GHz
+            print(f"Current Frequency: {txr.freq} Hz")
+            txr.atten = 10  # Set attenuation to 10
+            print(f"Current Attenuation: {txr.atten}")
+            txr.phase = 45.0  # Set phase to 45 degrees
+            print(f"Current Phase: {txr.phase} degrees")
+            txr.rfenable = True  # Enable RF
+            print(f"RF Enabled: {txr.rfenable}")
+    except Exception as e:
+        logger.error(f"Error: {e}")
