@@ -142,9 +142,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "${PROJECTNAME}_${REVISION}_Gerbers")
 		)
 	)
 	(net 0 "")
@@ -4200,7 +4200,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify bottom)
 		)
@@ -4230,7 +4230,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.5"
+		(gr_text "38.1"
 			(at 95.25 19.805 0)
 			(layer "Dwgs.User")
 			(uuid "3c557621-9c99-458e-873a-96fbcb269388")
@@ -4267,7 +4267,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.2"
+		(gr_text "30.48"
 			(at 95.25 22.98 0)
 			(layer "Dwgs.User")
 			(uuid "e9cc2944-6380-4af4-aa7f-6ccc4483c853")

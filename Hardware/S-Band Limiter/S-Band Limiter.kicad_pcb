@@ -142,9 +142,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "${PROJECTNAME}_${REVISION}_Gerbers")
 		)
 	)
 	(net 0 "")
@@ -2025,7 +2025,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "22pF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2264,7 +2264,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "22pF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2567,7 +2567,7 @@
 		(descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L1"
-			(at 2.1566 0 90)
+			(at 2.1566 0 0)
 			(layer "F.SilkS")
 			(uuid "a00c29e7-2d27-4b8f-8984-de54f587a85d")
 			(effects
@@ -2882,7 +2882,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify bottom)
 		)
@@ -2924,7 +2924,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.7087"
+		(gr_text "18"
 			(at 116.35 40 90)
 			(layer "Dwgs.User")
 			(uuid "e416caf6-098f-4f69-8310-934867a78f12")
@@ -2961,7 +2961,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.9843"
+		(gr_text "25"
 			(at 118.85 40 90)
 			(layer "Dwgs.User")
 			(uuid "e4fdb945-d201-4a5e-8a5b-f0f1fb101a0b")
@@ -2998,7 +2998,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.378"
+		(gr_text "35"
 			(at 97.5 22.85 0)
 			(layer "Dwgs.User")
 			(uuid "ea5fc791-08f0-4bf5-a38b-a3ace62009bb")
@@ -3035,7 +3035,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.1024"
+		(gr_text "28"
 			(at 97.5 25.35 0)
 			(layer "Dwgs.User")
 			(uuid "f058b440-c248-4b4c-980a-0cf28c813fd3")

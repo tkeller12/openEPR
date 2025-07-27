@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "${PROJECTNAME}_${REVISION}_Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "S-Band LGR.step",
