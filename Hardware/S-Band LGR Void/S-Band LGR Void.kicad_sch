@@ -761,7 +761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_tim-RF:LGR_5.2mm"
+		(property "Footprint" "_tim-RF:LGR_Void_10mm"
 			(at 114.3 33.02 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-26064785795165521
+26066539418455579
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104109,6 +104109,13 @@ LGR_5.2mm
 
 0
 4
+1
+_tim-RF
+LGR_Void_10mm
+
+
+0
+1
 1
 _tim-RF
 QFN-2-1EP_2x2mm
