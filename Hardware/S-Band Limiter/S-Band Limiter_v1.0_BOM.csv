@@ -1,0 +1,7 @@
+"Reference","Qty","Value","DNP","Footprint","MPN","Manufacturer","Digikey","Description"
+"C1,C2","2","22pF","","Capacitor_SMD:C_0402_1005Metric","600L220JT200T4K","KYOCERA AVX","478-600L220JT200T4KCT-ND","Unpolarized capacitor, small symbol"
+"H1,H2,H3,H4","4","4-40","","_tim-Mounting-Holes:4-40_Hole_Pad","","","","Mounting Hole with connection"
+"J1,J2","2","SMA-J-P-H-ST-EM1","","Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount","SMA-J-P-H-ST-EM1","Samtec Inc.","SAM8857-ND","coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+"L1","1","47nH","","Inductor_SMD:L_0402_1005Metric","LQW15AN47NJ00D","Murata Electronics","490-1154-1-ND","Inductor, small symbol"
+"U1","1","SKY16603-632LF","","_tim-RF:DFN-2-2.3x2.3","SKY16603-632LF","Skyworks Solutions Inc.","863-SKY16603-632LFCT-ND","High-Linearity Dual PIN Diode Limiter 0.6 to 6.0 GHz"
+"U2","1","CLA4607-085LF","","_tim-RF:QFN-2-1EP_2x2mm","CLA4607-085LF","Skyworks Solutions Inc.","863-2040-1-ND","RF DIODE PIN 180V 13W 3QFN"
