@@ -501,7 +501,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "phase_shifter_150MHz_gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
