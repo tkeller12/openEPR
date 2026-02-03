@@ -2768,12 +2768,6 @@
 		(uuid "4f65209c-fc10-46ae-a049-e8a57ad1c3a8")
 	)
 	(junction
-		(at 143.51 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "561b6848-da1c-43b8-adc1-a3b8c6f82441")
-	)
-	(junction
 		(at 87.63 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2832,12 +2826,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a955519a-71fd-4223-9d7f-10e682725c7e")
-	)
-	(junction
-		(at 140.97 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b776a4e5-bebe-44ff-b719-2f44954bd057")
 	)
 	(junction
 		(at 170.18 38.1)
@@ -3095,16 +3083,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 146.05) (xy 143.51 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f5f9a6f-2e0d-4a39-93e7-54f747d5bb9e")
-	)
-	(wire
-		(pts
 			(xy 168.91 83.82) (xy 168.91 86.36)
 		)
 		(stroke
@@ -3265,16 +3243,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 147.32) (xy 143.51 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22c554cc-782b-4cfb-97fb-56d6a743e060")
-	)
-	(wire
-		(pts
 			(xy 175.26 38.1) (xy 175.26 39.37)
 		)
 		(stroke
@@ -3425,7 +3393,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 147.32) (xy 140.97 147.32)
+			(xy 138.43 147.32) (xy 143.51 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4005,16 +3973,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 147.32) (xy 148.59 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "776f067b-1dd5-48a3-be05-44496601dffe")
-	)
-	(wire
-		(pts
 			(xy 259.08 66.04) (xy 259.08 63.5)
 		)
 		(stroke
@@ -4195,7 +4153,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 146.05) (xy 148.59 147.32)
+			(xy 143.51 146.05) (xy 143.51 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4595,7 +4553,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 147.32) (xy 140.97 148.59)
+			(xy 138.43 147.32) (xy 138.43 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5326,73 +5284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 143.51 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "07da261a-b6fb-4ded-8157-57ce4936147e")
-		(property "Reference" "H3"
-			(at 142.24 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 146.05 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 143.51 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 143.51 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2c0dfcd-cd87-4540-9bf7-a251321da9e6")
-		)
-		(instances
-			(project "Low Noise Pre-Amp"
-				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 259.08 57.15 0)
 		(unit 1)
@@ -5447,7 +5338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-100KCRCT-ND"
 			(at 259.08 57.15 0)
 			(effects
 				(font
@@ -5456,7 +5347,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-07100KL"
 			(at 259.08 57.15 0)
 			(effects
 				(font
@@ -5465,7 +5356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 259.08 57.15 0)
 			(effects
 				(font
@@ -5491,15 +5382,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 148.59 0)
+		(at 138.43 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "103059f4-1b0c-4437-a368-1c7f456a2c25")
-		(property "Reference" "#PWR027"
-			(at 140.97 154.94 0)
+		(property "Reference" "#PWR030"
+			(at 138.43 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +5399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 152.146 0)
+			(at 138.43 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +5407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 148.59 0)
+			(at 138.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 148.59 0)
+			(at 138.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5425,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 148.59 0)
+			(at 138.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5439,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5564,7 +5455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c7be2b-0a5b-4903-b032-d9368cca4c13")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 87.63 142.24 0)
 			(effects
 				(font
@@ -5614,7 +5505,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5664,6 +5555,33 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-1.00KCRCT-ND"
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -5739,6 +5657,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KCRCT-ND"
+			(at 60.96 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 60.96 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb369421-cc00-444c-8d31-4a78502b6c05")
 		)
@@ -5763,7 +5708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "199683da-56e5-4928-a44d-f409d3c0275c")
-		(property "Reference" "C19"
+		(property "Reference" "C3"
 			(at 163.068 31.242 0)
 			(effects
 				(font
@@ -5808,7 +5753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 170.18 31.75 0)
 			(effects
 				(font
@@ -5817,7 +5762,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 170.18 31.75 0)
 			(effects
 				(font
@@ -5826,7 +5771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 170.18 31.75 0)
 			(effects
 				(font
@@ -5844,7 +5789,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C19")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5859,7 +5804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b201e98-32e0-4d44-b0c8-9447422b112c")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 212.09 69.85 0)
 			(effects
 				(font
@@ -5909,7 +5854,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5924,7 +5869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e4d9350-dfc1-483c-99ed-5a7988492ca5")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR010"
 			(at 157.48 49.53 0)
 			(effects
 				(font
@@ -5974,7 +5919,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR030")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5989,7 +5934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f07f974-8600-4558-9190-970a5363eb25")
-		(property "Reference" "C21"
+		(property "Reference" "C6"
 			(at 163.322 42.418 0)
 			(effects
 				(font
@@ -6034,7 +5979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -6043,7 +5988,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -6052,7 +5997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -6070,7 +6015,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C21")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6085,7 +6030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22f0e442-5651-4221-a483-0df784ff0a69")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR026"
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -6135,7 +6080,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR019")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6263,7 +6208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29d8d92f-de28-44f6-828c-527bdc8bf419")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 38.608 33.782 0)
 			(effects
 				(font
@@ -6308,7 +6253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 45.72 34.29 0)
 			(effects
 				(font
@@ -6317,7 +6262,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 45.72 34.29 0)
 			(effects
 				(font
@@ -6326,7 +6271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 45.72 34.29 0)
 			(effects
 				(font
@@ -6344,7 +6289,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6360,7 +6305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a81781b-76c1-4cd3-8064-a1259574b4e6")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 54.61 105.4162 0)
 			(effects
 				(font
@@ -6405,7 +6350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 52.07 106.68 0)
 			(effects
 				(font
@@ -6414,7 +6359,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 52.07 106.68 0)
 			(effects
 				(font
@@ -6423,7 +6368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 52.07 106.68 0)
 			(effects
 				(font
@@ -6441,7 +6386,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6449,15 +6394,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 148.59 143.51 0)
+		(at 143.51 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2b487d30-62c2-4d59-a94e-7333c3f8ecc8")
-		(property "Reference" "H4"
-			(at 147.32 139.192 0)
+		(property "Reference" "H3"
+			(at 142.24 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6411,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 151.13 143.5099 0)
+			(at 146.05 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +6421,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 148.59 143.51 0)
+			(at 143.51 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +6430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 143.51 0)
+			(at 143.51 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6439,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 148.59 143.51 0)
+			(at 143.51 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,7 +6453,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6524,7 +6469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d880be7-940d-4b2d-b310-dc38c18fec46")
-		(property "Reference" "C17"
+		(property "Reference" "C21"
 			(at 241.3 140.9762 0)
 			(effects
 				(font
@@ -6569,7 +6514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 238.76 142.24 0)
 			(effects
 				(font
@@ -6578,7 +6523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 238.76 142.24 0)
 			(effects
 				(font
@@ -6587,7 +6532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 238.76 142.24 0)
 			(effects
 				(font
@@ -6605,7 +6550,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C17")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6620,7 +6565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e3837f9-18b1-49d6-9115-2affc5256b54")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR012"
 			(at 269.24 59.69 0)
 			(effects
 				(font
@@ -6670,7 +6615,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR031")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6685,7 +6630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e6ddbc3-efec-43b6-aac2-c2b487612835")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR023"
 			(at 52.07 118.11 0)
 			(effects
 				(font
@@ -6735,7 +6680,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR016")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6751,7 +6696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3564307d-f965-4d34-8c8d-0b3257ae9538")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 222.25 67.3162 0)
 			(effects
 				(font
@@ -6796,7 +6741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 219.71 68.58 0)
 			(effects
 				(font
@@ -6805,7 +6750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 219.71 68.58 0)
 			(effects
 				(font
@@ -6814,7 +6759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 219.71 68.58 0)
 			(effects
 				(font
@@ -6832,7 +6777,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6848,7 +6793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3674b973-842b-40d2-8cb4-a763e821eb2c")
-		(property "Reference" "C13"
+		(property "Reference" "C17"
 			(at 82.55 106.6862 0)
 			(effects
 				(font
@@ -6893,7 +6838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 80.01 107.95 0)
 			(effects
 				(font
@@ -6902,7 +6847,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 80.01 107.95 0)
 			(effects
 				(font
@@ -6911,7 +6856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 80.01 107.95 0)
 			(effects
 				(font
@@ -6929,7 +6874,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C13")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6944,7 +6889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40666abd-1aa2-4eb4-8afd-33be4a19980a")
-		(property "Reference" "C20"
+		(property "Reference" "C15"
 			(at 162.052 99.568 0)
 			(effects
 				(font
@@ -6989,7 +6934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 168.91 100.33 0)
 			(effects
 				(font
@@ -6998,7 +6943,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 168.91 100.33 0)
 			(effects
 				(font
@@ -7007,7 +6952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 168.91 100.33 0)
 			(effects
 				(font
@@ -7025,7 +6970,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C20")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -7050,7 +6995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "510k"
 			(at 261.62 34.2899 0)
 			(effects
 				(font
@@ -7086,7 +7031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "13-RC0805FR-13510KLCT-ND"
 			(at 259.08 33.02 0)
 			(effects
 				(font
@@ -7095,7 +7040,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-13510KL"
 			(at 259.08 33.02 0)
 			(effects
 				(font
@@ -7104,7 +7049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 259.08 33.02 0)
 			(effects
 				(font
@@ -7303,7 +7248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "515cefdb-8d2d-429d-a0a9-465f0181de07")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR022"
 			(at 156.21 106.68 0)
 			(effects
 				(font
@@ -7353,7 +7298,7 @@
 		(instances
 			(project ""
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR029")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7368,7 +7313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "525036f1-20c6-4aa6-b4e9-a0492be3e781")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -7418,7 +7363,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7476,6 +7421,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KCRCT-ND"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "decb58d1-1d0c-4374-9706-ef4103f1717e")
 		)
@@ -7500,7 +7472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6151f8ac-57d6-4686-ae5f-ae04307ad8cc")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 111.252 87.884 90)
 			(effects
 				(font
@@ -7545,7 +7517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 109.22 85.09 0)
 			(effects
 				(font
@@ -7554,7 +7526,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 109.22 85.09 0)
 			(effects
 				(font
@@ -7563,7 +7535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 109.22 85.09 0)
 			(effects
 				(font
@@ -7581,7 +7553,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7597,7 +7569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61a5f414-72a7-48e5-9c9a-b1904bc0884b")
-		(property "Reference" "C15"
+		(property "Reference" "C19"
 			(at 241.3 107.9562 0)
 			(effects
 				(font
@@ -7642,7 +7614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 238.76 109.22 0)
 			(effects
 				(font
@@ -7651,7 +7623,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 238.76 109.22 0)
 			(effects
 				(font
@@ -7660,7 +7632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 238.76 109.22 0)
 			(effects
 				(font
@@ -7678,7 +7650,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C15")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7693,7 +7665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "647ec76d-01af-41eb-926d-f568ef0a6371")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR019"
 			(at 41.91 100.33 0)
 			(effects
 				(font
@@ -7743,7 +7715,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR014")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7758,7 +7730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "683eb574-2805-45f0-abbb-de063d8418bd")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 215.9 39.37 0)
 			(effects
 				(font
@@ -7808,7 +7780,7 @@
 		(instances
 			(project ""
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7891,7 +7863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a4729dd-7324-47f0-8d17-5b48e1c7be9c")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 248.92 44.4562 0)
 			(effects
 				(font
@@ -7936,7 +7908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 246.38 45.72 0)
 			(effects
 				(font
@@ -7945,7 +7917,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 246.38 45.72 0)
 			(effects
 				(font
@@ -7954,7 +7926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 246.38 45.72 0)
 			(effects
 				(font
@@ -7972,7 +7944,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8030,6 +8002,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KCRCT-ND"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b5afce2-0589-416b-9772-9327e0283d37")
 		)
@@ -8054,7 +8053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70665a32-ef66-49b0-b3fd-a9b1869e4cae")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 83.058 33.782 0)
 			(effects
 				(font
@@ -8099,7 +8098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 90.17 34.29 0)
 			(effects
 				(font
@@ -8108,7 +8107,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 90.17 34.29 0)
 			(effects
 				(font
@@ -8117,7 +8116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 90.17 34.29 0)
 			(effects
 				(font
@@ -8135,7 +8134,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8315,7 +8314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aa131cf-7dd7-4e97-8c24-7a3b0bc4ce8a")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 214.63 59.6962 0)
 			(effects
 				(font
@@ -8360,7 +8359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 212.09 60.96 0)
 			(effects
 				(font
@@ -8369,7 +8368,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 212.09 60.96 0)
 			(effects
 				(font
@@ -8378,7 +8377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 212.09 60.96 0)
 			(effects
 				(font
@@ -8396,7 +8395,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8411,7 +8410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80ae4c82-0e55-4d96-b108-6f1125e4c8a0")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 45.72 45.72 0)
 			(effects
 				(font
@@ -8461,7 +8460,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8519,6 +8518,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KCRCT-ND"
+			(at 90.17 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 90.17 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 90.17 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7fadc7e-1e2a-4111-82cd-9de826f12dc9")
 		)
@@ -8543,7 +8569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8710ce39-8a2a-4e81-9f7f-84a8eea48093")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 247.65 85.09 0)
 			(effects
 				(font
@@ -8593,7 +8619,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8791,6 +8817,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-10.0KCRCT-ND"
+			(at 41.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 41.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d23606e-a6af-4c16-95a9-6a126ead0448")
 		)
@@ -8927,7 +8980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a2eae07-188e-4139-9fe8-cda1b9115f93")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR025"
 			(at 228.6 124.46 0)
 			(effects
 				(font
@@ -8977,7 +9030,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR018")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8992,7 +9045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8af37993-4604-4055-9eca-9a509be95188")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 37.592 85.344 90)
 			(effects
 				(font
@@ -9037,7 +9090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -9046,7 +9099,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -9055,7 +9108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -9073,7 +9126,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9088,7 +9141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d948981-94ca-4b10-8622-cebebefff00c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 248.92 39.37 0)
 			(effects
 				(font
@@ -9138,7 +9191,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9189,6 +9242,33 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 107.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KCRCT-ND"
+			(at 107.95 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 107.95 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 107.95 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,7 +9462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9483f40b-b8a8-4541-91ec-0feed2b01c43")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR024"
 			(at 80.01 119.38 0)
 			(effects
 				(font
@@ -9432,7 +9512,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR017")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9448,7 +9528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a7b8c2-fd67-440b-9767-d34fee54e5c2")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR021"
 			(at 238.76 105.41 0)
 			(effects
 				(font
@@ -9498,7 +9578,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR015")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9521,7 +9601,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "220"
 			(at 123.19 29.718 90)
 			(effects
 				(font
@@ -9549,6 +9629,33 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 123.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-220CRCT-ND"
+			(at 123.19 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-07220RL"
+			(at 123.19 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 123.19 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +9730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-100KCRCT-ND"
 			(at 219.71 53.34 90)
 			(effects
 				(font
@@ -9632,7 +9739,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-07100KL"
 			(at 219.71 53.34 90)
 			(effects
 				(font
@@ -9641,7 +9748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 219.71 53.34 90)
 			(effects
 				(font
@@ -9720,7 +9827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-100KCRCT-ND"
 			(at 259.08 44.45 0)
 			(effects
 				(font
@@ -9729,7 +9836,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-07100KL"
 			(at 259.08 44.45 0)
 			(effects
 				(font
@@ -9738,7 +9845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 259.08 44.45 0)
 			(effects
 				(font
@@ -9771,7 +9878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a67d0657-167a-4d5b-a5be-45aaf6f1b11d")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 210.566 108.204 0)
 			(effects
 				(font
@@ -9816,7 +9923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 217.17 109.22 0)
 			(effects
 				(font
@@ -9825,7 +9932,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 217.17 109.22 0)
 			(effects
 				(font
@@ -9834,7 +9941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 217.17 109.22 0)
 			(effects
 				(font
@@ -9852,7 +9959,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9934,7 +10041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af53b209-0c40-41d7-a910-a338b47bd431")
-		(property "Reference" "C16"
+		(property "Reference" "C20"
 			(at 213.106 141.224 0)
 			(effects
 				(font
@@ -9979,7 +10086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 219.71 142.24 0)
 			(effects
 				(font
@@ -9988,7 +10095,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 219.71 142.24 0)
 			(effects
 				(font
@@ -9997,7 +10104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 219.71 142.24 0)
 			(effects
 				(font
@@ -10015,7 +10122,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C16")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10030,7 +10137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af7c8277-78fe-4596-ae74-51851cd29e4e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR08"
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -10080,7 +10187,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR026")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10250,6 +10357,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KCRCT-ND"
+			(at 39.37 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 39.37 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 39.37 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c8c8e77-8878-48d0-8fea-1fb5f382116c")
 		)
@@ -10274,7 +10408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2415eb7-3289-4d82-aa25-1995d0f2d969")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 99.06 62.23 0)
 			(effects
 				(font
@@ -10324,7 +10458,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10339,7 +10473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3bf9084-7331-46a0-82f9-6802560464c9")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -10389,7 +10523,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10561,6 +10695,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KCRCT-ND"
+			(at 85.09 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 85.09 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 85.09 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb8e8eaf-099f-4d5b-84b8-df656fd8492c")
 		)
@@ -10628,6 +10789,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "311-1.00KCRCT-ND"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef5618fe-7fad-417f-aa68-c6cdafb375e5")
 		)
@@ -10652,7 +10840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcb43fac-419c-4f51-933b-737e2c268339")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 173.99 102.87 0)
 			(effects
 				(font
@@ -10702,7 +10890,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10717,7 +10905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be95fa18-5de8-4922-a59f-bab3418a0e10")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 36.83 153.67 0)
 			(effects
 				(font
@@ -10767,7 +10955,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR020")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10828,7 +11016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 215.9 30.48 0)
 			(effects
 				(font
@@ -10837,7 +11025,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 215.9 30.48 0)
 			(effects
 				(font
@@ -10846,7 +11034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 215.9 30.48 0)
 			(effects
 				(font
@@ -10880,7 +11068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3e9c108-9570-45e1-b5a5-c9d8ac43a297")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 203.2 57.15 0)
 			(effects
 				(font
@@ -10930,7 +11118,7 @@
 		(instances
 			(project ""
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11013,7 +11201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5a5c5ff-5c76-4b60-9f90-42a72b2616e5")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 248.92 54.6162 0)
 			(effects
 				(font
@@ -11058,7 +11246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 246.38 55.88 0)
 			(effects
 				(font
@@ -11067,7 +11255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 246.38 55.88 0)
 			(effects
 				(font
@@ -11076,7 +11264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 246.38 55.88 0)
 			(effects
 				(font
@@ -11094,7 +11282,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11218,7 +11406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "510k"
 			(at 261.62 69.8499 0)
 			(effects
 				(font
@@ -11254,7 +11442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "13-RC0805FR-13510KLCT-ND"
 			(at 259.08 68.58 0)
 			(effects
 				(font
@@ -11263,7 +11451,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-13510KL"
 			(at 259.08 68.58 0)
 			(effects
 				(font
@@ -11272,7 +11460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 259.08 68.58 0)
 			(effects
 				(font
@@ -11418,7 +11606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8040d83-83b5-4c7e-ab81-b13ad8a4ebfc")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 203.2 59.69 0)
 			(effects
 				(font
@@ -11468,7 +11656,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11600,7 +11788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 248.92 30.48 0)
 			(effects
 				(font
@@ -11609,7 +11797,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 248.92 30.48 0)
 			(effects
 				(font
@@ -11618,7 +11806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 248.92 30.48 0)
 			(effects
 				(font
@@ -11766,7 +11954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da02bd29-f301-405f-b9a6-5d0b89932216")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 238.76 147.32 0)
 			(effects
 				(font
@@ -11816,7 +12004,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11831,7 +12019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd1ae41f-aad9-4a04-8043-a571832f9941")
-		(property "Reference" "C18"
+		(property "Reference" "C14"
 			(at 161.29 88.392 0)
 			(effects
 				(font
@@ -11876,7 +12064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "399-C0805C104K5RACTUCT-ND"
 			(at 168.91 88.9 0)
 			(effects
 				(font
@@ -11885,7 +12073,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0805C104K5RACTU"
 			(at 168.91 88.9 0)
 			(effects
 				(font
@@ -11894,7 +12082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 168.91 88.9 0)
 			(effects
 				(font
@@ -11912,7 +12100,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C18")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -11963,6 +12151,33 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KCRCT-ND"
+			(at 58.42 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 58.42 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 58.42 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12066,7 +12281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e375a2a6-7bc3-48f5-9228-f3084206e3b2")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 250.19 74.9362 0)
 			(effects
 				(font
@@ -12111,7 +12326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 247.65 76.2 0)
 			(effects
 				(font
@@ -12120,7 +12335,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 247.65 76.2 0)
 			(effects
 				(font
@@ -12129,7 +12344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 247.65 76.2 0)
 			(effects
 				(font
@@ -12147,7 +12362,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12163,7 +12378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e43dfb8a-7991-43bc-b408-5030a8e0723f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 203.2 27.94 0)
 			(effects
 				(font
@@ -12213,7 +12428,7 @@
 		(instances
 			(project ""
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12274,7 +12489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "490-18663-1-ND"
 			(at 91.44 143.51 0)
 			(effects
 				(font
@@ -12283,7 +12498,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 91.44 143.51 0)
 			(effects
 				(font
@@ -12292,7 +12507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 91.44 143.51 0)
 			(effects
 				(font
@@ -12325,7 +12540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e981e057-688c-4cb1-9e68-8fa8918daacd")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 139.7 45.72 0)
 			(effects
 				(font
@@ -12375,7 +12590,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12390,7 +12605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4ca7e41-0589-4eef-a96c-d59c552eaa1e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 156.21 83.82 0)
 			(effects
 				(font
@@ -12440,7 +12655,7 @@
 		(instances
 			(project ""
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12455,7 +12670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f76062c9-b676-4c25-9a63-06ed4528f724")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 87.63 154.94 0)
 			(effects
 				(font
@@ -12505,7 +12720,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12520,7 +12735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb044a37-dfe7-4a90-b6dd-5a96cffdf034")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR018"
 			(at 128.27 99.06 0)
 			(effects
 				(font
@@ -12570,7 +12785,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR013")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12585,7 +12800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb554092-f447-4461-b320-d5879aa8fece")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR01"
 			(at 157.48 26.67 0)
 			(effects
 				(font
@@ -12635,7 +12850,7 @@
 		(instances
 			(project "Low Noise Pre-Amp"
 				(path "/21be946f-0d1d-4424-b993-4911b5337add"
-					(reference "#PWR022")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
