@@ -222,7 +222,8 @@ class TxrGUI(QMainWindow):
 def main():
     """Run the GUI application."""
     app = QApplication(sys.argv)
-    gui = TxrGUI()
+    gui = TxrGUI(port = 'COM3')
+#    gui = TxrGUI()
     gui.show()
     sys.exit(app.exec())
 
