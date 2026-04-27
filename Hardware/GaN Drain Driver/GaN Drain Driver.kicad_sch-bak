@@ -2569,16 +2569,6 @@
 		)
 		(uuid "7698ff4a-1c4d-4108-9d7b-5a19f115e6fd")
 	)
-	(text "Replacement Drivers:\nLMG1210\nhttps://www.digikey.com/en/products/detail/texas-instruments/LMG1210RVRT/9953055\n\n"
-		(exclude_from_sim no)
-		(at 178.054 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a4c85486-3b8a-4494-bf42-386517f2610c")
-	)
 	(text "Gate Bias Limit"
 		(exclude_from_sim no)
 		(at 32.258 89.408 0)
